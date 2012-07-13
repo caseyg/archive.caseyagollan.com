@@ -57,10 +57,19 @@ header {
 	background:gray;
 	width:100%;
 	color:#000;
+	text-align:center;
 	h1, h2, a {
 		font-weight: 100;
 	}
-
+	h1	{
+		margin:0;
+		padding:60px 0 20px 0;
+		font-size:16px;
+		color:white;
+		letter-spacing:2px;
+		font-weight:100;
+		text-transform:uppercase;
+	}
 	h2 {
 		display:block;
 		padding:30px 0 0 0;
@@ -118,19 +127,14 @@ header {
 		}
 	}
 
-body#index, body#archive {
-	header {
-		-webkit-transition:padding-top 1s;
-	}
-	header {
-		background-size: auto 651px;
-		padding:0;
-		margin:0;
-		background: {
-			image: url(/images/casey-hula.gif);
-			position:center;
-			repeat:no-repeat;
-		}
+body#archive {
+	#canvas {
+		opacity: .5;
+	    position:absolute;
+	    	top:0;
+	    	left:0;
+	    z-index:1;
+	    display: none;
 	}
 	nav#background {
 		list-style-type:none;
@@ -456,16 +460,6 @@ ul.tags li {
 	border-radius:50%;
 	text-align: center;
 	font-weight: 900;
-}
-
-
-#canvas {
-	opacity: .5;
-    position:absolute;
-    	top:0;
-    	left:0;
-    z-index:1;
-    display: none;
 }
 
 .project ul li {

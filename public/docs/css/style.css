@@ -187,9 +187,18 @@ nav#main {
 header {
   background: gray;
   width: 100%;
-  color: #000; }
+  color: #000;
+  text-align: center; }
   header h1, header h2, header a {
     font-weight: 100; }
+  header h1 {
+    margin: 0;
+    padding: 60px 0 20px 0;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-transform: uppercase; }
   header h2 {
     display: block;
     padding: 30px 0 0 0;
@@ -236,16 +245,14 @@ section#views {
       section#views ol li a.active {
         border-color: white; }
 
-body#index header, body#archive header {
-  -webkit-transition: padding-top 1s; }
-body#index header, body#archive header {
-  background-size: auto 651px;
-  padding: 0;
-  margin: 0;
-  background-image: url(/images/casey-hula.gif);
-  background-position: center;
-  background-repeat: no-repeat; }
-body#index nav#background, body#archive nav#background {
+body#archive #canvas {
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none; }
+body#archive nav#background {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -253,11 +260,11 @@ body#index nav#background, body#archive nav#background {
   position: absolute;
   bottom: 10px;
   right: 20px; }
-  body#index nav#background li, body#archive nav#background li {
+  body#archive nav#background li {
     display: inline-block; }
-body#index section#about, body#archive section#about {
+body#archive section#about {
   display: block; }
-body#index section#projects nav#filters, body#archive section#projects nav#filters {
+body#archive section#projects nav#filters {
   top: 0;
   left: 0;
   padding: 0;
@@ -266,30 +273,30 @@ body#index section#projects nav#filters, body#archive section#projects nav#filte
   background: #fff;
   z-index: 1000;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); }
-  body#index section#projects nav#filters h3, body#index section#projects nav#filters p, body#index section#projects nav#filters .select2-drop, body#archive section#projects nav#filters h3, body#archive section#projects nav#filters p, body#archive section#projects nav#filters .select2-drop {
+  body#archive section#projects nav#filters h3, body#archive section#projects nav#filters p, body#archive section#projects nav#filters .select2-drop {
     display: inline;
     margin-right: 15px; }
-  body#index section#projects nav#filters .select2-container:hover .select2-choice span, body#archive section#projects nav#filters .select2-container:hover .select2-choice span {
+  body#archive section#projects nav#filters .select2-container:hover .select2-choice span {
     color: blue; }
-  body#index section#projects nav#filters h3, body#archive section#projects nav#filters h3 {
+  body#archive section#projects nav#filters h3 {
     display: inline-block;
     margin: 15px 5px 15px 20px;
     font-size: 16px; }
-  body#index section#projects nav#filters ul.tags, body#archive section#projects nav#filters ul.tags {
+  body#archive section#projects nav#filters ul.tags {
     padding: 0;
     margin: 0; }
-  body#index section#projects nav#filters div#options, body#archive section#projects nav#filters div#options {
+  body#archive section#projects nav#filters div#options {
     display: inline;
     margin-right: 15px; }
-    body#index section#projects nav#filters div#options ul, body#archive section#projects nav#filters div#options ul {
+    body#archive section#projects nav#filters div#options ul {
       display: inline-block!important;
       margin-right: 5px;
       border: 1px solid #ddd; }
-      body#index section#projects nav#filters div#options ul li, body#archive section#projects nav#filters div#options ul li {
+      body#archive section#projects nav#filters div#options ul li {
         display: inline-block;
         margin: 0;
         padding: 0; }
-    body#index section#projects nav#filters div#options a:link, body#index section#projects nav#filters div#options a:visited, body#archive section#projects nav#filters div#options a:link, body#archive section#projects nav#filters div#options a:visited {
+    body#archive section#projects nav#filters div#options a:link, body#archive section#projects nav#filters div#options a:visited {
       display: block;
       line-height: 16px;
       text-decoration: none;
@@ -297,27 +304,27 @@ body#index section#projects nav#filters, body#archive section#projects nav#filte
       padding: 5px 10px;
       margin: 0;
       -webkit-transition: background .15s; }
-    body#index section#projects nav#filters div#options a.selected:link, body#index section#projects nav#filters div#options a.selected:visited, body#archive section#projects nav#filters div#options a.selected:link, body#archive section#projects nav#filters div#options a.selected:visited {
+    body#archive section#projects nav#filters div#options a.selected:link, body#archive section#projects nav#filters div#options a.selected:visited {
       background: #fff;
       color: black; }
-    body#index section#projects nav#filters div#options a:hover, body#index section#projects nav#filters div#options a:hover:after, body#archive section#projects nav#filters div#options a:hover, body#archive section#projects nav#filters div#options a:hover:after {
+    body#archive section#projects nav#filters div#options a:hover, body#archive section#projects nav#filters div#options a:hover:after {
       color: blue; }
-    body#index section#projects nav#filters div#options a:active, body#archive section#projects nav#filters div#options a:active {
+    body#archive section#projects nav#filters div#options a:active {
       background: blue;
       color: white; }
-    body#index section#projects nav#filters div#options a:active:after, body#archive section#projects nav#filters div#options a:active:after {
+    body#archive section#projects nav#filters div#options a:active:after {
       color: white; }
-    body#index section#projects nav#filters div#options a.selected:active, body#archive section#projects nav#filters div#options a.selected:active {
+    body#archive section#projects nav#filters div#options a.selected:active {
       background: blue;
       color: white; }
-    body#index section#projects nav#filters div#options #options a:after, body#archive section#projects nav#filters div#options #options a:after {
+    body#archive section#projects nav#filters div#options #options a:after {
       text-decoration: none;
       color: gray; }
-    body#index section#projects nav#filters div#options a.sort-ascending:after, body#archive section#projects nav#filters div#options a.sort-ascending:after {
+    body#archive section#projects nav#filters div#options a.sort-ascending:after {
       content: " ▲"; }
-    body#index section#projects nav#filters div#options a.sort-descending:after, body#archive section#projects nav#filters div#options a.sort-descending:after {
+    body#archive section#projects nav#filters div#options a.sort-descending:after {
       content: " ▼"; }
-    body#index section#projects nav#filters div#options a#shuffle.selected:after, body#archive section#projects nav#filters div#options a#shuffle.selected:after {
+    body#archive section#projects nav#filters div#options a#shuffle.selected:after {
       content: " ⟳"; }
 
 footer {
@@ -545,14 +552,6 @@ ul.tags li {
   border-radius: 50%;
   text-align: center;
   font-weight: 900; }
-
-#canvas {
-  opacity: .5;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: none; }
 
 .project ul li {
   cursor: pointer; }

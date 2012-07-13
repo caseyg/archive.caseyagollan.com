@@ -9,9 +9,10 @@
 	<body id="index">
 	<a name="top"></a>
 	<header>
+		<h1>Casey Gollan</h1>
+		<canvas id="c" width="500" height="100"></canvas>
 		<nav id="main">
 			<ul>
-				<li><a class="active" href="#top">Casey Gollan</a></li>
 				<li><a href="#main">Projects</a></li>
 				<li><a href="http://notes.caseyagollan.com">Blog</a></li>
 				<li><a href="http://twitter.com/CaseyG">Twitter</a></li>
@@ -19,13 +20,7 @@
 				<li><a href="mailto:hello@caseyagollan.com">Email</a></li>
 			</ul>
 		</nav>
-		<nav id="background">
-			<ul>
-				<li><a id="two" href="#"><img src="/images/casey-hula.gif" title="Hula" height="45" /></a></li>
-				<li><a id="one" href="#"><img src="/images/casey-ipad.gif" title="iPad" height="45" /></a></li>
-				<li><a id="three" href="#"><img src="/images/casey-greenscreen.gif" title="Green Screen" height="45" /></a></li>
-			</ul>
-		</nav>
+	<canvas id="c2" width="500" height="100"></canvas>
 	</header>
 	<section id="projects">
 		<section id="views">
@@ -39,31 +34,37 @@
 
 	</section>
 	<section id="about">
-		<h2>Contact</h2>
-		<p><a href="mailto:hello&#64;caseyagollan.com">hello&#64;caseyagollan.com</a> &bull; <a href="http://twitter.com/caseyg">&#64;CaseyG</a></p>
 
-		<h2>Elsewhere</h2>
+		<h2>Everwhere Else</h2>
 		<p><a href="http://twitter.com/caseyg">Twitter</a>, <a href="http://facebook.com/caseygollan">Facebook</a>, <a href="http://pinboard.in/u:caseygollan">Pinboard</a>, <a href="http://reading.am/CaseyG">Reading</a>, <a href="http://mlkshk.com/user/CaseyG">Mlkshk</a>, <a href="http://rhizome.org/profiles/caseyg/">Rhizome</a>, <a href="http://stellar.io/caseyg">Stellar</a>, <a href="http://readmill.com/CaseyG">Readmill</a>, <a href="https://findings.com/caseyg">Findings</a>, <a href="http://last.fm/user/caseygollan">Last.fm</a>, <a href="https://kindle.amazon.com/profile/Casey-Gollan/1239626">Kindle</a>, <a href="http://www.quora.com/Casey-Gollan">Quora</a>, <a href="http://dribbble.com/CaseyG">Dribbble</a>, <a href="http://flickr.com/photos/caseygollan">Flickr</a>, <a href="http://www.goodreads.com/user/show/1861885">Goodreads</a>, <a href="http://www.metafilter.com/user/120538">Metafilter</a></p>
 	</section>
-	<script type="text/javascript">
-		// SIZE HEADER TO FILL SCREEN
+			<script type="text/javascript">
+	<!--
+	ctx = document.getElementById("c").getContext("2d");
+	ctx.beginPath();
+	canvas_arrow(ctx,180,0,60,100);
+	canvas_arrow(ctx,210,0,145,100);
+	canvas_arrow(ctx,240,0,225,100);
+	canvas_arrow(ctx,280,0,330,100);
+	canvas_arrow(ctx,315,0,430,100);
+	ctx.stroke();
+	
+	ctx = document.getElementById("c2").getContext("2d");
+	ctx.beginPath();
+	canvas_arrow(ctx,60,0,120,100);
+	ctx.stroke();
 
-		function thirty_pc() {
-			var height = $(window).height();
-			var navHeight = $("nav#main").height() + 40;
-			var thirtypc = height;
-			thirtypc = parseInt(thirtypc)/2 + 'px';
-			$("header").css("padding-top",(height - navHeight) + 'px');
-			$("#views").css("height",height + 'px');
-		}
-
-		$(document).ready(function() {
-			thirty_pc();
-			$(window).bind('resize', thirty_pc);
-		});
-
-		$("a#one").hover(function() {$('header').css('background-image','url(/images/casey-ipad.gif)');});
-		$("a#two").hover(function() {$('header').css('background-image','url(/images/casey-hula.gif)');});
-		$("a#three").hover(function() {$('header').css('background-image','url(/images/casey-greenscreen.gif)');});
-	</script>
+	function canvas_arrow(context, fromx, fromy, tox, toy){
+		var headlen = 10;	// length of head in pixels
+		var dx = tox-fromx;
+		var dy = toy-fromy;
+		var angle = Math.atan2(dy,dx);
+		context.moveTo(fromx, fromy);
+		context.lineTo(tox, toy);
+		context.lineTo(tox-headlen*Math.cos(angle-Math.PI/6),toy-headlen*Math.sin(angle-Math.PI/6));
+		context.moveTo(tox, toy);
+		context.lineTo(tox-headlen*Math.cos(angle+Math.PI/6),toy-headlen*Math.sin(angle+Math.PI/6));
+	}
+	-->
+		</script>
 :footer
