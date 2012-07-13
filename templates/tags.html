@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	:head-meta
+	<script src="/@root_path/docs/js/select2.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="/@root_path/docs/css/select2.css">
+</head>
+<body id="tags">
+<h1><a href="@root_path">Casey Gollan</a></h1>
+<div id="tag-list">foreach $root do if @tags do @tags,endif endforeach</div>
+<select></select>
+<script type="text/javascript">
+var tagOutput = $("#tag-list").text();
+$("#tag-list").remove();
+var tags = new Array();
+var tags = $.map(tagOutput.split(','), $.trim);
+
+function eliminateDuplicates(arr) {
+  var i,
+      len=arr.length,
+      out=[],
+      obj={};
+
+  for (i=0;i<len;i++) {
+    obj[arr[i]]=0;
+  }
+  for (i in obj) {
+    out.push(i);
+  }
+  return out;
+}
+
+
+function SortByName(a, b){
+  var aName = a.toLowerCase();
+  var bName = b.toLowerCase(); 
+  return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
+}
+
+tags.sort(SortByName);
+
+var tags = eliminateDuplicates(tags);
+
+tags.splice(0,1);
+
+$.each(
+	tags,
+	function( intIndex, objValue ){
+	 
+		// Create a new LI HTML element out of the
+		// current value (in the iteration) and then
+		// add this value to the list.
+		$("body select").append(
+			$( "<option>" + objValue + "</option>" )
+		);
+	}
+);
+
+$("select").select2();
+</script>
+
+:footer

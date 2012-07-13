@@ -1,0 +1,25 @@
+title: Sweaty Tube
+-
+date: 2012 March
+-
+external_link: http://sweatytube.com
+-
+excerpt: Watch YouTube videos on a sweater. Made with [Alex Gibson](http://badsmellingboy.com) and [Aaron Graham](http://aaron-graham.com).
+-
+tags: Meme Generator, Website, Coding, New York
+-
+badge: New
+-
+badge_color: green
+-
+content: 
+<p>Alex, Aaron, and I made a site that puts YouTube videos on sweaters. But it might also be the next level / logical conclusion / death of the <a href="http://knowyourmeme.com/memes/sexy-sweaters">Sexy Sweaters meme</a> (which Alex is credited as originating(!) on Know Your Meme).</p>
+<p>Wrangled APIs from YouTube, Clicky, Bitly to pull the whole site off with no database. And went a little cuckoo on the interface: it's completely chromeless until you hover, then a radial menu is triggered with links to the most popular sweaters in the past few days, a form field to generate your own, and a link to the psychotic <a href="http://sweatytube.com/activity">activity dashboard</a> (worth a look if you like seizure-inducing hovers).</p>
+<p>A few good and weird Sweaty Tubes:
+<a href="http://sweatytu.be/y7Nebm">100 Most Viewed Videos in 200 Seconds</a>
+<a href="http://sweatytu.be/wo2f2U">Koyaanisqatsi</a>
+<a href="http://sweatytu.be/xXgX4t">Fast Car by Tracy Chapman</a>
+<a href="http://sweatytu.be/wbJb8Z">The Sweater Song</a>
+<a href="http://sweatytu.be/zutSXa">Marina Abramovic</a>
+<a href="http://sweatytu.be/AEP2Hc">JFK Assassination</a>
+<a href="http://sweatytu.be/yC0yRl">Me at the Zoo (The First YouTube Video Ever)</a></p>

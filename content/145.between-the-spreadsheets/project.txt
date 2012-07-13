@@ -1,0 +1,15 @@
+title: Between the Spreadsheets
+-
+date: 2011 December
+-
+excerpt: Fighting a corrupt bureacracy with...seduction.
+-
+tags: Cooper Union, Fun, Performative, Sexy, Trolling, New York, Video
+-
+badge: New
+-
+badge_color: teal
+-
+hide_media: true
+-
+content: <iframe width="853" height="480" src="http://www.youtube.com/embed/qhowml0sBBI?rel=0" frameborder="0" allowfullscreen></iframe>

@@ -1,0 +1,13 @@
+foreach $images do
+  <figure>
+    if @title do
+      <h3>@title</h3>
+    endif
+    <img src="@url" alt="@title" />
+    if @description do
+    <figcaption>
+    	@description
+    </figcaption>
+    endif
+  </figure>
+endforeach

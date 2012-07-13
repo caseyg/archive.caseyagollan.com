@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		:head-meta
+		<script src="/@root_path/docs/js/jquery.throttle.js" type="text/javascript"></script>
+		<script src="/@root_path/docs/js/lazyloading.js" type="text/javascript"></script>
+	</head>
+	<body id="infinite-scroll">
+	<header>
+		<nav id="main">
+			<ul>
+				<li><a href="/">Casey Gollan</a></li>
+				<li><a href="/archive" class="active">Projects</a></li>
+				<li><a href="http://notes.caseyagollan.com">Blog</a></li>
+				<li><a href="mailto:hello@caseyagollan.com">hello@caseyagollan.com</a></li>
+			</ul>
+		</nav>
+		<section id="views">
+			<ol class="group">
+				<li><a href="/archive"><h3>1. Archive</h3></a></li>
+				<li><a href="/infinite-scroll"><h3>2. Infinite-Scroll</h3></a></li>
+				<li><a href="/narratives" class="active"><h3>3. Narratives</h3></a></li>
+			</ol>
+		</section>
+	</header>
+	<section id="content">
+		<ul>
+		foreach $children do
+			<li><a href="@url">@title</a></li>
+		endforeach
+		</ul>
+	</section>
+:footer

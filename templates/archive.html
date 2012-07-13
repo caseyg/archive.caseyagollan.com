@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		:head-meta
+	<script src="@root_path/docs/js/select2.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="/@root_path/docs/css/select2.css">
+	</head>
+	<body id="archive">
+	<a name="top"></a>
+	<header>
+		<nav id="main">
+			<ul>
+				<li><a href="/">Casey Gollan</a></li>
+				<li><a href="/archive" class="active">Projects</a></li>
+				<li><a href="http://notes.caseyagollan.com">Blog</a></li>
+				<li><a href="mailto:hello@caseyagollan.com">hello@caseyagollan.com</a></li>
+			</ul>
+		</nav>
+		<section id="views">
+			<ol class="group">
+				<li><a href="/archive" class="active"><h3>1. Archive</h3></a></li>
+				<li><a href="/infinite-scroll"><h3>2. Infinite-Scroll</h3></a></li>
+				<li><a href="/narratives"><h3>3. Narratives</h3></a></li>
+			</ol>
+		</section>
+	</header>
+	<section id="projects">
+		<nav id="filters">
+			<h3>Connect</h3>
+			<select id="tag-select" data-placeholder="Select a Tag"><option></option></select>
+			<div id="options">
+				<h3>Sort</h3>
+				<ul id="sort-by" class="option-set" data-option-key="sortBy">
+					<li><a href="#sortBy=original-order" data-option-value="original-order" class="selected sort-ascending toggle">Date</a></li>
+					<li><a href="#sortBy=name" data-option-value="name" class="toggle">Name</a></li>
+					<li><a id="shuffle" href="javascript:void(0)" onClick="$('#projects').isotope('shuffle')">Random</a></li>
+				</ul>
+				<h3>Layout</h3>
+				<ul id="layout-mode" class="option-set" data-option-key="layoutMode">
+					<li><a href="#layoutMode=masonry" class="selected" data-option-value="masonry">Grid</a></li>
+					<li><a href="#layoutMode=straightDown" data-option-value="straightDown">List</a></li>
+				</ul>
+				<h3>Scope</h3>
+		      <ul id="filters" class="option-set clearfix" data-option-key="filter">
+		        <li><a href="#filter" data-option-value="*" class="selected">Everything</a></li>
+		        <li><a href="#filter" data-option-value=":not(.rye-high-school, .risd-pre-college, .oxbow-school, .smfa-pre-college)">Selected Work</a></li>
+		      </ul>
+			</div>
+		</nav>
+		<ul>
+		foreach $root do
+		  <li class="project" id="@slug">
+				<p class="date">@date</p>
+				if @thumb do <img class="thumb" src="@thumb" /> endif
+				if @external_link do
+					<h2><a rel="tooltip" data-original-title="<strong>Go to external link:</strong><br /> @external_link" data-placement="bottom" href="@external_link">@title</a> <a class="permalink" rel="tooltip" data-original-title="<strong>Go to project page</strong>" data-placement="bottom" href="@url">∞</a></h2>
+				endif
+				if !@external_link do
+				<h2><a rel="tooltip" data-original-title="<strong>Go to project page</strong>" data-placement="bottom" href="@url">@title</a></h2>
+				endif
+				if @excerpt do <p class="excerpt">@excerpt</p> endif
+				if @tags do <ul class="tags"> @tags </ul> endif
+				if @badge do <p class="banner @badge_color"><span>@badge</span></p> endif
+		  </li>
+		endforeach
+		</ul>
+		<div id="tag-list" style="display:none;">foreach $root do if @tags do @tags,endif endforeach</div>
+	</section>
+	<section id="about">
+		<h2>Contact</h2>
+		<p><a href="mailto:hello&#64;caseyagollan.com">hello&#64;caseyagollan.com</a> &bull; <a href="http://twitter.com/caseyg">&#64;CaseyG</a></p>
+
+		<h2>Elsewhere</h2>
+		<p><a href="http://twitter.com/caseyg">Twitter</a>, <a href="http://facebook.com/caseygollan">Facebook</a>, <a href="http://pinboard.in/u:caseygollan">Pinboard</a>, <a href="http://reading.am/CaseyG">Reading</a>, <a href="http://mlkshk.com/user/CaseyG">Mlkshk</a>, <a href="http://rhizome.org/profiles/caseyg/">Rhizome</a>, <a href="http://stellar.io/caseyg">Stellar</a>, <a href="http://readmill.com/CaseyG">Readmill</a>, <a href="https://findings.com/caseyg">Findings</a>, <a href="http://last.fm/user/caseygollan">Last.fm</a>, <a href="https://kindle.amazon.com/profile/Casey-Gollan/1239626">Kindle</a>, <a href="http://www.quora.com/Casey-Gollan">Quora</a>, <a href="http://dribbble.com/CaseyG">Dribbble</a>, <a href="http://flickr.com/photos/caseygollan">Flickr</a>, <a href="http://www.goodreads.com/user/show/1861885">Goodreads</a>, <a href="http://www.metafilter.com/user/120538">Metafilter</a></p>
+	</section>
+	<canvas id="canvas" style="display:none;"></canvas>
+:footer

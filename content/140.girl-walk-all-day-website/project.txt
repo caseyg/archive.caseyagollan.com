@@ -1,0 +1,9 @@
+title: Girl Walk // All Day Website
+-
+date: 2011 October
+-
+tags: Client Work, Website, Coding, Fun, Design, New York
+-
+badge: New
+-
+badge_color: yellow

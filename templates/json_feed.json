@@ -1,0 +1,7 @@
+[
+foreach $root do
+  foreach $images do
+    "@url",
+  endforeach
+endforeach
+]
