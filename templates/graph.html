@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	:head-meta
+</head>
+<body id="tags">
+<!--
+for each project
+  for each tag
+    print @project.title -- @tag.project.title
+-->
+<code id="halftone">
+  <span id="tag-list" style="display:none;">foreach $root do if @tags do @tags,endif endforeach</span>
+  <span id="sorted-tag-list"></span>
+  <span id="projects">
+    foreach $root do
+      @title {color:none}<br />
+    endforeach
+  </span>
+  <span id="json">
+    projects = [
+    foreach $root do
+      {
+        "title": "@title",
+        "tags": [@tags]
+      },
+    endforeach
+    ]
+  </span>
+</code>
+<script src="/@root_path/docs/js/xregexp-min.js" type="text/javascript"></script>
+<script src="/@root_path/docs/js/coffee-script.js" type="text/javascript"></script>
+<script type="text/coffeescript">
+console.log project.title + " -- " + tag for tag, i in project.tags for project, i in projects
+</script>
+<script type="text/javascript">
+var tagOutput = $("#tag-list").text();
+$("#tag-list").remove();
+var tags = new Array();
+var tags = $.map(tagOutput.split(','), $.trim);
+
+function eliminateDuplicates(arr) {
+  var i,
+      len=arr.length,
+      out=[],
+      obj={};
+
+  for (i=0;i<len;i++) {
+    obj[arr[i]]=0;
+  }
+  for (i in obj) {
+    out.push(i);
+  }
+  return out;
+}
+
+
+function SortByName(a, b){
+  var aName = a.toLowerCase();
+  var bName = b.toLowerCase(); 
+  return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
+}
+
+tags.sort(SortByName);
+
+var tags = eliminateDuplicates(tags);
+
+tags.splice(0,1);
+
+$.each(
+	tags,
+	function( intIndex, objValue ){
+	 
+		// Create a new LI HTML element out of the
+		// current value (in the iteration) and then
+		// add this value to the list.
+		$("#sorted-tag-list").append(objValue + " {color:gray, shape:dot} <br />");
+	}
+);
+
+/*
+ * jQuery replaceText - v1.1 - 11/21/2009
+ * http://benalman.com/projects/jquery-replacetext-plugin/
+ * 
+ * Copyright (c) 2009 "Cowboy" Ben Alman
+ * Dual licensed under the MIT and GPL licenses.
+ * http://benalman.com/about/license/
+ */
+(function($){$.fn.replaceText=function(b,a,c){return this.each(function(){var f=this.firstChild,g,e,d=[];if(f){do{if(f.nodeType===3){g=f.nodeValue;e=g.replace(b,a);if(e!==g){if(!c&&/</.test(e)){$(f).before(e);d.push(f)}else{f.nodeValue=e}}}}while(f=f.nextSibling)}d.length&&$(d).remove()})}})(jQuery);
+
+function quote( $1 ) {
+  console.log($1);
+  $1 = $1.substring(0, $1.length - 1).substring(1, $1.length);
+  var array = $.trim($1.split(","));
+  $.each(array.split(","), function(){
+    cleanArray.push($.trim(this));
+  });
+  var cleanArray = [];
+  console.log(array);
+  return '["' + $1 + '"]';
+};
+
+$('#json')
+  .replaceText( /\[(.*?)\]/g, quote )
+</script>
