@@ -12,12 +12,14 @@ for each project
     print @project.title -- @tag.project.title
 -->
 <code id="halftone">
+  {shape:dot}<br />
   <span id="tag-list" style="display:none;">foreach $root do if @tags do @tags,endif endforeach</span>
   <span id="sorted-tag-list"></span>
   <br />
+  {shape:box,color:blue}<br />
   <span id="projects">
     foreach $root do
-      @title {color:blue}<br />
+      @title<br />
     endforeach
   </span>
   <br />
@@ -72,7 +74,7 @@ $.each(
 		// Create a new LI HTML element out of the
 		// current value (in the iteration) and then
 		// add this value to the list.
-		$("#sorted-tag-list").append(objValue + " {shape:dot} <br />");
+		$("#sorted-tag-list").append(objValue + "<br />");
 	}
 );
 
