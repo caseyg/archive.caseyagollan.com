@@ -5,21 +5,23 @@
 <head>
 	:head-meta
 </head>
-<body id="tags">
+<body>
 <!--
 for each project
   for each tag
     print @project.title -- @tag.project.title
 -->
 <code id="halftone">
-  {shape:dot}<br />
-  <span id="tag-list" style="display:none;">foreach $root do if @tags do @tags,endif endforeach</span>
+      var CLR = {
+      tag:"gray",
+      project:"blue"
+    }<br />
+  <span id="tag-list" ,style="display:none;">foreach $root do if @tags do @tags,endif endforeach</span>
   <span id="sorted-tag-list"></span>
   <br />
-  {shape:box,color:blue}<br />
   <span id="projects">
     foreach $root do
-      @title<br />
+      sys.addNode("@title", {color:CLR.project, alpha:1})<br />
     endforeach
   </span>
   <br />
@@ -74,7 +76,7 @@ $.each(
 		// Create a new LI HTML element out of the
 		// current value (in the iteration) and then
 		// add this value to the list.
-		$("#sorted-tag-list").append(objValue + "<br />");
+		$("#sorted-tag-list").append('sys.addNode("' + objValue + '", {color:CLR.tag, shape:"dot", alpha:1})<br />');
 	}
 );
 
@@ -90,7 +92,7 @@ $("project").each(function(){
   $.each(
   tags,
   function( intIndex, objValue ){
-    tagList.append('<edge>' + objValue + ' -> ' + name + '</edge><br />');
+    tagList.append('<edge>sys.addEdge("' + objValue + '", "' + name + '")</edge><br />');
   });
 });
 
