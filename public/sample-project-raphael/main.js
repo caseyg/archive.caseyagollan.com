@@ -36,16 +36,6 @@
           // draw a line from pt1 to pt2
           var line = r.path("M" + pt1.x + " " + pt1.y + "L" + pt2.x + " " + pt2.y)
                       .attr({"stroke-width": 2, "stroke": "darkgray"})
-
-          line.hover(function () {
-              line.attr({"stroke": "blue"})
-                  .toFront();
-            },
-            function () {
-              line.attr({"stroke": "darkgray"})
-                  .toBack();
-            }
-          );
         })
 
         particleSystem.eachNode(function(node, pt){
@@ -54,27 +44,16 @@
 
           // draw a rectangle centered at pt
           var w = 10;
-          var dot = r.circle(pt.x-w/2, pt.y-w/2, w, w)
+          var dot = r.circle(pt.x-w/2, pt.y-w/2, w)
                      .attr({"fill":"gray", "stroke": "darkgray", "stroke-width": 2});
 
-          dot.data({"class": "node"});
-
-          dot.hover(function () {
-              dot.attr({"stroke": "blue"})
-                  .toFront();
-            },
-            function () {
-              dot.attr({"stroke": "darkgray"})
-                  .toBack();
-            }
-          );
         })          
 
         // set up some event handlers to allow for node-dragging
 //      that.initMouseHandling()
       },
       
-      redraw:function(){
+      redraw:function(system){
         // 
         // redraw will be called repeatedly during the run whenever the node positions
         // change. the new positions for the nodes can be accessed by looking at the
@@ -85,6 +64,14 @@
         // x,y point in the screen's coordinate system
         // 
 
+        particleSystem.eachNode(function(node, pt){
+          // node: {mass:#, p:{x,y}, name:"", data:{}}
+          // pt:   {x:#, y:#}  node position in screen coords
+
+          // draw a rectangle centered at pt
+          var w = 10;
+          dot.animate(pt.x-w/2, pt.y-w/2)
+        })      
       },
       /*
       initMouseHandling:function(){
