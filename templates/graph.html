@@ -1,162 +1,529 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
-
-<html>
-<head>
-	:head-meta
-</head>
-<style type="text/css">
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v2.js?2.9.1"></script>
+<style>
 body {
-  font-size:12px;
-  line-height:12px;
+  background:#808080;
+  margin:0;
+  padding:0;
 }
-name {
-  display:inline-block;
-  background:gray;
-  max-width: 350px;
-  height:14px;
+.link {
+  fill: none;
+  stroke: darkgray;
+  stroke-width: 2px;
 }
+
+.node circle {
+  stroke-width: 0;
+  stroke: blue;
+}
+
+.project, line {
+  cursor:pointer;
+}
+
+.project text {
+  fill: white;
+  font: 16px sans-serif;
+  pointer-events: none;
+  fill-opacity:0;
+}
+
+.tag circle {
+  fill: gray;
+  stroke-width: 2;
+  stroke: darkgray;
+}
+
+.tag text {
+  fill: darkgray;
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
 </style>
 <body>
-<code>
-      var CLR = {
-      tag:"gray",
-      project:"blue"
-    }; <br />
-  <span id="tag-list" ,style="display:none;">foreach $root do if @tags do @tags,endif endforeach</span>
-  <span id="sorted-tag-list"></span>
-  <br />
-  <span id="projects">
-    foreach $root do
-      sys.addNode("<name>@title</name>", {link:"@url",color:CLR.project, alpha:1}); <br />
-    endforeach
-  </span>
-  <br />
-  <span id="projects2">
-  foreach $root do
-    <project name="@title">
-      <tags>@tags</tags>
-    </project>
-  endforeach
-  </span>
-</code>
+<script>
+var links = [
+{source: 125, target: 0}, 
+{source: 86, target: 0}, 
+{source: 124, target: 0}, 
+{source: 123, target: 1}, 
+{source: 62, target: 1}, 
+{source: 66, target: 1}, 
+{source: 123, target: 2}, 
+{source: 62, target: 2}, 
+{source: 99, target: 2}, 
+{source: 65, target: 3}, 
+{source: 125, target: 3}, 
+{source: 94, target: 3}, 
+{source: 81, target: 4}, 
+{source: 123, target: 4}, 
+{source: 62, target: 4}, 
+{source: 85, target: 4}, 
+{source: 125, target: 5}, 
+{source: 65, target: 5}, 
+{source: 115, target: 5}, 
+{source: 67, target: 5}, 
+{source: 85, target: 5}, 
+{source: 101, target: 6}, 
+{source: 125, target: 6}, 
+{source: 103, target: 6}, 
+{source: 116, target: 6}, 
+{source: 85, target: 6}, 
+{source: 65, target: 7}, 
+{source: 120, target: 7}, 
+{source: 75, target: 7}, 
+{source: 123, target: 7}, 
+{source: 85, target: 7}, 
+{source: 65, target: 8}, 
+{source: 75, target: 8}, 
+{source: 91, target: 8}, 
+{source: 110, target: 8}, 
+{source: 120, target: 8}, 
+{source: 85, target: 8}, 
+{source: 121, target: 8}, 
+{source: 61, target: 9}, 
+{source: 123, target: 9}, 
+{source: 62, target: 9}, 
+{source: 75, target: 9}, 
+{source: 66, target: 9}, 
+{source: 85, target: 9}, 
+{source: 65, target: 10}, 
+{source: 91, target: 10}, 
+{source: 90, target: 10}, 
+{source: 64, target: 10}, 
+{source: 75, target: 10}, 
+{source: 85, target: 10}, 
+{source: 124, target: 11}, 
+{source: 65, target: 11}, 
+{source: 82, target: 11}, 
+{source: 85, target: 11}, 
+{source: 125, target: 12}, 
+{source: 71, target: 12}, 
+{source: 67, target: 12}, 
+{source: 2, target: 12}, 
+{source: 85, target: 12}, 
+{source: 78, target: 12}, 
+{source: 102, target: 12}, 
+{source: 125, target: 13}, 
+{source: 56, target: 13}, 
+{source: 116, target: 13}, 
+{source: 67, target: 13}, 
+{source: 61, target: 14}, 
+{source: 123, target: 14}, 
+{source: 62, target: 14}, 
+{source: 66, target: 14}, 
+{source: 85, target: 14}, 
+{source: 109, target: 15}, 
+{source: 117, target: 15}, 
+{source: 65, target: 15}, 
+{source: 85, target: 15}, 
+{source: 125, target: 16}, 
+{source: 56, target: 16}, 
+{source: 111, target: 16}, 
+{source: 67, target: 16}, 
+{source: 85, target: 16}, 
+{source: 86, target: 17}, 
+{source: 125, target: 17}, 
+{source: 116, target: 17}, 
+{source: 55, target: 17}, 
+{source: 66, target: 17}, 
+{source: 118, target: 17}, 
+{source: 85, target: 17}, 
+{source: 123, target: 18}, 
+{source: 125, target: 18}, 
+{source: 65, target: 18}, 
+{source: 55, target: 18}, 
+{source: 85, target: 18}, 
+{source: 70, target: 18}, 
+{source: 93, target: 19}, 
+{source: 123, target: 19}, 
+{source: 81, target: 19}, 
+{source: 120, target: 19}, 
+{source: 85, target: 19}, 
+{source: 124, target: 20}, 
+{source: 65, target: 20}, 
+{source: 85, target: 20}, 
+{source: 67, target: 21}, 
+{source: 55, target: 21}, 
+{source: 119, target: 21}, 
+{source: 65, target: 21}, 
+{source: 85, target: 21}, 
+{source: 125, target: 22}, 
+{source: 64, target: 22}, 
+{source: 109, target: 22}, 
+{source: 65, target: 22}, 
+{source: 85, target: 22}, 
+{source: 91, target: 23}, 
+{source: 113, target: 23}, 
+{source: 90, target: 23}, 
+{source: 65, target: 23}, 
+{source: 85, target: 23}, 
+{source: 110, target: 24}, 
+{source: 91, target: 24}, 
+{source: 93, target: 24}, 
+{source: 65, target: 24}, 
+{source: 85, target: 24}, 
+{source: 120, target: 24}, 
+{source: 86, target: 25}, 
+{source: 93, target: 25}, 
+{source: 85, target: 25}, 
+{source: 125, target: 26}, 
+{source: 56, target: 26}, 
+{source: 67, target: 26}, 
+{source: 99, target: 26}, 
+{source: 116, target: 26}, 
+{source: 85, target: 26}, 
+{source: 65, target: 27}, 
+{source: 74, target: 27}, 
+{source: 97, target: 27}, 
+{source: 62, target: 27}, 
+{source: 68, target: 27}, 
+{source: 86, target: 27}, 
+{source: 67, target: 27}, 
+{source: 63, target: 27}, 
+{source: 114, target: 27}, 
+{source: 85, target: 27}, 
+{source: 65, target: 28}, 
+{source: 74, target: 28}, 
+{source: 63, target: 28}, 
+{source: 97, target: 28}, 
+{source: 62, target: 28}, 
+{source: 81, target: 28}, 
+{source: 85, target: 28}, 
+{source: 65, target: 29}, 
+{source: 74, target: 29}, 
+{source: 63, target: 29}, 
+{source: 57, target: 29}, 
+{source: 85, target: 29}, 
+{source: 87, target: 29}, 
+{source: 65, target: 30}, 
+{source: 74, target: 30}, 
+{source: 109, target: 30}, 
+{source: 91, target: 30}, 
+{source: 86, target: 30}, 
+{source: 125, target: 30}, 
+{source: 82, target: 30}, 
+{source: 75, target: 30}, 
+{source: 85, target: 30}, 
+{source: 125, target: 31}, 
+{source: 86, target: 31}, 
+{source: 55, target: 31}, 
+{source: 56, target: 31}, 
+{source: 67, target: 31}, 
+{source: 85, target: 31}, 
+{source: 65, target: 32}, 
+{source: 77, target: 32}, 
+{source: 66, target: 32}, 
+{source: 86, target: 32}, 
+{source: 68, target: 32}, 
+{source: 100, target: 32}, 
+{source: 85, target: 32}, 
+{source: 106, target: 32}, 
+{source: 65, target: 33}, 
+{source: 77, target: 33}, 
+{source: 90, target: 33}, 
+{source: 91, target: 33}, 
+{source: 126, target: 33}, 
+{source: 67, target: 33}, 
+{source: 85, target: 33}, 
+{source: 106, target: 33}, 
+{source: 65, target: 34}, 
+{source: 77, target: 34}, 
+{source: 125, target: 34}, 
+{source: 126, target: 34}, 
+{source: 106, target: 34}, 
+{source: 85, target: 34}, 
+{source: 64, target: 35}, 
+{source: 100, target: 35}, 
+{source: 55, target: 35}, 
+{source: 85, target: 35}, 
+{source: 106, target: 35}, 
+{source: 107, target: 36}, 
+{source: 109, target: 36}, 
+{source: 93, target: 36}, 
+{source: 85, target: 36}, 
+{source: 106, target: 36}, 
+{source: 93, target: 37}, 
+{source: 108, target: 37}, 
+{source: 59, target: 37}, 
+{source: 72, target: 37}, 
+{source: 112, target: 38}, 
+{source: 93, target: 38}, 
+{source: 58, target: 38}, 
+{source: 80, target: 38}, 
+{source: 89, target: 39}, 
+{source: 112, target: 39}, 
+{source: 58, target: 39}, 
+{source: 80, target: 39}, 
+{source: 68, target: 40}, 
+{source: 86, target: 40}, 
+{source: 67, target: 40}, 
+{source: 115, target: 40}, 
+{source: 112, target: 40}, 
+{source: 58, target: 40}, 
+{source: 80, target: 40}, 
+{source: 107, target: 41}, 
+{source: 109, target: 41}, 
+{source: 106, target: 41}, 
+{source: 85, target: 41}, 
+{source: 109, target: 42}, 
+{source: 107, target: 42}, 
+{source: 106, target: 42}, 
+{source: 85, target: 42}, 
+{source: 100, target: 43}, 
+{source: 66, target: 43}, 
+{source: 69, target: 43}, 
+{source: 107, target: 43}, 
+{source: 106, target: 43}, 
+{source: 85, target: 43}, 
+{source: 109, target: 44}, 
+{source: 79, target: 44}, 
+{source: 88, target: 44}, 
+{source: 92, target: 44}, 
+{source: 124, target: 44}, 
+{source: 84, target: 44}, 
+{source: 59, target: 44}, 
+{source: 121, target: 45}, 
+{source: 91, target: 45}, 
+{source: 88, target: 45}, 
+{source: 84, target: 45}, 
+{source: 59, target: 45}, 
+{source: 88, target: 46}, 
+{source: 89, target: 46}, 
+{source: 84, target: 46}, 
+{source: 59, target: 46}, 
+{source: 96, target: 47}, 
+{source: 88, target: 47}, 
+{source: 84, target: 47}, 
+{source: 59, target: 47}, 
+{source: 109, target: 48}, 
+{source: 88, target: 48}, 
+{source: 79, target: 48}, 
+{source: 124, target: 48}, 
+{source: 84, target: 48}, 
+{source: 59, target: 48}, 
+{source: 88, target: 49}, 
+{source: 79, target: 49}, 
+{source: 84, target: 49}, 
+{source: 59, target: 49}, 
+{source: 88, target: 50}, 
+{source: 109, target: 50}, 
+{source: 84, target: 50}, 
+{source: 59, target: 50}, 
+{source: 105, target: 51}, 
+{source: 66, target: 51}, 
+{source: 98, target: 51}, 
+{source: 104, target: 51}, 
+{source: 76, target: 51}, 
+{source: 68, target: 52}, 
+{source: 105, target: 52}, 
+{source: 98, target: 52}, 
+{source: 104, target: 52}, 
+{source: 76, target: 52}, 
+{source: 93, target: 53}, 
+{source: 106, target: 53}, 
+{source: 85, target: 53}, 
+{source: 60, target: 53}, 
+{source: 122, target: 53}, 
+{source: 73, target: 53}, 
+{source: 76, target: 53}, 
+{source: 83, target: 53}, 
+{source: 93, target: 54}, 
+{source: 106, target: 54}, 
+{source: 85, target: 54}, 
+{source: 58, target: 54}, 
+{source: 80, target: 54}, 
+{source: 76, target: 54}
+];
 
-<h2>D3 Code</h2>
+var nodes = [
 
-<code>
-    <span id="projects">
-    foreach $root do
-      {name: "<name>@title</name>", link: "@url", color: "blue", type: "project", thumb: "@thumb"},<br />
-    endforeach
-  </span>
-</code>
+{name: "Weeknotes", link: "../weeknotes/", color: "blue", type: "project", thumb: "@thumb"},{name: "If We Are Digital", link: "../if-we-are-digital/", color: "blue", type: "project", thumb: "../content/167.if-we-are-digital/thumb.jpeg"},{name: "Pool", link: "../pool/", color: "blue", type: "project", thumb: "../content/166.pool/thumb.jpg"},{name: "Two Apologies President Bharucha Must Make", link: "../two-apologies-president-bharucha-must-make/", color: "blue", type: "project", thumb: "../content/165.two-apologies-president-bharucha-must-make/thumb.jpg"},{name: "Sweaty Tube", link: "../sweatytube/", color: "blue", type: "project", thumb: "../content/164.sweatytube/thumb.png"},{name: "You Can't Fuck the System If You've Never Met One", link: "../systems/", color: "blue", type: "project", thumb: "../content/160.systems/thumb.png"},{name: "Programmed Visions Book Review", link: "../book-review-programmed-visions/", color: "blue", type: "project", thumb: "@thumb"},{name: "CooperUnion.biz", link: "../cooper-union-dot-biz/", color: "blue", type: "project", thumb: "../content/150.cooper-union-dot-biz/thumb.png"},{name: "Between the Spreadsheets", link: "../between-the-spreadsheets/", color: "blue", type: "project", thumb: "../content/145.between-the-spreadsheets/thumb.jpeg"},{name: "Girl Walk // All Day Website", link: "../girl-walk-all-day-website/", color: "blue", type: "project", thumb: "@thumb"},{name: "Hula", link: "../hula/", color: "blue", type: "project", thumb: "../content/135.hula/thumb.jpeg"},{name: "Studio", link: "../studio/", color: "blue", type: "project", thumb: "../content/130.studio/thumb.JPG"},{name: "User-Generated Content", link: "../user-generated-content/", color: "blue", type: "project", thumb: "../content/124.user-generated-content/thumb.png"},{name: "Until I get better at coding, there will be no...", link: "../until-i-get-better-at-coding/", color: "blue", type: "project", thumb: "@thumb"},{name: "20x200 (Design)", link: "../20x200/", color: "blue", type: "project", thumb: "../content/110.20x200/thumb.jpg"},{name: "New Works", link: "../new-works/", color: "blue", type: "project", thumb: "../content/105.new-works/thumb.jpg"},{name: "Mixing Metaphors: Skeuomorphic, Hyper, and...", link: "../mixing-metaphors/", color: "blue", type: "project", thumb: "@thumb"},{name: "Notes on Forgetting, Archiving, and Existing on...", link: "../notes-on-forgetting-archiving-and-existing-on-the-internet/", color: "blue", type: "project", thumb: "../content/95.notes-on-forgetting-archiving-and-existing-on-the-internet/thumb.jpg"},{name: "CooperUnion.net", link: "../cooper-union-dot-net/", color: "blue", type: "project", thumb: "../content/90.cooper-union-dot-net/thumb.png"},{name: "SensitivePhotoGeneration.com", link: "../sensitive-photo-generation/", color: "blue", type: "project", thumb: "../content/85.sensitive-photo-generation/thumb.png"},{name: "Studio Bed", link: "../studio-bed/", color: "blue", type: "project", thumb: "../content/80.studio-bed/thumb.jpeg"},{name: "Timeline of Timelines", link: "../timeline-timeline/", color: "blue", type: "project", thumb: "../content/75.timeline-timeline/thumb.png"},{name: "Attempted Conversation", link: "../attempted-conversation/", color: "blue", type: "project", thumb: "../content/70.attempted-conversation/thumb.png"},{name: "Casey, Runner", link: "../casey-runner/", color: "blue", type: "project", thumb: "../content/65.casey-runner/thumb.jpeg"},{name: "Sexy Studio Self-Portraits", link: "../sexy-studio-self-portraits/", color: "blue", type: "project", thumb: "../content/60.sexy-studio-self-portraits/thumb.jpeg"},{name: "Photography Thought Web", link: "../photography-thought-web/", color: "blue", type: "project", thumb: "../content/55.photography-thought-web/thumb.jpeg"},{name: "Built to Last, Built to Decay: Authentic,...", link: "../built-to-last-built-to-decay/", color: "blue", type: "project", thumb: "@thumb"},{name: "Soundline", link: "../soundline/", color: "blue", type: "project", thumb: "../content/45.soundline/thumb.jpeg"},{name: "Albers-o-Matic", link: "../albers-o-matic/", color: "blue", type: "project", thumb: "../content/40.albers-o-matic/thumb.jpeg"},{name: "Gradient Bookshelf", link: "../bookshelf/", color: "blue", type: "project", thumb: "../content/35.bookshelf/thumb.jpg"},{name: "Cake", link: "../cake/", color: "blue", type: "project", thumb: "../content/30.cake/thumb.jpeg"},{name: "Scattered Notes on the Blog as a Curated...", link: "../scattered-notes-on-the-blog-as-a-curated-experience/", color: "blue", type: "project", thumb: "@thumb"},{name: "I Don't Sketch Book", link: "../sketch-book/", color: "blue", type: "project", thumb: "../content/24.sketch-book/thumb.jpg"},{name: "Public Apology Project", link: "../public-apology/", color: "blue", type: "project", thumb: "../content/23.public-apology/thumb.jpg"},{name: "Activate: Context", link: "../activate-context/", color: "blue", type: "project", thumb: "../content/22.activate-context/thumb.jpg"},{name: "Process Magazine", link: "../process-magazine/", color: "blue", type: "project", thumb: "../content/21.process-magazine/thumb.jpeg"},{name: "Wearable Sculptures", link: "../wearable-sculptures/", color: "blue", type: "project", thumb: "../content/20.wearable-sculptures/thumb.jpg"},{name: "Polaroids", link: "../polaroids/", color: "blue", type: "project", thumb: "../content/19.polaroids/thumb.jpg"},{name: "Summer 2008", link: "../summer-photography/", color: "blue", type: "project", thumb: "../content/18.summer-photography/thumb.jpg"},{name: "Finger Paintings", link: "../finger-paintings/", color: "blue", type: "project", thumb: "../content/16.finger-paintings/thumb.jpg"},{name: "Thought Webs", link: "../thought-webs/", color: "blue", type: "project", thumb: "../content/15.thought-webs/thumb.jpeg"},{name: "Small Sculptures", link: "../small-sculptures/", color: "blue", type: "project", thumb: "../content/14.small-sculptures/thumb.jpg"},{name: "Ceramic Experiments", link: "../ceramics/", color: "blue", type: "project", thumb: "../content/13.ceramics/thumb.jpg"},{name: "Zephyr Art + Lit Magazine", link: "../zephyr-magazine/", color: "blue", type: "project", thumb: "../content/12.zephyr-magazine/thumb.jpg"},{name: "Oxbow Final Project", link: "../oxbow-project/", color: "blue", type: "project", thumb: "../content/11.oxbow-project/thumb.jpg"},{name: "Self-Portrait (Spinning)", link: "../self-portrait-spinning/", color: "blue", type: "project", thumb: "../content/10.self-portrait-spinning/thumb.jpeg"},{name: "Awkward Laughter Paintings", link: "../awkward-laughter-paintings/", color: "blue", type: "project", thumb: "../content/09.awkward-laughter-paintings/thumb.jpg"},{name: "Intaglio Printmaking", link: "../printmaking/", color: "blue", type: "project", thumb: "../content/08.printmaking/thumb.jpg"},{name: "Teepee", link: "../teepee/", color: "blue", type: "project", thumb: "../content/07.teepee/thumb.jpg"},{name: "Reciprocal", link: "../reciprocal/", color: "blue", type: "project", thumb: "../content/06.reciprocal/thumb.jpg"},{name: "Cones", link: "../cones/", color: "blue", type: "project", thumb: "../content/05.cones/thumb.jpg"},{name: "Graphic Design", link: "../graphic-design-risd/", color: "blue", type: "project", thumb: "../content/04.graphic-design-risd/thumb.jpg"},{name: "Drawings", link: "../figure-drawings/", color: "blue", type: "project", thumb: "../content/03.figure-drawings/thumb.jpg"},{name: "Family Photos", link: "../family-photos/", color: "blue", type: "project", thumb: "../content/02.family-photos/thumb.jpg"},{name: "Digital Photography", link: "../digital-photography/", color: "blue", type: "project", thumb: "../content/01.digital-photography/thumb.jpg"},
 
-<script src="/@root_path/docs/js/coffee-script.js" type="text/javascript"></script>
-<script type="text/javascript">
+  {name: "Archives", color: "darkgray", type: "tag"}, 
+  {name: "Blog Highlights", color: "darkgray", type: "tag"}, 
+  {name: "Books", color: "darkgray", type: "tag"}, 
+  {name: "Boston", color: "darkgray", type: "tag"}, 
+  {name: "California", color: "darkgray", type: "tag"}, 
+  {name: "Charlottesville", color: "darkgray", type: "tag"}, 
+  {name: "Client Work", color: "darkgray", type: "tag"}, 
+  {name: "Coding", color: "darkgray", type: "tag"}, 
+  {name: "Color", color: "darkgray", type: "tag"}, 
+  {name: "Conversational", color: "darkgray", type: "tag"}, 
+  {name: "Cooper Union", color: "darkgray", type: "tag"}, 
+  {name: "Design", color: "darkgray", type: "tag"}, 
+  {name: "Design Thinking", color: "darkgray", type: "tag"}, 
+  {name: "Drawing", color: "darkgray", type: "tag"}, 
+  {name: "Editing", color: "darkgray", type: "tag"}, 
+  {name: "Education", color: "darkgray", type: "tag"}, 
+  {name: "Essay", color: "darkgray", type: "tag"}, 
+  {name: "Family", color: "darkgray", type: "tag"}, 
+  {name: "Finland", color: "darkgray", type: "tag"}, 
+  {name: "Foundation Year Prompts", color: "darkgray", type: "tag"}, 
+  {name: "Fun", color: "darkgray", type: "tag"}, 
+  {name: "High School", color: "darkgray", type: "tag"}, 
+  {name: "Hometest", color: "darkgray", type: "tag"}, 
+  {name: "Iceland", color: "darkgray", type: "tag"}, 
+  {name: "Installation", color: "darkgray", type: "tag"}, 
+  {name: "Massachusetts", color: "darkgray", type: "tag"}, 
+  {name: "Meme Generator", color: "darkgray", type: "tag"}, 
+  {name: "Messy", color: "darkgray", type: "tag"}, 
+  {name: "Middle School", color: "darkgray", type: "tag"}, 
+  {name: "Napa", color: "darkgray", type: "tag"}, 
+  {name: "New York", color: "darkgray", type: "tag"}, 
+  {name: "Notes", color: "darkgray", type: "tag"}, 
+  {name: "Organizing", color: "darkgray", type: "tag"}, 
+  {name: "Oxbow School", color: "darkgray", type: "tag"}, 
+  {name: "Painting", color: "darkgray", type: "tag"}, 
+  {name: "Participatory", color: "darkgray", type: "tag"}, 
+  {name: "Performative", color: "darkgray", type: "tag"}, 
+  {name: "Philosophising", color: "darkgray", type: "tag"}, 
+  {name: "Photography", color: "darkgray", type: "tag"}, 
+  {name: "Politics", color: "darkgray", type: "tag"}, 
+  {name: "Pool", color: "darkgray", type: "tag"}, 
+  {name: "Printmaking", color: "darkgray", type: "tag"}, 
+  {name: "Processing", color: "darkgray", type: "tag"}, 
+  {name: "Providence", color: "darkgray", type: "tag"}, 
+  {name: "Publications", color: "darkgray", type: "tag"}, 
+  {name: "Publishing", color: "darkgray", type: "tag"}, 
+  {name: "Reading", color: "darkgray", type: "tag"}, 
+  {name: "Reykjavik", color: "darkgray", type: "tag"}, 
+  {name: "Rhizome", color: "darkgray", type: "tag"}, 
+  {name: "Rhode Island", color: "darkgray", type: "tag"}, 
+  {name: "RISD Pre-College", color: "darkgray", type: "tag"}, 
+  {name: "Rye", color: "darkgray", type: "tag"}, 
+  {name: "Rye High School", color: "darkgray", type: "tag"}, 
+  {name: "San Francisco", color: "darkgray", type: "tag"}, 
+  {name: "Sculpture", color: "darkgray", type: "tag"}, 
+  {name: "Sexy", color: "darkgray", type: "tag"}, 
+  {name: "Skeuomorphism", color: "darkgray", type: "tag"}, 
+  {name: "SMFA Pre-College", color: "darkgray", type: "tag"}, 
+  {name: "Social Practice", color: "darkgray", type: "tag"}, 
+  {name: "Sound", color: "darkgray", type: "tag"}, 
+  {name: "Systems", color: "darkgray", type: "tag"}, 
+  {name: "Technology", color: "darkgray", type: "tag"}, 
+  {name: "The Problem Is The Content", color: "darkgray", type: "tag"}, 
+  {name: "Thinking", color: "darkgray", type: "tag"}, 
+  {name: "Time", color: "darkgray", type: "tag"}, 
+  {name: "Trolling", color: "darkgray", type: "tag"}, 
+  {name: "Video", color: "darkgray", type: "tag"}, 
+  {name: "Virginia", color: "darkgray", type: "tag"}, 
+  {name: "Website", color: "darkgray", type: "tag"}, 
+  {name: "Workspace", color: "darkgray", type: "tag"}, 
+  {name: "Writing", color: "darkgray", type: "tag"}, 
+  {name: "Über Conceptual", color: "darkgray", shape: "dot"},
 
-// TAG NODES
+];
 
-var tagOutput = $("#tag-list").text();
-$("#tag-list").remove();
-var tags = new Array();
-var tags = $.map(tagOutput.split(','), $.trim);
+// Compute the distinct nodes from the links.
 
-function eliminateDuplicates(arr) {
-  var i,
-      len=arr.length,
-      out=[],
-      obj={};
+var width = window.innerWidth,
+    height = window.innerHeight;
 
-  for (i=0;i<len;i++) {
-    obj[arr[i]]=0;
-  }
-  for (i in obj) {
-    out.push(i);
-  }
-  return out;
-}
+var force = d3.layout.force()
+    .nodes(nodes)
+    .links(links)
+    .size([width, height])
+    .charge(-3000)
+    .linkStrength(1)
+    .friction(.75)
+    .gravity(.35)
+    .on("tick", tick)
+    .start();
 
-var projects = new Array();
-
-$("#projects2 project").each(function() {
-    projects.push($(this).attr("name"));
-});
-
-function SortByName(a, b){
-  var aName = a.toLowerCase();
-  var bName = b.toLowerCase(); 
-  return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
-}
-
-tags.sort(SortByName);
-
-var tags = eliminateDuplicates(tags);
-var tagcounter = eliminateDuplicates(tags);
-
-tags.splice(0,1);
-tagcounter.splice(0,1);
-
-var nodes = projects.concat(tags);
-
-$.each(
-	tags,
-	function( intIndex, objValue ){
-	 
-		// Create a new LI HTML element out of the
-		// current value (in the iteration) and then
-		// add this value to the list.
-		$("#sorted-tag-list").append('sys.addNode("' + objValue + '", {color:CLR.tag, shape:"dot", alpha:1}); <br />');
-	}
-);
-
-// EDGES
-
-$("project").each(function(){
-  var tagList = $(this);
-  var name = $(this).attr("name");
-  var tagOutput = $(this).text();
-  var tags = new Array();
-  var tags = $.map(tagOutput.split(','), $.trim);
-  tagList.text(" ");
-  $.each(
-  tags,
-  function( intIndex, objValue ){
-    tagList.append('<edge>{source: ' + getPosition(nodes,objValue) + ', target: ' + getPosition(nodes,name) + '}, <br />');
-    console.log(tags);
-  });
-});
-
-function getPosition(arrayName,arrayItem)
-{
-  for(var i=0;i<arrayName.length;i++){ 
-   if(arrayName[i]===arrayItem)
-  return i;
-  }
+function charge(d) {
+    return -Math.pow(120, 2.0) / 8;
 };
 
-/*!
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
 
-    Copyright (c) 2011 Peter van der Spek
+var link = svg.selectAll(link)
+    .data(force.links(), function(d) { return d.source.id + "-" + d.target.id; })
+  .enter().append("line")
+    .attr("class", "link");
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
+var node = svg.selectAll(node)
+    .data(force.nodes())
+  .enter().append("g")
+    .attr("class", function(d) { return d.type; })
+    .on("mouseover", fade(.1))
+    .on("mouseout", fade(1))
+    .on("touchstart", fade(.1))
+    .on("touchmove", fade(1))
+    .on("touchend", fade(1))
+    .call(force.drag);
 
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
+var project = svg.selectAll(".project")
+        .on("click", function(d) { return window.location.href = d.link; });
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-    THE SOFTWARE.
-    
- */(function(a){function m(){if(!d){d=!0;for(var c in b)a(c).each(function(){var d,e;d=a(this),e=d.data("jqae"),(e.containerWidth!=d.width()||e.containerHeight!=d.height())&&f(d,b[c])});d=!1}}function l(a){b[a]&&(delete b[a],b.length||c&&(window.clearInterval(c),c=undefined))}function k(a,d){b[a]=d,c||(c=window.setInterval(function(){m()},200))}function j(){return this.nodeType===3}function i(b){if(b.contents().length){var c=b.contents(),d=c.eq(c.length-1);if(d.filter(j).length){var e=d.get(0).nodeValue;e=a.trim(e);if(e==""){d.remove();return!0}return!1}while(i(d));if(d.contents().length)return!1;d.remove();return!0}return!1}function h(a){if(a.contents().length){var b=a.contents(),c=b.eq(b.length-1);return c.filter(j).length?c:h(c)}a.append("");var b=a.contents();return b.eq(b.length-1)}function g(b){var c=h(b);if(c.length){var d=c.get(0).nodeValue,e=d.lastIndexOf(" ");e>-1?(d=a.trim(d.substring(0,e)),c.get(0).nodeValue=d):c.get(0).nodeValue="";return!0}return!1}function f(b,c){var d=b.data("jqae");d||(d={});var e=d.wrapperElement;e||(e=b.wrapInner("<div/>").find(">div"));var f=e.data("jqae");f||(f={});var j=f.originalContent;j?e=f.originalContent.clone(!0).data("jqae",{originalContent:j}).replaceAll(e):e.data("jqae",{originalContent:e.clone(!0)}),b.data("jqae",{wrapperElement:e,containerWidth:b.width(),containerHeight:b.height()});var k=!1,l=e;c.selector&&(l=a(e.find(c.selector).get().reverse())),l.each(function(){var d=a(this),f=d.text(),j=!1;if(e.innerHeight()-d.innerHeight()>b.height()+1)d.remove();else{i(d);if(d.contents().length){k&&(h(d).get(0).nodeValue+=c.ellipsis,k=!1);while(e.innerHeight()>b.height()+1){j=g(d);if(!j){k=!0,d.remove();break}i(d);if(d.contents().length)h(d).get(0).nodeValue+=c.ellipsis;else{k=!0,d.remove();break}}c.setTitle=="onEllipsis"&&j||c.setTitle=="always"?d.attr("title",f):c.setTitle!="never"&&d.removeAttr("title")}}})}var b={},c,d=!1,e={ellipsis:"...",setTitle:"never",live:!1};a.fn.ellipsis=function(b,c){var d,g;d=a(this),typeof b!="string"&&(c=b,b=undefined),g=a.extend({},e,c),g.selector=b,d.each(function(){var b=a(this);f(b,g)}),g.live?k(d.selector,g):l(d.selector);return this}})(jQuery)
+    var tag = svg.selectAll(".tag");
 
-$("code name").ellipsis();
+    tag.append("circle")
+        .attr("r", 40);
+
+    project.append("image")
+          .attr("xlink:href", function(d) { return d.thumb; })
+          .attr("x", -30)
+          .attr("y", -30)
+          .attr("width", 60)
+          .attr("height", 60);
+
+    tag.append("text")
+        .attr("x", 0)
+        .attr("text-anchor", "middle")
+        .attr("dy", ".35em")
+        .text(function(d) { return d.name; });
+
+    project.append("text")
+        .attr("x", 0)
+        .attr("y", 0)
+        .text(function(d) { return d.name; });
+
+function tick() {
+  link
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+  node
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+var linkedByIndex = {};
+
+links.forEach(function(d) {
+    linkedByIndex[d.source.index + "," + d.target.index] = 1;
+});
+
+function isConnected(a, b) {
+    return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
+}
+
+function fade(opacity) {
+    return function(d) {
+        node.transition().duration(250).select("circle").style("stroke-opacity", function(o) {
+            thisOpacity = isConnected(d, o) ? 1 : opacity;
+            this.setAttribute('fill-opacity', thisOpacity);
+            return thisOpacity;
+        });
+        node.transition().duration(250).select("image").style("opacity", function(o) {
+            thisOpacity = isConnected(d, o) ? 1 : opacity;
+            this.setAttribute('opacity', thisOpacity);
+            return thisOpacity;
+        })       
+        node.transition().duration(250).select("text").style("opacity", function(o) {
+            thisOpacity = isConnected(d, o) ? 1 : opacity;
+            this.setAttribute('fill-opacity', thisOpacity);
+            return thisOpacity;
+        })       
+        link.transition().duration(250).style("stroke-opacity", function(o) {
+            return o.source === d || o.target === d ? 1 : opacity;
+        });
+    };
+}
 </script>
