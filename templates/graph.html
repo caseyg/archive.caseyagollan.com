@@ -18,7 +18,7 @@ name {
 }
 </style>
 <body>
-<code id="graph">
+<code>
       var CLR = {
       tag:"gray",
       project:"blue"
@@ -32,11 +32,13 @@ name {
     endforeach
   </span>
   <br />
+  <span id="projects2">
   foreach $root do
     <project name="@title">
       <tags>@tags</tags>
     </project>
   endforeach
+  </span>
 </code>
 
 <h2>D3 Code</h2>
@@ -74,6 +76,11 @@ function eliminateDuplicates(arr) {
   return out;
 }
 
+var projects = new Array();
+
+$("#projects2 project").each(function() {
+    projects.push($(this).attr("name"));
+});
 
 function SortByName(a, b){
   var aName = a.toLowerCase();
@@ -84,8 +91,12 @@ function SortByName(a, b){
 tags.sort(SortByName);
 
 var tags = eliminateDuplicates(tags);
+var tagcounter = eliminateDuplicates(tags);
 
 tags.splice(0,1);
+tagcounter.splice(0,1);
+
+var nodes = projects.concat(tags);
 
 $.each(
 	tags,
@@ -110,9 +121,18 @@ $("project").each(function(){
   $.each(
   tags,
   function( intIndex, objValue ){
-    tagList.append('<edge>sys.addEdge("' + objValue + '", "<name>' + name + '</name>")</edge>; <br />');
+    tagList.append('<edge>{source: ' + getPosition(nodes,objValue) + ', target: ' + getPosition(nodes,name) + '}, <br />');
+    console.log(tags);
   });
 });
+
+function getPosition(arrayName,arrayItem)
+{
+  for(var i=0;i<arrayName.length;i++){ 
+   if(arrayName[i]===arrayItem)
+  return i;
+  }
+};
 
 /*!
 
@@ -138,5 +158,5 @@ $("project").each(function(){
     
  */(function(a){function m(){if(!d){d=!0;for(var c in b)a(c).each(function(){var d,e;d=a(this),e=d.data("jqae"),(e.containerWidth!=d.width()||e.containerHeight!=d.height())&&f(d,b[c])});d=!1}}function l(a){b[a]&&(delete b[a],b.length||c&&(window.clearInterval(c),c=undefined))}function k(a,d){b[a]=d,c||(c=window.setInterval(function(){m()},200))}function j(){return this.nodeType===3}function i(b){if(b.contents().length){var c=b.contents(),d=c.eq(c.length-1);if(d.filter(j).length){var e=d.get(0).nodeValue;e=a.trim(e);if(e==""){d.remove();return!0}return!1}while(i(d));if(d.contents().length)return!1;d.remove();return!0}return!1}function h(a){if(a.contents().length){var b=a.contents(),c=b.eq(b.length-1);return c.filter(j).length?c:h(c)}a.append("");var b=a.contents();return b.eq(b.length-1)}function g(b){var c=h(b);if(c.length){var d=c.get(0).nodeValue,e=d.lastIndexOf(" ");e>-1?(d=a.trim(d.substring(0,e)),c.get(0).nodeValue=d):c.get(0).nodeValue="";return!0}return!1}function f(b,c){var d=b.data("jqae");d||(d={});var e=d.wrapperElement;e||(e=b.wrapInner("<div/>").find(">div"));var f=e.data("jqae");f||(f={});var j=f.originalContent;j?e=f.originalContent.clone(!0).data("jqae",{originalContent:j}).replaceAll(e):e.data("jqae",{originalContent:e.clone(!0)}),b.data("jqae",{wrapperElement:e,containerWidth:b.width(),containerHeight:b.height()});var k=!1,l=e;c.selector&&(l=a(e.find(c.selector).get().reverse())),l.each(function(){var d=a(this),f=d.text(),j=!1;if(e.innerHeight()-d.innerHeight()>b.height()+1)d.remove();else{i(d);if(d.contents().length){k&&(h(d).get(0).nodeValue+=c.ellipsis,k=!1);while(e.innerHeight()>b.height()+1){j=g(d);if(!j){k=!0,d.remove();break}i(d);if(d.contents().length)h(d).get(0).nodeValue+=c.ellipsis;else{k=!0,d.remove();break}}c.setTitle=="onEllipsis"&&j||c.setTitle=="always"?d.attr("title",f):c.setTitle!="never"&&d.removeAttr("title")}}})}var b={},c,d=!1,e={ellipsis:"...",setTitle:"never",live:!1};a.fn.ellipsis=function(b,c){var d,g;d=a(this),typeof b!="string"&&(c=b,b=undefined),g=a.extend({},e,c),g.selector=b,d.each(function(){var b=a(this);f(b,g)}),g.live?k(d.selector,g):l(d.selector);return this}})(jQuery)
 
-$("#graph name").ellipsis();
+$("code name").ellipsis();
 </script>

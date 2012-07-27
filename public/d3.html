@@ -4,10 +4,12 @@
 <style>
 body {
   background:#808080;
+  margin:0;
+  padding:0;
 }
 .link {
   fill: none;
-  stroke: #ccc;
+  stroke: darkgray;
   stroke-width: 2px;
 }
 
@@ -16,371 +18,329 @@ body {
   stroke: blue;
 }
 
-.project {
+.project, line {
   cursor:pointer;
 }
 
-text {
+.project text {
   fill: white;
-  font: 12px Calluna;
+  font: 16px sans-serif;
+  pointer-events: none;
+  fill-opacity:0;
+}
+
+.tag circle {
+  fill: gray;
+  stroke-width: 2;
+  stroke: darkgray;
+}
+
+.tag text {
+  fill: darkgray;
+  font: 12px sans-serif;
   pointer-events: none;
 }
 
 </style>
 <body>
 <script>
-var linksz = [];
 var links = [
-  {source: "Writing", target: "Weeknotes"},
-  {source: "Notes", target: "Weeknotes"},
-  {source: "Workspace", target: "Weeknotes"},
-  {source: "Website", target: "If We Are Digital"},
-  {source: "Coding", target: "If We Are Digital"},
-  {source: "Design", target: "If We Are Digital"},
-  {source: "Website", target: "Pool"},
-  {source: "Coding", target: "Pool"},
-  {source: "Publications", target: "Pool"},
-  {source: "Cooper Union", target: "Two Apologies President Bharucha Must Make"},
-  {source: "Writing", target: "Two Apologies President Bharucha Must Make"},
-  {source: "Politics", target: "Two Apologies President Bharucha Must Make"},
-  {source: "Meme Generator", target: "Sweaty Tube"},
-  {source: "Website", target: "Sweaty Tube"},
-  {source: "Coding", target: "Sweaty Tube"},
-  {source: "New York", target: "Sweaty Tube"},
-  {source: "Writing", target: "You Can't Fuck the System If You've Never Met One"},
-  {source: "Cooper Union", target: "You Can't Fuck the System If You've Never Met One"},
-  {source: "Systems", target: "You Can't Fuck the System If You've Never Met One"},
-  {source: "Design Thinking", target: "You Can't Fuck the System If You've Never Met One"},
-  {source: "New York", target: "You Can't Fuck the System If You've Never Met One"},
-  {source: "Reading", target: "Programmed Visions Book Review"},
-  {source: "Writing", target: "Programmed Visions Book Review"},
-  {source: "Rhizome", target: "Programmed Visions Book Review"},
-  {source: "Technology", target: "Programmed Visions Book Review"},
-  {source: "New York", target: "Programmed Visions Book Review"},
-  {source: "Cooper Union", target: "CooperUnion.biz"},
-  {source: "Trolling", target: "CooperUnion.biz"},
-  {source: "Fun", target: "CooperUnion.biz"},
-  {source: "Website", target: "CooperUnion.biz"},
-  {source: "New York", target: "CooperUnion.biz"},
-  {source: "Cooper Union", target: "Between the Spreadsheets"},
-  {source: "Fun", target: "Between the Spreadsheets"},
-  {source: "Performative", target: "Between the Spreadsheets"},
-  {source: "Sexy", target: "Between the Spreadsheets"},
-  {source: "Trolling", target: "Between the Spreadsheets"},
-  {source: "New York", target: "Between the Spreadsheets"},
-  {source: "Video", target: "Between the Spreadsheets"},
-  {source: "Client Work", target: "Girl Walk // All Day Website"},
-  {source: "Website", target: "Girl Walk // All Day Website"},
-  {source: "Coding", target: "Girl Walk // All Day Website"},
-  {source: "Fun", target: "Girl Walk // All Day Website"},
-  {source: "Design", target: "Girl Walk // All Day Website"},
-  {source: "New York", target: "Girl Walk // All Day Website"},
-  {source: "Cooper Union", target: "Hula"},
-  {source: "Performative", target: "Hula"},
-  {source: "Participatory", target: "Hula"},
-  {source: "Conversational", target: "Hula"},
-  {source: "Fun", target: "Hula"},
-  {source: "New York", target: "Hula"},
-  {source: "Workspace", target: "Studio"},
-  {source: "Cooper Union", target: "Studio"},
-  {source: "Messy", target: "Studio"},
-  {source: "New York", target: "Studio"},
-  {source: "Writing", target: "User-Generated Content"},
-  {source: "Essay", target: "User-Generated Content"},
-  {source: "Design Thinking", target: "User-Generated Content"},
-  {source: "Pool", target: "User-Generated Content"},
-  {source: "New York", target: "User-Generated Content"},
-  {source: "Iceland", target: "User-Generated Content"},
-  {source: "Reykjavik", target: "User-Generated Content"},
-  {source: "Writing", target: "Until I get better at coding, there will be no..."},
-  {source: "Blog Highlights", target: "Until I get better at coding, there will be no..."},
-  {source: "Technology", target: "Until I get better at coding, there will be no..."},
-  {source: "Design Thinking", target: "Until I get better at coding, there will be no..."},
-  {source: "Client Work", target: "20x200 (Design)"},
-  {source: "Website", target: "20x200 (Design)"},
-  {source: "Coding", target: "20x200 (Design)"},
-  {source: "Design", target: "20x200 (Design)"},
-  {source: "New York", target: "20x200 (Design)"},
-  {source: "Sculpture", target: "New Works"},
-  {source: "The Problem Is The Content", target: "New Works"},
-  {source: "Cooper Union", target: "New Works"},
-  {source: "New York", target: "New Works"},
-  {source: "Writing", target: "Mixing Metaphors: Skeuomorphic, Hyper, and..."},
-  {source: "Blog Highlights", target: "Mixing Metaphors: Skeuomorphic, Hyper, and..."},
-  {source: "Skeuomorphism", target: "Mixing Metaphors: Skeuomorphic, Hyper, and..."},
-  {source: "Design Thinking", target: "Mixing Metaphors: Skeuomorphic, Hyper, and..."},
-  {source: "New York", target: "Mixing Metaphors: Skeuomorphic, Hyper, and..."},
-  {source: "Notes", target: "Notes on Forgetting, Archiving, and Existing on..."},
-  {source: "Writing", target: "Notes on Forgetting, Archiving, and Existing on..."},
-  {source: "Technology", target: "Notes on Forgetting, Archiving, and Existing on..."},
-  {source: "Archives", target: "Notes on Forgetting, Archiving, and Existing on..."},
-  {source: "Design", target: "Notes on Forgetting, Archiving, and Existing on..."},
-  {source: "Thinking", target: "Notes on Forgetting, Archiving, and Existing on..."},
-  {source: "New York", target: "Notes on Forgetting, Archiving, and Existing on..."},
-  {source: "Website", target: "CooperUnion.net"},
-  {source: "Writing", target: "CooperUnion.net"},
-  {source: "Cooper Union", target: "CooperUnion.net"},
-  {source: "Archives", target: "CooperUnion.net"},
-  {source: "New York", target: "CooperUnion.net"},
-  {source: "Education", target: "CooperUnion.net"},
-  {source: "Photography", target: "SensitivePhotoGeneration.com"},
-  {source: "Website", target: "SensitivePhotoGeneration.com"},
-  {source: "Meme Generator", target: "SensitivePhotoGeneration.com"},
-  {source: "Trolling", target: "SensitivePhotoGeneration.com"},
-  {source: "New York", target: "SensitivePhotoGeneration.com"},
-  {source: "Workspace", target: "Studio Bed"},
-  {source: "Cooper Union", target: "Studio Bed"},
-  {source: "New York", target: "Studio Bed"},
-  {source: "Design Thinking", target: "Timeline of Timelines"},
-  {source: "Archives", target: "Timeline of Timelines"},
-  {source: "Time", target: "Timeline of Timelines"},
-  {source: "Cooper Union", target: "Timeline of Timelines"},
-  {source: "New York", target: "Timeline of Timelines"},
-  {source: "Writing", target: "Attempted Conversation"},
-  {source: "Conversational", target: "Attempted Conversation"},
-  {source: "Sculpture", target: "Attempted Conversation"},
-  {source: "Cooper Union", target: "Attempted Conversation"},
-  {source: "New York", target: "Attempted Conversation"},
-  {source: "Performative", target: "Casey, Runner"},
-  {source: "Social Practice", target: "Casey, Runner"},
-  {source: "Participatory", target: "Casey, Runner"},
-  {source: "Cooper Union", target: "Casey, Runner"},
-  {source: "New York", target: "Casey, Runner"},
-  {source: "Sexy", target: "Sexy Studio Self-Portraits"},
-  {source: "Performative", target: "Sexy Studio Self-Portraits"},
-  {source: "Photography", target: "Sexy Studio Self-Portraits"},
-  {source: "Cooper Union", target: "Sexy Studio Self-Portraits"},
-  {source: "New York", target: "Sexy Studio Self-Portraits"},
-  {source: "Trolling", target: "Sexy Studio Self-Portraits"},
-  {source: "Notes", target: "Photography Thought Web"},
-  {source: "Photography", target: "Photography Thought Web"},
-  {source: "New York", target: "Photography Thought Web"},
-  {source: "Writing", target: "Built to Last, Built to Decay: Authentic,..."},
-  {source: "Blog Highlights", target: "Built to Last, Built to Decay: Authentic,..."},
-  {source: "Design Thinking", target: "Built to Last, Built to Decay: Authentic,..."},
-  {source: "Publications", target: "Built to Last, Built to Decay: Authentic,..."},
-  {source: "Technology", target: "Built to Last, Built to Decay: Authentic,..."},
-  {source: "New York", target: "Built to Last, Built to Decay: Authentic,..."},
-  {source: "Cooper Union", target: "Soundline"},
-  {source: "Foundation Year Prompts", target: "Soundline"},
-  {source: "Processing", target: "Soundline"},
-  {source: "Coding", target: "Soundline"},
-  {source: "Drawing", target: "Soundline"},
-  {source: "Notes", target: "Soundline"},
-  {source: "Design Thinking", target: "Soundline"},
-  {source: "Color", target: "Soundline"},
-  {source: "Sound", target: "Soundline"},
-  {source: "New York", target: "Soundline"},
-  {source: "Cooper Union", target: "Albers-o-Matic"},
-  {source: "Foundation Year Prompts", target: "Albers-o-Matic"},
-  {source: "Color", target: "Albers-o-Matic"},
-  {source: "Processing", target: "Albers-o-Matic"},
-  {source: "Coding", target: "Albers-o-Matic"},
-  {source: "Meme Generator", target: "Albers-o-Matic"},
-  {source: "New York", target: "Albers-o-Matic"},
-  {source: "Cooper Union", target: "Gradient Bookshelf"},
-  {source: "Foundation Year Prompts", target: "Gradient Bookshelf"},
-  {source: "Color", target: "Gradient Bookshelf"},
-  {source: "Books", target: "Gradient Bookshelf"},
-  {source: "New York", target: "Gradient Bookshelf"},
-  {source: "Organizing", target: "Gradient Bookshelf"},
-  {source: "Cooper Union", target: "Cake"},
-  {source: "Foundation Year Prompts", target: "Cake"},
-  {source: "Sculpture", target: "Cake"},
-  {source: "Performative", target: "Cake"},
-  {source: "Notes", target: "Cake"},
-  {source: "Writing", target: "Cake"},
-  {source: "Messy", target: "Cake"},
-  {source: "Fun", target: "Cake"},
-  {source: "New York", target: "Cake"},
-  {source: "Writing", target: "Scattered Notes on the Blog as a Curated..."},
-  {source: "Notes", target: "Scattered Notes on the Blog as a Curated..."},
-  {source: "Archives", target: "Scattered Notes on the Blog as a Curated..."},
-  {source: "Blog Highlights", target: "Scattered Notes on the Blog as a Curated..."},
-  {source: "Design Thinking", target: "Scattered Notes on the Blog as a Curated..."},
-  {source: "New York", target: "Scattered Notes on the Blog as a Curated..."},
-  {source: "Cooper Union", target: "I Don't Sketch Book"},
-  {source: "Hometest", target: "I Don't Sketch Book"},
-  {source: "Design", target: "I Don't Sketch Book"},
-  {source: "Notes", target: "I Don't Sketch Book"},
-  {source: "Drawing", target: "I Don't Sketch Book"},
-  {source: "Publishing", target: "I Don't Sketch Book"},
-  {source: "New York", target: "I Don't Sketch Book"},
-  {source: "Rye", target: "I Don't Sketch Book"},
-  {source: "Cooper Union", target: "Public Apology Project"},
-  {source: "Hometest", target: "Public Apology Project"},
-  {source: "Participatory", target: "Public Apology Project"},
-  {source: "Performative", target: "Public Apology Project"},
-  {source: "Über Conceptual", target: "Public Apology Project"},
-  {source: "Design Thinking", target: "Public Apology Project"},
-  {source: "New York", target: "Public Apology Project"},
-  {source: "Rye", target: "Public Apology Project"},
-  {source: "Cooper Union", target: "Activate: Context"},
-  {source: "Hometest", target: "Activate: Context"},
-  {source: "Writing", target: "Activate: Context"},
-  {source: "Über Conceptual", target: "Activate: Context"},
-  {source: "Rye", target: "Activate: Context"},
-  {source: "New York", target: "Activate: Context"},
-  {source: "Conversational", target: "Process Magazine"},
-  {source: "Publishing", target: "Process Magazine"},
-  {source: "Archives", target: "Process Magazine"},
-  {source: "New York", target: "Process Magazine"},
-  {source: "Rye", target: "Process Magazine"},
-  {source: "Rye High School", target: "Wearable Sculptures"},
-  {source: "Sculpture", target: "Wearable Sculptures"},
-  {source: "Photography", target: "Wearable Sculptures"},
-  {source: "New York", target: "Wearable Sculptures"},
-  {source: "Rye", target: "Wearable Sculptures"},
-  {source: "Photography", target: "Polaroids"},
-  {source: "San Francisco", target: "Polaroids"},
-  {source: "California", target: "Polaroids"},
-  {source: "Family", target: "Polaroids"},
-  {source: "SMFA Pre-College", target: "Summer 2008"},
-  {source: "Photography", target: "Summer 2008"},
-  {source: "Boston", target: "Summer 2008"},
-  {source: "Massachusetts", target: "Summer 2008"},
-  {source: "Painting", target: "Finger Paintings"},
-  {source: "SMFA Pre-College", target: "Finger Paintings"},
-  {source: "Boston", target: "Finger Paintings"},
-  {source: "Massachusetts", target: "Finger Paintings"},
-  {source: "Drawing", target: "Thought Webs"},
-  {source: "Notes", target: "Thought Webs"},
-  {source: "Design Thinking", target: "Thought Webs"},
-  {source: "Systems", target: "Thought Webs"},
-  {source: "SMFA Pre-College", target: "Thought Webs"},
-  {source: "Boston", target: "Thought Webs"},
-  {source: "Massachusetts", target: "Thought Webs"},
-  {source: "Rye High School", target: "Small Sculptures"},
-  {source: "Sculpture", target: "Small Sculptures"},
-  {source: "Rye", target: "Small Sculptures"},
-  {source: "New York", target: "Small Sculptures"},
-  {source: "Sculpture", target: "Ceramic Experiments"},
-  {source: "Rye High School", target: "Ceramic Experiments"},
-  {source: "Rye", target: "Ceramic Experiments"},
-  {source: "New York", target: "Ceramic Experiments"},
-  {source: "Publishing", target: "Zephyr Art + Lit Magazine"},
-  {source: "Design", target: "Zephyr Art + Lit Magazine"},
-  {source: "Editing", target: "Zephyr Art + Lit Magazine"},
-  {source: "Rye High School", target: "Zephyr Art + Lit Magazine"},
-  {source: "Rye", target: "Zephyr Art + Lit Magazine"},
-  {source: "New York", target: "Zephyr Art + Lit Magazine"},
-  {source: "Sculpture", target: "Oxbow Final Project"},
-  {source: "Installation", target: "Oxbow Final Project"},
-  {source: "Oxbow School", target: "Oxbow Final Project"},
-  {source: "Philosophising", target: "Oxbow Final Project"},
-  {source: "Workspace", target: "Oxbow Final Project"},
-  {source: "Napa", target: "Oxbow Final Project"},
-  {source: "California", target: "Oxbow Final Project"},
-  {source: "Video", target: "Self-Portrait (Spinning)"},
-  {source: "Performative", target: "Self-Portrait (Spinning)"},
-  {source: "Oxbow School", target: "Self-Portrait (Spinning)"},
-  {source: "Napa", target: "Self-Portrait (Spinning)"},
-  {source: "California", target: "Self-Portrait (Spinning)"},
-  {source: "Oxbow School", target: "Awkward Laughter Paintings"},
-  {source: "Painting", target: "Awkward Laughter Paintings"},
-  {source: "Napa", target: "Awkward Laughter Paintings"},
-  {source: "California", target: "Awkward Laughter Paintings"},
-  {source: "Printmaking", target: "Intaglio Printmaking"},
-  {source: "Oxbow School", target: "Intaglio Printmaking"},
-  {source: "Napa", target: "Intaglio Printmaking"},
-  {source: "California", target: "Intaglio Printmaking"},
-  {source: "Sculpture", target: "Teepee"},
-  {source: "Oxbow School", target: "Teepee"},
-  {source: "Installation", target: "Teepee"},
-  {source: "Workspace", target: "Teepee"},
-  {source: "Napa", target: "Teepee"},
-  {source: "California", target: "Teepee"},
-  {source: "Oxbow School", target: "Reciprocal"},
-  {source: "Installation", target: "Reciprocal"},
-  {source: "Napa", target: "Reciprocal"},
-  {source: "California", target: "Reciprocal"},
-  {source: "Oxbow School", target: "Cones"},
-  {source: "Sculpture", target: "Cones"},
-  {source: "Napa", target: "Cones"},
-  {source: "California", target: "Cones"},
-  {source: "RISD Pre-College", target: "Graphic Design"},
-  {source: "Design", target: "Graphic Design"},
-  {source: "Providence", target: "Graphic Design"},
-  {source: "Rhode Island", target: "Graphic Design"},
-  {source: "High School", target: "Graphic Design"},
-  {source: "Drawing", target: "Drawings"},
-  {source: "RISD Pre-College", target: "Drawings"},
-  {source: "Providence", target: "Drawings"},
-  {source: "Rhode Island", target: "Drawings"},
-  {source: "High School", target: "Drawings"},
-  {source: "Photography", target: "Family Photos"},
-  {source: "Rye", target: "Family Photos"},
-  {source: "New York", target: "Family Photos"},
-  {source: "Charlottesville", target: "Family Photos"},
-  {source: "Virginia", target: "Family Photos"},
-  {source: "Finland", target: "Family Photos"},
-  {source: "High School", target: "Family Photos"},
-  {source: "Middle School", target: "Family Photos"},
-  {source: "Photography", target: "Digital Photography"},
-  {source: "Rye", target: "Digital Photography"},
-  {source: "New York", target: "Digital Photography"},
-  {source: "Boston", target: "Digital Photography"},
-  {source: "Massachusetts", target: "Digital Photography"},
-  {source: "High School", target: "Digital Photography"}
+{source: 125, target: 0}, 
+{source: 86, target: 0}, 
+{source: 124, target: 0}, 
+{source: 123, target: 1}, 
+{source: 62, target: 1}, 
+{source: 66, target: 1}, 
+{source: 123, target: 2}, 
+{source: 62, target: 2}, 
+{source: 99, target: 2}, 
+{source: 65, target: 3}, 
+{source: 125, target: 3}, 
+{source: 94, target: 3}, 
+{source: 81, target: 4}, 
+{source: 123, target: 4}, 
+{source: 62, target: 4}, 
+{source: 85, target: 4}, 
+{source: 125, target: 5}, 
+{source: 65, target: 5}, 
+{source: 115, target: 5}, 
+{source: 67, target: 5}, 
+{source: 85, target: 5}, 
+{source: 101, target: 6}, 
+{source: 125, target: 6}, 
+{source: 103, target: 6}, 
+{source: 116, target: 6}, 
+{source: 85, target: 6}, 
+{source: 65, target: 7}, 
+{source: 120, target: 7}, 
+{source: 75, target: 7}, 
+{source: 123, target: 7}, 
+{source: 85, target: 7}, 
+{source: 65, target: 8}, 
+{source: 75, target: 8}, 
+{source: 91, target: 8}, 
+{source: 110, target: 8}, 
+{source: 120, target: 8}, 
+{source: 85, target: 8}, 
+{source: 121, target: 8}, 
+{source: 61, target: 9}, 
+{source: 123, target: 9}, 
+{source: 62, target: 9}, 
+{source: 75, target: 9}, 
+{source: 66, target: 9}, 
+{source: 85, target: 9}, 
+{source: 65, target: 10}, 
+{source: 91, target: 10}, 
+{source: 90, target: 10}, 
+{source: 64, target: 10}, 
+{source: 75, target: 10}, 
+{source: 85, target: 10}, 
+{source: 124, target: 11}, 
+{source: 65, target: 11}, 
+{source: 82, target: 11}, 
+{source: 85, target: 11}, 
+{source: 125, target: 12}, 
+{source: 71, target: 12}, 
+{source: 67, target: 12}, 
+{source: 2, target: 12}, 
+{source: 85, target: 12}, 
+{source: 78, target: 12}, 
+{source: 102, target: 12}, 
+{source: 125, target: 13}, 
+{source: 56, target: 13}, 
+{source: 116, target: 13}, 
+{source: 67, target: 13}, 
+{source: 61, target: 14}, 
+{source: 123, target: 14}, 
+{source: 62, target: 14}, 
+{source: 66, target: 14}, 
+{source: 85, target: 14}, 
+{source: 109, target: 15}, 
+{source: 117, target: 15}, 
+{source: 65, target: 15}, 
+{source: 85, target: 15}, 
+{source: 125, target: 16}, 
+{source: 56, target: 16}, 
+{source: 111, target: 16}, 
+{source: 67, target: 16}, 
+{source: 85, target: 16}, 
+{source: 86, target: 17}, 
+{source: 125, target: 17}, 
+{source: 116, target: 17}, 
+{source: 55, target: 17}, 
+{source: 66, target: 17}, 
+{source: 118, target: 17}, 
+{source: 85, target: 17}, 
+{source: 123, target: 18}, 
+{source: 125, target: 18}, 
+{source: 65, target: 18}, 
+{source: 55, target: 18}, 
+{source: 85, target: 18}, 
+{source: 70, target: 18}, 
+{source: 93, target: 19}, 
+{source: 123, target: 19}, 
+{source: 81, target: 19}, 
+{source: 120, target: 19}, 
+{source: 85, target: 19}, 
+{source: 124, target: 20}, 
+{source: 65, target: 20}, 
+{source: 85, target: 20}, 
+{source: 67, target: 21}, 
+{source: 55, target: 21}, 
+{source: 119, target: 21}, 
+{source: 65, target: 21}, 
+{source: 85, target: 21}, 
+{source: 125, target: 22}, 
+{source: 64, target: 22}, 
+{source: 109, target: 22}, 
+{source: 65, target: 22}, 
+{source: 85, target: 22}, 
+{source: 91, target: 23}, 
+{source: 113, target: 23}, 
+{source: 90, target: 23}, 
+{source: 65, target: 23}, 
+{source: 85, target: 23}, 
+{source: 110, target: 24}, 
+{source: 91, target: 24}, 
+{source: 93, target: 24}, 
+{source: 65, target: 24}, 
+{source: 85, target: 24}, 
+{source: 120, target: 24}, 
+{source: 86, target: 25}, 
+{source: 93, target: 25}, 
+{source: 85, target: 25}, 
+{source: 125, target: 26}, 
+{source: 56, target: 26}, 
+{source: 67, target: 26}, 
+{source: 99, target: 26}, 
+{source: 116, target: 26}, 
+{source: 85, target: 26}, 
+{source: 65, target: 27}, 
+{source: 74, target: 27}, 
+{source: 97, target: 27}, 
+{source: 62, target: 27}, 
+{source: 68, target: 27}, 
+{source: 86, target: 27}, 
+{source: 67, target: 27}, 
+{source: 63, target: 27}, 
+{source: 114, target: 27}, 
+{source: 85, target: 27}, 
+{source: 65, target: 28}, 
+{source: 74, target: 28}, 
+{source: 63, target: 28}, 
+{source: 97, target: 28}, 
+{source: 62, target: 28}, 
+{source: 81, target: 28}, 
+{source: 85, target: 28}, 
+{source: 65, target: 29}, 
+{source: 74, target: 29}, 
+{source: 63, target: 29}, 
+{source: 57, target: 29}, 
+{source: 85, target: 29}, 
+{source: 87, target: 29}, 
+{source: 65, target: 30}, 
+{source: 74, target: 30}, 
+{source: 109, target: 30}, 
+{source: 91, target: 30}, 
+{source: 86, target: 30}, 
+{source: 125, target: 30}, 
+{source: 82, target: 30}, 
+{source: 75, target: 30}, 
+{source: 85, target: 30}, 
+{source: 125, target: 31}, 
+{source: 86, target: 31}, 
+{source: 55, target: 31}, 
+{source: 56, target: 31}, 
+{source: 67, target: 31}, 
+{source: 85, target: 31}, 
+{source: 65, target: 32}, 
+{source: 77, target: 32}, 
+{source: 66, target: 32}, 
+{source: 86, target: 32}, 
+{source: 68, target: 32}, 
+{source: 100, target: 32}, 
+{source: 85, target: 32}, 
+{source: 106, target: 32}, 
+{source: 65, target: 33}, 
+{source: 77, target: 33}, 
+{source: 90, target: 33}, 
+{source: 91, target: 33}, 
+{source: 126, target: 33}, 
+{source: 67, target: 33}, 
+{source: 85, target: 33}, 
+{source: 106, target: 33}, 
+{source: 65, target: 34}, 
+{source: 77, target: 34}, 
+{source: 125, target: 34}, 
+{source: 126, target: 34}, 
+{source: 106, target: 34}, 
+{source: 85, target: 34}, 
+{source: 64, target: 35}, 
+{source: 100, target: 35}, 
+{source: 55, target: 35}, 
+{source: 85, target: 35}, 
+{source: 106, target: 35}, 
+{source: 107, target: 36}, 
+{source: 109, target: 36}, 
+{source: 93, target: 36}, 
+{source: 85, target: 36}, 
+{source: 106, target: 36}, 
+{source: 93, target: 37}, 
+{source: 108, target: 37}, 
+{source: 59, target: 37}, 
+{source: 72, target: 37}, 
+{source: 112, target: 38}, 
+{source: 93, target: 38}, 
+{source: 58, target: 38}, 
+{source: 80, target: 38}, 
+{source: 89, target: 39}, 
+{source: 112, target: 39}, 
+{source: 58, target: 39}, 
+{source: 80, target: 39}, 
+{source: 68, target: 40}, 
+{source: 86, target: 40}, 
+{source: 67, target: 40}, 
+{source: 115, target: 40}, 
+{source: 112, target: 40}, 
+{source: 58, target: 40}, 
+{source: 80, target: 40}, 
+{source: 107, target: 41}, 
+{source: 109, target: 41}, 
+{source: 106, target: 41}, 
+{source: 85, target: 41}, 
+{source: 109, target: 42}, 
+{source: 107, target: 42}, 
+{source: 106, target: 42}, 
+{source: 85, target: 42}, 
+{source: 100, target: 43}, 
+{source: 66, target: 43}, 
+{source: 69, target: 43}, 
+{source: 107, target: 43}, 
+{source: 106, target: 43}, 
+{source: 85, target: 43}, 
+{source: 109, target: 44}, 
+{source: 79, target: 44}, 
+{source: 88, target: 44}, 
+{source: 92, target: 44}, 
+{source: 124, target: 44}, 
+{source: 84, target: 44}, 
+{source: 59, target: 44}, 
+{source: 121, target: 45}, 
+{source: 91, target: 45}, 
+{source: 88, target: 45}, 
+{source: 84, target: 45}, 
+{source: 59, target: 45}, 
+{source: 88, target: 46}, 
+{source: 89, target: 46}, 
+{source: 84, target: 46}, 
+{source: 59, target: 46}, 
+{source: 96, target: 47}, 
+{source: 88, target: 47}, 
+{source: 84, target: 47}, 
+{source: 59, target: 47}, 
+{source: 109, target: 48}, 
+{source: 88, target: 48}, 
+{source: 79, target: 48}, 
+{source: 124, target: 48}, 
+{source: 84, target: 48}, 
+{source: 59, target: 48}, 
+{source: 88, target: 49}, 
+{source: 79, target: 49}, 
+{source: 84, target: 49}, 
+{source: 59, target: 49}, 
+{source: 88, target: 50}, 
+{source: 109, target: 50}, 
+{source: 84, target: 50}, 
+{source: 59, target: 50}, 
+{source: 105, target: 51}, 
+{source: 66, target: 51}, 
+{source: 98, target: 51}, 
+{source: 104, target: 51}, 
+{source: 76, target: 51}, 
+{source: 68, target: 52}, 
+{source: 105, target: 52}, 
+{source: 98, target: 52}, 
+{source: 104, target: 52}, 
+{source: 76, target: 52}, 
+{source: 93, target: 53}, 
+{source: 106, target: 53}, 
+{source: 85, target: 53}, 
+{source: 60, target: 53}, 
+{source: 122, target: 53}, 
+{source: 73, target: 53}, 
+{source: 76, target: 53}, 
+{source: 83, target: 53}, 
+{source: 93, target: 54}, 
+{source: 106, target: 54}, 
+{source: 85, target: 54}, 
+{source: 58, target: 54}, 
+{source: 80, target: 54}, 
+{source: 76, target: 54}
 ];
 
 var nodes = [
 
-  {name: "Weeknotes", link: "http://dev.caseyagollan.com/weeknotes/", color: "blue", type: "project"},
-  {name: "If We Are Digital", link: "http://dev.caseyagollan.com/if-we-are-digital/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/167.if-we-are-digital/thumb.jpeg"},
-  {name: "Pool", link: "http://dev.caseyagollan.com/pool/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/166.pool/thumb.jpg"},
-  {name: "Two Apologies President Bharucha Must Make", link: "http://dev.caseyagollan.com/two-apologies-president-bharucha-must-make/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/165.two-apologies-president-bharucha-must-make/thumb.jpg"},
-  {name: "Sweaty Tube", link: "http://dev.caseyagollan.com/sweatytube/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/164.sweatytube/thumb.png"},
-  {name: "You Can't Fuck the System If You've Never Met One", link: "http://dev.caseyagollan.com/systems/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/160.systems/thumb.png"},
-  {name: "Programmed Visions Book Review", link: "http://dev.caseyagollan.com/book-review-programmed-visions/", color: "blue", type: "project"},
-  {name: "CooperUnion.biz", link: "http://dev.caseyagollan.com/cooper-union-dot-biz/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/150.cooper-union-dot-biz/thumb.png"},
-  {name: "Between the Spreadsheets", link: "http://dev.caseyagollan.com/between-the-spreadsheets/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/145.between-the-spreadsheets/thumb.jpeg"},
-  {name: "Girl Walk // All Day Website", link: "http://dev.caseyagollan.com/girl-walk-all-day-website/", color: "blue", type: "project"},
-  {name: "Hula", link: "http://dev.caseyagollan.com/hula/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/135.hula/thumb.jpeg"},
-  {name: "Studio", link: "http://dev.caseyagollan.com/studio/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/130.studio/thumb.JPG"},
-  {name: "User-Generated Content", link: "http://dev.caseyagollan.com/user-generated-content/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/124.user-generated-content/thumb.png"},
-  {name: "Until I get better at coding, there will be no four-dimensional node-based constellation of ideas that spins around, so text will have to suffice.", link: "http://dev.caseyagollan.com/until-i-get-better-at-coding/", color: "blue", type: "project"},
-  {name: "20x200 (Design)", link: "http://dev.caseyagollan.com/20x200/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/110.20x200/thumb.jpg"},
-  {name: "New Works", link: "http://dev.caseyagollan.com/new-works/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/105.new-works/thumb.jpg"},
-  {name: "Mixing Metaphors: Skeuomorphic, Hyper, and Fantasy Interfaces", link: "http://dev.caseyagollan.com/mixing-metaphors/", color: "blue", type: "project"},
-  {name: "Notes on Forgetting, Archiving, and Existing on the Internet", link: "http://dev.caseyagollan.com/notes-on-forgetting-archiving-and-existing-on-the-internet/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/95.notes-on-forgetting-archiving-and-existing-on-the-internet/thumb.jpg"},
-  {name: "CooperUnion.net", link: "http://dev.caseyagollan.com/cooper-union-dot-net/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/90.cooper-union-dot-net/thumb.png"},
-  {name: "SensitivePhotoGeneration.com", link: "http://dev.caseyagollan.com/sensitive-photo-generation/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/85.sensitive-photo-generation/thumb.png"},
-  {name: "Studio Bed", link: "http://dev.caseyagollan.com/studio-bed/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/80.studio-bed/thumb.jpeg"},
-  {name: "Timeline of Timelines", link: "http://dev.caseyagollan.com/timeline-timeline/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/75.timeline-timeline/thumb.png"},
-  {name: "Attempted Conversation", link: "http://dev.caseyagollan.com/attempted-conversation/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/70.attempted-conversation/thumb.png"},
-  {name: "Casey, Runner", link: "http://dev.caseyagollan.com/casey-runner/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/65.casey-runner/thumb.jpeg"},
-  {name: "Sexy Studio Self-Portraits", link: "http://dev.caseyagollan.com/sexy-studio-self-portraits/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/60.sexy-studio-self-portraits/thumb.jpeg"},
-  {name: "Photography Thought Web", link: "http://dev.caseyagollan.com/photography-thought-web/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/55.photography-thought-web/thumb.jpeg"},
-  {name: "Built to Last, Built to Decay: Authentic, Self-Reflective, Relationship Building Books in the Age of the iPad", link: "http://dev.caseyagollan.com/built-to-last-built-to-decay/", color: "blue", type: "project"},
-  {name: "Soundline", link: "http://dev.caseyagollan.com/soundline/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/45.soundline/thumb.jpeg"},
-  {name: "Albers-o-Matic", link: "http://dev.caseyagollan.com/albers-o-matic/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/40.albers-o-matic/thumb.jpeg"},
-  {name: "Gradient Bookshelf", link: "http://dev.caseyagollan.com/bookshelf/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/35.bookshelf/thumb.jpg"},
-  {name: "Cake", link: "http://dev.caseyagollan.com/cake/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/30.cake/thumb.jpeg"},
-  {name: "Scattered Notes on the Blog as a Curated Experience", link: "http://dev.caseyagollan.com/scattered-notes-on-the-blog-as-a-curated-experience/", color: "blue", type: "project"},
-  {name: "I Don't Sketch Book", link: "http://dev.caseyagollan.com/sketch-book/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/24.sketch-book/thumb.jpg"},
-  {name: "Public Apology Project", link: "http://dev.caseyagollan.com/public-apology/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/23.public-apology/thumb.jpg"},
-  {name: "Activate: Context", link: "http://dev.caseyagollan.com/activate-context/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/22.activate-context/thumb.jpg"},
-  {name: "Process Magazine", link: "http://dev.caseyagollan.com/process-magazine/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/21.process-magazine/thumb.jpeg"},
-  {name: "Wearable Sculptures", link: "http://dev.caseyagollan.com/wearable-sculptures/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/20.wearable-sculptures/thumb.jpg"},
-  {name: "Polaroids", link: "http://dev.caseyagollan.com/polaroids/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/19.polaroids/thumb.jpg"},
-  {name: "Summer 2008", link: "http://dev.caseyagollan.com/summer-photography/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/18.summer-photography/thumb.jpg"},
-  {name: "Finger Paintings", link: "http://dev.caseyagollan.com/finger-paintings/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/16.finger-paintings/thumb.jpg"},
-  {name: "Thought Webs", link: "http://dev.caseyagollan.com/thought-webs/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/15.thought-webs/thumb.jpeg"},
-  {name: "Small Sculptures", link: "http://dev.caseyagollan.com/small-sculptures/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/14.small-sculptures/thumb.jpg"},
-  {name: "Ceramic Experiments", link: "http://dev.caseyagollan.com/ceramics/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/13.ceramics/thumb.jpg"},
-  {name: "Zephyr Art + Lit Magazine", link: "http://dev.caseyagollan.com/zephyr-magazine/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/12.zephyr-magazine/thumb.jpg"},
-  {name: "Oxbow Final Project", link: "http://dev.caseyagollan.com/oxbow-project/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/11.oxbow-project/thumb.jpg"},
-  {name: "Self-Portrait (Spinning)", link: "http://dev.caseyagollan.com/self-portrait-spinning/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/10.self-portrait-spinning/thumb.jpeg"},
-  {name: "Awkward Laughter Paintings", link: "http://dev.caseyagollan.com/awkward-laughter-paintings/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/09.awkward-laughter-paintings/thumb.jpg"},
-  {name: "Intaglio Printmaking", link: "http://dev.caseyagollan.com/printmaking/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/08.printmaking/thumb.jpg"},
-  {name: "Teepee", link: "http://dev.caseyagollan.com/teepee/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/07.teepee/thumb.jpg"},
-  {name: "Reciprocal", link: "http://dev.caseyagollan.com/reciprocal/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/06.reciprocal/thumb.jpg"},
-  {name: "Cones", link: "http://dev.caseyagollan.com/cones/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/05.cones/thumb.jpg"},
-  {name: "Graphic Design", link: "http://dev.caseyagollan.com/graphic-design-risd/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/04.graphic-design-risd/thumb.jpg"},
-  {name: "Drawings", link: "http://dev.caseyagollan.com/figure-drawings/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/03.figure-drawings/thumb.jpg"},
-  {name: "Family Photos", link: "http://dev.caseyagollan.com/family-photos/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/02.family-photos/thumb.jpg"},
-  {name: "Digital Photography", link: "http://dev.caseyagollan.com/digital-photography/", color: "blue", type: "project", thumb: "http://dev.caseyagollan.com/content/01.digital-photography/thumb.jpg"},
+{name: "Weeknotes", link: "../weeknotes/", color: "blue", type: "project", thumb: "@thumb"},{name: "If We Are Digital", link: "../if-we-are-digital/", color: "blue", type: "project", thumb: "../content/167.if-we-are-digital/thumb.jpeg"},{name: "Pool", link: "../pool/", color: "blue", type: "project", thumb: "../content/166.pool/thumb.jpg"},{name: "Two Apologies President Bharucha Must Make", link: "../two-apologies-president-bharucha-must-make/", color: "blue", type: "project", thumb: "../content/165.two-apologies-president-bharucha-must-make/thumb.jpg"},{name: "Sweaty Tube", link: "../sweatytube/", color: "blue", type: "project", thumb: "../content/164.sweatytube/thumb.png"},{name: "You Can't Fuck the System If You've Never Met One", link: "../systems/", color: "blue", type: "project", thumb: "../content/160.systems/thumb.png"},{name: "Programmed Visions Book Review", link: "../book-review-programmed-visions/", color: "blue", type: "project", thumb: "@thumb"},{name: "CooperUnion.biz", link: "../cooper-union-dot-biz/", color: "blue", type: "project", thumb: "../content/150.cooper-union-dot-biz/thumb.png"},{name: "Between the Spreadsheets", link: "../between-the-spreadsheets/", color: "blue", type: "project", thumb: "../content/145.between-the-spreadsheets/thumb.jpeg"},{name: "Girl Walk // All Day Website", link: "../girl-walk-all-day-website/", color: "blue", type: "project", thumb: "@thumb"},{name: "Hula", link: "../hula/", color: "blue", type: "project", thumb: "../content/135.hula/thumb.jpeg"},{name: "Studio", link: "../studio/", color: "blue", type: "project", thumb: "../content/130.studio/thumb.JPG"},{name: "User-Generated Content", link: "../user-generated-content/", color: "blue", type: "project", thumb: "../content/124.user-generated-content/thumb.png"},{name: "Until I get better at coding, there will be no...", link: "../until-i-get-better-at-coding/", color: "blue", type: "project", thumb: "@thumb"},{name: "20x200 (Design)", link: "../20x200/", color: "blue", type: "project", thumb: "../content/110.20x200/thumb.jpg"},{name: "New Works", link: "../new-works/", color: "blue", type: "project", thumb: "../content/105.new-works/thumb.jpg"},{name: "Mixing Metaphors: Skeuomorphic, Hyper, and...", link: "../mixing-metaphors/", color: "blue", type: "project", thumb: "@thumb"},{name: "Notes on Forgetting, Archiving, and Existing on...", link: "../notes-on-forgetting-archiving-and-existing-on-the-internet/", color: "blue", type: "project", thumb: "../content/95.notes-on-forgetting-archiving-and-existing-on-the-internet/thumb.jpg"},{name: "CooperUnion.net", link: "../cooper-union-dot-net/", color: "blue", type: "project", thumb: "../content/90.cooper-union-dot-net/thumb.png"},{name: "SensitivePhotoGeneration.com", link: "../sensitive-photo-generation/", color: "blue", type: "project", thumb: "../content/85.sensitive-photo-generation/thumb.png"},{name: "Studio Bed", link: "../studio-bed/", color: "blue", type: "project", thumb: "../content/80.studio-bed/thumb.jpeg"},{name: "Timeline of Timelines", link: "../timeline-timeline/", color: "blue", type: "project", thumb: "../content/75.timeline-timeline/thumb.png"},{name: "Attempted Conversation", link: "../attempted-conversation/", color: "blue", type: "project", thumb: "../content/70.attempted-conversation/thumb.png"},{name: "Casey, Runner", link: "../casey-runner/", color: "blue", type: "project", thumb: "../content/65.casey-runner/thumb.jpeg"},{name: "Sexy Studio Self-Portraits", link: "../sexy-studio-self-portraits/", color: "blue", type: "project", thumb: "../content/60.sexy-studio-self-portraits/thumb.jpeg"},{name: "Photography Thought Web", link: "../photography-thought-web/", color: "blue", type: "project", thumb: "../content/55.photography-thought-web/thumb.jpeg"},{name: "Built to Last, Built to Decay: Authentic,...", link: "../built-to-last-built-to-decay/", color: "blue", type: "project", thumb: "@thumb"},{name: "Soundline", link: "../soundline/", color: "blue", type: "project", thumb: "../content/45.soundline/thumb.jpeg"},{name: "Albers-o-Matic", link: "../albers-o-matic/", color: "blue", type: "project", thumb: "../content/40.albers-o-matic/thumb.jpeg"},{name: "Gradient Bookshelf", link: "../bookshelf/", color: "blue", type: "project", thumb: "../content/35.bookshelf/thumb.jpg"},{name: "Cake", link: "../cake/", color: "blue", type: "project", thumb: "../content/30.cake/thumb.jpeg"},{name: "Scattered Notes on the Blog as a Curated...", link: "../scattered-notes-on-the-blog-as-a-curated-experience/", color: "blue", type: "project", thumb: "@thumb"},{name: "I Don't Sketch Book", link: "../sketch-book/", color: "blue", type: "project", thumb: "../content/24.sketch-book/thumb.jpg"},{name: "Public Apology Project", link: "../public-apology/", color: "blue", type: "project", thumb: "../content/23.public-apology/thumb.jpg"},{name: "Activate: Context", link: "../activate-context/", color: "blue", type: "project", thumb: "../content/22.activate-context/thumb.jpg"},{name: "Process Magazine", link: "../process-magazine/", color: "blue", type: "project", thumb: "../content/21.process-magazine/thumb.jpeg"},{name: "Wearable Sculptures", link: "../wearable-sculptures/", color: "blue", type: "project", thumb: "../content/20.wearable-sculptures/thumb.jpg"},{name: "Polaroids", link: "../polaroids/", color: "blue", type: "project", thumb: "../content/19.polaroids/thumb.jpg"},{name: "Summer 2008", link: "../summer-photography/", color: "blue", type: "project", thumb: "../content/18.summer-photography/thumb.jpg"},{name: "Finger Paintings", link: "../finger-paintings/", color: "blue", type: "project", thumb: "../content/16.finger-paintings/thumb.jpg"},{name: "Thought Webs", link: "../thought-webs/", color: "blue", type: "project", thumb: "../content/15.thought-webs/thumb.jpeg"},{name: "Small Sculptures", link: "../small-sculptures/", color: "blue", type: "project", thumb: "../content/14.small-sculptures/thumb.jpg"},{name: "Ceramic Experiments", link: "../ceramics/", color: "blue", type: "project", thumb: "../content/13.ceramics/thumb.jpg"},{name: "Zephyr Art + Lit Magazine", link: "../zephyr-magazine/", color: "blue", type: "project", thumb: "../content/12.zephyr-magazine/thumb.jpg"},{name: "Oxbow Final Project", link: "../oxbow-project/", color: "blue", type: "project", thumb: "../content/11.oxbow-project/thumb.jpg"},{name: "Self-Portrait (Spinning)", link: "../self-portrait-spinning/", color: "blue", type: "project", thumb: "../content/10.self-portrait-spinning/thumb.jpeg"},{name: "Awkward Laughter Paintings", link: "../awkward-laughter-paintings/", color: "blue", type: "project", thumb: "../content/09.awkward-laughter-paintings/thumb.jpg"},{name: "Intaglio Printmaking", link: "../printmaking/", color: "blue", type: "project", thumb: "../content/08.printmaking/thumb.jpg"},{name: "Teepee", link: "../teepee/", color: "blue", type: "project", thumb: "../content/07.teepee/thumb.jpg"},{name: "Reciprocal", link: "../reciprocal/", color: "blue", type: "project", thumb: "../content/06.reciprocal/thumb.jpg"},{name: "Cones", link: "../cones/", color: "blue", type: "project", thumb: "../content/05.cones/thumb.jpg"},{name: "Graphic Design", link: "../graphic-design-risd/", color: "blue", type: "project", thumb: "../content/04.graphic-design-risd/thumb.jpg"},{name: "Drawings", link: "../figure-drawings/", color: "blue", type: "project", thumb: "../content/03.figure-drawings/thumb.jpg"},{name: "Family Photos", link: "../family-photos/", color: "blue", type: "project", thumb: "../content/02.family-photos/thumb.jpg"},{name: "Digital Photography", link: "../digital-photography/", color: "blue", type: "project", thumb: "../content/01.digital-photography/thumb.jpg"},
 
   {name: "Archives", color: "darkgray", type: "tag"}, 
   {name: "Blog Highlights", color: "darkgray", type: "tag"}, 
@@ -453,7 +413,8 @@ var nodes = [
   {name: "Website", color: "darkgray", type: "tag"}, 
   {name: "Workspace", color: "darkgray", type: "tag"}, 
   {name: "Writing", color: "darkgray", type: "tag"}, 
-  {name: "Ãœber Conceptual", color: "darkgray", shape: "dot"}
+  {name: "Über Conceptual", color: "darkgray", shape: "dot"},
+
 ];
 
 // Compute the distinct nodes from the links.
@@ -463,10 +424,11 @@ var width = window.innerWidth,
 
 var force = d3.layout.force()
     .nodes(nodes)
-    .links(linksz)
+    .links(links)
     .size([width, height])
     .charge(this.charge)
-    .gravity(.5)
+    .gravity(.25)
+    .linkDistance(2)
     .on("tick", tick)
     .start();
 
@@ -478,7 +440,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-var link = svg.selectAll(".link")
+var link = svg.selectAll(link)
     .data(force.links(), function(d) { return d.source.id + "-" + d.target.id; })
   .enter().append("line")
     .attr("class", "link");
@@ -487,19 +449,12 @@ var node = svg.selectAll(node)
     .data(force.nodes())
   .enter().append("g")
     .attr("class", function(d) { return d.type; })
-    .on("mouseover", mouseover)
-    .on("mouseout", mouseout)
+    .on("mouseover", fade(.1))
+    .on("mouseout", fade(1))
+    .on("touchstart", fade(.1))
+    .on("touchmove", fade(1))
+    .on("touchend", fade(1))
     .call(force.drag);
-/*
-function findNode(name) {
-  nodes.forEach(function (node) {if (nodes[node.index].name === name) || (nodes[node.index].name !=== undefined) { return node.index } });
-};
-
-links.forEach(function(link) {
-    linksz.push({source: findNode(link.source), target: findNode(link.target)});
-    update();
-});
-*/
 
 var project = svg.selectAll(".project")
         .on("click", function(d) { return window.location.href = d.link; });
@@ -507,18 +462,18 @@ var project = svg.selectAll(".project")
     var tag = svg.selectAll(".tag");
 
     tag.append("circle")
-        .style("fill", function(d) { return d.color; })
-        .attr("r", 15);
+        .attr("r", 40);
 
     project.append("image")
           .attr("xlink:href", function(d) { return d.thumb; })
-          .attr("x", -8)
-          .attr("y", -8)
-          .attr("width", 120)
-          .attr("height", 120);
+          .attr("x", -30)
+          .attr("y", -30)
+          .attr("width", 60)
+          .attr("height", 60);
 
     tag.append("text")
-        .attr("x", 35)
+        .attr("x", 0)
+        .attr("text-anchor", "middle")
         .attr("dy", ".35em")
         .text(function(d) { return d.name; });
 
@@ -526,18 +481,6 @@ var project = svg.selectAll(".project")
         .attr("x", 0)
         .attr("y", 0)
         .text(function(d) { return d.name; });
-
-function update() {
-
-    link.append("line")
-    .attr("class", "link");
-
-    force
-      .nodes(nodes)
-      .links(links)
-      .start();
-
-}
 
 function tick() {
   link
@@ -550,40 +493,36 @@ function tick() {
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 }
 
-function mouseover() {
-  d3.select(this).select("circle").transition()
-      .duration(100)
-      .style("stroke","blue")
-      .style("stroke-width",5)
-      .attr("r", 25);
-  d3.select(this).select("image").transition()
-      .duration(100)
-      .attr("x", -60)
-      .attr("y", -60)
-      .style("stroke","blue")
-      .style("stroke-width",5)
-      .attr("width", 240)
-      .attr("height", 240);
-  d3.select(this).select("text").transition()
-      .duration(50)
-      .style("font-size", "16px");
+var linkedByIndex = {};
+
+links.forEach(function(d) {
+    linkedByIndex[d.source.index + "," + d.target.index] = 1;
+});
+
+function isConnected(a, b) {
+    return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
 }
 
-function mouseout() {
-  d3.select(this).select("circle").transition()
-      .duration(100)
-      .style("stroke-width",0)
-      .attr("r", 15);
-  d3.select(this).select("image").transition()
-      .duration(100)
-      .attr("x", 0)
-      .attr("y", 0)
-      .style("stroke","blue")
-      .style("stroke-width",0)
-      .attr("width", 120)
-      .attr("height", 120);
-  d3.select(this).select("text").transition()
-      .duration(100)
-      .style("font-size", "12px");
+function fade(opacity) {
+    return function(d) {
+        node.transition().duration(250).select("circle").style("stroke-opacity", function(o) {
+            thisOpacity = isConnected(d, o) ? 1 : opacity;
+            this.setAttribute('fill-opacity', thisOpacity);
+            return thisOpacity;
+        });
+        node.transition().duration(250).select("image").style("opacity", function(o) {
+            thisOpacity = isConnected(d, o) ? 1 : opacity;
+            this.setAttribute('opacity', thisOpacity);
+            return thisOpacity;
+        })       
+        node.transition().duration(250).select("text").style("opacity", function(o) {
+            thisOpacity = isConnected(d, o) ? 1 : opacity;
+            this.setAttribute('fill-opacity', thisOpacity);
+            return thisOpacity;
+        })       
+        link.transition().duration(250).style("stroke-opacity", function(o) {
+            return o.source === d || o.target === d ? 1 : opacity;
+        });
+    };
 }
 </script>
