@@ -1,48 +1,67 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<script src="http://d3js.org/d3.v2.js?2.9.1"></script>
-<style>
-body {
-  background:#808080;
-  margin:0;
-  padding:0;
-}
-.link {
-  fill: none;
-  stroke: darkgray;
-  stroke-width: 2px;
-}
+<html>
+<head>
+  :head-meta
+  <script src="@root_path/docs/js/d3.v2.js"></script>
+  <style>
+    body {
+      background:gray;
+      margin:0;
+      padding:0;
+    }
 
-.node circle {
-  stroke-width: 0;
-  stroke: blue;
-}
+    .link {
+      stroke: darkgray;
+      stroke-width: 2;
+    }
 
-.project, line {
-  cursor:pointer;
-}
+    .project, line {
+      cursor:pointer;
+    }
 
-.project text {
-  fill: white;
-  font: 16px sans-serif;
-  pointer-events: none;
-  fill-opacity:0;
-}
+    .project text {
+      fill: white;
+      font: 16px sans-serif;
+      pointer-events: none;
+      fill-opacity:0;
+    }
 
-.tag circle {
-  fill: gray;
-  stroke-width: 2;
-  stroke: darkgray;
-}
+    .project:hover text {
+      fill-opacity:1;
+    }
 
-.tag text {
-  fill: darkgray;
-  font: 12px sans-serif;
-  pointer-events: none;
-}
+    .project image {
+      -webkit-transform:scale(1);
+    }
 
-</style>
-<body>
+    .project image:hover {
+      -webkit-transform:scale(3);
+    }
+
+    .tag circle {
+      fill: gray;
+      stroke:darkgray;
+      stroke-width:2px;
+      -webkit-transition:all .25s;
+      cursor:hand;
+    }
+
+    .tag circle:hover {
+      -webkit-transform:scale(1.25);
+      fill:darkgray;
+    }
+    .tag:hover text {
+      fill: white;
+    }
+    .tag text {
+      fill: darkgray;
+      font: 12px sans-serif;
+      pointer-events: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body id="graph">
+  :top-nav
 <script>
 var links = [
 {source: 125, target: 0}, 
@@ -420,7 +439,7 @@ var nodes = [
 // Compute the distinct nodes from the links.
 
 var width = window.innerWidth,
-    height = window.innerHeight;
+    height = window.innerHeight-55;
 
 var force = d3.layout.force()
     .nodes(nodes)
@@ -450,11 +469,11 @@ var node = svg.selectAll(node)
     .data(force.nodes())
   .enter().append("g")
     .attr("class", function(d) { return d.type; })
-    .on("mouseover", fade(.1))
-    .on("mouseout", fade(1))
-    .on("touchstart", fade(.1))
-    .on("touchmove", fade(1))
-    .on("touchend", fade(1))
+//    .on("mouseover", fade(.1))
+//    .on("mouseout", fade(1))
+//    .on("touchstart", fade(.1))
+//    .on("touchmove", fade(1))
+//    .on("touchend", fade(1))
     .call(force.drag);
 
 var project = svg.selectAll(".project")
@@ -481,6 +500,7 @@ var project = svg.selectAll(".project")
     project.append("text")
         .attr("x", 0)
         .attr("y", 0)
+         .attr("text-anchor", "middle")
         .text(function(d) { return d.name; });
 
 function tick() {
@@ -506,24 +526,43 @@ function isConnected(a, b) {
 
 function fade(opacity) {
     return function(d) {
-        node.transition().duration(250).select("circle").style("stroke-opacity", function(o) {
+/*        node.transition().duration(150).select("circle").style("stroke-opacity", function(o) {
             thisOpacity = isConnected(d, o) ? 1 : opacity;
             this.setAttribute('fill-opacity', thisOpacity);
             return thisOpacity;
         });
-        node.transition().duration(250).select("image").style("opacity", function(o) {
+        node.transition().duration(350).select("image").style("opacity", function(o) {
             thisOpacity = isConnected(d, o) ? 1 : opacity;
             this.setAttribute('opacity', thisOpacity);
             return thisOpacity;
         })       
-        node.transition().duration(250).select("text").style("opacity", function(o) {
+        node.transition().duration(350).select("text").style("opacity", function(o) {
             thisOpacity = isConnected(d, o) ? 1 : opacity;
             this.setAttribute('fill-opacity', thisOpacity);
             return thisOpacity;
-        })       
-        link.transition().duration(250).style("stroke-opacity", function(o) {
+        })     */  
+        link.transition().duration(350).style("stroke-opacity", function(o) {
             return o.source === d || o.target === d ? 1 : opacity;
         });
     };
 }
 </script>
+<script type="text/javascript" src="http://use.typekit.com/tun0rbf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">
+try {
+  Typekit.load({
+    loading: function() {
+      // Javascript to execute when fonts start loading
+    },
+    active: function() {
+      $('#projects ul').isotope('reLayout');
+    },
+    inactive: function() {
+      // Javascript to execute when fonts become inactive
+    }
+  })
+} catch(e) {}
+</script>
+</body>
+</html>
