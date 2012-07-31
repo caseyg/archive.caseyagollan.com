@@ -20,7 +20,7 @@
 
 body {
 	font-family: Calluna, serif;
-	background:#eee;
+	background:blue;
 	}
 
 h1, h2, h3, h4, .date, .tags, .tooltip, .number, figcaption {
@@ -36,12 +36,10 @@ nav#main { // Runs across all pages of site and blog
 	z-index:1000;
 	height:15px;
 	line-height:15px;
-	background:blue;
 	color:darkgray;
 	font-family:ff-dagny-web-pro, Helvetica Neue, sans-serif;
-	font-weight:200!important;
-	letter-spacing:2px;
-	text-transform:uppercase;
+	font-weight:400;
+	letter-spacing:1px;
 //	box-shadow: inset 0 -5px 10px 0px rgba(0,0,0,.5);
 	&>ul>li {
 		display:inline-block;
@@ -50,17 +48,17 @@ nav#main { // Runs across all pages of site and blog
 		margin-right:10px;
 	}
 	a, a:link, a:visited {
-		color:darkgray;
+		color:gray;
 		text-decoration:none;
 	}
 	a:hover {
 		text-decoration:underline;
-		color:white;
+		color:blue;
 	}
 }
 
-#graph nav#main .graph, #archive nav#main .archive, #infinite-scroll nav#main .infinite-scroll, #narratives nav#main .narratives {
-	color:darkgray;
+#index nav#main .index, #graph nav#main .graph, #archive nav#main .archive, #infinite-scroll nav#main .infinite-scroll, #narratives nav#main .narratives {
+	color:darkblue;
 	text-decoration:none;
 	font-weight:800;
 	&:hover {
@@ -144,6 +142,12 @@ header {
 	}
 
 body#archive {
+	.tooltip.top .tooltip-arrow {border-top: 5px solid blue;}
+	.tooltip.left .tooltip-arrow {border-left: 5px solid blue;}
+	.tooltip.bottom .tooltip-arrow {border-bottom: 5px solid blue;}
+	.tooltip.right .tooltip-arrow {border-right: 5px solid blue;}
+	.tooltip-inner {background-color: blue;color:#fff;}
+	background:#fff;
 	#canvas {
 		opacity: .5;
 	    position:absolute;
@@ -166,6 +170,7 @@ body#archive {
 		display:block;
 	}
 	section#projects {
+		background:#eee;
 		nav#filters {
 			top:0; left:0;
 			padding:0;
@@ -257,9 +262,10 @@ body#archive {
 }
 
 footer {
-	border-top: 1px solid #ccc;
+	border-top: 1px solid gray;
 	clear: both;
 	padding: 10px 0;
+	margin:0 20px;
 	}	
 	
 section#projects>ul {
@@ -887,10 +893,10 @@ img.emoji {
 }
 .tooltip-inner {
   max-width: 200px;
-	white-space: nowrap;
-	width: 100%;
-	overflow: hidden;
-	text-overflow: ellipsis;
+//	white-space: nowrap;
+//	width: 100%;
+//	overflow: hidden;
+//	text-overflow: ellipsis;
   padding: 5px 10px;
   color: #000;
   text-align: left;
@@ -907,9 +913,34 @@ img.emoji {
 }
 
 body#index {
-	.tooltip.top .tooltip-arrow {border-top: 5px solid blue;}
-	.tooltip.left .tooltip-arrow {border-left: 5px solid blue;}
-	.tooltip.bottom .tooltip-arrow {border-bottom: 5px solid blue;}
-	.tooltip.right .tooltip-arrow {border-right: 5px solid blue;}
-	.tooltip-inner {background-color: blue;color:#fff;}
+	background:blue;
+	display:block;
+	color:darkgray;
+	nav#main {
+		border-bottom:1px solid darkblue;
+		margin:0 20px;
+		padding:20px 0;
+	}
+
+	section#content {
+		margin:0 20px;
+	}
+
+	h2, h2 a:link, h2 a:visited {
+		color:darkblue;
+	}
+	#CASEY, #CASEY img {
+		-webkit-user-select:none;
+		-webkit-user-drag:none;
+		cursor:hand;
+	}
+	a:link, a:visited {
+		color:white;
+		text-decoration: none;
+		font-family:"ff-dagny-web-pro";
+	}
+	a:hover, a:active {
+		color:white;
+		text-decoration:underline;
+	}
 }

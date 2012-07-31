@@ -158,7 +158,7 @@ body, figure, form {
 /* AND SO IT BEGINS */
 body {
   font-family: Calluna, serif;
-  background: #eee; }
+  background: blue; }
 
 h1, h2, h3, h4, .date, .tags, .tooltip, .number, figcaption {
   font-family: ff-dagny-web-pro, sans-serif; }
@@ -172,29 +172,27 @@ nav#main {
   z-index: 1000;
   height: 15px;
   line-height: 15px;
-  background: blue;
   color: darkgray;
   font-family: ff-dagny-web-pro, Helvetica Neue, sans-serif;
-  font-weight: 200!important;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+  font-weight: 400;
+  letter-spacing: 1px; }
   nav#main > ul > li {
     display: inline-block;
     vertical-align: top;
     font-size: 14px;
     margin-right: 10px; }
   nav#main a, nav#main a:link, nav#main a:visited {
-    color: darkgray;
+    color: gray;
     text-decoration: none; }
   nav#main a:hover {
     text-decoration: underline;
-    color: white; }
+    color: blue; }
 
-#graph nav#main .graph, #archive nav#main .archive, #infinite-scroll nav#main .infinite-scroll, #narratives nav#main .narratives {
-  color: darkgray;
+#index nav#main .index, #graph nav#main .graph, #archive nav#main .archive, #infinite-scroll nav#main .infinite-scroll, #narratives nav#main .narratives {
+  color: darkblue;
   text-decoration: none;
   font-weight: 800; }
-  #graph nav#main .graph:hover, #archive nav#main .archive:hover, #infinite-scroll nav#main .infinite-scroll:hover, #narratives nav#main .narratives:hover {
+  #index nav#main .index:hover, #graph nav#main .graph:hover, #archive nav#main .archive:hover, #infinite-scroll nav#main .infinite-scroll:hover, #narratives nav#main .narratives:hover {
     cursor: default; }
 
 header {
@@ -258,92 +256,108 @@ section#views {
       section#views ol li a.active {
         border-color: white; }
 
-body#archive #canvas {
-  opacity: .5;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: none; }
-body#archive nav#background {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  vertical-align: bottom;
-  position: absolute;
-  bottom: 10px;
-  right: 20px; }
-  body#archive nav#background li {
-    display: inline-block; }
-body#archive section#about {
-  display: block; }
-body#archive section#projects nav#filters {
-  top: 0;
-  left: 0;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background: gray;
-  z-index: 1000;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); }
-  body#archive section#projects nav#filters h3, body#archive section#projects nav#filters p, body#archive section#projects nav#filters .select2-drop {
-    display: inline;
-    margin-right: 15px; }
-  body#archive section#projects nav#filters .select2-container:hover .select2-choice span {
-    color: blue; }
-  body#archive section#projects nav#filters h3 {
-    display: inline-block;
-    margin: 15px 5px 15px 20px;
-    font-size: 16px;
-    color: darkgray; }
-  body#archive section#projects nav#filters ul.tags {
+body#archive {
+  background: #fff; }
+  body#archive .tooltip.top .tooltip-arrow {
+    border-top: 5px solid blue; }
+  body#archive .tooltip.left .tooltip-arrow {
+    border-left: 5px solid blue; }
+  body#archive .tooltip.bottom .tooltip-arrow {
+    border-bottom: 5px solid blue; }
+  body#archive .tooltip.right .tooltip-arrow {
+    border-right: 5px solid blue; }
+  body#archive .tooltip-inner {
+    background-color: blue;
+    color: #fff; }
+  body#archive #canvas {
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none; }
+  body#archive nav#background {
+    list-style-type: none;
     padding: 0;
-    margin: 0; }
-  body#archive section#projects nav#filters div#options {
-    display: inline;
-    margin-right: 15px; }
-    body#archive section#projects nav#filters div#options ul {
-      display: inline-block!important;
-      margin-right: 5px;
-      border: 1px solid darkgray; }
-      body#archive section#projects nav#filters div#options ul li {
-        display: inline-block;
-        margin: 0;
-        padding: 0; }
-    body#archive section#projects nav#filters div#options a:link, body#archive section#projects nav#filters div#options a:visited {
-      display: block;
-      line-height: 16px;
-      text-decoration: none;
-      color: #555;
-      padding: 5px 10px;
+    margin: 0;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 10px;
+    right: 20px; }
+    body#archive nav#background li {
+      display: inline-block; }
+  body#archive section#about {
+    display: block; }
+  body#archive section#projects {
+    background: #eee; }
+    body#archive section#projects nav#filters {
+      top: 0;
+      left: 0;
+      padding: 0;
       margin: 0;
-      -webkit-transition: background .15s; }
-    body#archive section#projects nav#filters div#options a.selected:link, body#archive section#projects nav#filters div#options a.selected:visited {
-      background: darkgray; }
-    body#archive section#projects nav#filters div#options a:hover, body#archive section#projects nav#filters div#options a:hover:after {
-      color: blue; }
-    body#archive section#projects nav#filters div#options a:active {
-      background: blue;
-      color: white; }
-    body#archive section#projects nav#filters div#options a:active:after {
-      color: white; }
-    body#archive section#projects nav#filters div#options a.selected:active {
-      background: blue;
-      color: white; }
-    body#archive section#projects nav#filters div#options #options a:after {
-      text-decoration: none;
-      color: gray; }
-    body#archive section#projects nav#filters div#options a.sort-ascending:after {
-      content: " ▲"; }
-    body#archive section#projects nav#filters div#options a.sort-descending:after {
-      content: " ▼"; }
-    body#archive section#projects nav#filters div#options a#shuffle.selected:after {
-      content: " ⟳"; }
+      width: 100%;
+      background: gray;
+      z-index: 1000;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); }
+      body#archive section#projects nav#filters h3, body#archive section#projects nav#filters p, body#archive section#projects nav#filters .select2-drop {
+        display: inline;
+        margin-right: 15px; }
+      body#archive section#projects nav#filters .select2-container:hover .select2-choice span {
+        color: blue; }
+      body#archive section#projects nav#filters h3 {
+        display: inline-block;
+        margin: 15px 5px 15px 20px;
+        font-size: 16px;
+        color: darkgray; }
+      body#archive section#projects nav#filters ul.tags {
+        padding: 0;
+        margin: 0; }
+      body#archive section#projects nav#filters div#options {
+        display: inline;
+        margin-right: 15px; }
+        body#archive section#projects nav#filters div#options ul {
+          display: inline-block!important;
+          margin-right: 5px;
+          border: 1px solid darkgray; }
+          body#archive section#projects nav#filters div#options ul li {
+            display: inline-block;
+            margin: 0;
+            padding: 0; }
+        body#archive section#projects nav#filters div#options a:link, body#archive section#projects nav#filters div#options a:visited {
+          display: block;
+          line-height: 16px;
+          text-decoration: none;
+          color: #555;
+          padding: 5px 10px;
+          margin: 0;
+          -webkit-transition: background .15s; }
+        body#archive section#projects nav#filters div#options a.selected:link, body#archive section#projects nav#filters div#options a.selected:visited {
+          background: darkgray; }
+        body#archive section#projects nav#filters div#options a:hover, body#archive section#projects nav#filters div#options a:hover:after {
+          color: blue; }
+        body#archive section#projects nav#filters div#options a:active {
+          background: blue;
+          color: white; }
+        body#archive section#projects nav#filters div#options a:active:after {
+          color: white; }
+        body#archive section#projects nav#filters div#options a.selected:active {
+          background: blue;
+          color: white; }
+        body#archive section#projects nav#filters div#options #options a:after {
+          text-decoration: none;
+          color: gray; }
+        body#archive section#projects nav#filters div#options a.sort-ascending:after {
+          content: " ▲"; }
+        body#archive section#projects nav#filters div#options a.sort-descending:after {
+          content: " ▼"; }
+        body#archive section#projects nav#filters div#options a#shuffle.selected:after {
+          content: " ⟳"; }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid gray;
   clear: both;
-  padding: 10px 0; }
+  padding: 10px 0;
+  margin: 0 20px; }
 
 section#projects > ul {
   margin: 20px;
@@ -910,10 +924,6 @@ img.emoji {
 
 .tooltip-inner {
   max-width: 200px;
-  white-space: nowrap;
-  width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
   padding: 5px 10px;
   color: #000;
   text-align: left;
@@ -928,14 +938,26 @@ img.emoji {
   width: 0;
   height: 0; }
 
-body#index .tooltip.top .tooltip-arrow {
-  border-top: 5px solid blue; }
-body#index .tooltip.left .tooltip-arrow {
-  border-left: 5px solid blue; }
-body#index .tooltip.bottom .tooltip-arrow {
-  border-bottom: 5px solid blue; }
-body#index .tooltip.right .tooltip-arrow {
-  border-right: 5px solid blue; }
-body#index .tooltip-inner {
-  background-color: blue;
-  color: #fff; }
+body#index {
+  background: blue;
+  display: block;
+  color: darkgray; }
+  body#index nav#main {
+    border-bottom: 1px solid darkblue;
+    margin: 0 20px;
+    padding: 20px 0; }
+  body#index section#content {
+    margin: 0 20px; }
+  body#index h2, body#index h2 a:link, body#index h2 a:visited {
+    color: darkblue; }
+  body#index #CASEY, body#index #CASEY img {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    cursor: hand; }
+  body#index a:link, body#index a:visited {
+    color: white;
+    text-decoration: none;
+    font-family: "ff-dagny-web-pro"; }
+  body#index a:hover, body#index a:active {
+    color: white;
+    text-decoration: underline; }
