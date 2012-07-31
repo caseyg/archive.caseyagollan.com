@@ -950,6 +950,8 @@ body#index {
     margin: 0 20px; }
   body#index h2, body#index h2 a:link, body#index h2 a:visited {
     color: darkblue; }
+  body#index #CASEY {
+    z-index: -1; }
   body#index #CASEY, body#index #CASEY img {
     -webkit-user-select: none;
     -webkit-user-drag: none;
