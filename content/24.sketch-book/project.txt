@@ -4,7 +4,7 @@ date: 2008
 -
 excerpt: An experimental daily sketchbook that I designed for myself.
 -
-tags: Cooper Union, Hometest, Design, Notes, Drawing, Publishing, New York, Rye
+tags: Hometest, Design, Notes, Drawing, Publishing, New York, Rye
 -
 content: 
 I don’t sketch all the time. So, as an artist, what do I do in my spare time?  

@@ -2,7 +2,7 @@ title: Activate: Context
 -
 date: 2009 January
 -
-tags: Cooper Union, Hometest, Writing, Über Conceptual, Rye, New York
+tags: Hometest, Writing, Über Conceptual, Rye, New York
 -
 content:
 Garbage: a pile of bricks on the side of the road.  
