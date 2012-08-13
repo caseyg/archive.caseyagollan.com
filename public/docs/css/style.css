@@ -710,7 +710,6 @@ article {
   article p {
     font-size: 16px;
     line-height: 22px;
-    -webkit-transition: all 1s;
     margin-bottom: 20px; }
   article ul, article ol {
     margin: 0 0 30px 20px;
