@@ -638,6 +638,110 @@ body#infinite-scroll img {
   display: block;
   margin: auto; }
 
+article {
+  padding: 10px 25px;
+  margin: 90px auto 20px auto; }
+  article h1, article h2, article h3, article p, article .date, article ul, article ol, article figcaption {
+    max-width: 700px;
+    width: 650px;
+    display: block;
+    margin: auto; }
+  article a:link, article a:visited {
+    color: blue;
+    text-decoration: none;
+    font-family: "ff-dagny-web-pro"; }
+  article a:hover, article a:active {
+    text-decoration: underline; }
+  article .date, article .tags {
+    font-size: 14px;
+    display: inline-block;
+    color: #aaa;
+    letter-spacing: 1px;
+    font-weight: 100!important;
+    background: #eee;
+    width: auto;
+    text-align: center;
+    margin: auto; }
+  article h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: block; }
+  article h2 {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #bbb;
+    width: auto;
+    display: inline-block;
+    color: #aaa; }
+  article section.excerpt p {
+    font-size: 18px;
+    line-height: 28px; }
+  article .external-link {
+    display: inline-block;
+    font-family: "ff-dagny-web-pro";
+    padding: 5px 10px;
+    background: #fff;
+    text-decoration: none;
+    margin: 5px 0 35px 0;
+    box-shadow: 1px 1px 0 blue, 2px 2px 0 blue, 3px 3px 0 blue, 4px 4px 0 blue, 5px 5px 0 blue;
+    color: blue;
+    -webkit-transition: background .15s;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  article .external-link:hover {
+    background: blue;
+    color: white;
+    box-shadow: 1px 1px 0 #000055, 2px 2px 0 #000055, 3px 3px 0 #000055, 4px 4px 0 #000055, 5px 5px 0 #000055; }
+  article .external-link:active {
+    box-shadow: none;
+    margin: 10px 0 30px 5px; }
+  article img {
+    max-width: 100%; }
+  article p, article hr {
+    margin: 0; }
+  article hr {
+    border: 0;
+    width: 300px;
+    margin: 30px auto!important;
+    border-top: 1px solid #ccc; }
+  article p {
+    font-size: 16px;
+    line-height: 22px;
+    -webkit-transition: all 1s;
+    margin-bottom: 20px; }
+  article ul, article ol {
+    margin: 0 0 30px 20px;
+    padding: 0;
+    line-height: 22px; }
+  article figure h3 {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+    margin: 15px 0 5px 0;
+    letter-spacing: 1px;
+    width: auto;
+    display: block;
+    color: #aaa;
+    font-weight: 700; }
+  article figure figcaption {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
+    margin: 5px 0 15px 0;
+    width: auto;
+    display: inline-block;
+    color: #999;
+    font-weight: 100; }
+  article figure figcaption:before {
+    content: "▲ ";
+    color: transparent;
+    -webkit-text-stroke: 1px #999;
+    font-size: 10px;
+    margin-right: 5px; }
+
 body#single nav#main {
   box-shadow: none; }
 body#single nav#project-timeline ul {
@@ -678,109 +782,6 @@ body#single header nav#main {
   z-index: 1000;
   background: transparent;
   padding: 0; }
-body#single article {
-  padding: 10px 25px;
-  margin: 90px auto 20px auto; }
-  body#single article h1, body#single article h2, body#single article h3, body#single article p, body#single article .date, body#single article ul, body#single article ol, body#single article figcaption {
-    max-width: 700px;
-    width: 650px;
-    display: block;
-    margin: auto; }
-  body#single article a:link, body#single article a:visited {
-    color: blue;
-    text-decoration: none;
-    font-family: "ff-dagny-web-pro"; }
-  body#single article a:hover, body#single article a:active {
-    text-decoration: underline; }
-  body#single article .date, body#single article .tags {
-    font-size: 14px;
-    display: inline-block;
-    color: #aaa;
-    letter-spacing: 1px;
-    font-weight: 100!important;
-    background: #eee;
-    width: auto;
-    text-align: center;
-    margin: auto; }
-  body#single article h1 {
-    margin: 0 0 20px 0;
-    padding: 0;
-    display: block; }
-  body#single article h2 {
-    font-size: 16px;
-    line-height: 28px;
-    padding: 0;
-    margin: 0 0 10px 0;
-    letter-spacing: 1px;
-    border-bottom: 3px solid #bbb;
-    width: auto;
-    display: inline-block;
-    color: #aaa; }
-  body#single article section.excerpt p {
-    font-size: 18px;
-    line-height: 28px; }
-  body#single article .external-link {
-    display: inline-block;
-    font-family: "ff-dagny-web-pro";
-    padding: 5px 10px;
-    background: #fff;
-    text-decoration: none;
-    margin: 5px 0 35px 0;
-    box-shadow: 1px 1px 0 blue, 2px 2px 0 blue, 3px 3px 0 blue, 4px 4px 0 blue, 5px 5px 0 blue;
-    color: blue;
-    -webkit-transition: background .15s;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
-  body#single article .external-link:hover {
-    background: blue;
-    color: white;
-    box-shadow: 1px 1px 0 #000055, 2px 2px 0 #000055, 3px 3px 0 #000055, 4px 4px 0 #000055, 5px 5px 0 #000055; }
-  body#single article .external-link:active {
-    box-shadow: none;
-    margin: 10px 0 30px 5px; }
-  body#single article img {
-    max-width: 100%; }
-  body#single article p, body#single article hr {
-    margin: 0; }
-  body#single article hr {
-    border: 0;
-    width: 300px;
-    margin: 30px auto!important;
-    border-top: 1px solid #ccc; }
-  body#single article p {
-    font-size: 16px;
-    line-height: 22px;
-    -webkit-transition: all 1s;
-    margin-bottom: 20px; }
-  body#single article ul, body#single article ol {
-    margin: 0 0 30px 20px;
-    padding: 0;
-    line-height: 22px; }
-  body#single article figure h3 {
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0;
-    margin: 15px 0 5px 0;
-    letter-spacing: 1px;
-    width: auto;
-    display: block;
-    color: #aaa;
-    font-weight: 700; }
-  body#single article figure figcaption {
-    font-size: 14px;
-    line-height: 18px;
-    padding: 0;
-    margin: 5px 0 15px 0;
-    width: auto;
-    display: inline-block;
-    color: #999;
-    font-weight: 100; }
-  body#single article figure figcaption:before {
-    content: "▲ ";
-    color: transparent;
-    -webkit-text-stroke: 1px #999;
-    font-size: 10px;
-    margin-right: 5px; }
 body#single nav.siblings a:link, body#single nav.siblings a:visited {
   font-size: 12px;
   font-family: ff-dagny-web-pro, Helvetica, Arial;
