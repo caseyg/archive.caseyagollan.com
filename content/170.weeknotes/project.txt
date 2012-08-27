@@ -1,6 +1,6 @@
 title: Weeknotes
 -
-date: Spring 2012
+date: 2012 Spring
 -
 excerpt: 
 Every week for the second semester of my junior year at Cooper I wrote a long-winded report on what I was doing, thinking about, and working on.
