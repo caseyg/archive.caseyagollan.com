@@ -22,14 +22,9 @@
 				</ul>
 				<h3>Layout</h3>
 				<ul id="layout-mode" class="option-set" data-option-key="layoutMode">
-					<li><a href="#layoutMode=masonry" class="selected" data-option-value="masonry">Grid</a></li>
-					<li><a href="#layoutMode=straightDown" data-option-value="straightDown">List</a></li>
+					<li><a href="#layoutMode=masonry" class="selected" data-option-value="masonry">Expanded</a></li>
+					<li><a href="#layoutMode=straightDown" data-option-value="straightDown">Condensed</a></li>
 				</ul>
-				<h3>Scope</h3>
-		      <ul id="filters" class="option-set clearfix" data-option-key="filter">
-		        <li><a href="#filter" data-option-value="*" class="selected">Everything</a></li>
-		        <li><a href="#filter" data-option-value=":not(.rye-high-school, .risd-pre-college, .oxbow-school, .smfa-pre-college)">Selected Work</a></li>
-		      </ul>
 			</div>
 		</nav>
 		<ul>
@@ -50,13 +45,6 @@
 		endforeach
 		</ul>
 		<div id="tag-list" style="display:none;">foreach $root do if @tags do @tags,endif endforeach</div>
-	</section>
-	<section id="about">
-		<h2>Contact</h2>
-		<p><a href="mailto:hello&#64;caseyagollan.com">hello&#64;caseyagollan.com</a> &bull; <a href="http://twitter.com/caseyg">&#64;CaseyG</a></p>
-
-		<h2>Elsewhere</h2>
-		<p><a href="http://twitter.com/caseyg">Twitter</a>, <a href="http://facebook.com/caseygollan">Facebook</a>, <a href="http://pinboard.in/u:caseygollan">Pinboard</a>, <a href="http://reading.am/CaseyG">Reading</a>, <a href="http://mlkshk.com/user/CaseyG">Mlkshk</a>, <a href="http://rhizome.org/profiles/caseyg/">Rhizome</a>, <a href="http://stellar.io/caseyg">Stellar</a>, <a href="http://readmill.com/CaseyG">Readmill</a>, <a href="https://findings.com/caseyg">Findings</a>, <a href="http://last.fm/user/caseygollan">Last.fm</a>, <a href="https://kindle.amazon.com/profile/Casey-Gollan/1239626">Kindle</a>, <a href="http://www.quora.com/Casey-Gollan">Quora</a>, <a href="http://dribbble.com/CaseyG">Dribbble</a>, <a href="http://flickr.com/photos/caseygollan">Flickr</a>, <a href="http://www.goodreads.com/user/show/1861885">Goodreads</a>, <a href="http://www.metafilter.com/user/120538">Metafilter</a></p>
 	</section>
 	<canvas id="canvas" style="display:none;"></canvas>
 :footer

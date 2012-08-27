@@ -158,7 +158,7 @@ body, figure, form {
 /* AND SO IT BEGINS */
 body {
   font-family: Calluna, serif;
-  background: blue; }
+  background: #eee; }
 
 h1, h2, h3, h4, .date, .tags, .tooltip, .number, figcaption {
   font-family: ff-dagny-web-pro, sans-serif; }
@@ -188,11 +188,11 @@ nav#main {
     text-decoration: underline;
     color: blue; }
 
-#index nav#main .index, #graph nav#main .graph, #archive nav#main .archive, #infinite-scroll nav#main .infinite-scroll, #narratives nav#main .narratives {
+#index nav#main .index, #about nav#main .about, #graph nav#main .graph, #archive nav#main .archive, #infinite-scroll nav#main .infinite-scroll, #narratives nav#main .narratives {
   color: darkblue;
   text-decoration: none;
   font-weight: 800; }
-  #index nav#main .index:hover, #graph nav#main .graph:hover, #archive nav#main .archive:hover, #infinite-scroll nav#main .infinite-scroll:hover, #narratives nav#main .narratives:hover {
+  #index nav#main .index:hover, #about nav#main .about:hover, #graph nav#main .graph:hover, #archive nav#main .archive:hover, #infinite-scroll nav#main .infinite-scroll:hover, #narratives nav#main .narratives:hover {
     cursor: default; }
 
 header {
@@ -309,9 +309,6 @@ body#archive {
         margin: 15px 5px 15px 20px;
         font-size: 16px;
         color: darkgray; }
-      body#archive section#projects nav#filters ul.tags {
-        padding: 0;
-        margin: 0; }
       body#archive section#projects nav#filters div#options {
         display: inline;
         margin-right: 15px; }
@@ -432,7 +429,8 @@ ul li.project:hover ul {
   margin: 0 0 10px 0; }
 
 ul.tags {
-  margin: 10px 0 0 0; }
+  margin: 10px 0 0 0;
+  padding: 0!important; }
 
 ul.tags li {
   display: inline-block;
@@ -640,7 +638,7 @@ body#infinite-scroll img {
 
 article {
   padding: 10px 25px;
-  margin: 90px auto 20px auto; }
+  margin: 0 auto 20px auto; }
   article h1, article h2, article h3, article p, article .date, article ul, article ol, article figcaption {
     max-width: 700px;
     width: 650px;
@@ -741,6 +739,8 @@ article {
     font-size: 10px;
     margin-right: 5px; }
 
+body#single article {
+  margin-top: 90px; }
 body#single nav#main {
   box-shadow: none; }
 body#single nav#project-timeline ul {

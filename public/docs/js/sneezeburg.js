@@ -28,7 +28,7 @@ $(".project ul.tags").each(function(){
 	var tagOutput = $(this).text(); // get the tags
 	var tags = new Array();
 	var tags = $.map(tagOutput.split(','), $.trim);
-	tagList.html("<ul class='tags'></ul>");
+	tagList.html("");
 	$.each(
 	tags,
 	function( intIndex, objValue ){
