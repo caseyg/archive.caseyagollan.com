@@ -1,0 +1,86 @@
+title: Casey Gollan
+-
+content:
+## About Me
+
+Born: 1991  
+Current location: New York
+
+## Contact
+<p>Email <a href="mailto:hello&#64;caseyagollan.com">hello&#64;caseyagollan.com</a> or mention <a href="http://twitter.com/caseyg">&#64;CaseyG</a> on Twitter.</p>
+
+## Elsewhere on the internet
+
+<a href="http://twitter.com/caseyg">Twitter</a>, <a href="http://facebook.com/caseygollan">Facebook</a>, <a href="http://pinboard.in/u:caseygollan">Pinboard</a>, <a href="http://mlkshk.com/user/CaseyG">Mlkshk</a>, <a href="http://rhizome.org/profiles/caseyg/">Rhizome</a>, <a href="http://stellar.io/caseyg">Stellar</a>, <a href="https://findings.com/caseyg">Findings</a>, <a href="http://readmill.com/CaseyG">Readmill</a>, <a href="http://last.fm/user/caseygollan">Last.fm</a>, <a href="https://kindle.amazon.com/profile/Casey-Gollan/1239626">Kindle</a>, <a href="http://www.quora.com/Casey-Gollan">Quora</a>, <a href="http://dribbble.com/CaseyG">Dribbble</a> <!-- Hidden, for brevity: <a href="http://flickr.com/photos/caseygollan">Flickr</a>, <a href="http://www.goodreads.com/user/show/1861885">Goodreads</a>, <a href="http://www.metafilter.com/user/120538">Metafilter</a>-->
+
+![](/images/casey.jpeg)
+
+## About This Site
+
+In May I realized my website [had been hacked](https://twitter.com/caseyg/status/209773035539013633) and for some time had been been redirecting visitors to a set of shady Russian domains. After finding out that this encrypted line of bullshit had inserted itself into 6561 different PHP files on my server, I backed everything up and hit Delete All. I thought I would put everything back up in a few days, but found myself sucked into a never-ending secret project to make the new website of my dreams, while learning more about things I'd been meaning to, like Git and Javascript. I started tinkering in Brooklyn, New York in May 2012, kept working on it in Charlottesville, Virginia while visiting my grandparents for a week, and finally launched it in Espoo, Finland a few months later in late August.
+
+### Philsophy
+
+#### Multiple Views
+
+There are four ways to look at things:<br /> <a href="/graph" rel="tooltip" data-original-title="Grab and throw tags and things around to grok their connectedness. Might crash your computer." data-placement="left">Graph</a>, <a href="/archive" rel="tooltip" data-original-title="A straightforward listing with utilities for sorting and searching." data-placement="bottom">Archive</a>, <a href="/infinite-scroll" rel="tooltip" data-original-title="If you want to sit back and not thing too hard about things.">Infinite-Scroll</a>, and <a href="/narratives" rel="tooltip" data-original-title="Arcs.">Narratives</a>. 
+
+#### Fighting Time: Streams, Rivers, Timelines vs. Graphs
+
+All the projects on this site are tagged with people, places and concepts that tie them together.
+
+A force-directed graph is perhaps not the most practical way to sort content by tag.
+
+#### URL Structure
+
+The old
+
+#### No Analytics
+
+After installing [Ghostery](http://ghostery.com) and seeing how many sites include upwards of ten tracking scripts, I decided to stop collecting analytics on my personal sites entirely. When I visit a website and see that Ghostery has nothing to report, it feels like an electric shock of not-giving-a-fuck! Statistics are closed is the new comments are closed. It just feels useless and sometimes stifling to think about my personal site in terms of numbers. I wasn't really doing anything with said numbers except committing them to memory and worrying about them a little. I will miss seeing referrers (who is linking to my website) but I will not miss wondering why nobody is visiting my website.
+
+My dream personal website statistics application would collect specific kinds of information intentionally. It would ask users if they want to identify themselves with a name and a home url. It would show them their own tracks across my site as I am collecting them, and they could comment on how it went. Maybe that's a stupid idea. But as far as I know this type of explicit, friendly collection of visitor information doesn't yet exist. 
+
+Typekit may embed a Google Analytics script, but it's not one I have access to.
+
+### Technical Details
+
+#### Stacey
+
+This site is built with [Stacey](http://staceyapp.com), a content management system built by [Anthony Kolber](http://aestheticallyloyal.com/), that is so wonderfully simple I have not changed my mind about using it for all this site's various incarnations since 2010.
+
+The biggest reason I like Stacey is that it uses no database* or backend interface. This means that instead of logging in to a web interface (like with Wordpress or Indexhibit) to add new projects or update existing ones, I just throw text files, images, and other media into [neatly organized folders](https://github.com/caseyg/caseyagollan.com/tree/master/content). Stacey slurps up everything in these folders and runs it through [templates](https://github.com/caseyg/caseyagollan.com/tree/master/templates) to spit out a website.
+
+I don't like using most web interfaces because I start to obsess over how bloated, ugly, and distracting they are. With Stacey I can just use any text editor. Because my content and templates are just a files in folders I don't feel locked into a particular system. The databases on sites powered by Wordpress and others sometimes make me feel like I have no exit.
+
+That said, for this iteration of my site I wanted to treat the site more like a database than ever before. This required some Javascript wrangling.
+
+* As my friend David Yee pointed out to me once, a file system _is_ a kind of database.
+
+#### Git and Github
+
+Building this site is my first attempt in earnest at using Git. In conclusion, I will never not use it again! Git is a lifesaver while working [EXPAND ON THIS], and it also allows for lots of cool benefits.
+
+- You can browse [the source code for this entire website at Github](https://github.com/caseyg/caseyagollan.com). 
+
+- You can see a detailed log of changes to this site by looking at the [commit history](https://github.com/caseyg/caseyagollan.com/commits/master).
+
+- You can browse every version of every single file on this site and [compare revisions](https://github.com/caseyg/caseyagollan.com/commit/21b598146d7480cc98419bfbb2f6bdb304b3b73b#diff-5).
+
+- You can fork this site (make a copy of the entire codebase) and use it as a template for your own site. You can fork this site and change a few words and images to make a full-featured parody in five minutes. If you see something wrong you can fix it yourself and submit a pull-request on Github, then I can merge your code into this site with one click. 
+
+#### Javascript
+
+This site also represents my first real attempt at writing Javascript. [The file](https://github.com/caseyg/caseyagollan.com/blob/master/public/docs/js/sneezeburg.js) is named after [my dog](https://www.facebook.com/sneezeburg) because he is also cute but also hideously ugly and unkempt. There is a metaphor there somewhere I think. I am embarrassed by this code, but it works (KIND OF) and I want to get better at it over time.
+
+The [Graph](http://caseyagollan.com/graph) is powered by [D3.js](http://d3js.org) by [Mike Bostock](http://bost.ocks.org/mike/). In trying to make an interactive force-directed graph I also dragged myself through experiments with [Arbor.js](http://arborjs.org) by [Christian Swinehart](http://samizdat.cc) whose work I very much admire, [Raphael](http://raphaeljs.com), and [Kinetic.js](http://www.kineticjs.com) before landing on D3. I am very happy here.
+
+The [Archive](http://caseyagollan.com/archive) relies on [Isotope](http://isotope.metafizzy.co) by [David Desandro](desandro.com).
+
+#### SASS!
+
+
+
+#### Other Tools
+
+Most of the code was written in SublimeText 2 with [Solarized](http://ethanschoonover.com/solarized) syntax highlighting. I had Codekit running in the background to compile SCSS into CSS, and minify both CSS and JS as I worked. Fonts are served from Typekit.
