@@ -5,25 +5,13 @@
 	<body id="about">
 	:top-nav
 	<article>
-		<h1>@title</h1>
-		<div id="CASEY">
-			<img width="600" height="338" src="/images/casey-hula.gif">
-			<img width="600" height="338" src="/images/casey-greenscreen.gif">
-			<img width="600" height="338" src="/images/casey-ipad.gif">
-		</div>
-		if @content do 
-			<section class="content">
-				@content
+		<div class="group">
+			<section id="about_me" class="content">
+				@about_me
 			</section> 
-		endif
+			<section id="about_site" class="content">
+				@about_site
+			</section> 
+		</div>
 	</article>
-	<script src="@root_path/docs/js/jquery.DVDBounce.js" type="text/javascript"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$('#CASEY').DVDBounce();
-		$('#content').tooltip({
-		  selector: "a[rel=tooltip]"
-		});
-	});
-	</script>
 :footer

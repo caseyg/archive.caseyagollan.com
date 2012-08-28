@@ -947,3 +947,15 @@ body#index {
 		text-decoration:underline;
 	}
 }
+body#about {
+	section.content {
+		width:45%;
+		float:left;
+		p, ul {
+			width:100%;
+		}
+	}
+	#about_me {
+		margin-right:5%;
+	}
+}

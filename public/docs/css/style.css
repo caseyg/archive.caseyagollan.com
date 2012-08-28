@@ -963,3 +963,11 @@ body#index {
   body#index a:hover, body#index a:active {
     color: white;
     text-decoration: underline; }
+
+body#about section.content {
+  width: 45%;
+  float: left; }
+  body#about section.content p, body#about section.content ul {
+    width: 100%; }
+body#about #about_me {
+  margin-right: 5%; }

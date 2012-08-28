@@ -92,8 +92,6 @@ $("#tag-select").select2({
 
 var $container = $('#projects>ul');
 
-var filterSet = ':not(.rye-high-school, .risd-pre-college, .oxbow-school, .smfa-pre-college)';
-
 $($container).imagesLoaded( function( $images, $proper, $broken ) {
 	$($container).isotope({
 		// options
