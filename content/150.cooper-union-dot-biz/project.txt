@@ -2,7 +2,8 @@ title: CooperUnion.biz
 -
 date: 2011 December
 -
-excerpt: The website of Cooper Union from an alternate universe where the grubby administration gets their way.  [Alex Gibson](http://badsmellingboy.com) and [Aaron Graham](http://aaron-graham.com).
+excerpt:
+The website of Cooper Union from an alternate universe where the grubby administration gets their way.  [Alex Gibson](http://badsmellingboy.com) and [Aaron Graham](http://aaron-graham.com).
 -
 tags: Cooper Union, Trolling, Fun, Website, New York
 -

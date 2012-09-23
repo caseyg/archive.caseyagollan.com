@@ -1,7 +1,7 @@
 title: Pool
 -
 excerpt: 
-Eight months after contributing [a piece of writing](/user-generated-content) to [Pool](http://poooool.info), a publication about internet art, and one [passive-agressive message](crappy.png) later I ended up working with Founder and Lead Editor [Louis Doulas](http://www.louisdoulas.info/) to develop the site's second iteration. While staying true to Louis's intensely stark mockups, we arrived at a better reading experience and managed to make a ton of subtle, under-the-hood improvements to the site's functionality. The site's homepage bares a list of everything ever published by Pool, with visited links shown in gray. This allows readers to leave and return to the site and remember what is left to be explored.
+Eight months after contributing [a piece of writing](/user-generated-content) to [Pool](http://poooool.info), a publication about internet art, and one [passive-agressive message](@path/crappy.png) later I ended up working with Founder and Lead Editor [Louis Doulas](http://www.louisdoulas.info/) to develop the site's second iteration. While staying true to Louis's intensely stark mockups, we arrived at a better reading experience and managed to make a ton of subtle, under-the-hood improvements to the site's functionality. The site's homepage bares a list of everything ever published by Pool, with visited links shown in gray. This allows readers to leave and return to the site and remember what is left to be explored.
 -
 external_link: http://poooool.info
 -

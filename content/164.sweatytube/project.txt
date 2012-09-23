@@ -4,7 +4,8 @@ date: 2012 March
 -
 external_link: http://sweatytube.com
 -
-excerpt: Watch YouTube videos on a sweater. Made with [Alex Gibson](http://badsmellingboy.com) and [Aaron Graham](http://aaron-graham.com).
+excerpt:
+Watch YouTube videos on a sweater. Made with [Alex Gibson](http://badsmellingboy.com) and [Aaron Graham](http://aaron-graham.com).
 -
 tags: Meme Generator, Website, Coding, New York
 -

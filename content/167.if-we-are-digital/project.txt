@@ -1,7 +1,7 @@
 title: If We Are Digital
 -
 excerpt: 
-In just seven days I launched a website for [If We Are Digital](http://ifwearedigital.com), a running series of conversations between [Jen Lindblad](http://jenniferlindblad.com/) and art professionals working to engage online audiences. Now Jen has the tools to run everything herself as she continues the project beyond the first six conversations.
+In just seven days I helped launch this website hosting a series of conversations between [Jen Lindblad](http://jenniferlindblad.com/) and people working to engage online art audiences.
 -
 external_link: http://ifwearedigital.com
 -
