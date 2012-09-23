@@ -4,6 +4,9 @@ date: 2012 Summer
 -
 tags: Writing
 -
+excerpt:
+NO NO NO I don’t want to linger in front of screens or projectors. Please god no. I know I already do, but.
+-
 content:
 ## Post Index
 1. [bloodletting:medicine::LCDs:computing](http://notes.caseyagollan.com/post/26877511013/bloodletting-medicine-lcds-computing)

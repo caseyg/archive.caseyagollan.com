@@ -2,7 +2,8 @@ title: Until I get better at coding, there will be no four-dimensional node-base
 -
 date: 2011 August
 -
-excerpt: One day I will read something and feel the hypothetical ecstasy of some awesome information-space tool, the next day I'll look at a stupid infographic, read a story about universal-library vaporware, or see bit of design too clever for its own good and begin to doubt that better tools will make much of a difference. Either way I keep coming back to this desire to look in from outside at swirling systems of thought, to let the public inside a brain in action.
+excerpt:
+One day I will read something and feel the hypothetical ecstasy of some awesome information-space tool, the next day I'll look at a stupid infographic, read a story about universal-library vaporware, or see bit of design too clever for its own good and begin to doubt that better tools will make much of a difference. Either way I keep coming back to this desire to look in from outside at swirling systems of thought, to let the public inside a brain in action.
 -
 tags: Writing, Blog Highlight, Design Thinking, Coding, Grand Unified Theories, Perfectionism, New York
 -
