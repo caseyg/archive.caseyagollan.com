@@ -739,8 +739,6 @@ article {
     font-size: 10px;
     margin-right: 5px; }
 
-body#single article {
-  margin-top: 90px; }
 body#single nav#main {
   box-shadow: none; }
 body#single nav#project-timeline ul {
