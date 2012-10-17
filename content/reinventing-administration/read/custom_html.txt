@@ -84,6 +84,8 @@ There are a million reasons why this won't work. But that's the status quo for y
 
 ### Saving face is a financial liability
 
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%206.png)
+
 A former dean of the school told me that what they learned when they served in that position is that it's *not* that hard to run this place. She was fired, she said, for not holding enough meetings. 
 
 I didn't even have to ask her salary for her to tell me what she makes. $146,000. She has worked here since 1969! I still think she makes too much, but the fact that she wasn't afraid to tell me what she makes was so refreshing.
@@ -113,6 +115,8 @@ We can't undo mistakes that were made behind closed doors, like taking out ridic
 ![](../../content/reinventing-administration/read/img/puppies.png)
 
 ## Solutions
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%207.png)
 
 So what comes after the age of horse-drawn democracy? It's not clear yet. But one place we can take clues from is the world of open source programming. Programmers need to be good at this stuff because they work in a distributed way, from around the world, together on large, complex projects that involve lots of details and planning. So the tools that programmers invent for themselves to work together without stepping on each other's toes might be of particular interest to someone trying to understand what administrations will look like in the future.
 
@@ -162,11 +166,17 @@ Git knocked down the barrier to collaborating on large, complex software project
 
 ### Accountable by Design
 
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%205.png)
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%208.png)
+
 History of Changes
 
 Users
 
 ### History in Action: Differences and Diffing
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%2012.png)
 
 In a recent discussion of the new bylaws on the Save Cooper Facebook group, somebody wrote, "I haven't combed through yetâ€¦anyone see any important changes?" A "diff" (short for "difference") in a way of asking a computer to suss out the differences between these two files, or versions of the same file.
 
@@ -178,11 +188,17 @@ Diffing bylaws demo.
 
 ### Every Possible Administration: forks and pull-requests
 
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%209.png)
+
 The *most* fascinating part of Git.
 
 ### Open to Everyone (if you want it to be)
 
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%201.png)
+
 ### Asynchronous
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%2010.png)
 
 ### Workflows
 
@@ -284,7 +300,9 @@ How radically could we scale back the size of our administration, responsible fo
 
 ### *Enlighten* the Board of Trustees
 
-All decisions come down to the Board of Trustees. They elect themselvesâ€¦and their friends. We are not allowed to sit in on their meetings. The minutes kept of their meetings are confidential. We have been told that the Cooper community has no recourse against the decisions they make. We are only allowed to communicate with them in shallow ways like staid Q&As or a one-way airing of grievances (like when we were invited into their meeting).
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%204.png)
+
+All decisions come down to the Board of Trustees. They elect themselves—and their friends. We are not allowed to sit in on their meetings. The minutes kept of their meetings are confidential. We have been told that the Cooper community has no recourse against the decisions they make. We are only allowed to communicate with them in shallow ways like staid Q&As or a one-way airing of grievances (like when we were invited into their meeting).
 
 Ignorance is one answer. While a third of the board consists of alumni, and the president, secretary, and treasurer also attend meetings, the majority of the board is only called to campus four times a year for meetings. They undoubtedly carry on discussions outside the walls of the school. Whilele a board draws together philanthropists and executives with various areas of expertise to manage an institution, how is anybody who brushes with the institution's day-to-day life four times a year supposed to be able to understand the needs and desires of this place? The short answer is that they don't. These un-humble macro views have nearly sunken this place.
 
