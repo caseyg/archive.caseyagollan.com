@@ -4,6 +4,8 @@ content:
 
 <p class="lead">In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to <em>The New York Times</em> that the college has been quietly digging itself into debt for years. He issued a mandate that Cooper Union must be "reinvented for the 21st century," and that this could mean putting an end to the college's celebrated gift of full scholarships to all admitted students. Over the course of a failed year-long "Reinvention" process, it has become clear that in order to preserve free education at Cooper Union, it is the college's unwieldy and ineffective <em>administration</em> that will have to be reinvented for the next hundred years. And time to put this change into action is running out.</p>
 
+### Sustain _what_?
+
 The school has employed several groups of consultants to help analyze revenue generating schemes. The Board of Trustees, chairman Mark Epstein told me, even hired their own consultants to tell them how they might be a better board. Lacking faith in these expensive consultants (not to mention the large sums of money they command), I set out to talk to everyone at Cooper Union who would give me the time of day to hear about what it is they do and how it could work better. I wanted to assess the things that Kevin had mentioned in his talk: trust, communication, transparency, and integrity.
 
 <iframe width="800" height="450" src="http://www.youtube.com/embed/9zvx_Lazu1E" frameborder="0" allowfullscreen></iframe>
@@ -17,7 +19,7 @@ Cooper Union's legacy provides an amazing history on which to stand, but also th
 
 It may sound nitpick and pointless to talk about meetings and social networks in the middle of a financial crisis. But as Slavin notes, this hole was dug with secrecy and bad information. Putting in place tools and workflows which are more accountable and inclusive will restore the trust that is key to Cooper Union's future as a philanthropically backed institution, reduce the costly and timid administrative overhead that is plaguing institutions across the nation, and position the college at the forefront of a revolution in higher education.
 
----
+<section class="narrative" markdown="1">
 
 ### The Big Red Folder
 
@@ -29,13 +31,39 @@ Appointments can be hard to come by at Cooper, because everyone seems to be jugg
 
 She goes over to her files and pulls out a red folder. "This is my 'Where Did The Money Go' file", she says. Everybody laughs. I think she's joking. I pray that she is joking. But as it turns out, it isn't always so clear.
 
----
+</section>
 
+<section class="technical" markdown="1">
+
+### Be Accountable by Design
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%205.png)
+
+Git's way of managing documents that places an emphasis on saving changes not based on just saving new versions of a file but on describing exactly what changed and saving only those bits. This presents investing creative opportunities. In a traditional model of a filesystem, you've got your copy of the bylaws in Microsoft Word, and as you work the document auto saves every couple of minutes, and at points maybe you save your own variations: bylaws-new.doc, bylaws-1.doc, bylaws-2.doc, bylaws-final.doc. Everyone who has ever written a paper knows how inconsistent and haphazard this organization can sometimes be. In Git you're always working in the same place. You can work in any program you want. Git kind of inserts instead into a set of files and you can use it to start working differently. When you save a file, you tell Git what you changed. So instead of saving a version called -2.doc you actually just overwrite the file you're working on and tell Git, “added a bit about how the president now sits on the board”. Git maintains the original version, your note about what you changed, and the actual changes that were made. In the same file, you can now use Git to browse backwards and forwards through changes. Instead of versions as multiple files like in a normal workflow, Git ties all historical versions and alternative versions to the actual files. You can also browse laterally, through alternate universes of what this same file could be. This is the magic part, so buckle up. 
+
+Git is designed to run on a network, meaning you can collaborate with people in your office and around the world. Because Git utilizes these descriptive saves (called “commits”) and keeps track of precisely what changed, people can work together without a lot of back and forth or stepping on each other's toes by sending data to a central server so that everyone can work on their own version but then create a central one.
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%208.png)
+
+This means that accountability is built in. Every document contains a log of its commits, who made them, and when. There's no longer the possibility for ambiguity such as saying that the board of trustees released a new set of bylaws. If they want to announce that, they still can, but whoever actually made those changes and hit save -- if it was Mark Epstein, the chairman, or Lawrence Cacciatore, the secretary -- who told Git what they're changing. Anyone, if its set up in an open way, can browse this information. Providing that there's nothing to hide it creates a wonderful resource.
+
+</section>
+
+<section class="narrative" markdown="1">
 ### Don't Eat The Archives
 
 #### _A visit with_ Lawrence Cacciatore, Chief of Staff and Secretary to the Board of Trustees
+</section>
 
----
+<section class="technical" markdown="1">
+### Make History Actionable
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%2012.png)
+
+In a recent discussion of the new bylaws on the Save Cooper Facebook group, somebody wrote, "I haven't combed through yetâ€¦anyone see any important changes?" A "diff" (short for "difference") in a way of asking a computer to suss out the differences between these two files, or versions of the same file.
+
+Putting history into action with diffs. “Diff” comes from the word difference. You can ask Git to tell you what has changed between two versions of a file, or even what is different between any two files. You could do this for the last two versions of a document, say, show me what changed the last time it was edited. But theoretically, if you have a long history in your Git repository, meaning the directory of files your working with Git on, you could say show me a diff of the 1972 bylaws versus the 2012 bylaws. Git would analyze those two texts and show you exactly what parts have been removed and added. If the data was available you'd see who the authors are and what they said they changed, but because of the way that Git keeps track of changes, you wouldn't just be looking at two documents side by side, you'd be looking at a merged, ccolor coded summary showing the actual edits. This is really interesting because on the Facebook group Save Cooper, someone was discussing the recent bylaws and saying, "I haven't had time to read, does anyone know what's changed?" A diff shows you this. It can also work on any type of file, which is fascinating. For example, someone differ their haircut so you can drag a slider back and forth and see the difference. And here I've put together a diff of the cooper bylaws that you can play with.
+</section>
 
 ### Bedbugs in the Office
 
@@ -200,25 +228,6 @@ Git is the name of the most popular distributed version control system right now
 
 Git knocked down the barrier to collaborating on large, complex software projects without centralized organization. It has proven to be such a successful way of working that media theorist Clay Shirky thinks these tools and concepts will shape a new generation of governments.
 
-### Accountable by Design
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%205.png)
-
-Git's way of managing documents that places an emphasis on saving changes not based on just saving new versions of a file but on describing exactly what changed and saving only those bits. This presents investing creative opportunities. In a traditional model of a filesystem, you've got your copy of the bylaws in Microsoft Word, and as you work the document auto saves every couple of minutes, and at points maybe you save your own variations: bylaws-new.doc, bylaws-1.doc, bylaws-2.doc, bylaws-final.doc. Everyone who has ever written a paper knows how inconsistent and haphazard this organization can sometimes be. In Git you're always working in the same place. You can work in any program you want. Git kind of inserts instead into a set of files and you can use it to start working differently. When you save a file, you tell Git what you changed. So instead of saving a version called -2.doc you actually just overwrite the file you're working on and tell Git, “added a bit about how the president now sits on the board”. Git maintains the original version, your note about what you changed, and the actual changes that were made. In the same file, you can now use Git to browse backwards and forwards through changes. Instead of versions as multiple files like in a normal workflow, Git ties all historical versions and alternative versions to the actual files. You can also browse laterally, through alternate universes of what this same file could be. This is the magic part, so buckle up. 
-
-Git is designed to run on a network, meaning you can collaborate with people in your office and around the world. Because Git utilizes these descriptive saves (called “commits”) and keeps track of precisely what changed, people can work together without a lot of back and forth or stepping on each other's toes by sending data to a central server so that everyone can work on their own version but then create a central one.
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%208.png)
-
-This means that accountability is built in. Every document contains a log of its commits, who made them, and when. There's no longer the possibility for ambiguity such as saying that the board of trustees released a new set of bylaws. If they want to announce that, they still can, but whoever actually made those changes and hit save -- if it was Mark Epstein, the chairman, or Lawrence Cacciatore, the secretary -- who told Git what they're changing. Anyone, if its set up in an open way, can browse this information. Providing that there's nothing to hide it creates a wonderful resource.
-
-### History in Action: Differences and Diffing
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%2012.png)
-
-In a recent discussion of the new bylaws on the Save Cooper Facebook group, somebody wrote, "I haven't combed through yetâ€¦anyone see any important changes?" A "diff" (short for "difference") in a way of asking a computer to suss out the differences between these two files, or versions of the same file.
-
-Putting history into action with diffs. “Diff” comes from the word difference. You can ask Git to tell you what has changed between two versions of a file, or even what is different between any two files. You could do this for the last two versions of a document, say, show me what changed the last time it was edited. But theoretically, if you have a long history in your Git repository, meaning the directory of files your working with Git on, you could say show me a diff of the 1972 bylaws versus the 2012 bylaws. Git would analyze those two texts and show you exactly what parts have been removed and added. If the data was available you'd see who the authors are and what they said they changed, but because of the way that Git keeps track of changes, you wouldn't just be looking at two documents side by side, you'd be looking at a merged, ccolor coded summary showing the actual edits. This is really interesting because on the Facebook group Save Cooper, someone was discussing the recent bylaws and saying, "I haven't had time to read, does anyone know what's changed?" A diff shows you this. It can also work on any type of file, which is fascinating. For example, someone differ their haircut so you can drag a slider back and forth and see the difference. And here I've put together a diff of the cooper bylaws that you can play with.
 
 ### Every Possible Administration: forks and pull-requests
 
