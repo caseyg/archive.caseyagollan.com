@@ -1,6 +1,31 @@
 content:
 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9zvx_Lazu1E" frameborder="0" allowfullscreen></iframe>
+
+> Money has always followed trust, and that trust came from a sense of transparency and communication. A sense that I knew where the money would go. But I never gave to Cooper Union. Because I never could figure it out. I can hardly figure it out now.
+
+> If someone asked you for $10,000 and had a board of people who were going to spend it, and no one was supervising them -- no one! -- and they were accountable to no one -- no one! -- and if you asked, can I find out what you guys are even talking about and they said -- no! -- and you said, can I even talk to you -- and they said -- no! -- would you invest in that? If it were for profit, would you believe that it would be likely to be profitable? And yet, that’s where we are. Can you imagine a company, in a crisis, that would bar the NYT, Reuters, and the Wall Street Journal from the room -- from this room! The Great Hall! -- and bring it’s chairman to address its shareholders who will only answer prepared questions with a lawyer at his side? What is produced in a spectacle like that? What is consumed? What is exhausted? Transparency is not a promise. It’s not an idea. It’s action.
+
 In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to *The New York Times* that the college has been quietly digging itself into debt for years. He issued a mandate that Cooper Union must be "reinvented for the 21st century," and that this could mean putting an end to the college's celebrated gift of full scholarships to all admitted students. Over the course of a failed year-long "Reinvention" process, it has become clear that in order to preserve free education at Cooper Union, it is the college's unwieldy and ineffective *administration* that will have to be reinvented for the next hundred years. And time to put this change into action is running out.
+
+Cooper Union's legacy provides an amazing history on which to stand, but also the cruft of old policies of inefficiencies. In a talk at the Personal Democracy Forum, [Peter Fein noted](http://www.youtube.com/watch?v=SsW4rAS1gao) that legacy is notoriously difficult to shake.
+
+It may sound nitpick and pointless to talk about meetings and social networks in the middle of a financial crisis. But as Slavin notes, this hole was dug with secrecy and bad information. Putting in place tools and workflows which are more accountable and inclusive will restore the trust that is key to Cooper Union's future as a philanthropically backed institution, reduce the costly and timid administrative overhead that is plaguing institutions across the nation, and position the college at the forefront of a revolution in higher education.
+
+---
+
+## Anecdotes
+
+## The Big Red Folder: T.C. Westcott, Vice President of Finance, Administration, and Treasurer — Forensic Accounting
+Where did the money go
+
+## Don't Eat The Archives: Lawrence Cacciatore, Chief of Staff and Secretary to the Board of Trustees
+
+## A Bedbug Scare in 30 Cooper: Alan Wolf, Acting Dean of the School of Engineering and Professor of Physics
+
+## The Anti-Smoking Gun: Francois De Menil, Vice Chair of the Board of Trustees
+
+---
 
 Bharucha's "Reinvention" plan implores the college's *deans* of Art, Architecture and Engineering to cut costs within their schools and create their own "sustainable revenue streams". This means using the college's existing faculty and facilities to make money by way of new paid educational programs like MFAs and pre-college programs. These paid programs, Bharucha supposes, will eventually be able to subsidize the school's 1000 undergraduate scholarships. Until this proposed investment provides returns, the plan's authors admit that the college may have to charge tuition currently priced at $38,550 to a percentage of incoming undergraduates.
 
@@ -38,7 +63,7 @@ The rest of this essay is divided into two major sections: *Problems* and *Solut
 
 ## Problems
 
-“Democracy,” says [so and so], “is government for the age of the horse-drawn carriage.” Representative democracy, he explains, use to be necessary because it wasn't possible for every citizen to convene in the same place at the same time. But if local groups could elect a representative, and that representative could go off and meet with other representatives, a kind of democracy could take place. The telegraph and the computer, personal electronic means of communication, broke down these barriers. Now that we're each walking around with a smartphone, we can imagine a world in which direct democracy can occur. The problem with representatives, as we have seen at Cooper, is that they don't always represent us. The flows of information are politically cloudy. For example, when, at a meeting with her students in the School of Art, dean Saskia Bos was asked why she couldn't advocate for The Way Forward, a plan which many of her students find compelling, she said, “it's not my job to tell the president what to do.” (So whose job is it?) The scary part is that Dean Bos may be right. The larger issue is not why she won't advocate for us on this matter, but why we are both stifled by this so called democracy? (After all, we were meeting to talk about ideas.)
+“Democracy,” says [Peter Fein](http://www.youtube.com/watch?v=SsW4rAS1gao), “is government for the age of the horse-drawn carriage.” Representative democracy, he explains, use to be necessary because it wasn't possible for every citizen to convene in the same place at the same time. But if local groups could elect a representative, and that representative could go off and meet with other representatives, a kind of democracy could take place. The telegraph and the computer, personal electronic means of communication, broke down these barriers. Now that we're each walking around with a smartphone, we can imagine a world in which direct democracy can occur. The problem with representatives, as we have seen at Cooper, is that they don't always represent us. The flows of information are politically cloudy. For example, when, at a meeting with her students in the School of Art, dean Saskia Bos was asked why she couldn't advocate for The Way Forward, a plan which many of her students find compelling, she said, “it's not my job to tell the president what to do.” (So whose job is it?) The scary part is that Dean Bos may be right. The larger issue is not why she won't advocate for us on this matter, but why we are both stifled by this so called democracy? (After all, we were meeting to talk about ideas.)
 
 Bureaucracy is stifling. In a hierarchical organization responsibilities are divided up and encapsulated arbitrarily. This division of labor creates a lack of responsibility: it's not my job, it's not my problem. In reality saving this school is everyone's problem and everyone's input should be equally valued. Hierarchies like the one in place at Cooper divide it so that administrators can waste time fulfilling their job requirements. You can't put your best ideas forward, instead you must perform your role. This is demonstrated most interestingly by the fact that our dean says even if she opposes tuition she must work on proposals including it because that is her job.
 
