@@ -38,6 +38,10 @@ The rest of this essay is divided into two major sections: *Problems* and *Solut
 
 ## Problems
 
+The board stopped believing in free education a long time ago and now they're resigned to looking at Cooper as a numbers game. Their feeling of responsbility for financial debts is stronger than their resolve to fight for Cooper's unique program of education students chosen by nothing besides merit and awarded full-scholarships. It's not the perfect model, and it's one of many. But the community has articulated why Cooper needs to exist. Why couldn't we run this place?
+
+The administration has said that social media protests and slandering, combined with a low alumni contribution rate, get in the way of the administrations ability to raise money. The Chairman of the board said something to the effect of: philanthropists see those things and just laugh. What this makes clear is that the administration is costing the school a lot of money, not representing the desires of its community, and doing a bad job selling the school to philanthropists.
+
 “Democracy,” says [so and so], “is government for the age of the horse-drawn carriage.” Representative democracy, he explains, use to be necessary because it wasn't possible for every citizen to convene in the same place at the same time. But if local groups could elect a representative, and that representative could go off and meet with other representatives, a kind of democracy could take place. The telegraph and the computer, personal electronic means of communication, broke down these barriers. Now that we're each walking around with a smartphone, we can imagine a world in which direct democracy can occur. The problem with representatives, as we have seen at Cooper, is that they don't always represent us. The flows of information are politically cloudy. For example, when, at a meeting with her students in the School of Art, dean Saskia Bos was asked why she couldn't advocate for The Way Forward, a plan which many of her students find compelling, she said, “it's not my job to tell the president what to do.” (So whose job is it?) The scary part is that Dean Bos may be right. The larger issue is not why she won't advocate for us on this matter, but why we are both stifled by this so called democracy? (After all, we were meeting to talk about ideas.)
 
 Bureaucracy is stifling. In a hierarchical organization responsibilities are divided up and encapsulated arbitrarily. This division of labor creates a lack of responsibility: it's not my job, it's not my problem. In reality saving this school is everyone's problem and everyone's input should be equally valued. Hierarchies like the one in place at Cooper divide it so that administrators can waste time fulfilling their job requirements. You can't put your best ideas forward, instead you must perform your role. This is demonstrated most interestingly by the fact that our dean says even if she opposes tuition she must work on proposals including it because that is her job.
@@ -118,7 +122,9 @@ We can't undo mistakes that were made behind closed doors, like taking out ridic
 
 ![](../../content/reinventing-administration/read/img/Administration%20Drawing%207.png)
 
-So what comes after the age of horse-drawn democracy? It's not clear yet. But one place we can take clues from is the world of open source programming. Programmers need to be good at this stuff because they work in a distributed way, from around the world, together on large, complex projects that involve lots of details and planning. So the tools that programmers invent for themselves to work together without stepping on each other's toes might be of particular interest to someone trying to understand what administrations will look like in the future.
+Cooper isn't a democracy. It's a private institution governed by a Board ohave to gain from moving towards new forms of government? Staying on the forefront.
+
+So what comes after representative democracy's horse-drawn carriage? One place we can take clues from is the world of open source programming. Programmers need to be good at this stuff because they work in a distributed way, from around the world, together on large, complex projects that involve lots of details and planning. So the tools that programmers invent for themselves to work together without stepping on each other's toes might be of particular interest to someone trying to understand what administrations will look like in the future.
 
 Though the invention of the internet connected all types of people to each other, it was a boon for programmers especially. Before the internet, a programmer's collaborators were limited to those close enough in proximity to walk over and stare at the code on their screen. But now anybody could publish their source code online and get instant feedback from other programmers around the world.
 
@@ -179,6 +185,10 @@ Another thing that's amazing is that this process can be real time but is asynch
 This is why github is such an important social network, and maybe why they recently received a $100 million dollar investment. All sorts of messages on Facebook and twitter have meaning, but github is exclusively about pushing projects forward and producing knowledge. The are still ways to have fforum style conversations. It's also important to note that this doesn't obviate the need to face to face discussions. But it gives you tools for leaving better feedback. Specific at the level of annotating line by line, or literally going up to somebody with the change and giving them the tools to -- if you've done a good job -- Immediately put that change in the pipeline towards becoming reality.
 
 ### Workflows
+
+### Cost
+
+This doesn't _add_ manpower or require additional investment. It just becomes part of everyone's job to specify what they are working on. In fact, it may even make some secretarial and communications positions fall away.
 
 ### Avoiding the Technological Steamroller
 
