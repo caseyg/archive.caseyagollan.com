@@ -1,3 +1,4 @@
 *.MOV
 .DS_Store
 .swp
+_cache
