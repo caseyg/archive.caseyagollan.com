@@ -1,16 +1,17 @@
-title: &ldquo;Reinventing&rdquo; Administration<br /><small>&#8230;before it suffocates The Cooper Union to death</small>
+title: &ldquo;Reinventing&rdquo; administration
 -
 content:
 
-The school has employed several groups of consultants to help analyze revenue generating schemes. The Board of Trustees, chairman Mark Epstein told me, even hired their own consultants to tell them how they might be a better board. Lacking faith in these expensive consultants (not to mention the large sums of money they command), I set out to talk to everyone at Cooper Union who would give me the time of day to hear about what it is they do and how it could work better. I wanted to assess the things that Kevin had mentioned in his talk: trust, communication, transparency, and integrity
+<p class="lead">In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to <em>The New York Times</em> that the college has been quietly digging itself into debt for years. He issued a mandate that Cooper Union must be "reinvented for the 21st century," and that this could mean putting an end to the college's celebrated gift of full scholarships to all admitted students. Over the course of a failed year-long "Reinvention" process, it has become clear that in order to preserve free education at Cooper Union, it is the college's unwieldy and ineffective <em>administration</em> that will have to be reinvented for the next hundred years. And time to put this change into action is running out.</p>
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9zvx_Lazu1E" frameborder="0" allowfullscreen></iframe>
+The school has employed several groups of consultants to help analyze revenue generating schemes. The Board of Trustees, chairman Mark Epstein told me, even hired their own consultants to tell them how they might be a better board. Lacking faith in these expensive consultants (not to mention the large sums of money they command), I set out to talk to everyone at Cooper Union who would give me the time of day to hear about what it is they do and how it could work better. I wanted to assess the things that Kevin had mentioned in his talk: trust, communication, transparency, and integrity.
+
+<iframe width="800" height="450" src="http://www.youtube.com/embed/9zvx_Lazu1E" frameborder="0" allowfullscreen></iframe>
 
 > Money has always followed trust, and that trust came from a sense of transparency and communication. A sense that I knew where the money would go. But I never gave to Cooper Union. Because I never could figure it out. I can hardly figure it out now.
 
 > If someone asked you for $10,000 and had a board of people who were going to spend it, and no one was supervising them -- no one! -- and they were accountable to no one -- no one! -- and if you asked, can I find out what you guys are even talking about and they said -- no! -- and you said, can I even talk to you -- and they said -- no! -- would you invest in that? If it were for profit, would you believe that it would be likely to be profitable? And yet, that’s where we are. Can you imagine a company, in a crisis, that would bar the NYT, Reuters, and the Wall Street Journal from the room -- from this room! The Great Hall! -- and bring it’s chairman to address its shareholders who will only answer prepared questions with a lawyer at his side? What is produced in a spectacle like that? What is consumed? What is exhausted? Transparency is not a promise. It’s not an idea. It’s action.
 
-In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to *The New York Times* that the college has been quietly digging itself into debt for years. He issued a mandate that Cooper Union must be "reinvented for the 21st century," and that this could mean putting an end to the college's celebrated gift of full scholarships to all admitted students. Over the course of a failed year-long "Reinvention" process, it has become clear that in order to preserve free education at Cooper Union, it is the college's unwieldy and ineffective *administration* that will have to be reinvented for the next hundred years. And time to put this change into action is running out.
 
 Cooper Union's legacy provides an amazing history on which to stand, but also the cruft of old policies of inefficiencies. In a talk at the Personal Democracy Forum, [Peter Fein noted](http://www.youtube.com/watch?v=SsW4rAS1gao) that legacy is notoriously difficult to shake.
 
@@ -18,17 +19,27 @@ It may sound nitpick and pointless to talk about meetings and social networks in
 
 ---
 
-## Anecdotes
+### The Big Red Folder
 
-### The Big Red Folder: T.C. Westcott, Vice President of Finance, Administration, and Treasurer — Forensic Accounting
+#### _A visit with_ T.C. Westcott, Vice President of Finance, Administration, and Treasurer
+
+Forensic Accounting
 
 Appointments can be hard to come by at Cooper, because everyone seems to be juggling multiple job titles. As far as I can tell, T.C. Westcott has at _least_ three jobs, including overseeing finances, managing the administration, and also dealing with student issues like sexual harassment. I am grateful to T.C. for the protocol she has set up for fostering communication within the college about our money. Anyone is free to claim a seat, via an online form, at a regularly scheduled series of financial information sessions. 
 
 She goes over to her files and pulls out a red folder. "This is my 'Where Did The Money Go' file", she says. Everybody laughs. I think she's joking. I pray that she is joking. But as it turns out, it isn't always so clear.
 
-### Don't Eat The Archives: Lawrence Cacciatore, Chief of Staff and Secretary to the Board of Trustees
+---
 
-### A Bedbug Scare in 30 Cooper: Alan Wolf, Acting Dean of the School of Engineering and Professor of Physics
+### Don't Eat The Archives
+
+#### _A visit with_ Lawrence Cacciatore, Chief of Staff and Secretary to the Board of Trustees
+
+---
+
+### Bedbugs in the Office
+
+#### _A visit with_ Alan Wolf, Acting Dean of the School of Engineering and Professor of Physics
 
 Alan Wolf is a professor of physics, acting dean of the School of Engineering, _and_ the college's safety coordinator. At an all school meeting he recounted an experience dealing with a bedbug scare in the offices at 30 Cooper. Wolf had to walk to each floor of the offices at 30 Cooper to brief the employees on the building's upcoming fumigation. "Who are these people?!" he wondered, when he saw the floors and floors of employees pour out of their cubicles.
 
@@ -43,7 +54,11 @@ Counting through a breakdown of the school's employees, T.C. Westcott reported t
 
 Clay Shirky writes of a "cost disease" within higher education. 
 
-### The Anti-Smoking Gun: Francois De Menil, Vice Chair of the Board of Trustees
+---
+
+### The Anti-Smoking Gun
+
+#### _A visit with_ Francois De Menil, Vice Chair of the Board of Trustees
 
 To actually meet with the trustees for a conversation, I had to jump through some hoops. Basically, getting elected to Art Student Council and then ratified as the student representative to the Board Chairman Committee. This entailed getting the seniors in the School of Art to: check their email within a two day voting period, click a link, select my name, and submit the form. The problem, as it turned out, wasn't galvanizing support from fellow students, but getting anyone to actually check their school email. I was informed that if more than half of class didn't vote for either me, my opponent, or a write-in, that the entire vote would be thrown out and _nobody would receive the seat_. This meant that I spent the closing day of the election sprinting around the school with my laptop offering to let people log into their email then and there and vote for whomever they wish, just so that the vote didn't get thrown out. While the voting process was made formal to the point of being difficult for most students, the deadline was never properly announced and it wasn't clear who had even set it. After running to every studio in the school, the threshold was passed. Shortly after, I received a text message that I had won. Phew.
 
