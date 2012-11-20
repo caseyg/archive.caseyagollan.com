@@ -1,4 +1,4 @@
-title: &ldquo;Reinventing&rdquo; administration
+title: An Administrator's Guide to Self-Reinvention
 -
 content:
 
