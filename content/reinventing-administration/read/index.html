@@ -29,14 +29,20 @@
 		}
 		h1, h2, h3, h4 {
 			font-family: "ff-dagny-web-pro", Helvetica, Arial, sans-serif;
+			color:black;
 		}
 		p.lead {
 			width:auto;
 			max-width:800px;
 		}
-		h3 {
+		h1 {
+			padding:10px 0 0 0;
+		}
+		h1, h3 {
 			border-top:4px solid black;
 			display:inline-block;
+		}
+		h3 {
 			width:auto;
 			margin-bottom:0;
 		}
@@ -96,10 +102,16 @@
 	</article>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="../../content/reinventing-administration/read/js/bootstrap.min.js"></script>
+	<script src="../../content/reinventing-administration/read/js/jquery.fitvids.js"></script>
 	<script>
-	  $(function () {
-	    $('#myTab a:last').tab('show');
-	  })
+		$(function () {
+		$('#myTab a:last').tab('show');
+		})
+		$(document).ready(function(){
+			// Target your .container, .wrapper, .post, etc.
+			$("article").fitVids();
+		});
+
 	</script>
 	<script type="text/javascript" src="//use.typekit.net/tun0rbf.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
