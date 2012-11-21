@@ -11,8 +11,12 @@
 			font-size:1em;
 			line-height:1.40em;
 			font-family: "Calluna", Georgia, serif;
+			padding:20px;
 		}
 
+		.wf-loading {
+			visibility: hidden;
+		}
 		body p {
 			margin:1em 0;
 		}
@@ -37,6 +41,7 @@
 		}
 		h1 {
 			padding:10px 0 0 0;
+			margin:0;
 		}
 		h1, h3 {
 			border-top:4px solid black;
@@ -54,7 +59,7 @@
 		}
 		article {
 			max-width:800px;
-			margin:auto;
+			margin:20px auto;
 		}
 		p, blockquote {
 			max-width:600px;
@@ -95,9 +100,7 @@
 </head>
 <body>
 	<article>
-		<div class="page-header">
-			<h1>@title</h1>
-		</div>
+		<h1>@title</h1>
 		@content
 	</article>
     <script src="http://code.jquery.com/jquery-latest.js"></script>

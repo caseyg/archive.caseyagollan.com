@@ -2,11 +2,15 @@ title: An Administrator's Guide to Self-Reinvention
 -
 content:
 
-<p class="lead">In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to <em>The New York Times</em> that the college has been quietly digging itself into debt for years. He issued a mandate that Cooper Union must be "reinvented for the 21st century," and that this could mean putting an end to the college's celebrated gift of full scholarships to all admitted students. Over the course of a failed year-long "Reinvention" process, it has become clear that in order to preserve free education at Cooper Union, it is the college's unwieldy and ineffective <em>administration</em> that will have to be reinvented for the next hundred years. And time to put this change into action is running out.</p>
+<p class="lead">In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to <em>The New York Times</em> that the college has been quietly digging itself into debt for at least a decade. He issued a mandate that Cooper Union must be &ldquo;reinvented for the 21st century,&rdquo; and that this could mean putting an end to the college's celebrated gift of full-tuition scholarships to all admitted students. Over the course of a horribly misguided year-long bureaucractic process intended to make the school financially sustainable, it has become clear that in order to preserve free education at Cooper Union, it is the college's unwieldy and ineffective <em>administration</em> that will have to be &ldquo;reinvented&rdquo; for the next hundred years. </p>
+
+The school has employed several groups of consultants to help analyze revenue generating schemes. The Board of Trustees, chairman Mark Epstein told me, even hired their own consultants to tell them how they might be a better board. Lacking faith in these expensive consultants (not to mention the large sums of money they command), I set out to talk to everyone at Cooper Union who would give me the time of day to hear about what it is they do and how it could work better. I wanted to assess the things that Kevin had mentioned in his talk: trust, communication, transparency, and integrity.
+
+It may sound nitpick and pointless to talk about meetings and social networks in the middle of a financial crisis. But as Slavin notes, this hole was dug with secrecy and bad information. Putting in place tools and workflows which are more accountable and inclusive will restore the trust that is key to Cooper Union's future as a philanthropically backed institution, reduce the costly and timid administrative overhead that is plaguing institutions across the nation, and position the college at the forefront of a revolution in higher education.
+
 
 ### Money's _not_ the reason we exist
 
-The school has employed several groups of consultants to help analyze revenue generating schemes. The Board of Trustees, chairman Mark Epstein told me, even hired their own consultants to tell them how they might be a better board. Lacking faith in these expensive consultants (not to mention the large sums of money they command), I set out to talk to everyone at Cooper Union who would give me the time of day to hear about what it is they do and how it could work better. I wanted to assess the things that Kevin had mentioned in his talk: trust, communication, transparency, and integrity.
 
 <iframe width="800" height="450" src="http://www.youtube.com/embed/9zvx_Lazu1E" frameborder="0" allowfullscreen></iframe>
 
@@ -17,7 +21,6 @@ The school has employed several groups of consultants to help analyze revenue ge
 
 Cooper Union's legacy provides an amazing history on which to stand, but also the cruft of old policies of inefficiencies. In a talk at the Personal Democracy Forum, [Peter Fein noted](http://www.youtube.com/watch?v=SsW4rAS1gao) that legacy is notoriously difficult to shake.
 
-It may sound nitpick and pointless to talk about meetings and social networks in the middle of a financial crisis. But as Slavin notes, this hole was dug with secrecy and bad information. Putting in place tools and workflows which are more accountable and inclusive will restore the trust that is key to Cooper Union's future as a philanthropically backed institution, reduce the costly and timid administrative overhead that is plaguing institutions across the nation, and position the college at the forefront of a revolution in higher education.
 
 <section class="narrative" markdown="1">
 
