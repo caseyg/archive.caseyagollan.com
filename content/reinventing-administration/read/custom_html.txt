@@ -2,24 +2,40 @@ title: An Administrator's Guide to Self-Reinvention
 -
 content:
 
-<p class="lead">In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to <em>The New York Times</em> that the college has been quietly digging itself into debt for at least a decade. He issued a mandate that Cooper Union must be &ldquo;reinvented for the 21st century,&rdquo; and that this could mean putting an end to the college's celebrated gift of full-tuition scholarships to all admitted students. Over the course of a horribly misguided year-long bureaucractic process intended to make the school financially sustainable, it has become clear that in order to preserve free education at Cooper Union, it is the college's unwieldy and ineffective <em>administration</em> that will have to be &ldquo;reinvented&rdquo; for the next hundred years. </p>
+<p class="lead">In October of last year, Cooper Union's newly appointed president, Jamshed Bharucha, announced to <em>The New York Times</em> that the college has been quietly digging itself into debt for at least a decade. He issued a mandate that Cooper Union must be &ldquo;reinvented for the 21st century,&rdquo; and that he wouldn't rule out putting an end to the college's celebrated gift of full-tuition scholarships to all admitted students as a solution to financial woes. His horribly misguided year-long bureaucratic process intended to make the school &ldquo;financially sustainable&rdquo; has demonstrated that it is the college's unwieldy and ineffective <em>administration</em> that will have to be reinvented in order to preserve free education at Cooper Union.</p>
 
-The school has employed several groups of consultants to help analyze revenue generating schemes. The Board of Trustees, chairman Mark Epstein told me, even hired their own consultants to tell them how they might be a better board. Lacking faith in these expensive consultants (not to mention the large sums of money they command), I set out to talk to everyone at Cooper Union who would give me the time of day to hear about what it is they do and how it could work better. I wanted to assess the things that Kevin had mentioned in his talk: trust, communication, transparency, and integrity.
+The administration’s response to this financial “situation” — which they _tellingly_ won't refer to on the record as a _crisis_ — is a caricature of bureaucracy. They put together two “task forces” of students, alumni, and faculty to write reports on revenue generation and expense reduction, employed two consulting groups to run numbers on various revenue generating schemes, hired another consulting group to advise the Board of Trustees on how they could be a better board, and sent the President to deliver the occasional uninspiring address. No committee could be stopped to even point out that the plan this scaffolding was erected to support reads like a joke: fund a free school by simultaneously operating a _very expensive_ school that does not yet exist. Logistical problems aside, trying to save Cooper Union's model of education by way of growth-based educational startups confuses the school's mission and desecrates the college's working meritocracy in which 1000 students are — as we speak! — being educated regardless of their ability to pay the overinflated costs of higher education. 
 
-It may sound nitpick and pointless to talk about meetings and social networks in the middle of a financial crisis. But as Slavin notes, this hole was dug with secrecy and bad information. Putting in place tools and workflows which are more accountable and inclusive will restore the trust that is key to Cooper Union's future as a philanthropically backed institution, reduce the costly and timid administrative overhead that is plaguing institutions across the nation, and position the college at the forefront of a revolution in higher education.
+As the process trudges on and the school's purse has continued to wear thin, the joke known as the "Hybrid Model" has become less funny as we have learned that our administrators were never, in fact, joking about it. Cooper Union has historically relied not on a financially sustainable business model, but on two main sources of money to fund the free education it provides: philanthropists and unconventional real estate deals. Back when Cooper Union's board consisted of Peter Cooper, Abraham Hewitt, and three of their friends, they would look at the deficit at the end of each year, divide it by five, and each write a check. This presents itself in striking contrast to the actions of Cooper's board in the last several decades, who have steadily sold off the school's real estate assets to fund unchecked, increasing expenses. Alongside this worrisome "strategy" of selling off assets to fund operations, the board also somehow deemed it prudent to take out a $175 million loan to build a shiny new building, and using the school's most famous asset—the land beneath the Chrysler Building—as collateral. )If all of this sounds sketchy, think about the fact that nobody knew the least of this until a year ago.) With the costs of the building offset by a capital campaign—which, by the way, fell short of its goal—the gigantic loan kept the school running long enough for former President Campbell to flee with his continued bonus payments intact. Then, it was revealed one day in the New York Times that everything was falling to pieces and the school was faced with a structural (annual) deficit of $18 million dollars and Cooper Union may charge tuition to keep its doors open. What is most distressing about the "Hybrid Model" is how it is being deployed using so called Responsibility Centered Management, which tasks the deans and faculty of each school with coming up with plans to generate a certain amount of revenue. Board Chairman Mark Epstein has also infamously called Cooper Alumni a "failed investment", a quote which still stings despite a later apology for the remark. In this way, Cooper's administration has deflected the _blame_ for this problem by shifting the _responsibility_ onto teachers who should be teaching, and administrators who should be advocating for their students and faculty. Suddenly, everybody is spending their nights and weekends doing financial planning.
 
+Lacking faith in the plan _and_ the process, and sensing that a _cultural_ problem has generated Cooper's financial problem, I started talking to administrators to find out what makes them tick. I learned more than I thought I'd ever want to know about who these people are, what they do, and how difficult their jobs are for _no apparent reason_. I found my mind racing, after each conversation, with ideas about how all these people could work _better_ to support our school. My research on how administrative bloat affects other colleges and universities practically did itself because, as it turns out, this is an epidemic threatening every institution in America. It took slightly more work to find non-fucked-up examples of administration in action, but I found promising systems in areas ranging from the open source programming community to multi-million dollar tech companies to Occupy Wall St. protesters to Cooper's own humble history. Half exposé and half idiot's-guide, I offer this essay to Cooper Union's administration and community, which have unfortunately been made into two divided parties. It's my hope that we can all be united in saving Cooper Union not just as a building or a brand, but as an institution of free education, and that we can not just _sustain_ but sew the seeds for more tuition-free schools around the world in years to come.
 
-### Money's _not_ the reason we exist
+- - -
 
+We can't undo mistakes that were made behind closed doors, like taking out ridiculous loans to built a new building. But we can put in place systems that offer open communication and radical new structures of decision-making.
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%207.png)
+
+Cooper isn't a democracy. It's a private institution governed by a Board ohave to gain from moving towards new forms of government? Staying on the forefront.
+
+So what comes after representative democracy's horse-drawn carriage? One place we can take clues from is the world of open source programming. Programmers need to be good at this stuff because they work in a distributed way, from around the world, together on large, complex projects that involve lots of details and planning. So the tools that programmers invent for themselves to work together without stepping on each other's toes might be of particular interest to someone trying to understand what administrations will look like in the future.
+
+Though the invention of the internet connected all types of people to each other, it was a boon for programmers especially. Before the internet, a programmer's collaborators were limited to those close enough in proximity to walk over and stare at the code on their screen. But now anybody could publish their source code online and get instant feedback from other programmers around the world.
+
+It may seem pointless to nitpick about meetings and job titles in the middle of a financial crisis, but as alumni and adjunct professor Kevin Slavin noted in a talk at a Friends of Cooper Community Summit, this hole was dug “with secrecy and bad information”. And meetings, it turns out, are both the scene of the crime and a wedge we can use to pry Cooper out of its sinkhole. It's important to remember that it was an administrative song and dance that _got us into this mess_; therefore putting in place tools and workflows that enable our leaders to be more accountable and our governance to be more inclusive will get us out. Implementing the tools and workflows outlined in this essay would lay solid ground for restoring the trust which is key to our future as a philanthropically backed institution, reducing our costly administrative overhead, and positioning us at the forefront of a necessary renaissance in classroom teaching.
+
+It's seems silly that a lot of this could come down to software design. Like the program used to write the bylaws, probably Microsoft Word running on a Mac. But these things which seem like small details, or even just defaults, are actually the key to understanding how institutions create and distribute information, and are the fulcrum on which we could improve these flows.
+
+Putting these distributed brains in touch meant that software projects were moving faster than ever before. However, this system of writing back and forth was clunky, which led the ever-industrious programmers to imagine how a distributed group of people could stay in the loop about a single project's progression and directly participate in building it, without stepping on anybody's toes or wasting time on back-and-forth communication. What they came up with is called "distributed version control", and the most popular manifestation of it today is called Git.
+
+Git is the name of the most popular distributed version control system right now. Git knocked down the barrier to collaborating on large, complex software projects without centralized organization. It has proven to be such a successful way of working that media theorist [Clay Shirky](http://www.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government.html) thinks these tools and concepts will shape a new generation of governments. Git is kind of like air, there's almost nothing to see. (It's also free, like air.) But what it represents is a whole different mindset in action.
+
+### Background
 
 <iframe width="800" height="450" src="http://www.youtube.com/embed/9zvx_Lazu1E" frameborder="0" allowfullscreen></iframe>
 
 > Money has always followed trust, and that trust came from a sense of transparency and communication. A sense that I knew where the money would go. But I never gave to Cooper Union. Because I never could figure it out. I can hardly figure it out now.
 
 > If someone asked you for $10,000 and had a board of people who were going to spend it, and no one was supervising them -- no one! -- and they were accountable to no one -- no one! -- and if you asked, can I find out what you guys are even talking about and they said -- no! -- and you said, can I even talk to you -- and they said -- no! -- would you invest in that? If it were for profit, would you believe that it would be likely to be profitable? And yet, that’s where we are. Can you imagine a company, in a crisis, that would bar the NYT, Reuters, and the Wall Street Journal from the room -- from this room! The Great Hall! -- and bring it’s chairman to address its shareholders who will only answer prepared questions with a lawyer at his side? What is produced in a spectacle like that? What is consumed? What is exhausted? Transparency is not a promise. It’s not an idea. It’s action.
-
-
-Cooper Union's legacy provides an amazing history on which to stand, but also the cruft of old policies of inefficiencies. In a talk at the Personal Democracy Forum, [Peter Fein noted](http://www.youtube.com/watch?v=SsW4rAS1gao) that legacy is notoriously difficult to shake.
 
 
 <section class="narrative" markdown="1">
@@ -34,6 +50,10 @@ Appointments can be hard to come by at Cooper, because everyone seems to be jugg
 
 She goes over to her files and pulls out a red folder. "This is my 'Where Did The Money Go' file", she says. Everybody laughs. I think she's joking. I pray that she is joking. But as it turns out, it isn't always so clear.
 
+A Financial FAQ was posted on Cooper Union's website under the department website of Finance and Administration, run by T.C. Wescott. FAQ's are poor form because they actually stunt conversation. The document has no author. There is confusion about if the Board of Trustees, who all of the decisions of the college ultimately rest on, has seen these answers or agrees with them. Saskia Bos, dean of the School of Art, suggested that they hadn't vetted these answers.
+
+But the worst offense is that each time I went back to access the Financial FAQ, I found that the content and structure of the document had quietly changed. This isn't necessarily a bad thing, but this wasn't the first time I had seen this happen at Cooper. A stir was raised last year when somebody realized that the phrase "full scholarship" had been quietly removed from the school's mission statement posted on the website. It was never clear who made the change, who ordered it, when it happened, and why. It was also not clear why it was changed back. To this day some deny it even happened.
+
 </section>
 
 <section class="technical" markdown="1">
@@ -42,13 +62,53 @@ She goes over to her files and pulls out a red folder. "This is my 'Where Did Th
 
 ![](../../content/reinventing-administration/read/img/Administration%20Drawing%205.png)
 
-Git's way of managing documents that places an emphasis on saving changes not based on just saving new versions of a file but on describing exactly what changed and saving only those bits. This presents investing creative opportunities. In a traditional model of a filesystem, you've got your copy of the bylaws in Microsoft Word, and as you work the document auto saves every couple of minutes, and at points maybe you save your own variations: bylaws-new.doc, bylaws-1.doc, bylaws-2.doc, bylaws-final.doc. Everyone who has ever written a paper knows how inconsistent and haphazard this organization can sometimes be. In Git you're always working in the same place. You can work in any program you want. Git kind of inserts instead into a set of files and you can use it to start working differently. When you save a file, you tell Git what you changed. So instead of saving a version called -2.doc you actually just overwrite the file you're working on and tell Git, “added a bit about how the president now sits on the board”. Git maintains the original version, your note about what you changed, and the actual changes that were made. In the same file, you can now use Git to browse backwards and forwards through changes. Instead of versions as multiple files like in a normal workflow, Git ties all historical versions and alternative versions to the actual files. You can also browse laterally, through alternate universes of what this same file could be. This is the magic part, so buckle up. 
+Today's systems give you two options when you want to save your work: you can hit "save" to overwrite the previous version of your document with the one you're currently editing, or use "save as…" to create a copy, preserving the old and current versions of your work as separate files. Once you've initialized  Git in a folder you just keep overwriting the same file with "save". But with each save, you tell Git in a sentence what you changed and it takes care of archiving your versions for you behind the scenes. So instead of saving a version called bylaws-2.doc you just save the file you're working on and tell Git, “added a line about how the president now sits on the board”. Git maintains the original version, your note about what you changed, and the actual bits that were changed. Instead of messy versions of files (or worse, no versions at all!) like in a normal workflow, Git links all historical versions and alternative versions to the actual files. You can now use Git to browse backwards and forwards in time through a history of changes. But that's just the start. It's about to get weird and magical, so buckle up.!
 
-Git is designed to run on a network, meaning you can collaborate with people in your office and around the world. Because Git utilizes these descriptive saves (called “commits”) and keeps track of precisely what changed, people can work together without a lot of back and forth or stepping on each other's toes by sending data to a central server so that everyone can work on their own version but then create a central one.
-
+You can also use Git to browse laterally, through alternate universes of what the file you're working on could be. Wait, what? Yes. Alternate universes. That is exactly what I said. Git is designed to run on a network, meaning you can collaborate with people in your office or around the world. Because Git utilizes these descriptive saves (called “commits”) and keeps track of precisely what changed, a potentially unlimited number of people can work together without too much back and forth or stepping on each other's toes. Data lives on a central server but anyone can work on their own version.
 ![](../../content/reinventing-administration/read/img/Administration%20Drawing%208.png)
 
-This means that accountability is built in. Every document contains a log of its commits, who made them, and when. There's no longer the possibility for ambiguity such as saying that the board of trustees released a new set of bylaws. If they want to announce that, they still can, but whoever actually made those changes and hit save -- if it was Mark Epstein, the chairman, or Lawrence Cacciatore, the secretary -- who told Git what they're changing. Anyone, if its set up in an open way, can browse this information. Providing that there's nothing to hide it creates a wonderful resource.
+This means that accountability is built in. Every document contains a log of its commits, who made them, and when. There's no longer the possibility for ambiguity such as saying that the Board of Trustees released a new set of bylaws. If they want to announce that, they still can, but whoever actually made those changes and hit commit — if it was Mark Epstein, the chairman, or Lawrence Cacciatore, the secretary — who told Git what they're changing, will show up. Anyone, if its set up in an open way, can browse this information.
+
+Websites like Tumblr have started to post their policies on Github, so that when they modify these documents everyone who works at Tumblr and their entire community of users can see exactly what changed and when, and access the history of these documents at all times.
+
+For now, vigilante archivists can save copies of websites which appear to be unstable, and independently put together diffs, as I have attempted to do. But these systems can — and should! — be at the core of how these governments function. Git was invented so that programmers could work together more effectively and openly without stepping on each others toes.
+
+### Every Possible Administration: forks and pull-requests
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%209.png)
+
+The most fascinating part of Git is the idea of branches, forks, and pull requests. These are new terms that go beyond the traditional lexicon of “save” or “save as...”. There's a central place where you can see the documents of the school as they are being abided by today. This would be called the master repository. Everyone who edits these documents and anyone in the public who wants to edit them, can do what's called “cloning” the repository. This makes a _copy_ of the documents on their own computer that they can edit as they please. They can then go in firsthand and create their own version of the bylaws whether that means changing the tone, it just fixing a typo, or adding in rules and taking out others. Every person can easily create their own version. This is called a “fork”, like making a fork in the road, I'm taking this main repository ad I'm creating my version of it. Maybe you want to start your own school based on Cooper's governance documents or perhaps you want to make some changes and offer them back to the administration. Once you make your change and you describe to Git what you've changed, you don't have to just brood about your ideal world. You can submit what's called a "pull request" to whoever has the authority to update the master documents that says: this is what I changed, here's a diff showing my specific changes, and here's why I think they should be put into effect. The person who's in charge could hit one button o integrate your changes. 
+
+More respectfully of the community and other moderators, they could creates what's called a branch. Branches are like internal forks. Administrators could simultaneously have multiple versions of a document that aren't the official one. You could create a branch for every new idea, or every upcoming change, or every proposed integration as a step to get details ironed out before you integrate it into the master, which would be the actual official documents of the school. 
+
+Like we saw with Dean Bos, in a bureaucracy people feel stifled. It wastes human energy. It also creates a really inefficient process where people travel up and down a hierarchy representing their little job but also having to put things in a presentation style format, getting a bunch of people in a room, getting them to all look over it, gathering their feedback, taking notes, making changes, probably having another meeting, again escalating up the chain, however these ideas turn into actual changes. There's so much back and forth just with scheduling that sometimes you'll see an email subject line that reads Re: Re: Re: Fwd: Meeting.
+
+"Slideware often reduces the analytical quality of presentations. In particular, the popular PowerPoint templates (ready-made designs) usually weaken verbal and spatial reasoning, and almost always corrupt statistical analysis." writes [Edward Tufte](http://www.edwardtufte.com/tufte/powerpoint).
+
+### Direct Action
+
+Git is about direct action. Have an idea? Implement it. Put it out there so that the public can vet it. Give the person who's in charge the possibility of integrating your changes with a click. You're not describing what you want to someone who will turn it into a PowerPoint and hopefully (though we know that's not the case) advocate for you. You are making the change you want to see and then gathering support to make your reality the official one.
+
+### Workflows
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%201.png)
+
+Branching is important. You can not only see the history of every document but all of its futures. If forks represent everyone's ideas, branches of the official documents are like officially sponsored ideas. Branches and forks are all linked with the document, like its history, so that anyone who is interested can spend a little time browsing around and get up to speed with what people want to change.
+
+Working with branches could allow the community to offer feedback on ideas which are candidates for inclusion in the master documents. What a difference this would be from reading a vague announcement in the New York times that everything will be changing. 
+
+### Asynchronous
+
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%2010.png)
+
+Another thing that's amazing is that this process can be realtime but is asynchronous. You can't say bureaucracy without conjuring fluorescent offices and lengthy meetings. With Git everyone could work from wherever, on what they feel like could best contribute to at that time — maybe it's a sentence, maybe its a rewrite of the whole document. Maybe you worked together with someone: for example, you fork the bylaws and then someone else forks your fork to do copy because you had good ideas and poor grammar. You merge those changes and then submit a pull request that person in charge of Cooper's bylaws integrate it and work on gathering community support so they know this is a plan worth moving ahead with. All of this stuff circumvents the banter, which wastes time.
+
+This is why Github is such an important social network, and maybe why they recently received a $100 million dollar investment. All sorts of messages on Facebook and twitter have meaning, but Github is exclusively about pushing projects forward. The are still ways to have forum style conversations. It's also important to note that this doesn't obviate the need to face to face discussions. It makes them better. And it gives you tools for leaving more precise feedback. Specific at the level of annotating line by line, or literally going up to somebody with the change and giving them the tools to -- if you've done a good job -- Immediately put that change in the pipeline towards becoming reality.
+
+Getting employees to use a set of tools that exposes — in near realtime — logs of changes doesn't just add historical accountability, it actually eliminates the need for most meetings. Instead of preparing a document for review by a group of people and spending hours sitting around a table discussing it, the author in a new administration "commits" their changes as they work and when they are ready invites others to collaborate on the document. There are a number of ways in which this can happen. Indirect complaints and ideas related to the document without actionable solutions can be filed as "issues" in the document's "Bug Tracker". Each issue gets its own discussion forum where members of the working group, community, and even the public can talk about their ideas. If there is dissatisfaction related to a particular part of the document, anybody can leave a comment for that author attached to a specific line, and start a discussion inline. But the most exciting idea is that of the pull request.
+
+EXPAND
+
 
 </section>
 
@@ -63,9 +123,41 @@ This means that accountability is built in. Every document contains a log of its
 
 ![](../../content/reinventing-administration/read/img/Administration%20Drawing%2012.png)
 
-In a recent discussion of the new bylaws on the Save Cooper Facebook group, somebody wrote, "I haven't combed through yetâ€¦anyone see any important changes?" A "diff" (short for "difference") in a way of asking a computer to suss out the differences between these two files, or versions of the same file.
+In a recent discussion of the new bylaws on the Save Cooper Facebook group, somebody wrote, "I haven't combed through yet—anyone see any important changes?" A "diff" (short for "difference") in a way of asking a _computer_ to suss out the differences between these two files, or versions of the same file.
 
-Putting history into action with diffs. “Diff” comes from the word difference. You can ask Git to tell you what has changed between two versions of a file, or even what is different between any two files. You could do this for the last two versions of a document, say, show me what changed the last time it was edited. But theoretically, if you have a long history in your Git repository, meaning the directory of files your working with Git on, you could say show me a diff of the 1972 bylaws versus the 2012 bylaws. Git would analyze those two texts and show you exactly what parts have been removed and added. If the data was available you'd see who the authors are and what they said they changed, but because of the way that Git keeps track of changes, you wouldn't just be looking at two documents side by side, you'd be looking at a merged, ccolor coded summary showing the actual edits. This is really interesting because on the Facebook group Save Cooper, someone was discussing the recent bylaws and saying, "I haven't had time to read, does anyone know what's changed?" A diff shows you this. It can also work on any type of file, which is fascinating. For example, someone differ their haircut so you can drag a slider back and forth and see the difference. And here I've put together a diff of the cooper bylaws that you can play with.
+“Diff” comes from the word difference. You can ask Git to tell you what has changed between two versions of a file, or even what is different between any two files. You could do this for the last two versions of a document, say, show me what changed the last time it was edited. But theoretically, if you have a long history in your Git repository, you could say show me a diff of the 1972 bylaws versus the 2012 bylaws. Git would analyze those two texts and show you exactly what changed. If the data was available you'd see who the authors are and what they said they changed, but because of the way that Git keeps track of changes, you wouldn't just be looking at two documents side by side, you'd be looking at a merged, color coded view of the actual edits.On the Facebook group Save Cooper, someone was discussing the recent bylaws and saying, "I haven't had time to read, does anyone know what's changed?" A diff shows you this. It can also work on any type of file, which is fascinating. For example, someone differ their haircut so you can drag a slider back and forth and see the difference. And here I've put together a diff of the cooper bylaws that you can play with.
+
+If you've ever used the Track Changes feature while writing a paper, a diff should be instantly familiar to you.
+
+<section class="well example">
+	<p><i class="icon-play-circle"></i> <strong>Demo from an optimistic future:</strong> Hi there! The Board of Trustees would like to make some changes to the college's bylaws. Give these changes a look, and if you have questions please comment on, annotate, or fork the document. We will review your input one week from today.</p>
+		<div class="btn-group nav" data-toggle="buttons-radio">
+			<a href="#old-bylaws" class="btn" data-toggle="tab">Existing Bylaws from 6/14/02</a>
+			<a href="#new-bylaws" class="btn" data-toggle="tab">Proposed Bylaws from 9/19/12</a>
+			<a href="#bylaws-diff" class="btn active" data-toggle="tab">Diff of these versions</a>
+		</div>
+
+	<div class="tab-content">
+		<div id="old-bylaws" class="tab-pane">
+			<p>Trustees shall be elected at annual meetings of the Board. Each Trustee shall serve a term of four (4) years. For the purpose of staggering their terms of office, the Trustees shall be divided into four (4) classes, as nearly equal in number as may be, and the term of office of each class shall expire each year in regular rotation. At least one (1) member of each class shall be elected from the alumni and alumnae of the Corporation, and one (1) such member shall be known as an Alumnus Trustee or Alumna Trustee. In addition, the President of the Corporation's Alumni Association shall be entitled to attend meetings of the Board of Trustees but shall not be entitled to vote thereat.</p>
+		</div>
+		<div id="new-bylaws" class="tab-pane">
+			<p>Trustees shall be elected at annual meetings of the Board. Each Trustee shall serve a term of three (3) years. For the purpose of staggering their terms of office, the Trustees shall be divided into three (3) classes, as nearly equal in number as may be, and the term of office of each class shall expire each year in regular rotation. At least one (1) member of each class shall be elected from the alumni and alumnae of the Corporation, and one (1) such member shall be known as an Alumnus Trustee or Alumna Trustee. The President of the Corporation shall serve as a voting member on the Board of Trustees for such time as he or she shall continue to serve as President of the Corporation. In addition, effective July 1, 2012 the President of the Corporation’s Alumni Association shall serve as a voting member of the Board of Trustees for such time as he or she shall continue to serve as President of the Alumni Association, but in no event for a term of longer than three (3) years.</p>
+		</div>
+		<div id="bylaws-diff" class="tab-pane active">
+			<p>Trustees shall be elected at annual meetings of the Board. Each Trustee shall serve a term of <del>four (4)</del> <ins>three (3)</ins> years. For the purpose of staggering their terms of office, the Trustees shall be divided into <del>four (4)</del> <ins>three (3)</ins> classes, as nearly equal in number as may be, and the term of office of each class shall expire each year in regular rotation. At least one (1) member of each class shall be elected from the alumni and alumnae of the Corporation, and one (1) such member shall be known as an Alumnus Trustee or Alumna Trustee. <ins>The President of the Corporation shall serve as a voting member on the Board of Trustees for such time as he or she shall continue to serve as President of the Corporation.</ins> In addition, <ins>effective July 1, 2012</ins> the President of the Corporation's Alumni Association shall <del>be entitled to attend meetings of the Board of Trustees but shall not be entitled to vote there at</del> <ins>serve as a voting member of the Board of Trustees for such time as he or she shall continue to serve as President of the Alumni Association, but in no event for a term of longer than three (3) years</ins>.</p>
+	<p class="muted"><a href="#" class="btn disabled"><i class="icon-comment"></i> Comment</a> <a href="#" class="btn disabled"><i class="icon-pencil"></i> Annotate</a> <a href="#" class="btn disabled"><i class="icon-random"></i> Fork</a> (7 days left to contribute)</p>
+		</div>
+	</div>
+</section>
+
+Cool, right? Diffs make it simple for anyone to directly assess what has changed between edits. Unfortunately, it was a lot of work for me to put together this example because of the disorganized manner in which information is released at Cooper Union. I had to copy and paste the most recent version of the bylaws out of the PDF file in which the Trustees released them, search the internet for an old version of the bylaws (which I was eventually able to find on the Cooper library website, although it's from 1972 jesus christ), manually diff the paragraphs, and then code up the quick visualization you see above.
+
+How it actually happened. Nobody was consulted. And the bylaws were published in two totally different formats in two totally different areas of the website. ELABORATE.
+
+![](../../content/reinventing-administration/read/img/bylaws-now.png)
+
+The thing that is hard to believe is that if the authors of this document (the authorship is currently unclear) were to start managing this file with Git today, tomorrow's edits would include automatically generated diffs. Accountability so close I can practically taste its public-facing versions. Why isn't this happening? IDK. Student council is ON IT.
 </section>
 
 ### Bedbugs in the Office
@@ -97,65 +189,18 @@ In our first Board Chair meeting I talked about tools for accountability and how
 
 ---
 
-Bharucha's "Reinvention" plan implores the college's *deans* of Art, Architecture and Engineering to cut costs within their schools and create their own "sustainable revenue streams". This means using the college's existing faculty and facilities to make money by way of new paid educational programs like MFAs and pre-college programs. These paid programs, Bharucha supposes, will eventually be able to subsidize the school's 1000 undergraduate scholarships. Until this proposed investment provides returns, the plan's authors admit that the college may have to charge tuition currently priced at $38,550 to a percentage of incoming undergraduates.
 
-There are many reasons why this plan will fail, and may have even been *designed* to fail, but the core problem is its ideological hypocrisy. Trying to save Cooper Union's not-for-profit model of education by *simultaneously* running a set of growth-based educational businesses confuses the school's charitable mission and desecrates the college's working meritocracy in which students are — as we speak! — being educated regardless of their ability to pay the overinflated costs of higher education.
-
-It is rumored that the money-focused Board of Trustees, who oversee the school, were prepared to pull the plug on scholarships before Bharucha even arrived. Ironically, his "Reinvention" plan that — if passed — will compromise the school's values and fail to achieve its goal of financial sustainability, has pushed back a decision on tuition long enough that the next class of incoming students has been legally guaranteed their four year scholarships. Still, we must knock this plan off the table, and then chuck the table out the window.
-
-Giving away one thousand free educations in perpetuity has never been "sustainable". Instead of starting down the slippery slope towards becoming yet-another-overpriced-diploma-mill, the college must take the risk of doubling down on its unique, radical, and as of yet unbroken promise of free education to all to attract substantial philanthropy.
-
-The Cooper community — students, faculty, staff, alumni and friends — have voiced loud and clear that investing in the business of education makes no sense, but our protests and suggestions have fallen on deaf ears. After a year of "participating" in frustrating bureaucratic processes of appeasement ("Task Forces", countless meetings, moderated forums, etc. and so onâ€¦), we must counter that ** the college's administration must be "reinvented"**. 
-
-> "It is not that: we can no longer afford to: freely educate, but that we cannot afford to break the promise of Free Education. The largest single financial asset that the Cooper Union currently holds is its promise of free education: TO ALL."David Gersten, Professor, School of Architecture at Cooper Union 
-
-The Cooper Union exists today in *spite* of its deadlocked bureauracy, who lack the accountability, transparency, and audacity that keeping the promise of free education demands. We are burdened by politically cloudy flows of information and busted decision-making structures for no reason other than that's how things have always worked. Wiser governments and administrators have already started looking to the open-source programming community, who are pioneering ways to work together in ways that are more productive, democratic, and lean than have ever been possible. 
-
-Meeting our radical old mission, a radical new government based on tools and principles from the open-source movement would strengthen the community's role in creating the future of the college, waste less time, money, and human energy, and deliver by default on the false promises of accountability and transparency made by our current administration.
-
-What is perhaps the most compelling argument for a new administration came from a discussion about the school's past. I sat down with a former dean of the School of Art who told me, "You know what I learned when I ran this place? It's not that hard!" New paradigms of management, coupled with advances in technology make it certain that we can work together on the future we all want for Cooper Union without compromising its mission.
-
-## Principles
-
-The rest of this essay is divided into two major sections: *Problems* and *Solutions*. It will attempt to cover each of the key reccomendations below in depth.
-
-* No more saving face
-* Fire almost all current administrators (they're milquetoast *and* superfluous)
-* Loosen the death grip of the Board of Trustees
-* Flatten bureaucratic hierarchies to enable horizontal collaboration
-* Open source *everything* (before daring to use the word "transparency" again)
-* Use better tools that afford asynchronous work and historical accountability
-* Follow workflows that respect community input
-* Place decision-makers into closer contact with daily campus life
-* Move support staff offsite to reduce costs and increase efficiency
-* Waste no time implementing technology to help humans work better
-* Avoid technologizing that which humans can do better
-
-## Problems
-
-The board stopped believing in free education a long time ago and now they're resigned to looking at Cooper as a numbers game. Their feeling of responsibility for financial debts is stronger than their resolve to fight for Cooper's unique program of education students chosen by nothing besides merit and awarded full-scholarships. It's not the perfect model, and it's one of many. But the community has articulated why Cooper needs to exist. Why couldn't we run this place?
-
-The administration has said that social media protests and slandering, combined with a low alumni contribution rate, get in the way of the administrations ability to raise money. The Chairman of the board said something to the effect of: philanthropists see those things and just laugh. What this makes clear is that the administration is costing the school a lot of money, not representing the desires of its community, and doing a bad job selling the school to philanthropists.
-
-“Democracy,” says [Peter Fein](http://www.youtube.com/watch?v=SsW4rAS1gao), “is government for the age of the horse-drawn carriage.” Representative democracy, he explains, use to be necessary because it wasn't possible for every citizen to convene in the same place at the same time. But if local groups could elect a representative, and that representative could go off and meet with other representatives, a kind of democracy could take place. The telegraph and the computer, personal electronic means of communication, broke down these barriers. Now that we're each walking around with a smartphone, we can imagine a world in which direct democracy can occur. The problem with representatives, as we have seen at Cooper, is that they don't always represent us. The flows of information are politically cloudy. For example, when, at a meeting with her students in the School of Art, dean Saskia Bos was asked why she couldn't advocate for The Way Forward, a plan which many of her students find compelling, she said, “it's not my job to tell the president what to do.” (So whose job is it?) The scary part is that Dean Bos may be right. The larger issue is not why she won't advocate for us on this matter, but why we are both stifled by this so called democracy? (After all, we were meeting to talk about ideas.)
+“Democracy,” [says Fein](http://www.youtube.com/watch?v=SsW4rAS1gao), “is government for the age of the horse-drawn carriage.” Representative democracy, he explains, use to be necessary because it wasn't possible for every citizen to convene in the same place at the same time. But if local groups could elect a representative, and that representative could go off and meet with other representatives, a kind of democracy could take place. The telegraph and the computer, personal electronic means of communication, broke down these barriers. The problem with representatives, as we have seen at Cooper, is that they often can't be said to properly represent us. In Daedelus, John Dunn writes how "founding father" James Madison, believed that, "Representation would enhance democracy not by rendering it more democratic, but by preventing it from acting hastily, unwisely, and destructively." (REMIND YOU OF ANYTHING??) Today, when technology has made direct, realtime communication at a scale resembling Cooper's entirely plausible, Dunn has a hard time justifying the benefits of representation over direct democracy, conceding only to the _possibility_ of, "somnambulistic collective greed or stupidity."
 
 Bureaucracy is stifling. In a hierarchical organization responsibilities are divided up and encapsulated arbitrarily. This division of labor creates a lack of responsibility: it's not my job, it's not my problem. In reality saving this school is everyone's problem and everyone's input should be equally valued. Hierarchies like the one in place at Cooper divide it so that administrators can waste time fulfilling their job requirements. You can't put your best ideas forward, instead you must perform your role. This is demonstrated most interestingly by the fact that our dean says even if she opposes tuition she must work on proposals including it because that is her job.
 
 The balance of power is weird. It's often not clear who to blame or who's in power. The president reports to the board, the board communicates through the president, the president communicates with the public through press releases and the media (and apparently this is also protocol for “communicating” with students).
-
-Saving face. Kevin Slavin said, “this hole was dug with bad information, if you'd admit that, we'd thank you for it.” We need to do what is right and not what looks good. Lying to save face got us into this mess, as Kevin points out. But it also doesn't present a very compelling vision of the school. It presents a bland vision of something that's unique and radical. It's appealing to be honest about mistakes and completely open about decisions.
 
 Openness. Hierarchies create granular levels of access, and in the past year we've seen lots of previously unreleased information be made public as the administration has vowed to be “transparent”. But there are still different levels of access. People face eachother in different ways, this is just human nature. You talk to your boss differently than your professors than your friends than your mom. Bureaucracy allows to much of and even nurtures these personal and group politics.
 
 Accountability. It's not clear who writes things, it's not clear who has read them, it's not clear when they change, and it's difficult to find previous versions of things.
 
 Money. The president, Vice Presidents, deans, secretaries. All these people cost a lot of money. And they don't represent us well. While reducing administrative costs won't fix the budget shortfall, it has the potential to strengthen the school in a way that could save it by foregrounding the community's dedication to free education.
-
-### How bureaucracy *became* a barrier to free education
-
-> "Institutions will try to preserve the problem to which they are the solution."
-> 
-> [Clay Shirky](http://www.kk.org/thetechnium/archives/2010/04/the_shirky_prin.php)
 
 Framing the issue in terms of removing barriers is brilliant, but the ending leaves something to be desired.
 
@@ -165,100 +210,40 @@ Framing the issue in terms of removing barriers is brilliant, but the ending lea
 
 Here's the thing: the model has been articulated. The actual challenge is that new barriers have emerged in time...from within.
 
-What are the barriers holding back Cooper Union in 2012? Deeply flawed COMMUNICATION focused entirely on saving face rather than keeping everyone informed and working together, and a BUREAUCRACY that pays leaders a lot to be completely impotent. Think about that NYT press release, empty presidential addresses, and the ever-changing manipulative Financial FAQ. This place, this mission, *deserves* to have its politically cloudy flows of information and busted decision-making structures completely overhauled.
+### Legacy
 
-### Not my job, not my problem, not how it works
+Cooper Union's legacy provides an amazing history on which to stand, but also the cruft of old policies of inefficiencies. In a talk at the Personal Democracy Forum, [Peter Fein noted](http://www.youtube.com/watch?v=SsW4rAS1gao) that legacy is notoriously difficult to shake. The Cooper Union exists today in *spite* of its deadlocked bureaucracy, who lack the accountability, transparency, and audacity that keeping the promise of free education demands. We are burdened by politically cloudy flows of information and busted decision-making structures for no reason other than that's how things have always worked. The board stopped believing in free education a long time ago and now they're resigned to looking at Cooper as a numbers game. Their feeling of responsibility for financial debts is stronger than their resolve to fight for Cooper's unique program of education students chosen by nothing besides merit and awarded full-scholarships. It's not the perfect model, and it's one of many. But the community has articulated why Cooper needs to exist. Why couldn't we run this place? The college must take the risk of doubling down on its unique, radical, and as of yet unbroken promise of free education to all to attract substantial philanthropy.
 
-How could they dig us into this hole without our knowledge? Why are they trying to lift the school out by leaving the most important part of it behind? If you follow your questions about why our administration works in such confounding ways far enough, I can guarantee you will be met with only one answer: that's just how it is.
+If you follow your questions about why our administration works in such confounding ways far enough, I can guarantee you will be met with only one answer: that's just how it is.
 
 Why can't we have a student and faculty seat on the Board?
 
 > "That's not how it works...I have a plane to catch."Mark Epstein, Chairman of the Board of Trustees, Cooper Union 
 
-Why is the dean of the School of Art paid $241,966 a year to NOT advocate to the president a plan that embodies her students' opposition to tuition?
+There are a million reasons why this won't work. If we can't invent and implement new systems of administration that break down these barriers and make this ridiculous non-answer go away, it's going to kill us. That's just how it is.
 
-> "It&apos;s not my job to tell the president what to do."Saskia Bos, Dean, School of Art at Cooper Union 
 
-There are a million reasons why this won't work. But that's the status quo for you. If we can't invent and implement new systems of administration that break down these barriers and make this ridiculous non-answer go away, it's going to kill us. That's just how it is.
+### Not my job, not my problem
+
+Why is the dean of the School of Art paid $241,966 a year to NOT advocate to the president a plan that embodies her students' opposition to tuition? The flows of information are politically cloudy. For example, when, at a meeting with her students in the School of Art, dean Saskia Bos was asked why she couldn't advocate for The Way Forward, a plan not involving tuition which many of her students find compelling, she said, “it's not my job to tell the president what to do.” The scary part is that Dean Bos may be right. The larger issue is not why she won't advocate for us on this matter, but why we are both stifled by this so called democracy? Whose job _is it_ to tell the president what to do? Whose job should it be? At the end of the day are office politics getting in the way of doing the right thing?
+
+> "It&apos;s not my job to tell the president what to do."Saskia Bos, Dean, School of Art at Cooper Union
 
 ### Saving face is a financial liability
 
 ![](../../content/reinventing-administration/read/img/Administration%20Drawing%206.png)
 
+The administration has said that social media protests and slandering, combined with a low alumni contribution rate, get in the way of the administrations ability to raise money. The Chairman of the board said something to the effect of: philanthropists see those things and just laugh. What this makes clear is that the administration is costing the school a lot of money, not representing the desires of its community, and doing a bad job selling the school to philanthropists.
+
 A former dean of the school told me that what they learned when they served in that position is that it's *not* that hard to run this place. She was fired, she said, for not holding enough meetings. 
 
-I didn't even have to ask her salary for her to tell me what she makes. $146,000. She has worked here since 1969! I still think she makes too much, but the fact that she wasn't afraid to tell me what she makes was so refreshing.
+We need to do what is right and not what looks good. Lying to save face got us into this mess, as Kevin points out. But it also doesn't present a very compelling vision of the school. It presents a bland vision of something that's unique and radical. It's appealing to be honest about mistakes and completely open about decisions.
 
-> If the way you talk about your customers isn't the way you'd talk *to* your customers, you're probably screwed and possibly evil.
-> 
-> [Anil Dash](https://twitter.com/anildash/status/33315720343457792)
-
-When I asked Saskia why she makes $250,000 to not be able to represent what her students are asking of her, she deflected saying that her salary is on par with other administrators, she had to be poached away from being a big shot curator in the Netherlands by a salary that "made it interesting" for her (I was disturbed to watch her jingle her keys as she said this), and she told me I had the number wrong. When I got home I checked the number and realized that as of 2011 she made $242,000, meaning I was a mere $8,000 off. Talk about shame, deflection, and pointless quibbling. These are the politics that I can't stand.
-
-I believe that former President Campbell poached Dean Bos away from being a hot-shot curator in the Netherlands back when we were in a financial crisis that was still secret as yet another way to save face and indicate how fine everything was.
-
-> If you would stop saying that Cooper Union dodged a bullet without mentioning that it's because it was falling down at the time, we'd thank you for that. If you will stop pretending that things are alright, when we know that they are not, we would thank you for that. If you would admit that the hole that is dug is dug with bad information and with silence, we would thank you for that and set out to fill it together with something solid.
-> 
-> [Kevin Slavin](http://www.youtube.com/watch?v=9zvx_Lazu1E), Adjunct Professor & Alumni, School of Art 
-
-We need *crazy* money. A large development office that advertises a milquetoast vision of the school doesn't make for a very compelling investment opportunity, to investors but especially to alumni.
+Cooper has always been philanthropically backed. But a large development office that advertises a milquetoast vision of the school doesn't make for a very compelling investment opportunity, to investors but especially to alumni.
 
 > It is not that: The Cooper Union holds up free education, but that free education holds up The Cooper Union. It is not that: we can no longer afford to: freely educate, but that we cannot afford to break the promise of Free Education. The largest single financial asset that the Cooper Union currently holds is its promise of free education: TO ALL. The value contained within this promise far exceeds our current endowment as well as the physical properties held by the institution including the land under the Chrysler Building. Our challenge and obligation, our social contract, is to comprehend and make more understandable how to mobilize the resources contained within this promise.David Gersten, Professor, School of Architecture at Cooper Union 
 
-It has never been more important to invest in radical education. It's pretty unbelievable that this administration exists.
-
 If our Board of Trustees and administrators can't articulate our school's radical missions — instead opting to invest in bubbles like the market for higher education, and follow the status quo by trying to expand this university into a global brand through online courses — 
-
-We can't undo mistakes that were made behind closed doors, like taking out ridiculous loans to built a new building. But we can put in place systems that offer open communication and radical new structures of decision-making.
-
-![](../../content/reinventing-administration/read/img/puppies.png)
-
-## Solutions
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%207.png)
-
-Cooper isn't a democracy. It's a private institution governed by a Board ohave to gain from moving towards new forms of government? Staying on the forefront.
-
-So what comes after representative democracy's horse-drawn carriage? One place we can take clues from is the world of open source programming. Programmers need to be good at this stuff because they work in a distributed way, from around the world, together on large, complex projects that involve lots of details and planning. So the tools that programmers invent for themselves to work together without stepping on each other's toes might be of particular interest to someone trying to understand what administrations will look like in the future.
-
-Though the invention of the internet connected all types of people to each other, it was a boon for programmers especially. Before the internet, a programmer's collaborators were limited to those close enough in proximity to walk over and stare at the code on their screen. But now anybody could publish their source code online and get instant feedback from other programmers around the world.
-
-It's strange that a lot of this could come down to software design. Like the program used to write the bylaws, say Microsoft Word running on a Mac. But these things which seem like small details, or even just defaults, are actually the key to understanding how institutions create and distribute information, and the fulcrum on which we could improve those flows.
-
-Putting these distributed brains in touch meant that software projects were moving faster than ever before. However, this system of writing back and forth was clunky, which led the ever-industrious programmers to imagine how a distributed group of people could stay in the loop about a single project's progression and directly participate in building it, without stepping on anybody's toes or wasting time on back-and-forth communication. What they came up with is called "distributed version control", and the most popular manifestation of it today is called Git.
-
-Git is the name of the most popular distributed version control system right now. Git is kind of like air, there's almost nothing to see. (It's also free, like air.) But what it represents is a whole different mindset.
-
-Git knocked down the barrier to collaborating on large, complex software projects without centralized organization. It has proven to be such a successful way of working that media theorist Clay Shirky thinks these tools and concepts will shape a new generation of governments.
-
-
-### Every Possible Administration: forks and pull-requests
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%209.png)
-
-The most fascinating part of Git is the idea of branches, forks, and ppull requests. These are new terms that go beyond the traditional lexicon of “save” or “save as...”. How Git works is that your documents are usually stored somewhere central. This isn't a requirement but in the case of cooper is would make sense that this is how things are done. There's a central place where you can see the documents of the school as they are being abided by today. This would be called the master repository. Everyone who edits these documents and anyone in the public who wants to edit them,p can do hats called “cloning” the repository. This makes a copy of the documents in their own computer that they can edit as they please. They can then go in firsthand and create their own version of the bylaws whether it means changing the tone, it just fixing a typo, or adding in rules and taking out others. Every person can easily create their own version. This is called a “fork”, meaning you create a fork in the road, I'm taking this main repository ad I'm creating my version of it. Once you make your change and you describe to Git what you've changed, you don't have to just brood about your ideal world. You can submit what's called a ppull request to whoever has the authority to update the master documents that says: this is what I changed, here's a diff showing my specific changes, and here's why I think they should be put into effect. The person who's in charge could hit one button o integrate your changes. More respectfully of the community and other moderators, they could creates what's called a branch.
-
-Branches are like internal forks. Administrators could simultaneously have multiple versions of a document that aren't the official one. You could create a branch for every new idea, or every upcoming change, or every proposed integration as a step to get details ironed out before you integrate it into the master, which would be the actual official documents of the school. 
-
-The reason this is so amazing I that in a bureaucracy people feel stifled. It wastes human energy. It also creates a really inefficient process where people travel up and down a hierarchy representing their little job but also having to put together something in a presentation style format, getting a bunch of people in a room, getting them to all look over it, gathering their feedback, taking notes, making changes, probably having another meeting, again escalating up the chain, however these ideas turn into actual changes. There's so much back and forth just with scheduling that sometimes you'll see an email subject line that reads Re: Re: Re: Fwd: Meeting.
-
-Git is about direct action. Have an idea? Implement it. Put it out there so that the public can vet it. Give the person who's in charge the possibility of integrating your changes with a click. You've already put in the work. In a way, this is direct not representative democracy. You're not describing what you want to someone who will turn it into a PowerPoint and hopefully (though we know that's not the case) advocate for you. You are making the change you want to see and then gathering support to make your reality the official one.
-
-### Open to Everyone (if you want it to be)
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%201.png)
-
-Branching is important. You can not only see the history of every document but all of its futures. If forks represent everyone's ideas, branches of the official documents are like officially sponsored ideas. Branches and forks are all linked with the document, like its history, so that anyone who is interested can spend a little time browsing around and get up to speed with what people want to change.
-
-Working with branches could allow the community to offer feedback on ideas which are candidates for inclusion in the master documents. What a difference this would be from reading a vague announcement in tthrew York times that everything will be changing in non specific ways. 
-
-### Asynchronous
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%2010.png)
-
-Another thing that's amazing is that this process can be real time but is asynchronous. So much of bureaucracy is tied to offices and reviews and meetings. In Git everyone does what they feel like can best contribute to -- maybe it's a sentence, maybes its a rewrite of the whole document. Maybe you worked together with someone: for example, you fork the bylaws and then someone else forks your fork to do copy because you had good ideas and poor grammar. You merge those changes and then submit a pull request that the Erin in charge if coopers bylaws integrate it and work on gathering community support so they know this a plan worth moving ahead with. All of this stuff circumvents the banter, which wates time.
-
-This is why github is such an important social network, and maybe why they recently received a $100 million dollar investment. All sorts of messages on Facebook and twitter have meaning, but github is exclusively about pushing projects forward and producing knowledge. The are still ways to have fforum style conversations. It's also important to note that this doesn't obviate the need to face to face discussions. But it gives you tools for leaving better feedback. Specific at the level of annotating line by line, or literally going up to somebody with the change and giving them the tools to -- if you've done a good job -- Immediately put that change in the pipeline towards becoming reality.
 
 ### Workflows
 
@@ -268,75 +253,30 @@ This doesn't _add_ manpower or require additional investment. It just becomes pa
 
 ### Avoiding the Technological Steamroller
 
-There are some areas however such as registration, where Cooper has begun integrating expensive systems such as Datatel (or whatever it's called now) which apparently cost a couple million dollars and Wil allow st.udents to register online for classes. At least in the art school registration is handled by three people: Joyce, Judith, and sometimes Day. It's wonderful.
+Technology can gave a steamroller effect so we have to be careful not to technologies things blindly. However, these bureaucratic processes could be much mor effective. They've already started technologizing the wrong parts of how administration functions at Cooper. There are some areas however such as registration, where Cooper has begun integrating expensive systems such as Datatel (or whatever it's called now) which apparently cost a couple million dollars and Wil allow st.udents to register online for classes. At least in the art school registration is handled by three people: Joyce, Judith, and sometimes Day. It's wonderful.
 
-Some might call the propositions of this essay technocratic, a fear that people who understand technology will control everything. That's not the point. The point isn't making it more exclusive, it's making it more open. Even people who don't use Facebook or twitter or github could find representation could find it in a friend or an official. But those who have ideas and are willing to put in the work (something we've seen in proposals like the way forward) would benefit from tools that provide a framework for directly contributing to procedures of governance and a more even distribution of power.
+But there are other parts of the educational experience that are being wrong-footedly technologized. Class registration in the School of Art is handled largely by two people: Joyce, Judith, and Day. Whereas 
+
+This type of restructuring isn't a magic panacea, in fact, if it is handled without tact, like in the case of class registration, it can actually cause more harm than good.
+
+### Technocracy
+
+Some might call the propositions of this essay technocratic, a fear that people who understand technology will control everything. That's not the point. The point isn't making it more exclusive, it's making it more open. Even people who don't use Facebook or Twitter or Github could find representation could find it in a friend or an official. But those who have ideas and are willing to put in the work (something we've seen in proposals like the way forward) would benefit from tools that provide a framework for directly contributing to procedures of governance and a more even distribution of power.
 
 This is also interesting from a financial standpoint because the administration has done many thing to isolate alumni. This potentially bring them back into the fold by strengthening ties with them and letting them get more involved.
 
-Technology can gave a steamroller effect so we have to be careful not to technologies things blindly. However, these bureaucratic processes could be much mor effective.
 
-They've already started technologizing the wrong parts of how administration functions at Cooper.
+### Aren't these just words on a screen? (Success stories from Valve, Github, and 37 Signals)
 
 Not all companies that are using these types of tools and workflows turn into horizontal anarchies. But I'm convinced that if we can get these tools into use at Cooper Union and allow them to relieve some of the broken flows of information it would cause poorly the functioning administration to crumble. Of course, as Clay Shirky writes, "Institutions will try to preserve the problem to which they are the solution." However, there is simply no case for a bloated bureaucracy lording over a community so smart and capable of self-organization.
 
-> "Conversations on Facebook and Twitter have purposes, but at GitHub, there is real pressure to move a project along and keep it alive."\[John Norman\](http://7fff.com/2012/07/14/the-most-important-social-network-github/) 
+> "Conversations on Facebook and Twitter have purposes, but at GitHub, there is real pressure to move a project along and keep it alive." [John Norman](http://7fff.com/2012/07/14/the-most-important-social-network-github/) 
 
-It's called Github, and today's institutions that are not already on it would be smart to look at how they can model their administrative functions after Git-like workflows.
-
-This is what it might look like if Cooper's administration started managing their documents with Git and Github.
+This is what it might look like if Cooper's administration started managing their documents with Git and Github. In fact, I've already registered it and put some documents up. I've already reduced the barrier of entry by helping the administration start this project. Git makes it easy for them to assume ownership whenever they're ready.
 
 ![](../../content/reinventing-administration/read/img/github.png)
 
-### Accountability
-
-What's a concrete example of how transparency has been promised but not delivered on, and accountability is curiously absent? A Financial FAQ was posted on Cooper Union's website under the department website of Finance and Administration, run by T.C. Wescott. The document has no author. There is confusion about if the Board of Trustees, who all of the decisions of the college ultimately rest on, has seen these answers or agrees with them. Saskia Bos, dean of the School of Art, suggested that they hadn't vetted these answers.
-
-But the worst offense is that each time I went back to access the Financial FAQ, I found that the content and structure of the document had quietly changed. This wasn't the first time I had seen this. A stir was raised in the Cooper community last year when somebody realized that the phrase "full scholarship" had been quietly removed from the school's mission statement posted on the website. It was never clear who made the change, who ordered it, when it happened, and why. It was also not clear why it was changed back. To this day some deny it even happened.
-
-Websites like Tumblr have started to post their policies on Github, so that when they modify these documents everyone who works at Tumblr and their entire community of users can see exactly what changed and when, and access the history of these documents at all times.
-
-### Asynchronous
-
-### Direct Action
-
-Getting employees to use a set of tools that exposes — in near realtime — logs of changes doesn't just add historical accountability, it actually eliminates the need for most meetings. Instead of preparing a document for review by a group of people and spending hours sitting around a table discussing it, the author in a new administration "commits" their changes as they work and when they are ready invites others to collaborate on the document. There are a number of ways in which this can happen. Indirect complaints and ideas related to the document without actionable solutions can be filed as "issues" in the document's "Bug Tracker". Each issue gets its own discussion forum where members of the working group, community, and even the public can talk about their ideas. If there is dissatisfaction related to a particular part of the document, anybody can leave a comment for that author attached to a specific line, and start a discussion inline. But the most exciting idea is that of the pull request.
-
-For now, vigilante archivists can save copies of websites which appear to be unstable, and independently put together diffs, as I have attempted to do. But these systems can — and should! — be at the core of how these governments function. Git was invented so that programmers could work together more effectively and openly without stepping on each others toes.
-
-If you've ever used the Track Changes feature while writing a paper, a diff should be instantly familiar to you.
-
-<section class="well example">
-	<p><i class="icon-play-circle"></i> <strong>Demo from an optimistic future:</strong> Hi there! The Board of Trustees would like to make some changes to the college's bylaws. Give these changes a look, and if you have questions please comment on, annotate, or fork the document. We will review your input one week from today.</p>
-		<div class="btn-group nav" data-toggle="buttons-radio">
-			<a href="#old-bylaws" class="btn" data-toggle="tab">Existing Bylaws from 6/14/02</a>
-			<a href="#new-bylaws" class="btn" data-toggle="tab">Proposed Bylaws from 9/19/12</a>
-			<a href="#bylaws-diff" class="btn active" data-toggle="tab">Diff of these versions</a>
-		</div>
-
-	<div class="tab-content">
-		<div id="old-bylaws" class="tab-pane">
-			<p>Trustees shall be elected at annual meetings of the Board. Each Trustee shall serve a term of four (4) years. For the purpose of staggering their terms of office, the Trustees shall be divided into four (4) classes, as nearly equal in number as may be, and the term of office of each class shall expire each year in regular rotation. At least one (1) member of each class shall be elected from the alumni and alumnae of the Corporation, and one (1) such member shall be known as an Alumnus Trustee or Alumna Trustee. In addition, the President of the Corporation's Alumni Association shall be entitled to attend meetings of the Board of Trustees but shall not be entitled to vote thereat.</p>
-		</div>
-		<div id="new-bylaws" class="tab-pane">
-			<p>Trustees shall be elected at annual meetings of the Board. Each Trustee shall serve a term of three (3) years. For the purpose of staggering their terms of office, the Trustees shall be divided into three (3) classes, as nearly equal in number as may be, and the term of office of each class shall expire each year in regular rotation. At least one (1) member of each class shall be elected from the alumni and alumnae of the Corporation, and one (1) such member shall be known as an Alumnus Trustee or Alumna Trustee. The President of the Corporation shall serve as a voting member on the Board of Trustees for such time as he or she shall continue to serve as President of the Corporation. In addition, effective July 1, 2012 the President of the Corporation’s Alumni Association shall serve as a voting member of the Board of Trustees for such time as he or she shall continue to serve as President of the Alumni Association, but in no event for a term of longer than three (3) years.</p>
-		</div>
-		<div id="bylaws-diff" class="tab-pane active">
-			<p>Trustees shall be elected at annual meetings of the Board. Each Trustee shall serve a term of <del>four (4)</del> <ins>three (3)</ins> years. For the purpose of staggering their terms of office, the Trustees shall be divided into <del>four (4)</del> <ins>three (3)</ins> classes, as nearly equal in number as may be, and the term of office of each class shall expire each year in regular rotation. At least one (1) member of each class shall be elected from the alumni and alumnae of the Corporation, and one (1) such member shall be known as an Alumnus Trustee or Alumna Trustee. <ins>The President of the Corporation shall serve as a voting member on the Board of Trustees for such time as he or she shall continue to serve as President of the Corporation.</ins> In addition, <ins>effective July 1, 2012</ins> the President of the Corporation's Alumni Association shall <del>be entitled to attend meetings of the Board of Trustees but shall not be entitled to vote there at</del> <ins>serve as a voting member of the Board of Trustees for such time as he or she shall continue to serve as President of the Alumni Association, but in no event for a term of longer than three (3) years</ins>.</p>
-	<p class="muted"><a href="#" class="btn disabled"><i class="icon-comment"></i> Comment</a> <a href="#" class="btn disabled"><i class="icon-pencil"></i> Annotate</a> <a href="#" class="btn disabled"><i class="icon-random"></i> Fork</a> (7 days left to contribute)</p>
-		</div>
-	</div>
-</section>
-
-Cool, right? Diffs make it simple for anyone to directly assess what has changed between edits. Unfortunately, it was a lot of work for me to put together this example because of the disorganized manner in which information is released at Cooper Union. I had to copy and paste the most recent version of the bylaws out of the PDF file in which the Trustees released them, search the internet for an old version of the bylaws (which I was able to find on the Cooper library website), manually diff the paragraphs, and then code up the quick visualization you see above.
-
-How it actually happened. Nobody was consulted. And the bylaws were published in two totally different formats in two totally different areas of the website. Totally despicable.
-
-![](../../content/reinventing-administration/read/img/bylaws-now.png)
-
-The crazy thing is that if the authors of this document (the authorship is also currently unclear) were to start managing this file with Git today, tomorrow's edits would include automatically generated diffs.
-
-### Flatten hierarchies and collaborate horizontally
+### Case Study: Valve: flatten hierarchies and collaborate horizontally
 
 > Capitalist corporations are on the way to certain extinction. Replete with hierarchies that are exceedingly wasteful of human talent and energies, intertwined with toxic finance, co-dependent with political structures that are losing democratic legitimacy fast, a form of post-capitalist, decentralised corporation will, sooner or later, emerge. The eradication of distribution and marginal costs, the capacity of producers to have direct access to billions of customers instantaneously, the advances of open source communities and mentalities, all these fascinating developments are bound to turn the autocratic Soviet-like megaliths of today into curiosities that students of political economy, business studies et al will marvel at in the future, just like school children marvel at dinosaur skeletons at the Natural History museum.Yanis Varoufakis, Chief Economist, Valve Software 
 
@@ -348,17 +288,27 @@ Some of this stuff sounds new-agey. Employees don't have to work from any specif
 
 Asynchronous: chat logs, pull requests
 
-Model student services after 37 Signals Customer Support. Distributed. Remote.
+### *Enlighten* the Board of Trustees
 
-But there are other parts of the educational experience that are being wrong-footedly technologized. Class registration in the School of Art is handled largely by two people: Joyce, Judith, and Day. Whereas 
+![](../../content/reinventing-administration/read/img/Administration%20Drawing%204.png)
 
-This type of restructuring isn't a magic panacea, in fact, if it is handled without tact, like in the case of class registration, it can actually cause more harm than good.
+All decisions come down to the Board of Trustees. They elect themselves—and their friends. We are not allowed to sit in on their meetings. The minutes kept of their meetings are confidential. We have been told that the Cooper community has no recourse against the decisions they make. We are only allowed to communicate with them in shallow ways like staid Q&As or a one-way airing of grievances (like when we were invited into their meeting).
+
+While a third of the board consists of alumni, and the president, secretary, and treasurer also attend meetings, the majority of the board is only called to campus four times a year for meetings. They undoubtedly carry on discussions outside the walls of the school. Whilele a board draws together philanthropists and executives with various areas of expertise to manage an institution, how is anybody who brushes with the institution's day-to-day life four times a year supposed to be able to understand the needs and desires of this place? The short answer is that they don't. They have nearly sunken this place.
+
+I don't think that having a board — something which is etched into the school's inviolable charter, and also characterizes all non-profits in New York — is inherently bad. Other people love their boards.
+
+"There is one important aspect of Valve that I did not focus on: the link between its horizontal management structure and its 'vertical' ownership structure. Valve is a private company owned mostly by few individuals. In that sense, it is an enlightened oligarchy: an oligarchy in that it is owned by a few and enlightened in that those few are not using their property rights to boss people around."
+
+Why is Cooper's board oppressive rather than enlightened?
+
+### Model student services after 37 Signals Customer Support. Distributed. Remote.
 
 ![](../../content/reinventing-administration/read/img/f-a-t-orgchart.png) 
 
 A sketch abstracting the complicated hierarchical organization of Cooper Union's department of Finance and Administation.
 
-### Aren't these just words on a screen? (Success stories from Valve, Github, and 37 Signals)
+### Scale
 
 Github has 35 employees (update this #, from 2011)
 
@@ -366,23 +316,10 @@ Valve has 300 employees (update this #)
 
 But both of those teams are responsible for hundreds of thousands of customers. 
 
-How radically could we scale back the size of our administration, responsible for 900 students and 200(?) faculty/staff, by implementing systems such as these. They would be happier and more productive. I've heard from somebody who works in 30 Cooper that despite their proximity to the school, they don't get to interact with students enough.
+How radically could we scale back the size of our administration, responsible for 900 students and 200(?) faculty/staff, by implementing systems such as these. I've heard from somebody who works in 30 Cooper that despite their proximity to the school, they don't get to interact with students enough.
 
 [Can I estimate what Cooper's scale would be?]
 
-### *Enlighten* the Board of Trustees
-
-![](../../content/reinventing-administration/read/img/Administration%20Drawing%204.png)
-
-All decisions come down to the Board of Trustees. They elect themselves—and their friends. We are not allowed to sit in on their meetings. The minutes kept of their meetings are confidential. We have been told that the Cooper community has no recourse against the decisions they make. We are only allowed to communicate with them in shallow ways like staid Q&As or a one-way airing of grievances (like when we were invited into their meeting).
-
-Ignorance is one answer. While a third of the board consists of alumni, and the president, secretary, and treasurer also attend meetings, the majority of the board is only called to campus four times a year for meetings. They undoubtedly carry on discussions outside the walls of the school. Whilele a board draws together philanthropists and executives with various areas of expertise to manage an institution, how is anybody who brushes with the institution's day-to-day life four times a year supposed to be able to understand the needs and desires of this place? The short answer is that they don't. These un-humble macro views have nearly sunken this place.
-
-I don't think that having a board — something which is etched into the school's inviolable charter, and also characterizes all non-profits in New York — is inherently bad. I know somebody who works at a health organization and loves their board.
-
-"There is one important aspect of Valve that I did not focus on: the link between its horizontal management structure and its 'vertical' ownership structure. Valve is a private company owned mostly by few individuals. In that sense, it is an enlightened oligarchy: an oligarchy in that it is owned by a few and enlightened in that those few are not using their property rights to boss people around."
-
-Why is Cooper's board oppressive rather than enlightened?
 
 ### Students ahead of the curve
 
@@ -391,6 +328,11 @@ Wanna see this idea in action? Look to the students. Andrew Crudge (and a friend
 ## Conclusion
 
 ### Redesigning decision-making
+
+> "Institutions will try to preserve the problem to which they are the solution."
+> 
+> [Clay Shirky](http://www.kk.org/thetechnium/archives/2010/04/the_shirky_prin.php)
+
 
 [grab quote(s) from Readmill)
 
