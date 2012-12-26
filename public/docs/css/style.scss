@@ -6,14 +6,14 @@
 
 .group:before,
 .group:after {
-    content:"";
-    display:table;
+	content:"";
+	display:table;
 }
 .group:after {
-    clear:both;
+	clear:both;
 }
 .group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+	zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 /* AND SO IT BEGINS */
@@ -66,6 +66,42 @@ nav#main { // Runs across all pages of site and blog
 	}
 }
 
+#graphcontrols {
+	list-style-type:none;
+	margin:0 20px 10px 20px;
+	border-top:1px solid #eee;
+	padding:10px 0 0 0;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:gray;
+	input[type='range'] {
+		-webkit-appearance: none !important;
+		background:#eee;
+		height:10px;
+		border-radius:5px;
+	}
+	input[type='range']::-webkit-slider-thumb {
+		-webkit-appearance: none !important;
+		background:gray;
+		height:10px;
+		width:10px;
+		border-radius:5px;
+	}
+	font: {
+		size:10px;
+		family:ff-dagny-web-pro;
+	}
+	li {
+		display:inline-block;
+	}
+	label {
+		display:block;
+		margin: 0 0 5px 0;
+	}
+	input {
+		width:100px;
+	}
+}
 
 header {
 	background:gray;
@@ -150,11 +186,11 @@ body#archive {
 	background:#fff;
 	#canvas {
 		opacity: .5;
-	    position:absolute;
-	    	top:0;
-	    	left:0;
-	    z-index:1;
-	    display: none;
+		position:absolute;
+			top:0;
+			left:0;
+		z-index:1;
+		display: none;
 	}
 	nav#background {
 		list-style-type:none;
@@ -788,26 +824,26 @@ img.emoji {
 .isotope .isotope-item {
   /* change duration value to whatever you like */
   -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-      -ms-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+	 -moz-transition-duration: 0.8s;
+	  -ms-transition-duration: 0.8s;
+	   -o-transition-duration: 0.8s;
+		  transition-duration: 0.8s;
 }
 
 .isotope {
   -webkit-transition-property: height, width;
-     -moz-transition-property: height, width;
-      -ms-transition-property: height, width;
-       -o-transition-property: height, width;
-          transition-property: height, width;
+	 -moz-transition-property: height, width;
+	  -ms-transition-property: height, width;
+	   -o-transition-property: height, width;
+		  transition-property: height, width;
 }
 
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
-     -moz-transition-property:    -moz-transform, opacity;
-      -ms-transition-property:     -ms-transform, opacity;
-       -o-transition-property:         top, left, opacity;
-          transition-property:         transform, opacity;
+	 -moz-transition-property:    -moz-transform, opacity;
+	  -ms-transition-property:     -ms-transform, opacity;
+	   -o-transition-property:         top, left, opacity;
+		  transition-property:         transform, opacity;
 }
 
 /**** disabling Isotope CSS3 transitions ****/
@@ -816,10 +852,10 @@ img.emoji {
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
   -webkit-transition-duration: 0s;
-     -moz-transition-duration: 0s;
-      -ms-transition-duration: 0s;
-       -o-transition-duration: 0s;
-          transition-duration: 0s;
+	 -moz-transition-duration: 0s;
+	  -ms-transition-duration: 0s;
+	   -o-transition-duration: 0s;
+		  transition-duration: 0s;
 }
 
 .isotope-hidden.isotope-item {
@@ -836,7 +872,7 @@ img.emoji {
   filter: alpha(opacity=0);
   font-size: 14px;
   img {
-  	max-width:100%;
+	max-width:100%;
   }
 }
 .tooltip.in {
