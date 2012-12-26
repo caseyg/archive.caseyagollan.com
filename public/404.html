@@ -1,24 +1,54 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
   "http://www.w3.org/TR/html4/strict.dtd">
+
 <html>
   <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Page not found (404)</title>
-    <meta name="description" content="">
-    <style type="text/css" media="screen">
-      body { font-family: "Times New Roman", "Times", times, sans-serif; text-align: center; }
-      h1 { margin: 35px 0px 6px 0px; text-decoration: underline; }
-      h2 { margin: 6px 0px; }
-      p { margin: 6px 0px; }
-      a { color: #000; text-decoration: none; border-bottom: 1px solid #999; }
-    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title>Page Not Found (404) |  Casey A. Gollan</title>
+<link rel="alternate" type="application/atom+xml" href="../feed/">
+<meta name="viewport" content="user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../docs/css/style.css">
+<script type="text/javascript" src="http://use.typekit.com/tun0rbf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">
+try {
+  Typekit.load({
+    loading: function() {
+      // Javascript to execute when fonts start loading
+    },
+    active: function() {
+      $('#projects ul').isotope('reLayout');
+    },
+    inactive: function() {
+      // Javascript to execute when fonts become inactive
+    }
+  })
+} catch(e) {}
+</script>
   </head>
-  <body>
-    <div id="container">
-      <h1>404</h1>
-      <h2>Page could not be found.</h2>
-      <p>Unfortunately, the page you were looking for does not exist here.</p>
-      <p><a href="/">&larr; Index</a></p>
-    </div>
+  <body id="single">
+  <nav id="main">
+  <ul>
+    <li><a href="/graph" class="graph">Graph</a></li>
+    <li><a href="/archive" class="archive">Archive</a></li>
+    <li>|</li>
+    <li><a href="/about" class="about">About</a></li>
+    <li><a href="http://notes.caseyagollan.com">Blog</a></li>
+    <li><a href="mailto:hello@caseyagollan.com">hello@caseyagollan.com</a></li>
+  </ul>
+</nav>
+  <article>
+    <p class="date">404</p> 
+    <h1>Page Not Found</h1>
+    <p>Like, it doesn't exist! Try <a href="javascript:void(0)" onclick="history.back(-1)">going back</a> or searching:</p>
+    <form style="display:inline;" action="http://google.com/search">
+      <input type="hidden" name="sitesearch" value="caseyagollan.com" />
+      <input style="display:inline;" type="text" name="q" placeholder="Search..." />
+    </form>
+
+  </article>
+  <footer>
+    <a href="../feed/">RSS</a> 
+  </footer>
   </body>
 </html>
