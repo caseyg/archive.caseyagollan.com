@@ -8,35 +8,33 @@
 <body>
 	<article>
 		<h1>@title</h1>
-		<nav>
+		<nav id="toc">
 			<h2>Table of Contents</h2>
 			<ol>
-				<li><a href="#">WTF Happened at Cooper Union</a></li>
-				<li><a href="#">The Hybrid Model<em>, or How to Throw 1000 People Under The Bus and Look Good Doing It</em></a></li>
-				<li><a href="#">Same Shit, Different Decade</a></li>
-				<li><a href="#">That’s Just How It Is.</a></li>
-				<li><a href="#">To Democracy and Beyond</a></li>
-				<li><a href="#">> git init</a></li>
-				<li><a href="#">WTF is a “Version Control System”</a></li>
-				<li><a href="#">Forks and Branches</a></li>
-				<li><a href="#">The Governance Graph</a></li>
-				<li><a href="#">Transcending Paradigms</a></li>
+				<li><a href="#wtf-happened-at-cooper-union">WTF Happened at Cooper Union</a></li>
+				<li><a href="#the-hybrid-model">The Hybrid Model<em>, or How to Throw 1000 People Under The Bus and Look Good Doing It</em></a></li>
+				<li><a href="#same-shit-different-decade">Same Shit, Different Decade</a></li>
+				<li><a href="#thats-just-how-it-is">That’s Just How It Is.</a></li>
+				<li><a href="#to-democracy-and-beyond">To Democracy and Beyond</a></li>
+				<li><a href="#git-init">> git init</a></li>
+				<li><a href="#wtf-is-a-version-control-system">WTF is a “Version Control System”</a></li>
+				<li><a href="#forks-and-branches">Forks and Branches</a></li>
+				<li><a href="#the-governance-graph">The Governance Graph</a></li>
+				<li><a href="#transcending-paradigms">Transcending Paradigms</a></li>
 			</ol>
 		</nav>
 		@content
 	</article>
-	<script type="text/javascript">
-	  (function() {
-		var config = {
-		  kitId: 'tun0rbf',
-		  scriptTimeout: 3000
-		};
-		var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-	  })();
-	</script>
 	<script type="text/javascript" src="/content/reinventing-administration/read/js/skrollr.min.js"></script>
 	<script type="text/javascript">
-		skrollr.init();
+	(function() {
+		var config = {
+			kitId: 'tun0rbf',
+			scriptTimeout: 3000
+		};
+		var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+	})();
+	skrollr.init();
 	</script>
 </body>
 </html>

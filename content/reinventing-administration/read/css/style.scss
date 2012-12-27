@@ -3,6 +3,7 @@ body {
 	font-family:calluna;
 	background-attachment:fixed;
 	background:gray;
+	margin:40px;
 }
 a {
 	color:#eee;
@@ -46,7 +47,7 @@ article {
 		padding:0;
 	}
 	h2 {
-		margin-bottom: 10px;
+		margin: 40px 0 10px 0;
 		strong {font-weight:100;}
 	}
 	p {
@@ -61,14 +62,40 @@ article {
 	}
 	img {
 		display:block;
+		max-width:100%;
 		width:800px;
 		margin:40px auto;
+	}
+	blockquote {
+		font-style:italic;
+		p:first-letter {
+			margin-left:0;
+		}
+	}
+	p:first-of-type:first-letter {
+		margin-left:0;
+	}
+	.center {
+		max-width:650px;
+		padding:0 150px;
+		border-left:1px solid darkgray;
+		border-right:1px solid darkgray;
+	}
+	.left, .right {
+		max-width:50%;
+	}
+	.left {
+		padding-right:20px;
+		border-right:1px solid darkgray;		
+	}
+	.right {
+		padding-left:20px;
+		border-left:1px solid darkgray;
+		margin-left:50%;
 	}
 	.two-col {
 		-webkit-column-count: 2;
 		-webkit-column-gap: 40px;
-		-webkit-column-rule-color:  darkgray;
-		-webkit-column-rule-style: solid;
-		-webkit-column-rule-width:  1px;
+		-webkit-column-rule:darkgray solid 1px;
 	}
 }
