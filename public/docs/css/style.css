@@ -158,7 +158,7 @@ body, figure, form {
 /* AND SO IT BEGINS */
 body {
   font-family: Calluna, serif;
-  background: #eee; }
+  background: gray; }
 
 h1, h2, h3, h4, .date, .tags, .tooltip, .number, figcaption {
   font-family: ff-dagny-web-pro, sans-serif; }
@@ -175,7 +175,8 @@ nav#main {
   color: darkgray;
   font-family: ff-dagny-web-pro, Helvetica Neue, sans-serif;
   font-weight: 400;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  background: #fff; }
   nav#main > ul > li {
     display: inline-block;
     vertical-align: top;
@@ -422,7 +423,7 @@ ul li.project:hover ul {
   color: #aaa;
   margin: 0 0 10px 0!important;
   letter-spacing: 1px;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #aaa; }
 
 .project img.thumb {
   display: block;
@@ -638,25 +639,31 @@ body#infinite-scroll img {
 
 article {
   padding: 10px 25px;
-  margin: 0 auto 20px auto; }
-  article h1, article h2, article h3, article p, article .date, article ul, article ol, article figcaption {
-    max-width: 700px;
-    width: 650px;
+  margin: 0 auto 20px auto;
+  color: #eee; }
+  article h1, article h2, article h3, article p, article .date, article ul, article ol, article figcaption, article hr {
+    max-width: 650px;
     display: block;
     margin: auto; }
   article a:link, article a:visited {
-    color: blue;
     text-decoration: none;
-    font-family: "ff-dagny-web-pro"; }
+    font-family: "ff-dagny-web-pro";
+    border-bottom: 2px solid blue;
+    -webkit-transition: background-color .25s; }
+  article a:link {
+    color: white; }
+  article a:visited {
+    background: purple;
+    color: white; }
   article a:hover, article a:active {
-    text-decoration: underline; }
+    background: blue;
+    color: white; }
   article .date, article .tags {
     font-size: 14px;
     display: inline-block;
     color: #aaa;
     letter-spacing: 1px;
     font-weight: 100!important;
-    background: #eee;
     width: auto;
     text-align: center;
     margin: auto; }
@@ -702,8 +709,7 @@ article {
     margin: 0; }
   article hr {
     border: 0;
-    width: 300px;
-    margin: 30px auto!important;
+    margin: 30px 0;
     border-top: 1px solid #ccc; }
   article p {
     font-size: 16px;
@@ -739,68 +745,40 @@ article {
     font-size: 10px;
     margin-right: 5px; }
 
-body#single nav#main {
-  box-shadow: none; }
-body#single nav#project-timeline ul {
-  display: block;
-  background: #eee;
-  width: 100%;
-  display: block;
-  margin: auto;
-  position: absolute;
-  top: 55px;
-  left: 0; }
-  body#single nav#project-timeline ul li {
-    float: left;
-    margin: 0;
+body#single {
+  background: gray; }
+  body#single nav#main {
+    box-shadow: none;
+    background: white; }
+  body#single header nav#main {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: transparent;
     padding: 0; }
-    body#single nav#project-timeline ul li a:link {
-      height: 55px;
-      margin: 0;
-      padding: 0;
-      display: block;
-      overflow: hidden;
-      text-indent: -5000em;
-      background: #fff;
-      background-size: cover;
-      background-position: center;
-      opacity: .25;
-      cursor: hand; }
-    body#single nav#project-timeline ul li a:visited {
-      opacity: 1!important; }
-  body#single nav#project-timeline ul li a:hover, body#single nav#project-timeline ul li.active a {
-    opacity: 1; }
-  body#single nav#project-timeline ul li.active a {
-    border-bottom: 2px solid blue!important; }
-body#single header nav#main {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1000;
-  background: transparent;
-  padding: 0; }
-body#single nav.siblings a:link, body#single nav.siblings a:visited {
-  font-size: 12px;
-  font-family: ff-dagny-web-pro, Helvetica, Arial;
-  font-weight: 100;
-  letter-spacing: 1px;
-  color: #aaa;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0!important;
-  border: 0;
-  padding: 10px 20px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-body#single nav.siblings a:hover {
-  background: #ccc;
-  color: #fff; }
-body#single nav.siblings a:active {
-  background: #bbb;
-  color: #fff; }
-body#single nav.siblings a:nth-child(2) {
-  text-align: right; }
+  body#single nav.siblings a:link, body#single nav.siblings a:visited {
+    font-size: 12px;
+    font-family: ff-dagny-web-pro, Helvetica, Arial;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #aaa;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0!important;
+    border: 0;
+    padding: 10px 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  body#single nav.siblings a:hover {
+    background: #ccc;
+    color: #fff; }
+  body#single nav.siblings a:active {
+    background: #bbb;
+    color: #fff; }
+  body#single nav.siblings a:nth-child(2) {
+    text-align: right; }
 
 @media only screen and (max-width: 480px) {
   body {

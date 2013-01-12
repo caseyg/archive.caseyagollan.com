@@ -20,7 +20,7 @@
 
 body {
 	font-family: Calluna, serif;
-	background:#eee;
+	background:gray;
 	}
 
 h1, h2, h3, h4, .date, .tags, .tooltip, .number, figcaption {
@@ -40,6 +40,7 @@ nav#main { // Runs across all pages of site and blog
 	font-family:ff-dagny-web-pro, Helvetica Neue, sans-serif;
 	font-weight:400;
 	letter-spacing:1px;
+	background:#fff;
 //	box-shadow: inset 0 -5px 10px 0px rgba(0,0,0,.5);
 	&>ul>li {
 		display:inline-block;
@@ -330,7 +331,7 @@ ul li.project:hover ul {
 	color: #aaa;
 	margin: 0 0 10px 0!important;
 	letter-spacing: 1px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #aaa;
 	}
 .project img.thumb {
 	display: block;
@@ -554,19 +555,30 @@ body#infinite-scroll {
 article {
 	padding: 10px 25px;
 	margin:0 auto 20px auto;
-	h1, h2, h3, p, .date, ul, ol, figcaption {
-		max-width:700px;
-		width:650px;
+	color:#eee;
+	h1, h2, h3, p, .date, ul, ol, figcaption, hr {
+		max-width:650px;
 		display:block;
 		margin:auto;
 	}
-	a:link, a:visited {
-		color:blue;
-		text-decoration: none;
-		font-family:"ff-dagny-web-pro";
-	}
-	a:hover, a:active {
-		text-decoration: underline;
+	a {
+		&:link, &:visited {
+			text-decoration: none;
+			font-family:"ff-dagny-web-pro";
+			border-bottom:2px solid blue;
+			-webkit-transition:background-color .25s;
+		}
+		&:link {
+			color:white;
+		}
+		&:visited {
+			background:purple;
+			color:white;
+		}
+		&:hover, &:active {
+			background:blue;
+			color:white;
+		}
 	}
 	.date, .tags {
 		font-size: 14px;
@@ -574,7 +586,6 @@ article {
 		color: #aaa;
 		letter-spacing: 1px;
 		font-weight:100!important;
-		background:#eee;
 		width:auto;
 		text-align: center;
 		margin:auto;
@@ -629,8 +640,7 @@ article {
 	}
 	hr {
 		border: 0;
-		width: 300px;
-		margin: 30px auto!important;
+		margin: 30px 0;
 		border-top: 1px solid #ccc;
 	}
 
@@ -677,47 +687,10 @@ article {
 }
 
 body#single {
+	background:gray;
 	nav#main {
 		box-shadow:none;
-	}
-	nav#project-timeline {
-		ul {
-		display:block;
-		background:#eee;
-		width:100%;
-			display:block;
-			margin:auto;
-			position:absolute;
-				top:55px;
-				left:0;
-			li {
-				float:left;
-				margin:0;
-				padding:0;
-				a:link {
-					height:55px;
-					margin:0;
-					padding:0;
-					display:block;
-					overflow:hidden;
-					text-indent:-5000em;
-					background:#fff;
-					background-size:cover;
-					background-position:center;
-					opacity:.25;
-					cursor:hand;
-				}
-				a:visited {
-					opacity:1!important;
-				}
-			}
-			li a:hover, li.active a {
-				opacity:1;
-			}
-			li.active a {
-				border-bottom:2px solid blue!important;
-			}
-		}
+		background:white;
 	}
 	header nav#main {
 		position:absolute;
@@ -726,8 +699,6 @@ body#single {
 		z-index:1000;
 		background:transparent;
 		padding:0;
-	}
-	nav.siblings {
 	}
 	nav.siblings a:link, nav.siblings a:visited {
 		font-size: 12px;
