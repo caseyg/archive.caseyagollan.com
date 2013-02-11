@@ -1,0 +1,864 @@
+{
+	"type": {
+		"_id": "/type/article",
+		"name": "Projects",
+		"properties": {
+			"name": {
+				"name": "Article Name",
+				"type": "string",
+				"unique": true
+			},
+			"link": {
+				"name": "Link",
+				"type": "string",
+				"unique": true
+			},
+			"date": {
+				"name": "Date",
+				"type": "string",
+				"unique": true
+			},
+			"thumb": {
+				"name": "Thumb",
+				"type": "string",
+				"unique": true
+			},
+			"excerpt": {
+				"name": "Excerpt",
+				"type": "string",
+				"unique": true
+			},
+			"tags": {
+				"name": "Tags",
+				"type": "string",
+				"unique": false,
+				"meta": {
+					"facet": true,
+					"details": true
+				}
+			}
+		}
+	},
+	"objects":
+		[
+			{
+				"name": "Unhinged Writing on Screens",
+				"link": "http://caseyagollan.com/screens/",
+				"date": "2012 Summer",
+				"excerpt": "NO NO NO I don’t want to linger in front of screens or projectors. Please god no. I know I already do, but.",
+				"tags": [
+					"Writing",
+					"Technology"
+				],
+				"_id": "50e4a17464182bda610000a8"
+			},
+			{
+				"name": "Weeknotes",
+				"link": "http://caseyagollan.com/weeknotes/",
+				"date": "2012 Spring",
+				"excerpt": "Every week for the second semester of my junior year at Cooper I wrote a long-winded report on what I was doing, thinking about, and working on.",
+				"external_link": "http://notes.caseyagollan.com/tagged/weeknotes",
+				"tags": [
+					"Writing",
+					"Notes",
+					"Workspace"
+				],
+				"_id": "50e4a17464182bda610000a9"
+			},
+			{
+				"name": "If We Are Digital",
+				"link": "http://caseyagollan.com/if-we-are-digital/",
+				"date": "2012 May",
+				"excerpt": "In just seven days I helped launch this website hosting a series of conversations between Jen Lindblad and people working to engage online art audiences.",
+				"external_link": "http://ifwearedigital.com",
+				"thumb": "http://caseyagollan.com/content/167.if-we-are-digital/thumb.jpeg",
+				"tags": [
+					"link",
+					"Coding",
+					"Design"
+				],
+				"_id": "50e4a17464182bda610000aa"
+			},
+			{
+				"name": "Pool",
+				"link": "http://caseyagollan.com/pool/",
+				"date": "2012 May",
+				"excerpt": "Eight months after contributing a piece of writing to Pool, a publication about internet art, and one passive-agressive message later I ended up working with Founder and Lead Editor Louis Doulas to develop the site's second iteration. While staying true to Louis's intensely stark mockups, we arrived at a better reading experience and managed to make a ton of subtle, under-the-hood improvements to the site's functionality. The site's homepage bares a list of everything ever published by Pool, with visited links shown in gray. This allows readers to leave and return to the site and remember what is left to be explored.",
+				"external_link": "http://poooool.info",
+				"thumb": "http://caseyagollan.com/content/166.pool/thumb.jpg",
+				"tags": [
+					"link",
+					"Coding",
+					"Publications"
+				],
+				"_id": "50e4a17464182bda610000ab"
+			},
+			{
+				"name": "Two Apologies President Bharucha Must Make",
+				"link": "http://caseyagollan.com/two-apologies-president-bharucha-must-make/",
+				"date": "2012 April",
+				"excerpt": "An open letter to the president of Cooper Union.",
+				"external_link": "../../../two-apologies-president-bharucha-must-make/read",
+				"thumb": "http://caseyagollan.com/content/165.two-apologies-president-bharucha-must-make/thumb.jpg",
+				"tags": [
+					"Cooper Union",
+					"Writing",
+					"Politics"
+				],
+				"_id": "50e4a17464182bda610000ac"
+			},
+			{
+				"name": "Sweaty Tube",
+				"link": "http://caseyagollan.com/sweatytube/",
+				"date": "2012 March",
+				"excerpt": "Watch YouTube videos on a sweater. Made with Alex Gibson and Aaron Graham.",
+				"external_link": "http://sweatytube.com",
+				"thumb": "http://caseyagollan.com/content/164.sweatytube/thumb.png",
+				"tags": [
+					"Meme Generator",
+					"link",
+					"Coding",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000ad"
+			},
+			{
+				"name": "You Can't Fuck the System If You've Never Met One",
+				"link": "http://caseyagollan.com/systems/",
+				"date": "2012 March",
+				"excerpt": "“Part of the reason systems are hard to see is because they're an abstraction. They don't really exist until you articulate them. And any two things don't make a system, even where there are strong correlations. Towns with more trees have lower divorce rates, for example, but you'd be hard-pressed to go anywhere with that. However, if you can manage to divine the secret connections and interdependencies between things, it's like putting on glasses for the first time.”",
+				"external_link": "../../../systems/read",
+				"thumb": "http://caseyagollan.com/content/160.systems/thumb.png",
+				"tags": [
+					"Writing",
+					"Cooper Union",
+					"Systems",
+					"Design Thinking",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000ae"
+			},
+			{
+				"name": "Programmed Visions Book Review",
+				"link": "http://caseyagollan.com/book-review-programmed-visions/",
+				"date": "2012 January",
+				"excerpt": "“As more and more people find themselves able to create things out of code, it feels critical to understand software on both a practical and fundamental level.”",
+				"external_link": "http://rhizome.org/editorial/2012/jan/23/book-review-programmed-visions-software-and-memory",
+				"tags": [
+					"Reading",
+					"Writing",
+					"Rhizome",
+					"Technology",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000af"
+			},
+			{
+				"name": "CooperUnion.biz",
+				"link": "http://caseyagollan.com/cooper-union-dot-biz/",
+				"date": "2011 December",
+				"excerpt": "The website of Cooper Union from an alternate universe where the grubby administration gets their way. Alex Gibson and Aaron Graham.",
+				"external_link": "http://cooperunion.biz",
+				"thumb": "http://caseyagollan.com/content/150.cooper-union-dot-biz/thumb.png",
+				"tags": [
+					"Cooper Union",
+					"Trolling",
+					"Fun",
+					"link",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000b0"
+			},
+			{
+				"name": "Between the Spreadsheets",
+				"link": "http://caseyagollan.com/between-the-spreadsheets/",
+				"date": "2011 December",
+				"excerpt": "Fighting a corrupt bureacracy with...seduction.",
+				"thumb": "http://caseyagollan.com/content/145.between-the-spreadsheets/thumb.jpeg",
+				"tags": [
+					"Cooper Union",
+					"Fun",
+					"Performative",
+					"Sexy",
+					"Trolling",
+					"New York",
+					"Video"
+				],
+				"_id": "50e4a17464182bda610000b1"
+			},
+			{
+				"name": "Girl Walk // All Day Website",
+				"link": "http://caseyagollan.com/girl-walk-all-day-website/",
+				"date": "2011 October",
+				"thumb": "http://caseyagollan.com/content/140.girl-walk-all-day-website/thumb.png",
+				"tags": [
+					"Client Work",
+					"link",
+					"Coding",
+					"Fun",
+					"Design",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000b2"
+			},
+			{
+				"name": "Hula",
+				"link": "http://caseyagollan.com/hula/",
+				"date": "2011 Fall/Winter",
+				"thumb": "http://caseyagollan.com/content/135.hula/thumb.jpeg",
+				"tags": [
+					"Cooper Union",
+					"Performative",
+					"Participatory",
+					"Conversational",
+					"Fun",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000b3"
+			},
+			{
+				"name": "Studio",
+				"link": "http://caseyagollan.com/studio/",
+				"date": "2011 Fall/Winter",
+				"thumb": "http://caseyagollan.com/content/130.studio/thumb.JPG",
+				"tags": [
+					"Workspace",
+					"Cooper Union",
+					"Messy",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000b4"
+			},
+			{
+				"name": "User-Generated Content",
+				"link": "http://caseyagollan.com/user-generated-content/",
+				"date": "2011 August",
+				"excerpt": "The way things are now is more like a pile up of metaphors and recycled code than laws of interaction which are set in stone. Designing computer systems is a strangely direct way of altering how people experience the world and relate to each other. Perhaps in the coming years artists will be able to create new platforms with the conceptual backbone that is lacking in today’s popular offerings.",
+				"external_link": "http://pooool.info/user-generated-content",
+				"thumb": "http://caseyagollan.com/content/124.user-generated-content/thumb.png",
+				"tags": [
+					"Writing",
+					"Essay",
+					"Design Thinking",
+					"Pool",
+					"New York",
+					"Iceland",
+					"Reykjavik"
+				],
+				"_id": "50e4a17464182bda610000b5"
+			},
+			{
+				"name": "Until I get better at coding, there will be no...",
+				"link": "http://caseyagollan.com/until-i-get-better-at-coding/",
+				"date": "2011 August",
+				"excerpt": "One day I will read something and feel the hypothetical ecstasy of some awesome information-space tool, the next day I'll look at a stupid infographic, read a story about universal-library vaporware, or see bit of design too clever for its own good and begin to doubt that better tools will make much of a difference. Either way I keep coming back to this desire to look in from outside at swirling systems of thought, to let the public inside a brain in action.",
+				"tags": [
+					"Writing",
+					"Blog Highlights",
+					"Technology",
+					"Design Thinking"
+				],
+				"_id": "50e4a17464182bda610000b6"
+			},
+			{
+				"name": "New Works",
+				"link": "http://caseyagollan.com/new-works/",
+				"date": "2011 May",
+				"excerpt": "New Works by Casey A. Gollan",
+				"thumb": "http://caseyagollan.com/content/105.new-works/thumb.jpg",
+				"tags": [
+					"Sculpture",
+					"The Problem Is The Content",
+					"Cooper Union",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000b7"
+			},
+			{
+				"name": "Studio Bed",
+				"link": "http://caseyagollan.com/studio-bed/",
+				"date": "2011 March",
+				"thumb": "http://caseyagollan.com/content/80.studio-bed/thumb.jpeg",
+				"tags": [
+					"Workspace",
+					"Cooper Union",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000bc"
+			},
+			{
+				"name": "Mixing Metaphors: Skeuomorphic, Hyper, and...",
+				"link": "http://caseyagollan.com/mixing-metaphors/",
+				"date": "2011 May",
+				"excerpt": "There are some valid arguments for skeuomorphic design, for example mimicking the turning of real-life pages in a virtual book on the iPad, besides “wow, that looks cool!” One good one is that we’re in a transitional period where mimicry is being used to help people learn how to interact with these new touch devices, and that skeuomorphism will be replaced by less decorative interfaces in due time. There are also the criticisms: some vehemently oppose any computer interface with a torn paper edge and others are trying to invent less dated replacements for the “save” icon (which is still commonly represented by a floppy disk).",
+				"tags": [
+					"Writing",
+					"Blog Highlights",
+					"Skeuomorphism",
+					"Design Thinking",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000b8"
+			},
+			{
+				"name": "Notes on Forgetting, Archiving, and Existing on...",
+				"link": "http://caseyagollan.com/notes-on-forgetting-archiving-and-existing-on-the-internet/",
+				"date": "2011 April",
+				"excerpt": "What if instead of encouraging us to chatter, our tools helped us relate, merge, revise and evolve bits over time? What if we were to move away from the idea of the stream and towards editing and maintaining a non-linear constellation of ideas? What if instead of dealing with our glut of information by erasing it, we came up with ways to deprecate our past, update our present and make sure that our digital histories are preserved for the future? I think that somewhere between writing, remixing and reblogging, between editing a wiki and branching code on a project in Git, is a new model for existing online.",
+				"thumb": "http://caseyagollan.com/content/95.notes-on-forgetting-archiving-and-existing-on-the-internet/thumb.jpg",
+				"tags": [
+					"Notes",
+					"Writing",
+					"Technology",
+					"Archives",
+					"Design",
+					"Thinking",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000b9"
+			},
+			{
+				"name": "CooperUnion.net",
+				"link": "http://caseyagollan.com/cooper-union-dot-net/",
+				"date": "2011 March",
+				"thumb": "http://caseyagollan.com/content/90.cooper-union-dot-net/thumb.png",
+				"tags": [
+					"link",
+					"Writing",
+					"Cooper Union",
+					"Archives",
+					"New York",
+					"Education"
+				],
+				"_id": "50e4a17464182bda610000ba"
+			},
+			{
+				"name": "SensitivePhotoGeneration.com",
+				"link": "http://caseyagollan.com/sensitive-photo-generation/",
+				"date": "2011 March",
+				"excerpt": "Drag and drop clichéd elements from “sensitive” photographs into new compositions.",
+				"external_link": "http://sensitivephotogeneration.com",
+				"thumb": "http://caseyagollan.com/content/85.sensitive-photo-generation/thumb.png",
+				"tags": [
+					"Photography",
+					"link",
+					"Meme Generator",
+					"Trolling",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000bb"
+			},
+			{
+				"name": "Timeline of Timelines",
+				"link": "http://caseyagollan.com/timeline-timeline/",
+				"date": "2011 March",
+				"thumb": "http://caseyagollan.com/content/75.timeline-timeline/thumb.png",
+				"tags": [
+					"Design Thinking",
+					"Archives",
+					"Time",
+					"Cooper Union",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000bd"
+			},
+			{
+				"name": "Attempted Conversation",
+				"link": "http://caseyagollan.com/attempted-conversation/",
+				"date": "2011 March",
+				"excerpt": "I've tried and tried but I see no way to arrive at a sculpture. To go from the world of ideas and fragments of information to an object is a translation that I'm not convinced needs to happen. Do we need to critique the merits of an object? Can we have a conversation with no centerpiece? I've had richer experiences reading books than looking at art first-hand. I've thought of sculptures—100 shape-shifting sculptures a minutes—and then been done with them.",
+				"thumb": "http://caseyagollan.com/content/70.attempted-conversation/thumb.png",
+				"tags": [
+					"Writing",
+					"Conversational",
+					"Sculpture",
+					"Cooper Union",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000be"
+			},
+			{
+				"name": "Casey, Runner",
+				"link": "http://caseyagollan.com/casey-runner/",
+				"date": "2010 December",
+				"excerpt": "Ran out of/with/away from class until I reached the Southern tip of Manhattan.",
+				"thumb": "http://caseyagollan.com/content/65.casey-runner/thumb.jpeg",
+				"tags": [
+					"Performative",
+					"Social Practice",
+					"Participatory",
+					"Cooper Union",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000bf"
+			},
+			{
+				"name": "Sexy Studio Self-Portraits",
+				"link": "http://caseyagollan.com/sexy-studio-self-portraits/",
+				"date": "2010 December",
+				"thumb": "http://caseyagollan.com/content/60.sexy-studio-self-portraits/thumb.jpeg",
+				"tags": [
+					"Sexy",
+					"Performative",
+					"Photography",
+					"Cooper Union",
+					"New York",
+					"Trolling"
+				],
+				"_id": "50e4a17464182bda610000c0"
+			},
+			{
+				"name": "Photography Thought Web",
+				"link": "http://caseyagollan.com/photography-thought-web/",
+				"date": "2010 August",
+				"thumb": "http://caseyagollan.com/content/55.photography-thought-web/thumb.jpeg",
+				"tags": [
+					"Notes",
+					"Photography",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000c1"
+			},
+			{
+				"name": "Built to Last, Built to Decay: Authentic,...",
+				"link": "http://caseyagollan.com/built-to-last-built-to-decay/",
+				"date": "2010 March",
+				"excerpt": "Craig Mod, who clearly _gets it_, has written (and _designed_) [an excellent piece](http://craigmod.com/journal/ipad_and_books/) on the future of publishing:",
+				"tags": [
+					"Writing",
+					"Blog Highlights",
+					"Design Thinking",
+					"Publications",
+					"Technology",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000c2"
+			},
+			{
+				"name": "Soundline",
+				"link": "http://caseyagollan.com/soundline/",
+				"date": "2010 January",
+				"thumb": "http://caseyagollan.com/content/45.soundline/thumb.jpeg",
+				"tags": [
+					"Cooper Union",
+					"Foundation Year Prompts",
+					"Processing",
+					"Coding",
+					"Drawing",
+					"Notes",
+					"Design Thinking",
+					"Color",
+					"Sound",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000c3"
+			},
+			{
+				"name": "Albers-o-Matic",
+				"link": "http://caseyagollan.com/albers-o-matic/",
+				"date": "2009 December",
+				"thumb": "http://caseyagollan.com/content/40.albers-o-matic/thumb.jpeg",
+				"tags": [
+					"Cooper Union",
+					"Foundation Year Prompts",
+					"Color",
+					"Processing",
+					"Coding",
+					"Meme Generator",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000c4"
+			},
+			{
+				"name": "Gradient Bookshelf",
+				"link": "http://caseyagollan.com/bookshelf/",
+				"date": "2009 Fall",
+				"excerpt": "I rearranged a few of my favorite books to form a gradient based on the color of the paper, then bent a metal shelf to perfectly contain them.",
+				"thumb": "http://caseyagollan.com/content/35.bookshelf/thumb.jpg",
+				"tags": [
+					"Cooper Union",
+					"Foundation Year Prompts",
+					"Color",
+					"Books",
+					"New York",
+					"Organizing"
+				],
+				"_id": "50e4a17464182bda610000c5"
+			},
+			{
+				"name": "Cake",
+				"link": "http://caseyagollan.com/cake/",
+				"date": "2009 November",
+				"thumb": "http://caseyagollan.com/content/30.cake/thumb.jpeg",
+				"tags": [
+					"Cooper Union",
+					"Foundation Year Prompts",
+					"Sculpture",
+					"Performative",
+					"Notes",
+					"Writing",
+					"Messy",
+					"Fun",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000c6"
+			},
+			{
+				"name": "Scattered Notes on the Blog as a Curated...",
+				"link": "http://caseyagollan.com/scattered-notes-on-the-blog-as-a-curated-experience/",
+				"date": "2009 August",
+				"excerpt": "Blogs are a lame format for how we have come to use and peruse them. Someday I want to be the curator for an interesting blogger. Their job would be new acquisitions, which are vital, but the front page would be weekly rotating connections between archived content.",
+				"tags": [
+					"Writing",
+					"Notes",
+					"Archives",
+					"Blog Highlights",
+					"Design Thinking",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000c7"
+			},
+			{
+				"name": "I Don't Sketch Book",
+				"link": "http://caseyagollan.com/sketch-book/",
+				"date": "2008",
+				"excerpt": "An experimental daily sketchbook that I designed for myself.",
+				"thumb": "http://caseyagollan.com/content/24.sketch-book/thumb.jpg",
+				"tags": [
+					"Hometest",
+					"Design",
+					"Notes",
+					"Drawing",
+					"Publishing",
+					"New York",
+					"Rye"
+				],
+				"_id": "50e4a17464182bda610000c8"
+			},
+			{
+				"name": "Public Apology Project",
+				"link": "http://caseyagollan.com/public-apology/",
+				"date": "2008",
+				"excerpt": "We're all guilty of petty little crimes and it's time we own up. It’s the little things we do that ruin it for everyone else: clipping our nails in public, throwing our gum on the ground, or yelling at a waiter in a restaurant. By placing memorials to our mistakes in the places where we made them, we can publicly apologize for our actions and make sure that nobody repeats them. The public apology form serves to publicly embarrass the person who committed the misdemeanor, and also redeem them by helping others to not make the same mistake in the same place.",
+				"thumb": "http://caseyagollan.com/content/23.public-apology/thumb.jpg",
+				"tags": [
+					"Hometest",
+					"Participatory",
+					"Performative",
+					"Über Conceptual",
+					"Design Thinking",
+					"New York",
+					"Rye"
+				],
+				"_id": "50e4a17464182bda610000c9"
+			},
+			{
+				"name": "Activate: Context",
+				"link": "http://caseyagollan.com/activate-context/",
+				"date": "2009 January",
+				"thumb": "http://caseyagollan.com/content/22.activate-context/thumb.jpg",
+				"tags": [
+					"Hometest",
+					"Writing",
+					"Über Conceptual",
+					"Rye",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000ca"
+			},
+			{
+				"name": "Process Magazine",
+				"link": "http://caseyagollan.com/process-magazine/",
+				"date": "2009 May",
+				"thumb": "http://caseyagollan.com/content/21.process-magazine/thumb.jpeg",
+				"tags": [
+					"Conversational",
+					"Publishing",
+					"Archives",
+					"New York",
+					"Rye"
+				],
+				"_id": "50e4a17464182bda610000cb"
+			},
+			{
+				"name": "Wearable Sculptures",
+				"link": "http://caseyagollan.com/wearable-sculptures/",
+				"date": "April 2009",
+				"excerpt": "The wearer activates the sculpture, and the sculpture in turn activates the wearer.",
+				"thumb": "http://caseyagollan.com/content/20.wearable-sculptures/thumb.jpg",
+				"tags": [
+					"Rye High School",
+					"Sculpture",
+					"Photography",
+					"New York",
+					"Rye"
+				],
+				"_id": "50e4a17464182bda610000cc"
+			},
+			{
+				"name": "Polaroids",
+				"link": "http://caseyagollan.com/polaroids/",
+				"date": "2008 August",
+				"excerpt": "Taken at the Japanese Tea Garden, Golden Gate Park, San Francisco.",
+				"thumb": "http://caseyagollan.com/content/19.polaroids/thumb.jpg",
+				"tags": [
+					"Photography",
+					"San Francisco",
+					"California",
+					"Family"
+				],
+				"_id": "50e4a17464182bda610000cd"
+			},
+			{
+				"name": "Summer 2008",
+				"link": "http://caseyagollan.com/summer-photography/",
+				"date": "2008 Summer",
+				"excerpt": "Shot summer 2008 in Boston.",
+				"thumb": "http://caseyagollan.com/content/18.summer-photography/thumb.jpg",
+				"tags": [
+					"SMFA Pre-College",
+					"Photography",
+					"Boston",
+					"Massachusetts"
+				],
+				"_id": "50e4a17464182bda610000ce"
+			},
+			{
+				"name": "Finger Paintings",
+				"link": "http://caseyagollan.com/finger-paintings/",
+				"date": "2008 Summer",
+				"thumb": "http://caseyagollan.com/content/16.finger-paintings/thumb.jpg",
+				"tags": [
+					"Painting",
+					"SMFA Pre-College",
+					"Boston",
+					"Massachusetts"
+				],
+				"_id": "50e4a17464182bda610000cf"
+			},
+			{
+				"name": "Thought Webs",
+				"link": "http://caseyagollan.com/thought-webs/",
+				"date": "2008 July",
+				"thumb": "http://caseyagollan.com/content/15.thought-webs/thumb.jpeg",
+				"tags": [
+					"Drawing",
+					"Notes",
+					"Design Thinking",
+					"Systems",
+					"SMFA Pre-College",
+					"Boston",
+					"Massachusetts"
+				],
+				"_id": "50e4a17464182bda610000d0"
+			},
+			{
+				"name": "Small Sculptures",
+				"link": "http://caseyagollan.com/small-sculptures/",
+				"date": "2008 Spring",
+				"excerpt": "A collection of small sculptural experiments that eventually led to the [Wearable Sculptures](http://caseyagollan.com/wearable-sculptures).",
+				"thumb": "http://caseyagollan.com/content/14.small-sculptures/thumb.jpg",
+				"tags": [
+					"Rye High School",
+					"Sculpture",
+					"Rye",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000d1"
+			},
+			{
+				"name": "Ceramic Experiments",
+				"link": "http://caseyagollan.com/ceramics/",
+				"date": "2008 May",
+				"thumb": "http://caseyagollan.com/content/13.ceramics/thumb.jpg",
+				"tags": [
+					"Sculpture",
+					"Rye High School",
+					"Rye",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000d2"
+			},
+			{
+				"name": "Zephyr Art + Lit Magazine",
+				"link": "http://caseyagollan.com/zephyr-magazine/",
+				"date": "2008 Spring",
+				"excerpt": "Designed and edited.",
+				"thumb": "http://caseyagollan.com/content/12.zephyr-magazine/thumb.jpg",
+				"tags": [
+					"Publishing",
+					"Design",
+					"Editing",
+					"Rye High School",
+					"Rye",
+					"New York"
+				],
+				"_id": "50e4a17464182bda610000d3"
+			},
+			{
+				"name": "Oxbow Final Project",
+				"link": "http://caseyagollan.com/oxbow-project/",
+				"date": "2007 December",
+				"excerpt": "A place to think and talk.",
+				"thumb": "http://caseyagollan.com/content/11.oxbow-project/thumb.jpg",
+				"tags": [
+					"Sculpture",
+					"Installation",
+					"Oxbow School",
+					"Philosophising",
+					"Workspace",
+					"Napa",
+					"California"
+				],
+				"_id": "50e4a17464182bda610000d4"
+			},
+			{
+				"name": "Self-Portrait (Spinning)",
+				"link": "http://caseyagollan.com/self-portrait-spinning/",
+				"date": "2007 October",
+				"thumb": "http://caseyagollan.com/content/10.self-portrait-spinning/thumb.jpeg",
+				"tags": [
+					"Video",
+					"Performative",
+					"Oxbow School",
+					"Napa",
+					"California"
+				],
+				"_id": "50e4a17464182bda610000d5"
+			},
+			{
+				"name": "Awkward Laughter Paintings",
+				"link": "http://caseyagollan.com/awkward-laughter-paintings/",
+				"date": "2007 October",
+				"thumb": "http://caseyagollan.com/content/09.awkward-laughter-paintings/thumb.jpg",
+				"tags": [
+					"Oxbow School",
+					"Painting",
+					"Napa",
+					"California"
+				],
+				"_id": "50e4a17464182bda610000d6"
+			},
+			{
+				"name": "Intaglio Printmaking",
+				"link": "http://caseyagollan.com/printmaking/",
+				"date": "2007 Fall",
+				"excerpt": "Experiments with intaglio printmaking.",
+				"thumb": "http://caseyagollan.com/content/08.printmaking/thumb.jpg",
+				"tags": [
+					"Printmaking",
+					"Oxbow School",
+					"Napa",
+					"California"
+				],
+				"_id": "50e4a17464182bda610000d7"
+			},
+			{
+				"name": "Teepee",
+				"link": "http://caseyagollan.com/teepee/",
+				"date": "2007 Fall",
+				"excerpt": "I built this Teepee during a two week visit from artists Deborah Butterfield and John Buck.",
+				"thumb": "http://caseyagollan.com/content/07.teepee/thumb.jpg",
+				"tags": [
+					"Sculpture",
+					"Oxbow School",
+					"Installation",
+					"Workspace",
+					"Napa",
+					"California"
+				],
+				"_id": "50e4a17464182bda610000d8"
+			},
+			{
+				"name": "Reciprocal",
+				"link": "http://caseyagollan.com/reciprocal/",
+				"date": "2007 Fall",
+				"excerpt": "A project stemming from the word &lquo;reciprocal.” I placed white sheets of paper in front of active doorways to capture aggregate footsteps.",
+				"thumb": "http://caseyagollan.com/content/06.reciprocal/thumb.jpg",
+				"tags": [
+					"Oxbow School",
+					"Installation",
+					"Napa",
+					"California"
+				],
+				"_id": "50e4a17464182bda610000d9"
+			},
+			{
+				"name": "Cones",
+				"link": "http://caseyagollan.com/cones/",
+				"date": "2007 Fall",
+				"excerpt": "My first sculpture assignment at [Oxbow](http://oxbowschool.org): “create a sculpture that tells the story of the place that represents the interface between your internal and external landscapes.”",
+				"thumb": "http://caseyagollan.com/content/05.cones/thumb.jpg",
+				"tags": [
+					"Oxbow School",
+					"Sculpture",
+					"Napa",
+					"California"
+				],
+				"_id": "50e4a17464182bda610000da"
+			},
+			{
+				"name": "Graphic Design",
+				"link": "http://caseyagollan.com/graphic-design-risd/",
+				"date": "2007 Summer",
+				"excerpt": "Done at Rhode Island School of Design.",
+				"thumb": "http://caseyagollan.com/content/04.graphic-design-risd/thumb.jpg",
+				"tags": [
+					"RISD Pre-College",
+					"Design",
+					"Providence",
+					"Rhode Island",
+					"High School"
+				],
+				"_id": "50e4a17464182bda610000db"
+			},
+			{
+				"name": "Drawings",
+				"link": "http://caseyagollan.com/figure-drawings/",
+				"date": "2007 Summer",
+				"excerpt": "Drawings from summer 2007, Providence, RI.",
+				"thumb": "http://caseyagollan.com/content/03.figure-drawings/thumb.jpg",
+				"tags": [
+					"Drawing",
+					"RISD Pre-College",
+					"Providence",
+					"Rhode Island",
+					"High School"
+				],
+				"_id": "50e4a17464182bda610000dc"
+			},
+			{
+				"name": "Family Photos",
+				"link": "http://caseyagollan.com/family-photos/",
+				"date": "2005 - 2007",
+				"thumb": "http://caseyagollan.com/content/02.family-photos/thumb.jpg",
+				"tags": [
+					"Photography",
+					"Rye",
+					"New York",
+					"Charlottesville",
+					"Virginia",
+					"Finland",
+					"High School",
+					"Middle School"
+				],
+				"_id": "50e4a17464182bda610000dd"
+			},
+			{
+				"name": "Digital Photography",
+				"link": "http://caseyagollan.com/digital-photography/",
+				"date": "2004 - 2007",
+				"excerpt": "Digital photographs shot between 2004 and 2007.",
+				"thumb": "http://caseyagollan.com/content/01.digital-photography/thumb.jpg",
+				"tags": [
+					"Photography",
+					"Rye",
+					"New York",
+					"Boston",
+					"Massachusetts",
+					"High School"
+				],
+				"_id": "50e4a17464182bda610000de"
+			}
+		]
+	}

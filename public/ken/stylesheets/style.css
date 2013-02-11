@@ -1,0 +1,144 @@
+/*
+  Typography / Basics
+---------------------------------------------*/
+* {
+	margin: 0;
+}
+
+html,body {
+  background: #222;
+  -webkit-font-smoothing: antialiased;
+}
+
+#container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+body, textarea, p, input { 
+  font: 400 16px/1.5 'Open Sans', sans-serif; 
+  color: #505050;
+}
+
+a {
+  color: rgba(255,255,255, 0.8);
+  font-weight: bold;
+  text-decoration: none;
+  -moz-transition: background-color 100ms linear, color 100ms linear, opacity 100ms linear;
+  -o-transition: background-color 100ms linear, color 100ms linear, opacity 100ms linear;
+  -webkit-transition: background-color 100ms linear, color 100ms linear, opacity 100ms linear;
+  transition: background-color 100ms linear, color 100ms linear, opacity 100ms linear;
+}
+
+a:hover {
+  color: rgba(255,255,255, 1.0);
+}
+
+
+
+img { border: 1px solid #d4d4d4; }
+
+strong { font-weight: 700;}
+
+h1, h2, h3 { 
+  font: 700 .875em/1.5 'Open Sans Condensed', sans-serif; 
+}
+
+h1 { 
+  padding: 10px;
+}
+
+h1 a { color: white; }
+h1 a:hover { color: white; }
+
+h2 { 
+  font-size: 1.75em; 
+  padding-bottom: 20px;
+}
+  
+h3, h4, h5, h6 {
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: 700;
+}
+  
+p {
+  padding-bottom: 20px;
+}
+
+p:last-child { padding-bottom: 0; }
+
+.small {
+  color: #505050;
+  font-size: .75em;
+  font-weight: 400;
+}
+
+/* Use border-box box model */
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+  
+/*
+Layout 
+--------------------------------------- */
+
+
+/* main
+   --------------------------------------- */
+
+#main {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #222;
+}
+
+#header {
+  position: absolute;
+  font: 700 .875em/1.5 'Open Sans Condensed', sans-serif;
+  top: 0px;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  background: #333;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#header .title {
+  float: left;
+  
+  color: rgba(255,255,255, 0.5);
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#header .powered-by {
+  float: right;
+  font-size: 12px;
+  margin-right: 20px;
+  color: rgba(255,255,255, 0.5);
+  line-height: 40px;
+}
+
+#header a {
+  color: rgba(255,255,255, 0.8);
+}
+
+#header a:hover {
+  color: rgba(255,255,255, 1.0);
+}
+
+.surface { 
+  overflow: hidden;
+}
+

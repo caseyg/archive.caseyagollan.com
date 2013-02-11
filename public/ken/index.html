@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Ken - Visual Knowledge Browser</title>
+
+    <!-- Browser  -->
+    <script type="text/x-ejs-template" name="browser">
+      <div id="facets"></div>
+      <div id="matrix" class="surface"></div>
+      <div id="details"></div>
+    </script>
+
+    <!-- Details  -->
+    <script type="text/x-ejs-template" name="details">
+      <a class="close-details image" href="#">
+        <img src="<%= object.properties.thumb %>"/>
+        <div class="label">Close</div>
+      </a>
+      <div class="details-wrapper">
+      <% if (object.get('link')) { %>
+        <h1><a target="_blank" href="<%= object.get('link') %>"><%= object.get('name') %></a></h1>
+      <% } else { %>
+        <h1><%= object.get('name') %></h1>
+      <% } %>
+      <div class="date">
+        <%= object.get('date') %>
+      </div>
+      <div class="abstract">
+        <%= object.get('excerpt') %>
+        [ <a href="<%= object.get('link') %>" target="_blank">Read More</a> ]
+      </div>
+      <% _.each(object.type().properties, function(p, key) { %>
+        <% if (p.meta && p.meta.details) { %>
+          <div class="property">
+            <div class="property-name"><%= p.name %></div>
+            <div class="values">
+              <% values = object.get(key); %>
+              <% values = _.isArray(values) ? values : [values] %>
+              <% _.each(values, function(val) { %>
+                <% var color = filters[key] && filters[key][val] ? filters[key][val].color : null %>
+                <span style="background: <%= color %>"><%= val %></span>
+              <% }); %>
+            </div>
+          </div>          
+        <% } %>
+      <% }); %>
+      </div>
+    </script>
+
+    <!-- Item  -->
+    <script type="text/x-ejs-template" name="item">
+      <div class="item" id="<%= _.htmlId(item._id) %>" data-id="<%= item._id %>">
+        <img src="<%= item.properties.thumb %>"/>
+        <% if (matches.length > 0) { %>
+          <div class="markers">
+            <% _.each(matches, function(match) { %>
+              <div class="marker" style="background: <%= match.color %>"></div>
+            <% }); %>
+          </div>
+        <% } %>
+        <div class="name"><%= item.properties.name %></div>
+      </div>
+    </script>
+
+    <!-- Facets -->
+    <script type="text/x-ejs-template" name="facets">
+      <!--<h1>Filters</h1>-->
+      <% var count = 0; %>
+      <% _.each(facets, function(f, key) { %>
+        <div class="filter">
+          <div class="filter-name"><%= f.name %></div>
+          <div class="selected-values">
+            <% _.each(f.selectedValues, function(val) { %>
+              <a href="#" class="value remove" style="background: <%= val.color %>" data-property="<%= key %>" data-value="<%= val.val %>"><%= val.val.toLowerCase().substr(0, 36) %>
+                <div class="indicators">
+                  <div class="frequency"><%= val.objects.length %></div>
+                  <div class="related-objects" style="width: <%= f.scale(val.relatedObjects.length) %>px"></div>
+                  <div class="matching-objects" style="width: <%= f.scale(val.objects.length) %>px"></div>
+                </div>
+              </a>
+            <% }); %>
+          </div>
+
+          <div class="available-values">
+            <% _.each(f.availableValues, function(val) { %>
+              <a href="#" class="value add<%= val.relatedObjects.length > 0 ? " related" : "" %>" data-property="<%= key %>" data-value="<%= val.val %>">
+                <%= val.val.toLowerCase().substr(0, 36) %>
+                <div class="indicators">
+                  <div class="frequency"><%= val.objects.length %></div>
+                  <div class="related-objects" style="width: <%= f.scale(val.relatedObjects.length) %>px"></div>
+                  <div class="matching-objects" style="width: <%= f.scale(val.objects.length) %>px"></div>
+                </div>
+              </a>
+            <% }); %>
+          </div>
+        </div>
+      <% }); %>
+    </script>
+
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/underscore.js"></script>
+    <script type="text/javascript" src="lib/data.js"></script>
+    <script type="text/javascript" src="lib/backbone.js"></script>
+
+    <script type="text/javascript" src="src/util.js"></script>
+    <script type="text/javascript" src="src/model.js"></script>
+
+    <!-- Application -->
+    <script type="text/javascript" src="src/ken.js"></script>
+
+    <script type="text/javascript" src="src/app.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        window.app = new Application({ dataset: "data/casey.json"});
+        app.render();
+
+        // Start responding to routes
+        window.router = new Router({});
+        Backbone.history.start();
+      });
+    </script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- <link rel="stylesheet" type="text/css" media="all" href="fonts/open-sans.css"/> -->
+    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/style.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/ken.css"/>
+    
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div class="title"><a href="http://caseyagollan.com">Casey</a>, visualized by <a href="http://github.com/michael/ken">Ken</a>.</div>
+      </div>
+      <div id="main">
+        Main Content
+      </div>
+    </div>
+  </body>
+</html>
