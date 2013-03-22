@@ -2,6 +2,154 @@
 
 /*! normalize.css 2011-11-04T15:38 UTC - http://github.com/necolas/normalize.css */ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}audio,canvas,video{display:inline;zoom:1px;}html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}body,button,input,select,textarea{font-family:sans-serif;}a:focus{outline:thin dotted;}a:hover,a:active{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}blockquote{margin:1em 40px;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}pre,code,kbd,samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:none;}q:before,q:after{content:none;}small{font-size:75%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}ul,ol{margin-left:0;padding:0 0 0 40px;}dd{margin:0 0 0 40px;}nav ul,nav ol{list-style:none;list-style-image:none;}img{border:0;-ms-interpolation-mode:bicubic;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;margin-left:-7px;}button,input,select,textarea{font-size:100%;vertical-align:middle;margin:0;}button,input{line-height:normal;}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;overflow:visible;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}audio:not([controls]),[hidden]{display:none;}body,figure,form{margin:0;}
 
+/* SASS Media Query Mixins https://gist.github.com/anthonyshort/2028061 */
+
+// Media Queries in Sass 3.2
+//
+// These mixins make media queries a breeze with Sass.
+// The media queries from mobile up until desktop all 
+// trigger at different points along the way
+//
+// And important point to remember is that and width
+// over the portrait width is considered to be part of the
+// landscape width. This allows us to capture widths of devices
+// that might not fit the dimensions exactly. This means the break
+// points are seamless.
+ 
+$mq-mobile-portrait		: 335px !default;
+$mq-mobile-landscape	: 480px !default;
+$mq-tablet-portrait		: 768px !default;
+$mq-tablet-landscape	: 1024px !default;
+$mq-desktop				: 1382px !default;
+ 
+// Both portrait and landscape
+@mixin mobile-only {
+	@media (max-width : $mq-mobile-landscape) {
+		@content;
+	}
+}
+ 
+// Everything up to and including the portrait width of the phone
+// Since it's the smallest query it doesn't need a min
+@mixin mobile-portrait-only {
+	@media (max-width : $mq-mobile-portrait) {
+		@content;
+	}
+}
+ 
+// Everything up to and including the mobile portrait
+@mixin mobile-portrait-and-below {
+	@media (max-width : $mq-mobile-portrait) {
+		@content;
+	}
+}
+ 
+// Everything above and including the mobile portrait
+@mixin mobile-portrait-and-up {
+	@media (min-width : $mq-mobile-portrait) {
+		@content;
+	}
+}
+ 
+// Everthing larger than a portrait mobile up until mobile landscape
+@mixin mobile-landscape-only {
+	@media only screen and (min-width : $mq-mobile-portrait + 1) and (max-width : $mq-mobile-landscape) {
+		@content;
+	}
+}
+ 
+// Everything up to and including the mobile landscape width
+@mixin mobile-landscape-and-below {
+	@media only screen and (max-width : $mq-mobile-landscape) {
+		@content;
+	}
+}
+ 
+// Everything above and including the mobile landscape width
+@mixin mobile-landscape-and-up {
+	@media only screen and (min-width : $mq-mobile-portrait + 1) {
+		@content;
+	}
+}
+ 
+// Both the portrait and landscape width of the tablet
+// Larger than a landscape mobile but less than or equal to a landscape tablet
+@mixin tablet-only {
+	@media only screen and (min-width : $mq-mobile-landscape + 1) and (max-width : $mq-tablet-landscape) {
+		@content;
+	}
+}
+ 
+// Everything larger than mobile landscape up until the portrait width of the tablet
+@mixin tablet-portrait-only {
+	@media only screen and (min-width : $mq-mobile-landscape + 1) and (max-width : $mq-tablet-portrait) {
+		@content;
+	}
+}
+ 
+// Everything below and including the portrait width of the tablet
+@mixin tablet-portrait-and-below {
+	@media only screen and (max-width : $mq-tablet-portrait) {
+		@content;
+	}
+}
+ 
+// Everything above and including the portrait width of the tablet
+@mixin tablet-portrait-and-up {
+	@media only screen and (min-width : $mq-mobile-landscape + 1) {
+		@content;
+	}
+}
+ 
+// Larger than portrait but less than or equal to the landscape width
+@mixin tablet-landscape-only {
+	@media only screen and (min-width : $mq-tablet-portrait + 1) and (max-width : $mq-tablet-landscape) {
+		@content;
+	}
+}
+ 
+// Up to and including the tablet landscape
+@mixin tablet-landscape-and-below {
+	@media only screen and (max-width : $mq-tablet-landscape) {
+		@content;
+	}
+}
+ 
+// Everything larger than portrait tablet
+@mixin tablet-landscape-and-up {
+	@media only screen and (min-width : $mq-tablet-portrait + 1) {
+		@content;
+	}
+}
+ 
+// Everything larger than a landscape tablet
+@mixin desktop-and-up {
+	@media only screen and (min-width : $mq-tablet-landscape + 1) {
+		@content;
+	}
+}
+ 
+// Everything below and including the desktop 
+@mixin desktop-and-below {
+	@media only screen and (max-width : $mq-desktop) {
+		@content;
+	}
+}
+ 
+// Everything larger than a landscape tablet but less than or equal to the desktop
+@mixin desktop-only {
+	@media only screen and (min-width : $mq-tablet-landscape + 1) and (max-width : $mq-desktop) {
+		@content;
+	}
+}
+ 
+// Retina screens have a 1.5 pixel ratio, not 2
+@mixin retina {
+	@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+		@content;
+	}
+}
+
 /* SEMANTIC CLEARFIX */
 
 .group:before,
@@ -32,24 +180,29 @@ nav ul, nav ol {
 	}
 
 nav#main { // Runs across all pages of site and blog
-	padding:20px;
 	z-index:1000;
-	height:15px;
-	line-height:15px;
 	color:darkgray;
-	font-family:ff-dagny-web-pro, Helvetica Neue, sans-serif;
-	font-weight:400;
+	font-family:ff-dagny-web-pro, sans-serif;
 	letter-spacing:1px;
 	background:#fff;
-//	box-shadow: inset 0 -5px 10px 0px rgba(0,0,0,.5);
-	&>ul>li {
-		display:inline-block;
-		vertical-align:top;
-		font-size:14px;
-		margin-right:10px;
+	vertical-align:middle;
+	font-size:14px;
+	line-height:1em;
+	padding:10px;
+	@include tablet-landscape-and-up {
+		padding:0;
 	}
-	a, a:link, a:visited {
+	li { display:inline;}
+	a:link, a:visited {
+		display:inline-block;
 		color:gray;
+		padding:5px;
+		@include tablet-landscape-and-up {
+			padding:15px 10px;
+		}
+		@include tablet-landscape-and-up {
+			padding:20px 10px;
+		}
 		text-decoration:none;
 	}
 	a:hover {
@@ -553,34 +706,36 @@ body#infinite-scroll {
 }
 
 article {
-	padding: 10px 25px;
+	padding: 15px;
+	display:block;
 	margin:0 auto 20px auto;
+	max-width:650px;
+	@include tablet-landscape-and-up {
+		margin:20px auto;
+	}
 	color:#eee;
 	h1, h2, h3, p, .date, ul, ol, figcaption, hr {
-		max-width:650px;
 		display:block;
-		margin:auto;
 	}
 	a {
 		&:link, &:visited {
 			text-decoration: none;
-			font-family:"ff-dagny-web-pro";
-			border-bottom:2px solid blue;
 			-webkit-transition:background-color .25s;
+			color:#eee;
 		}
 		&:link {
-			color:white;
+			border-bottom:2px solid blue;
 		}
 		&:visited {
-			background:purple;
-			color:white;
+			border-bottom:2px solid purple;
 		}
 		&:hover, &:active {
 			background:blue;
 			color:white;
+			border:none;
 		}
 	}
-	.date, .tags {
+	.date {
 		font-size: 14px;
 		display: inline-block;
 		color: #aaa;
@@ -588,10 +743,10 @@ article {
 		font-weight:100!important;
 		width:auto;
 		text-align: center;
-		margin:auto;
+		margin:20px;
 	}
 	h1 {
-		margin:0 0 20px 0;
+		margin:5px 0 15px 0;
 		padding:0;
 		display:block;
 	}
@@ -601,24 +756,26 @@ article {
 		padding:0;
 		margin:0 0 10px 0;
 		letter-spacing: 1px;
-		border-bottom:3px solid #bbb;
+		border-bottom:3px solid #aaa;
 		width:auto;
 		display:inline-block;
 		color:#aaa;
 	}
+
 	section.excerpt p {
 		font-size:18px;
 		line-height:28px;
 	}
-	.external-link {
+	.external-link:link, .external-link:visited {
 		display:inline-block;
 		font-family:"ff-dagny-web-pro";
 		padding:5px 10px;
-		background:#fff;
+		background:darkgray;
 		text-decoration: none;
-		margin: 5px 0 35px 0;
-		box-shadow:1px 1px 0 blue,2px 2px 0 blue,3px 3px 0 blue,4px 4px 0 blue,5px 5px 0 blue;
-		color:blue;
+		margin: 0 0 25px 0;
+		border:0;
+		box-shadow:1px 1px 0 #eee,2px 2px 0 #eee,3px 3px 0 #eee,4px 4px 0 #eee,5px 5px 0 #eee;
+		color:#eee;
 		-webkit-transition:background .15s;
 		text-transform:uppercase;
 		letter-spacing:2px;
@@ -626,11 +783,11 @@ article {
 	.external-link:hover {
 		background:blue;
 		color:white;
-		box-shadow:1px 1px 0 #005,2px 2px 0 #005,3px 3px 0 #005,4px 4px 0 #005,5px 5px 0 #005;
+		box-shadow:1px 1px 0 #fff,2px 2px 0 #fff,3px 3px 0 #fff,4px 4px 0 #fff,5px 5px 0 #fff;
 	}
 	.external-link:active {
 		box-shadow:none;
-		margin:10px 0 30px 5px;
+		margin:5px 0 20px 5px;
 	}
 	img {
 		max-width:100%;
@@ -638,10 +795,17 @@ article {
 	p, hr {
 		margin: 0;
 	}
+	blockquote {
+		margin:0;
+		padding-left:15px;
+		color:#eee;
+		font-style:italic;
+		border-left:3px solid #aaa;
+	}
 	hr {
 		border: 0;
 		margin: 30px 0;
-		border-top: 1px solid #ccc;
+		border-top: 1px solid #aaa;
 	}
 
 	p {
@@ -730,7 +894,6 @@ body#single {
 @media only screen and (max-width: 480px) {
 	body {
 		background: #ccc;
-		margin: 5px;
 	}
 	.project h2 {
 		font-size: 20px;

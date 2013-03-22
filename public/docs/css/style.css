@@ -43,7 +43,7 @@ mark {
 
 pre, code, kbd, samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em; }
 
 pre {
@@ -142,6 +142,7 @@ audio:not([controls]), [hidden] {
 body, figure, form {
   margin: 0; }
 
+/* SASS Media Query Mixins https://gist.github.com/anthonyshort/2028061 */
 /* SEMANTIC CLEARFIX */
 .group:before,
 .group:after {
@@ -168,23 +169,31 @@ nav ul, nav ol {
   padding: 0; }
 
 nav#main {
-  padding: 20px;
   z-index: 1000;
-  height: 15px;
-  line-height: 15px;
   color: darkgray;
-  font-family: ff-dagny-web-pro, Helvetica Neue, sans-serif;
-  font-weight: 400;
+  font-family: ff-dagny-web-pro, sans-serif;
   letter-spacing: 1px;
-  background: #fff; }
-  nav#main > ul > li {
+  background: #fff;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1em;
+  padding: 10px; }
+  @media only screen and (min-width: 769px) {
+    nav#main {
+      padding: 0; } }
+  nav#main li {
+    display: inline; }
+  nav#main a:link, nav#main a:visited {
     display: inline-block;
-    vertical-align: top;
-    font-size: 14px;
-    margin-right: 10px; }
-  nav#main a, nav#main a:link, nav#main a:visited {
     color: gray;
+    padding: 5px;
     text-decoration: none; }
+    @media only screen and (min-width: 769px) {
+      nav#main a:link, nav#main a:visited {
+        padding: 15px 10px; } }
+    @media only screen and (min-width: 769px) {
+      nav#main a:link, nav#main a:visited {
+        padding: 20px 10px; } }
   nav#main a:hover {
     text-decoration: underline;
     color: blue; }
@@ -249,7 +258,7 @@ section#views {
         display: block;
         width: 90%;
         padding: 15px;
-        -webkit-transition: all .25s;
+        -webkit-transition: all 0.25s;
         border: 5px solid gray; }
       section#views ol li a:hover {
         background: white;
@@ -316,7 +325,7 @@ body#archive {
         body#archive section#projects nav#filters div#options ul {
           display: inline-block!important;
           margin-right: 5px;
-          border: 1px solid darkgray; }
+          border: 1px solid darkgrey; }
           body#archive section#projects nav#filters div#options ul li {
             display: inline-block;
             margin: 0;
@@ -328,7 +337,7 @@ body#archive {
           color: #555;
           padding: 5px 10px;
           margin: 0;
-          -webkit-transition: background .15s; }
+          -webkit-transition: background 0.15s; }
         body#archive section#projects nav#filters div#options a.selected:link, body#archive section#projects nav#filters div#options a.selected:visited {
           background: darkgray; }
         body#archive section#projects nav#filters div#options a:hover, body#archive section#projects nav#filters div#options a:hover:after {
@@ -412,7 +421,7 @@ ul li.project:hover ul {
 
 .project h2 .permalink {
   opacity: 0;
-  -webkit-transition: opacity .25s; }
+  -webkit-transition: opacity 0.25s; }
 
 .project:hover h2 .permalink {
   opacity: 1; }
@@ -421,9 +430,9 @@ ul li.project:hover ul {
   font-size: 14px;
   display: inline-block;
   color: #aaa;
-  margin: 0 0 10px 0!important;
+  margin: 0 0 10px 0 !important;
   letter-spacing: 1px;
-  border-bottom: 1px solid #aaa; }
+  border-bottom: 1px solid #aaaaaa; }
 
 .project img.thumb {
   display: block;
@@ -442,7 +451,7 @@ ul.tags li {
   padding: 3px 7px;
   margin: 2px;
   border-radius: 2px;
-  border: 1px solid #ccc; }
+  border: 1px solid #cccccc; }
 
 .project .thumb {
   width: 250px; }
@@ -590,7 +599,7 @@ ul li.project.double-highlight {
   padding: 15px;
   margin: 20px 20px 0 0;
   z-index: 100;
-  border: 5px solid blue!important; }
+  border: 5px solid blue !important; }
 
 ul li.project .highlight {
   color: blue;
@@ -638,27 +647,29 @@ body#infinite-scroll img {
   margin: auto; }
 
 article {
-  padding: 10px 25px;
+  padding: 15px;
+  display: block;
   margin: 0 auto 20px auto;
+  max-width: 650px;
   color: #eee; }
+  @media only screen and (min-width: 769px) {
+    article {
+      margin: 20px auto; } }
   article h1, article h2, article h3, article p, article .date, article ul, article ol, article figcaption, article hr {
-    max-width: 650px;
-    display: block;
-    margin: auto; }
+    display: block; }
   article a:link, article a:visited {
     text-decoration: none;
-    font-family: "ff-dagny-web-pro";
-    border-bottom: 2px solid blue;
-    -webkit-transition: background-color .25s; }
+    -webkit-transition: background-color 0.25s;
+    color: #eee; }
   article a:link {
-    color: white; }
+    border-bottom: 2px solid blue; }
   article a:visited {
-    background: purple;
-    color: white; }
+    border-bottom: 2px solid purple; }
   article a:hover, article a:active {
     background: blue;
-    color: white; }
-  article .date, article .tags {
+    color: white;
+    border: none; }
+  article .date {
     font-size: 14px;
     display: inline-block;
     color: #aaa;
@@ -666,9 +677,9 @@ article {
     font-weight: 100!important;
     width: auto;
     text-align: center;
-    margin: auto; }
+    margin: 20px; }
   article h1 {
-    margin: 0 0 20px 0;
+    margin: 5px 0 15px 0;
     padding: 0;
     display: block; }
   article h2 {
@@ -677,40 +688,47 @@ article {
     padding: 0;
     margin: 0 0 10px 0;
     letter-spacing: 1px;
-    border-bottom: 3px solid #bbb;
+    border-bottom: 3px solid #aaaaaa;
     width: auto;
     display: inline-block;
     color: #aaa; }
   article section.excerpt p {
     font-size: 18px;
     line-height: 28px; }
-  article .external-link {
+  article .external-link:link, article .external-link:visited {
     display: inline-block;
     font-family: "ff-dagny-web-pro";
     padding: 5px 10px;
-    background: #fff;
+    background: darkgray;
     text-decoration: none;
-    margin: 5px 0 35px 0;
-    box-shadow: 1px 1px 0 blue, 2px 2px 0 blue, 3px 3px 0 blue, 4px 4px 0 blue, 5px 5px 0 blue;
-    color: blue;
-    -webkit-transition: background .15s;
+    margin: 0 0 25px 0;
+    border: 0;
+    box-shadow: 1px 1px 0 #eeeeee, 2px 2px 0 #eeeeee, 3px 3px 0 #eeeeee, 4px 4px 0 #eeeeee, 5px 5px 0 #eeeeee;
+    color: #eee;
+    -webkit-transition: background 0.15s;
     text-transform: uppercase;
     letter-spacing: 2px; }
   article .external-link:hover {
     background: blue;
     color: white;
-    box-shadow: 1px 1px 0 #000055, 2px 2px 0 #000055, 3px 3px 0 #000055, 4px 4px 0 #000055, 5px 5px 0 #000055; }
+    box-shadow: 1px 1px 0 white, 2px 2px 0 white, 3px 3px 0 white, 4px 4px 0 white, 5px 5px 0 white; }
   article .external-link:active {
     box-shadow: none;
-    margin: 10px 0 30px 5px; }
+    margin: 5px 0 20px 5px; }
   article img {
     max-width: 100%; }
   article p, article hr {
     margin: 0; }
+  article blockquote {
+    margin: 0;
+    padding-left: 15px;
+    color: #eee;
+    font-style: italic;
+    border-left: 3px solid #aaaaaa; }
   article hr {
     border: 0;
     margin: 30px 0;
-    border-top: 1px solid #ccc; }
+    border-top: 1px solid #aaaaaa; }
   article p {
     font-size: 16px;
     line-height: 22px;
@@ -741,7 +759,7 @@ article {
   article figure figcaption:before {
     content: "▲ ";
     color: transparent;
-    -webkit-text-stroke: 1px #999;
+    -webkit-text-stroke: 1px #999999;
     font-size: 10px;
     margin-right: 5px; }
 
@@ -782,8 +800,7 @@ body#single {
 
 @media only screen and (max-width: 480px) {
   body {
-    background: #ccc;
-    margin: 5px; }
+    background: #ccc; }
 
   .project h2 {
     font-size: 20px;

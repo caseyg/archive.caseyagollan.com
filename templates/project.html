@@ -8,12 +8,6 @@
 		if @date do <p class="date">@date</p> endif
 		<h1>@title</h1>
 
-		if @excerpt do 
-			<section class="excerpt">
-				@excerpt
-			</section>
-		endif
-
 		if @external_link do
 			if !@link_label do
 				<a href="@external_link" class="external-link" title="external link: @external_link">Visit Project</a>
