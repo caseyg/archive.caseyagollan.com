@@ -12,7 +12,7 @@ link_label: Read Essay at Pool
 tags: Writing, Essay, Design Thinking, Pool, New York, Iceland, Reykjavik
 -
 content: 
-This essay was originally published by [Pool](http://pooool.info/info/) ([web](http://pooool.info/uncategorized/user-generated-content/) / [pdf](http://dl.dropbox.com/u/1441203/Pool_August_2011.pdf)), a publication of writing on post-internet art, in August 2011. The version below was expanded and revised in May 2012.</p>
+_This essay was originally published in [Pool](http://pooool.info/info/) ([web](http://pooool.info/user-generated-content/) / [pdf](http://dl.dropbox.com/u/1441203/Pool_August_2011.pdf)), a publication of writing on post-internet art, in August 2011. The version published here was expanded and revised in May 2012._
 
 ![](@path/minsky.png)
 
