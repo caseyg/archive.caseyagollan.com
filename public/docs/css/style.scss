@@ -1089,3 +1089,6 @@ body#about {
 		margin-right:5%;
 	}
 }
+
+// remove the default gray highlight
+html { -webkit-tap-highlight-color: rgba(0,0,0,0); }

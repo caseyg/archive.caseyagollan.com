@@ -964,3 +964,6 @@ body#about section.content {
     width: 100%; }
 body#about #about_me {
   margin-right: 5%; }
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
