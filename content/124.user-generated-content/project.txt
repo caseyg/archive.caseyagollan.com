@@ -2,6 +2,8 @@ title: User-Generated Content
 -
 date: 2011 August
 -
+hide_media: yes
+-
 excerpt:
 The way things are now is more like a pile up of metaphors and recycled code than laws of interaction which are set in stone. Designing computer systems is a strangely direct way of altering how people experience the world and relate to each other. Perhaps in the coming years artists will be able to create new platforms with the conceptual backbone that is lacking in today’s popular offerings.
 -
@@ -11,14 +13,15 @@ link_label: Read Essay at Pool
 -
 tags: Writing, Essay, Design Thinking, Pool, New York, Iceland, Reykjavik
 -
-content: 
+content:
+
 _This essay was originally published in [Pool](http://pooool.info/info/) ([web](http://pooool.info/user-generated-content/) / [pdf](http://dl.dropbox.com/u/1441203/Pool_August_2011.pdf)), a publication of writing on post-internet art, in August 2011. The version published here was expanded and revised in May 2012._
 
-![](@path/minsky.png)
+<figure><img src="@path/minsky.png" /></figure>
 
 ## How we got where we are today
 
-Computers don’t know anything. They have to be programmed and designed extensively to make sense as tools for accomplishing even the most basic of tasks. If you wanted to draw a circle using an untrained computer, you’d have to tell the computer what a “circle” is, how to draw a line, and even that there’s something on which to draw. Today this is not the case. Tools for accomplishing most tasks have already been written, so you don’t have to know how to program in order to get things done. Photoshop, for example, makes drawing a circle into a single drag-and-drop action so intuitive that you never have to consider that there are complex procedures and equations going on behind the scenes.
+Computers don’t know anything. They have to &bull;be programmed and designed ex&bull;tensively to make sense as tools for accomplishing even the most basic of tasks. If you wanted to draw a circle using an untrained computer, you’d have to tell the computer what a “circle” is, how to draw a line, and even that there’s something on which to draw. Today this is not the case. Tools for accomplishing most tasks have already been written, so you don’t have to know how to program in order to get things done. Photoshop, for example, makes drawing a circle into a single drag-and-drop action so intuitive that you never have to consider that there are complex procedures and equations going on behind the scenes.
 
 A computer connected to the internet becomes not just a tool for drawing circles, but a tool for communication and a magical container for all the forms of media that preceded it. The major websites on which artists have come to work and play: Facebook, Tumblr, YouTube, and Twitter, each do something a little different, but they are all free, mass-market, [“Web 2.0”](http://oreilly.com/lpt/a/6228) tools, intended to connect users to each other through content they contribute: profiles, posts, videos, status updates. All types of people use these sites as entertainment and ways to keep up with friends and family, but for artists social networks also function as a casual and surprisingly robust publishing and distribution system, and are sometimes the subject of the work itself.
 
@@ -61,7 +64,7 @@ Even when users are not being intentionally manipulated, there is an opportunity
 
 While Friedman and Nissenbaum note that almost all instances of computer bias can be classified as either Preexisting or Technical, they identify a third type called Emergent Bias, which is particularly important for artists working with Web 2.0 tools. Emergent bias arises “after a design is completed, as a result of a change in the context or usage of a system.” The hacking and retrofitting of existing software in the service of creative expression or critique is exciting, but assumptions of the software might still be carried by the work. Friedman and Nissenbaum write that any time the way a user wants to work with a system butt up against its constraints, and the work they are doing is disadvantaged as a result, it can be classified as a case of Emergent Bias called “user mismatch.” Unlike victims of bias, however, artists tend to seek out these problematic areas.
 
-![](@path/hirsch.png)
+<figure><img src="@path/hirsch.png" /></figure>
 
 In Ann Hirsch’s project [Scandalishious](), she satirizes the “camwhore” culture of YouTube using [YouTube itself](), by taking on a character named Caroline and posting videos of her own. A site dedicated to user generated content can spawn a culture of typical users as well as a group that is critical of them, so it’s hard to tell if using a site to critique how people use a site stretches what is considered a “typical” use of the site. While the videos are funny, Hirsch has also published serious writing on this topic, such as her brief essay, [_Women, Sexuality, and The Internet_](). However, Hirsch’s work and others like it may actually be strongest at the points where it becomes unclear if the artist is omnisciently addressing big problems and questions or enjoying being a part of the scene.
 
@@ -89,11 +92,11 @@ Journalism has been one of the more progressive fields in terms of adopting cust
 
 Willis’s examples are tailored towards journalism but his logic applies soundly to artists working with the internet too. Tools have the potential to exponentially improve the ability for collaboration and understanding. In one interesting experiment from the _New York Times_, comment threads for highly discussed articles are been elegantly improved by integrating hard data from users that allows thousands of responses to be mapped onto a [zeitgeist visualizing matrix]().
 
-![](@path/nytimesmatrix.png)
+<figure><img src="@path/nytimesmatrix.png" /></figure>
 
 The authors of a book called _Newsgames_ even pose that journalism has a lot to learn from videogames! As a rich experience that cannot exist on any previous medium alone, the authors propose that so called “newsgames” could teach people the dynamics of complicated systems through simulated first-hand experience, rather than by inference from an account of events or by reading dry explanations. Newspapers and other “old media” employ a paid content publishing model, as opposed to relying on the explosion of free user generated content. Even in the supplemental role that the authors suggest newsgames might play, their vision is impressive for how it looks beyond just content to systems.
 
-![](@path/bloomplanetary.jpeg)
+<figure><img src="@path/bloomplanetary.jpeg" /></figure>
 
 Knowing how even the mundane aspects of computing like files and folders can filter back into the way we think and behave, what if we redesigned these utilitarian aspects of computing to incorporate more inventive modes of working? [Planetary]() is an iPad app by a company called Bloom which visualizes a user’s iTunes library in the form of a galaxy rather than a spreadsheet. While at first I was put off by how superfluous this seems, the designers believe “these Instruments aren’t merely games or graphics. They’re new ways of seeing what’s important.” What if instead of files and folders, we visualized what we’re working on like a solar system? Ideas could be set into orbit at different speeds, which would determine how which things appear together, rather than folder hierarchies. I often find myself navigating a crowded array of overlapping windows, which seems symptomatic of multitasking or ADD, so how would a system that takes this mindset as a starting point ideally work?
 

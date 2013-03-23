@@ -169,6 +169,7 @@ $mq-desktop				: 1382px !default;
 body {
 	font-family: Calluna, serif;
 	background:gray;
+	color:#eee;
 	}
 
 h1, h2, h3, h4, .date, .tags, .tooltip, .number, figcaption {
@@ -180,27 +181,30 @@ nav ul, nav ol {
 	}
 
 nav#main { // Runs across all pages of site and blog
-	z-index:1000;
+	z-index:-1;
 	color:darkgray;
 	font-family:ff-dagny-web-pro, sans-serif;
 	letter-spacing:1px;
-	background:#fff;
 	vertical-align:middle;
 	font-size:14px;
 	line-height:1em;
 	padding:10px;
-	@include tablet-landscape-and-up {
+	box-shadow: inset 0 0 10px rgba(0,0,0,.15);
+	@include tablet-portrait-and-up {
 		padding:0;
 	}
-	li { display:inline;}
+	ul {
+		text-align:center;
+		li {display:inline;}
+	}
 	a:link, a:visited {
 		display:inline-block;
-		color:gray;
+		color:#eee;
 		padding:5px;
-		@include tablet-landscape-and-up {
+		@include tablet-portrait-and-up {
 			padding:15px 10px;
 		}
-		@include tablet-landscape-and-up {
+		@include tablet-portrait-and-up {
 			padding:20px 10px;
 		}
 		text-decoration:none;
@@ -212,7 +216,7 @@ nav#main { // Runs across all pages of site and blog
 }
 
 #index nav#main .index, #about nav#main .about, #graph nav#main .graph, #archive nav#main .archive, #infinite-scroll nav#main .infinite-scroll, #narratives nav#main .narratives {
-	color:darkblue;
+	color:blue;
 	text-decoration:none;
 	font-weight:800;
 	&:hover {
@@ -220,80 +224,40 @@ nav#main { // Runs across all pages of site and blog
 	}
 }
 
-
-header {
+section#views {
 	background:gray;
-	width:100%;
-	color:#000;
-	text-align:center;
-	h1, h2, a {
-		font-weight: 100;
-	}
-	h1	{
-		margin:0;
-		padding:60px 0 20px 0;
-		font-size:16px;
-		color:white;
-		letter-spacing:2px;
-		font-weight:100;
-		text-transform:uppercase;
-	}
+	padding:50px 20px;
 	h2 {
-		display:block;
-		padding:30px 0 0 0;
-		margin:0;
-		font: {
-			family:Calluna, sans-serif;
-		}
-	}
-
-	p {
-		margin:5px 0 0 0;
+		text-align:center;
+		margin:0 0 60px 0;
 		padding:0;
 	}
-
-	a {
-		&:link {text-decoration:none;}
-		&:link, &:visited {color: black;}
-		&:visited {text-decoration:line-through;}
-		&:hover, &:active {color: blue; text-decoration: underline;}
-	}
-}
-
-	section#views {
-		background:gray;
-		padding:50px 20px;
-		h2 {
-			text-align:center;
-			margin:0 0 60px 0;
-			padding:0;
-		}
-		ol {
-			list-style-type:none;
-			margin:0;
-			padding:0;
-			li {
-				width:33%;
-				float:left;
-				a {
-					text-decoration:none;
-					color:white;
-					display:block;
-					width:90%;
-					padding:15px;
-					-webkit-transition:all .25s;
-					border:5px solid gray;
-				}
-				a:hover {
-					background:white;
-					color:gray;
-				}
-				a.active {
-					border-color:white;
-				}
+	ol {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		li {
+			width:33%;
+			float:left;
+			a {
+				text-decoration:none;
+				color:white;
+				display:block;
+				width:90%;
+				padding:15px;
+				-webkit-transition:all .25s;
+				border:5px solid gray;
+			}
+			a:hover {
+				background:white;
+				color:gray;
+			}
+			a.active {
+				border-color:white;
 			}
 		}
 	}
+}
 
 body#archive {
 	.tooltip.top .tooltip-arrow {border-top: 5px solid blue;}
@@ -301,7 +265,6 @@ body#archive {
 	.tooltip.bottom .tooltip-arrow {border-bottom: 5px solid blue;}
 	.tooltip.right .tooltip-arrow {border-right: 5px solid blue;}
 	.tooltip-inner {background-color: blue;color:#fff;}
-	background:#fff;
 	#canvas {
 		opacity: .5;
 	    position:absolute;
@@ -324,7 +287,6 @@ body#archive {
 		display:block;
 	}
 	section#projects {
-		background:#eee;
 		nav#filters {
 			top:0; left:0;
 			padding:0;
@@ -417,7 +379,7 @@ footer {
 	padding: 10px 0;
 	margin:0 20px;
 	}	
-	
+
 section#projects>ul {
 	margin:20px;
 	padding: 0;
@@ -431,7 +393,6 @@ ul li.project {
 	float: left;
 	overflow: hidden;
 	position: relative;
-	background: #fff;
 	border:none;
 	}
 ul li.project:hover {
@@ -469,7 +430,7 @@ ul li.project:hover ul {
 	}
 .project a:link, .project a:visited {
 	text-decoration: none;
-	color:#000;
+	color:#eee;
 	}
 .project h2 .permalink {
 	opacity: 0;
@@ -508,12 +469,12 @@ ul.tags li {
 .project .thumb {
 	width: 250px;
 	}
-	
+
 .project ul, canvas, .banner, .banner img, #overlay, .date {
 	-webkit-user-select: none;
 	-webkit-user-drag: none;
 	}
-	
+
 #projects.list {
 	margin-top:10px;
 }
@@ -640,7 +601,7 @@ ul.tags li {
 	}
 
 .highlight {
-	background: white!important;
+	background: gray!important;
 	border-color: rgba(0,0,255,.5)!important;
 	}
 
@@ -655,7 +616,7 @@ ul li.project .highlight {
 	color: blue;
 	border-color: blue;
 	}
-	
+
 ul li.project.double-highlight .double-highlight {
 	background: blue!important;
 	color: white;
@@ -668,7 +629,7 @@ ul li.project.double-highlight .double-highlight {
 		left: 0;
 	z-index: 0;
 	display: block;
-	background: #eee;
+	background: gray;
 	opacity: .75;
 	}
 
@@ -709,13 +670,24 @@ article {
 	padding: 15px;
 	display:block;
 	margin:0 auto 20px auto;
-	max-width:650px;
-	@include tablet-landscape-and-up {
-		margin:20px auto;
-	}
 	color:#eee;
-	h1, h2, h3, p, .date, ul, ol, figcaption, hr {
+	h1, h2, h3, blockquote, p, .date, ul, ol, figcaption, hr {
 		display:block;
+		max-width:600px;
+		margin:auto;
+		@include mobile-landscape-and-up {
+			margin:20px auto;
+			width:90%;
+		}
+		@media (min-width: 600px) {
+			width:80%;
+		}
+		@media (min-width: 768px) {
+			width:75%;
+		}
+	}
+	header {
+		text-align:center;
 	}
 	a {
 		&:link, &:visited {
@@ -743,33 +715,47 @@ article {
 		font-weight:100!important;
 		width:auto;
 		text-align: center;
-		margin:20px;
+		margin:20px auto;
 	}
 	h1 {
-		margin:5px 0 15px 0;
+		margin:5px auto 15px auto;
 		padding:0;
 		display:block;
+		vertical-align:baseline;
+		line-height:1.15;
+		@media (min-width: 600px) {
+			font-size:40px;
+			line-height:1;
+			margin:10px auto 20px auto;
+		}
 	}
 	h2 {
 		font-size:16px;
 		line-height: 28px;
-		padding:0;
-		margin:0 0 10px 0;
 		letter-spacing: 1px;
 		border-bottom:3px solid #aaa;
-		width:auto;
-		display:inline-block;
+		display:block;
 		color:#aaa;
+		@media (min-width: 600px) {
+			font-size:18px;
+			line-height:30px;
+		}
+		@media (min-width: 768px) {
+			font-size:20px;
+			line-height:32px;
+		}
 	}
 
 	section.excerpt p {
 		font-size:18px;
 		line-height:28px;
 	}
+
 	.external-link:link, .external-link:visited {
 		display:inline-block;
 		font-family:"ff-dagny-web-pro";
 		padding:5px 10px;
+		font-size:12px;
 		background:darkgray;
 		text-decoration: none;
 		margin: 0 0 25px 0;
@@ -779,6 +765,10 @@ article {
 		-webkit-transition:background .15s;
 		text-transform:uppercase;
 		letter-spacing:2px;
+		@media (min-width: 600px) {
+			font-size:14px;
+			margin: 10px 0 35px 0;
+		}
 	}
 	.external-link:hover {
 		background:blue;
@@ -792,15 +782,19 @@ article {
 	img {
 		max-width:100%;
 	}
-	p, hr {
+	hr {
 		margin: 0;
 	}
 	blockquote {
-		margin:0;
-		padding-left:15px;
+		padding:0;
 		color:#eee;
 		font-style:italic;
 		border-left:3px solid #aaa;
+		p {
+			margin:0;
+			padding:0 0 0 15px;
+			width:95%;
+		}
 	}
 	hr {
 		border: 0;
@@ -812,38 +806,46 @@ article {
 		font-size: 16px;
 		line-height:22px;
 		margin-bottom:20px;
+		@media (min-width: 600px) {
+			font-size:18px;
+			line-height:24px;
+		}
+		@media (min-width: 768px) {
+			font-size:20px;
+			line-height:26px;
+		}
 	}
 	ul, ol {
-		margin:0 0 30px 20px;
-		padding:0;
 		line-height: 22px;
 	}
 	figure {
+		text-align:center;
 		h3 {
+			text-align:left;
 			font-size:14px;
 			line-height: 20px;
 			padding:0;
-			margin:15px 0 5px 0;
+			margin:15px auto 5px auto;
 			letter-spacing: 1px;
-			width:auto;
 			display:block;
 			color:#aaa;
 			font-weight:700;
 		}
 		figcaption {
+			text-align:left;
 			font-size:14px;
 			line-height: 18px;
 			padding:0;
-			margin:5px 0 15px 0;
-			width:auto;
-			display:inline-block;
-			color:#999;
-			font-weight:100;			
+			margin:5px auto 15px auto;
+			display:block;
+			color:#eee;
+			font-weight:100;
+			letter-spacing:1px;
 		}
 		figcaption:before {
 			content: "▲ ";
 			color:transparent;
-			-webkit-text-stroke: 1px #999; 
+			-webkit-text-stroke: 1px #eee; 
 			font-size:10px;
 			margin-right:5px;
 		}
@@ -852,18 +854,6 @@ article {
 
 body#single {
 	background:gray;
-	nav#main {
-		box-shadow:none;
-		background:white;
-	}
-	header nav#main {
-		position:absolute;
-			top:20px;
-			left:20px;
-		z-index:1000;
-		background:transparent;
-		padding:0;
-	}
 	nav.siblings a:link, nav.siblings a:visited {
 		font-size: 12px;
 		font-family: ff-dagny-web-pro, Helvetica, Arial;
@@ -891,32 +881,6 @@ body#single {
 		text-align: right;
 		}
 }
-@media only screen and (max-width: 480px) {
-	body {
-		background: #ccc;
-	}
-	.project h2 {
-		font-size: 20px;
-		line-height: 20px;
-	}
-	.project p {
-		font-size: 14px;
-		line-height: 18px;
-	}
-	ul li.project {
-		max-width: 40%;
-		width: 100%;
-	}
-	ul li.project .thumb {
-	max-width: 100%;
-	}
-}
-
-img.emoji {
-	width: 22px;
-	}
-
-
 
 .isotope,
 .isotope .isotope-item {
@@ -1042,51 +1006,21 @@ img.emoji {
   height: 0;
 }
 
-body#index {
-	background:blue;
-	display:block;
-	color:darkgray;
-	nav#main {
-		border-bottom:1px solid darkblue;
-		margin:0 20px;
-		padding:20px 0;
-	}
-
-	section#content {
-		margin:0 20px;
-	}
-
-	h2, h2 a:link, h2 a:visited {
-		color:darkblue;
-	}
-	#CASEY {
-		z-index:-1;
-	}
-	#CASEY, #CASEY img {
-		-webkit-user-select:none;
-		-webkit-user-drag:none;
-		cursor:hand;
-	}
-	a:link, a:visited {
-		color:white;
-		text-decoration: none;
-		font-family:"ff-dagny-web-pro";
-	}
-	a:hover, a:active {
-		color:white;
-		text-decoration:underline;
-	}
-}
 body#about {
-	section.content {
-		width:45%;
-		float:left;
-		p, ul {
-			width:100%;
+	@media (min-width:768px) {
+		article {
+			float:left;
+			width:45%;
 		}
 	}
-	#about_me {
-		margin-right:5%;
+	@media (min-width:1000px) {
+		article {
+			max-width:600px;
+		}
+		div.group {
+			max-width:1200px;
+			margin:auto;
+		}
 	}
 }
 

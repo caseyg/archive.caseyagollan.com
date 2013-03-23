@@ -5,20 +5,21 @@
 	<body id="single">
 	:top-nav
 	<article>
-		if @date do <p class="date">@date</p> endif
-		<h1>@title</h1>
-
-		if @external_link do
-			if !@link_label do
-				<a href="@external_link" class="external-link" title="external link: @external_link">Visit Project</a>
+		<header>
+			if @date do <p class="date">@date</p> endif
+			<h1>@title</h1>
+			if @external_link do
+				if !@link_label do
+					<a href="@external_link" class="external-link" title="external link: @external_link">Visit Project</a>
+				endif
 			endif
-		endif
-		
-		if @external_link do
-			if @link_label do
-				<a href="@external_link" class="external-link" title="external link: @external_link">@link_label</a>
+			
+			if @external_link do
+				if @link_label do
+					<a href="@external_link" class="external-link" title="external link: @external_link">@link_label</a>
+				endif
 			endif
-		endif
+		</header>
 
 		if @content do 
 			<section class="content">

@@ -197,6 +197,7 @@ Version: 2.0 Timestamp: Wed, May 16, 2012 10:38:37 AM
   overflow-x: hidden;
   overflow-y: auto;
   max-height: 200px;
+  color:gray!important;
 }
 .select2-container .select2-results li {
   line-height: 80%;
