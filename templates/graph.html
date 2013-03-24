@@ -1,200 +1,176 @@
 <html>
 <head>
-  :head-meta
-  <meta property="og:image" content="http://caseyagollan.com/public/images/casey.jpeg" />
-  <script src="@root_path/docs/js/d3.v2.js"></script>
-  <style>
-    .link {
-      stroke: darkgray;
-      stroke-width: 2;
-    }
+	:head-meta
+	<meta property="og:image" content="http://caseyagollan.com/public/images/casey.jpeg" />
+	<script src="@root_path/docs/js/d3.v2.js"></script>
+	<style>
+		.link {
+			stroke: darkgray;
+			stroke-width: 2;
+		}
 
-    .project, line {
-      cursor:pointer;
-    }
+		.project, line {
+			cursor:pointer;
+		}
 
-    .project text {
-      fill: black;
-      font: 16px sans-serif;
-      pointer-events: none;
-      fill-opacity:0;
-    }
-    .project text.shadow {
-      fill: white;
-      fill-opacity:0;
-    }
-    .project:hover text.shadow {
-      stroke: #fff;
-      stroke-width: 5px;
-    }
-    .project:hover text {
-      fill-opacity:1;
-    }
+		.project text {
+			fill: black;
+			font: 16px sans-serif;
+			pointer-events: none;
+			fill-opacity:0;
+		}
+		.project text.shadow {
+			fill: white;
+			fill-opacity:0;
+		}
+		.project:hover text.shadow {
+			stroke: #fff;
+			stroke-width: 5px;
+		}
+		.project:hover text {
+			fill-opacity:1;
+		}
 
-    .project image {
-      -webkit-transition:-webkit-transform .25s;
-      -webkit-transform:scale(1);
-    }
+		.project image {
+			-webkit-transition:-webkit-transform .25s;
+			-webkit-transform:scale(1);
+		}
 
-    .project image:hover {
-      -webkit-transform:scale(2);
-    }
+		.project image:hover {
+			-webkit-transform:scale(2);
+		}
 
-    .tag circle {
-      fill: gray;
-      stroke:darkgray;
-      stroke-width:2px;
-      -webkit-transition:all .25s;
-      cursor:hand;
-    }
+		.tag circle {
+			fill: gray;
+			stroke:darkgray;
+			stroke-width:2px;
+			-webkit-transition:all .25s;
+			cursor:hand;
+		}
 
-    .tag circle:hover {
-      -webkit-transform:scale(1.25);
-      fill:darkgray;
-    }
-    .tag:hover text {
-      fill: white;
-    }
-    .tag text {
-      fill: darkgray;
-      font: 12px sans-serif;
-      pointer-events: none;
-      font-weight: bold;
-    }
-  </style>
+		.tag circle:hover {
+			-webkit-transform:scale(1.25);
+			fill:darkgray;
+		}
+		.tag:hover text {
+			fill: white;
+		}
+		.tag text {
+			fill: darkgray;
+			font: 12px sans-serif;
+			pointer-events: none;
+			font-weight: bold;
+		}
+	</style>
 </head>
 <body id="graph">
-  :top-nav
+	:top-nav
+	<ul id="graphcontrols">
+		<li><label for="charge">Gravity </label><input id="charge" type="range" min="0" max="1" step=".01" value=".25" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="charge">Charge </label><input id="charge" type="range" min="-4000" max="0" step="1" value="-1000" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="charge">Friction </label><input id="charge" type="range" min="-4000" max="0" step="1" value=".75" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="charge">Link Strength </label><input id="charge" type="range" min="-4000" max="0" step="1" value="1" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="linkdistance">Link Distance</label><input id="charge" type="range" min="0" max="200" step="1" value="20" onchange="force.linkDistance(this.value).start()" /></li>
+	</ul>
 <script>
-var links = [@links];
-var nodes = [@nodes];
+var svg = d3.select("body").append("svg"),
+		r = 40;
+var force = d3.layout.force();
 
-var width = window.innerWidth,
-    height = window.innerHeight-55,
-    r = 40;
+d3.json("/content/index/projects.json", function(graph) {
 
-var force = d3.layout.force()
-    .gravity(0.25)
-    .charge(-3000)
-    .friction(.75)
-    .linkStrength(1)
-    .size([width,height])
-    .nodes(nodes)
-    .links(links)
-    .on("tick", tick)
-    .start();
+	force
+			.nodes(graph.nodes)
+			.links(graph.links)
+			.gravity(0.25)
+			.charge(-1000)
+			.friction(.75)
+			.linkStrength(1)
+			.on("tick", tick)
+			.start();
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height)
+	var link = svg.selectAll(".link")
+			.data(graph.links)
+		.enter().append("line")
+			.attr("class", "link");
 
-var link = svg.selectAll(link)
-    .data(force.links(), function(d) { return d.source.id + "-" + d.target.id; })
-  .enter().append("svg:line")
-    .attr("class", "link");
+	var node = svg.selectAll(".node")
+			.data(graph.nodes)
+		.enter().append("g")
+			.attr("class", function(d) { return d.type; })
+			.attr("r", r)
+			.call(force.drag);
 
-var node = svg.selectAll(node)
-    .data(force.nodes())
-  .enter().append("g")
-    .attr("class", function(d) { return d.type; })
-//    .on("touchstart", fade(.1))
-//    .on("touchmove", fade(1))
-//    .on("touchend", fade(1))
-    .on("mouseover", fade(.15))
-    .on("mouseout", fade(1))
-    .call(force.drag);
+	var project = svg.selectAll(".project")
+					.on("click", function(d) { return window.location.href = d.link; });
 
-var project = svg.selectAll(".project")
-        .on("click", function(d) { return window.location.href = d.link; });
+	var tag = svg.selectAll(".tag");
 
-var tag = svg.selectAll(".tag");
+	tag.append("circle")
+			.attr("r", r);
 
-tag.append("circle")
-    .attr("r", r);
+	project.append("image")
+				.attr("xlink:href", function(d) { return d.thumb; })
+				.attr("x", -(r*2)/2)
+				.attr("y", -(r*2)/2)
+				.attr("width", r*2)
+				.attr("height", r*2);
 
-project.append("image")
-      .attr("xlink:href", function(d) { return d.thumb; })
-      .attr("x", -(r*2)/2)
-      .attr("y", -(r*2)/2)
-      .attr("width", r*2)
-      .attr("height", r*2);
+	tag.append("text")
+				.attr("x", 0)
+				.attr("text-anchor", "middle")
+				.attr("dy", ".35em")
+				.text(function(d) { return d.name; });
 
-tag.append("text")
-      .attr("x", 0)
-      .attr("text-anchor", "middle")
-      .attr("dy", ".35em")
-      .text(function(d) { return d.name; });
+	project.append("text")
+			.attr("x", 0)
+			.attr("y", 0)
+			.attr("text-anchor", "middle")
+			.attr("class", "shadow")
+			.text(function(d) { return d.name; });
 
-project.append("text")
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("text-anchor", "middle")
-    .attr("class", "shadow")
-    .text(function(d) { return d.name; });
+	project.append("text")
+			.attr("x", 0)
+			.attr("y", 0)
+			.attr("text-anchor", "middle")
+			.text(function(d) { return d.name; });
 
-project.append("text")
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("text-anchor", "middle")
-    .text(function(d) { return d.name; });
 
-function tick() {
-  link.attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });
+	resize();
+	d3.select(window).on("resize", resize);
 
-  node.attr("transform", function(d) { return  "translate(" + Math.max(r, Math.min(width - r, d.x)) + "," + Math.max(r, Math.min(height - r, d.y)) + ")"});
-}
+	function tick() {
+		link.attr("x1", function(d) { return d.source.x; })
+				.attr("y1", function(d) { return d.source.y; })
+				.attr("x2", function(d) { return d.target.x; })
+				.attr("y2", function(d) { return d.target.y; });
 
-var linkedByIndex = {};
+		node.attr("transform", function(d) { return  "translate(" + Math.max(r, Math.min(width - r, d.x)) + "," + Math.max(r, Math.min(height - r, d.y)) + ")"});
+	}
 
-links.forEach(function(d) {
-    linkedByIndex[d.source.index + "," + d.target.index] = 1;
+	function resize() {
+		width = window.innerWidth, height = window.innerHeight-102;
+		svg.attr("width", width).attr("height", height);
+		force.size([width, height]).resume();
+	}
 });
 
-function isConnected(a, b) {
-    return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
-}
-
-function fade(opacity) {
-    return function(d) {
-        node.transition().duration(150).select("circle").style("stroke-opacity", function(o) {
-            thisOpacity = isConnected(d, o) ? 1 : opacity;
-            this.setAttribute('fill-opacity', thisOpacity);
-            return thisOpacity;
-        });
-        node.transition().duration(250).select("image").style("opacity", function(o) {
-            thisOpacity = isConnected(d, o) ? 1 : opacity;
-            this.setAttribute('opacity', thisOpacity);
-            return thisOpacity;
-        })       
-        node.transition().duration(250).select("text").style("opacity", function(o) {
-            thisOpacity = isConnected(d, o) ? 1 : opacity;
-            this.setAttribute('fill-opacity', thisOpacity);
-            return thisOpacity;
-        })     
-        link.transition().duration(250).style("stroke-opacity", function(o) {
-            return o.source === d || o.target === d ? 1 : opacity;
-        });
-    };
-}
 </script>
 <script type="text/javascript" src="http://use.typekit.com/tun0rbf.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script type="text/javascript">
 try {
-  Typekit.load({
-    loading: function() {
-      // Javascript to execute when fonts start loading
-    },
-    active: function() {
-      $('#projects ul').isotope('reLayout');
-    },
-    inactive: function() {
-      // Javascript to execute when fonts become inactive
-    }
-  })
+	Typekit.load({
+		loading: function() {
+			// Javascript to execute when fonts start loading
+		},
+		active: function() {
+			$('#projects ul').isotope('reLayout');
+		},
+		inactive: function() {
+			// Javascript to execute when fonts become inactive
+		}
+	})
 } catch(e) {}
 </script>
 </body>

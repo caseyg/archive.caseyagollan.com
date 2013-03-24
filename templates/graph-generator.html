@@ -16,31 +16,32 @@ name {
   max-width: 350px;
   height:14px;
 }
+name div {
+  display:inline;
+}
+edge, project, tags {
+  display:inline;
+}
 </style>
 <body>
 
-<h2>Edges</h2>
-
 <code>
-  <span id="projects2">
+{"links": [
+<span id="projects2">
   foreach $root do
-    <project name="@title">
-      <tags>@tags</tags>
-    </project>
-  endforeach
-  </span>
-</code>
-
-<h2>Nodes</h2>
-
-<code>
+  <project name="@title">
+    <tags>@tags</tags>
+  </project> endforeach
+</span>
+], "nodes": [
   <span id="projects">
     foreach $root do
-      {name: "<name>@title</name>", link: "@url", type: "project", thumb: "@thumb"},<br />
+      {"name": "<name>@title</name>", "link": "@url", "type": "project", "thumb": "@thumb"}, 
     endforeach
   </span>
   <span id="tag-list" ,style="display:none;">foreach $root do if @tags do @tags,endif endforeach</span>
   <span id="sorted-tag-list"></span>
+  ]}
 </code>
 
 <script src="/@root_path/docs/js/coffee-script.js" type="text/javascript"></script>
@@ -97,7 +98,7 @@ $.each(
     // Create a new LI HTML element out of the
     // current value (in the iteration) and then
     // add this value to the list.
-    $("#sorted-tag-list").append('{name: "' + objValue + '", type: "tag"},<br />');
+    $("#sorted-tag-list").append('{"name": "' + objValue + '", "type": "tag"}, ');
   }
 );
 
@@ -113,7 +114,7 @@ $("project").each(function(){
   $.each(
   tags,
   function( intIndex, objValue ){
-    tagList.append('<edge>{source: ' + getPosition(nodes,objValue) + ', target: ' + getPosition(nodes,name) + '}, <br />');
+    tagList.append('<edge>{"source": ' + getPosition(nodes,objValue) + ', "target": ' + getPosition(nodes,name) + '}, ');
     console.log(tags);
   });
 });
