@@ -28,12 +28,13 @@
 				<p class="date">@date</p>
 				if @thumb do <img class="thumb" src="@thumb" /> endif
 				if @external_link do
-					<h2><a rel="tooltip" data-original-title="<strong>Go to external link:</strong><br /> @external_link" data-placement="bottom" href="@external_link">@title</a> <a class="permalink" rel="tooltip" data-original-title="<strong>Go to project page</strong>" data-placement="bottom" href="@url">∞</a></h2>
+					<h2><a href="@url">@title</a> <a class="permalink" rel="tooltip" data-original-title="<strong>Go to external link:</strong><br /> @external_link" data-placement="bottom" href="@external_link">∞</a></h2>
 				endif
 				if !@external_link do
-				<h2><a rel="tooltip" data-original-title="<strong>Go to project page</strong>" data-placement="bottom" href="@url">@title</a></h2>
+				<h2><a href="@url">@title</a></h2>
 				endif
-				if @excerpt do <p class="excerpt">@excerpt</p> endif
+				if @excerpt do <p class="excerpt">&ldquo;@excerpt&rdquo;</p> endif
+				if @description do <p class="description">@description</p> endif
 				if @tags do <ul class="tags"> @tags </ul> endif
 				if @badge do <p class="banner @badge_color"><span>@badge</span></p> endif
 		  </li>
