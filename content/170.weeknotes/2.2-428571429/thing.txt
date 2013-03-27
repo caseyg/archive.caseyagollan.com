@@ -1,0 +1,152 @@
+title: Weeknote 2.428571429
+-
+date: 2012 Feb 2
+-
+content:
+(a.k.a. week-and-almost-a-half note) 
+
+Basically too tired to write this, want to keep putting it off, but the longer I wait the harder it gets to remember what I even did all day on those glorious fridays and mondays off. It wasn't nothing.
+
+![](http://media.tumblr.com/tumblr_lynhlo3AeR1qzrmn8.jpg)
+
+Tuesday had our first class for photo. Christine is great. We talked for a while and she gave us some readings and a pep-talk about failure. (Everyone wants to give us that, Niki's was about how Cooper students aren't lazy, like some people — *cough* visiting artists *cough* — think, but that there's this intense anxiety about what to do next. I will accept all pep-talks. They help.)
+
+Then Global Censorship, which is a lower-level class I have to take because I failed my Beckett class for not turning in essays. (Beckett would be proud?) Anyway the Beckett class sucked and Censorship turns out to be the class I wanted all along! It's fascinating to think about, especially in the hyper-expanded definition of censorship that we're working with. Some examples that came to mind were Julian Assange's ideas for using [cryptographic hashes](http://www.e-flux.com/journal/in-conversation-with-julian-assange-part-i/) to combat internet censorship, how censorship is built into products and toys (like life-like dolls for children that are [programmed to shut off rather than cry](https://gist.github.com/67c7aeeb5b85c0fa3d56), when they are being hit or turned upside down), how the best way to communicate to people 100,000 years in the future not to dig up our [nuclear waste](http://www.intoeternitythemovie.com/) might not be to educate them but to erase its very existence from cultural memory, the relationship between censorship (in the sense of content) and [bias in computer systems](http://vsdesign.org/publications/pdf/64_friedman.pdf). Excited to explore all this more. Have been eye-ing [Berkman summer internships](http://cyber.law.harvard.edu/getinvolved/internships) for Internet research.
+
+Wednesday had art issues and publication design. Art issues was bad, we talked about signs, signifiers, and other bullshit that no one cares about and may actually bear no relation to art. Publication design is dry but good, luckily Warren is hilarious. Design classes feel like a struggle to believe in graphic design and keep myself interested. I have so much to learn but the sharpening that happens in design classes feels so disconnected from everything else. And the work gives me office flashbacks. Don't even feel like writing about it here.
+
+Thursday had art history and sculpture. Skimmed Plato, Aristotle, and Kant.
+
+I need to get used to reading old things and dry things, not just stoopid blog posts. While I was reading Kant I couldn't help pausing to tweet a pic:
+
+![](http://media.tumblr.com/tumblr_lyrdtnJJJK1qzrmn8.jpg)
+
+<blockquote class="twitter-tweet"><p>LUCKY! RT @<a href="https://twitter.com/youngna">youngna</a>: @<a href="https://twitter.com/CaseyG">CaseyG</a> Twitpic definitely didn't exist when I was forced to read Kant.</p>     <div><a href="https://twitter.com/CaseyG/status/161681558426763264">January 24, 2012</a></div></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8" type="text/javascript"></script>
+
+But I actually want to read all of it more closely after our class discussion. Weinstein is a great teacher.
+
+In sculpture Aaron was the only one who showed. It was this and one other thing:
+
+[![](http://media.tumblr.com/tumblr_lyrbc7wbBG1qzrmn8.png)](http://www.flickr.com/photos/28629608@N08/6784650263/in/photostream/)
+
+People said it looked like it was made for the internet, and here it is on Flickr a few days later with likes and comments. I'm scared for the world after school because we can spend an hour picking something apart and the same thing goes down so smoothly on the internet. We need to do better.
+
+![](http://media.tumblr.com/tumblr_lyre3ck8Md1qzrmn8.jpg)
+
+I started to write a response to [Louis's essay on Likes](http://dinca.org/likes-and-notes-at-a-glance-consumption-without-contextualizatio/9180.htm) a while ago that really boils down to this: mythical future interfaces, better tools for which you (and I) can "offer no concretized" vision, will not solve uncriticality and info-consumerism online. Aaron, the day before, said something like, "nobody switches to less addictive tools, you have to destroy what's out there."
+
+On the [Facebook IPO](http://www.nytimes.com/2012/02/01/technology/riding-personal-data-facebook-is-going-public.html?pagewanted=all), Alex Galloway wrote (on Facebook!!):
+
+"The basic question: Is Facebook more like a newspaper or more like a factory? The liberal answer: it's a newspaper in that it gathers stories about people and circulates those stories back to its readers while leveraging reader attention for advertising dollars. Profit flows in from advertisers and the value of the company is determined by the marketplace. The progressive answer: it's a factory in that it demands unpaid micro labor from its users, extracting surplus value from such labor. Profit flows from commons-based peer production and thus value is ultimately produced by users (making the ads merely the "last mile" of valorization). NYT claims the former, obviously. But it's very important that we understand FB as a factory, not just another form of mass media."
+
+On Friday I went home for the weekend, pushed pixels around trying to actually act on my complaint to Louis about how annoying I find the [pool](http://pooool.info/) website. Launching something improved still feels far off, and made of a lot of small tweaks re: annoyances, but I had fun playing with CSS transforms. Doodling in HTML.
+
+![](http://media.tumblr.com/tumblr_lyrctlodWI1qzrmn8.png)
+
+Saturday and Sunday I read half of _The Handmaid's Tale_ by Margaret Atwood, for Censorship. Experimented with [tracking my reading](http://readmill.com/CaseyG/reads/the-handmaids-tale) of a printed book with this [fancy little app](http://readmoreapp.com/) and Readmill, which gave me funny little estimates about how many more time's I'd need to sit down and read to finish the book. Cumbersome and novel. I like new stuff. Dystopian books fuck with my emotions because I A) start to confuse books with reality, always (did that happen in the book or IRL!?) and B) just kind of get sad and contemplative if that's what the characters are up to. Fixed that by playing Kirby with Niki for a little!
+
+Returned to Brooklyn on Sunday night and made smores at a bonfire! In Brooklyn! Backyard fires in the city always feel illegal. Somebody threw in an old lacquered chair and other random crap from the backyard and the fire basically exploded.
+
+Monday (maybe getting the order wrong here) watched a few bits from this talk at DLD on post-internet art, and Aaron and I got talking REALLY INTENSELY:
+
+<iframe width="500" height="254" src="http://www.youtube.com/embed/lt75A8vZwdI?rel=0" frameborder="0"></iframe>
+
+This youtube comment makes me embarrassed to think about it. Good job, troll.
+![](http://media.tumblr.com/tumblr_lyrf3o6yDS1qzrmn8.png)
+
+Karen seemed really nervous giving her introduction (but, jesus, I would be too). I wonder if I will ever be able to speak in front of people without losing my shit.
+
+Haven't watched it all, but it was pretty exciting when Daniel Keller went on (at 37 minutes in) and reminded everyone that animated gifs run on burnt coal and computers are built by slaves! Read this [article about Apple](http://www.nytimes.com/2012/01/26/business/ieconomy-apples-ipad-and-the-human-costs-for-workers-in-china.html?pagewanted=all) and outsourcing of manufacturing. Maybe silly but I made [this](http://forums.macrumors.com/attachment.php?attachmentid=131040&amp;d=1219301308) my phone background after hearing about somebody who received their phone with pictures from the factory left on it. Insane reminder that humans put these things together halfway across the world, also just a great photo.
+
+Looked at a little of Daniel Keller/Aids-3D's work after the talk:
+
+[![](http://media.tumblr.com/tumblr_lyrf5qMQmH1qzrmn8.jpg)](http://www.aids-3d.com/jpegs.html)
+
+&gt;Berserker  
+
+&gt;Styrofoam, acrylic, USB memory stick with 3D file  
+
+&gt;A Von Neumann probe arrives on an alien world from earth with a single message —Reproduce me. It appears to be some sort of idol. It's image is its form, Its word is its flesh, its seed is information on a solid-state universal serial bus memory stick, It's essence encoded in binary. Is it an emissary of peace or a mindless virus programmed to dominate its surroundings?
+
+It reminded me of [Talk to Me](http://www.moma.org/interactives/exhibitions/2011/talktome/) / my systems class with Kevin / design-y art crossover shit (but A3D is way more on the art side, aesthetically...it just _looks_ like art) / social practice. 
+
+There isn't a hard line between (for lack of a better term) a "traditional studio practice" — visual artists thinking primarily about things like composition and pushing around forms in space (which seems like the way Aaron was working on that wheatpasted piece of furniture) and all of the above. The offshoots or bastard children of research-based conceptual art, advertising, product design aren't just noodling with materials, they're intent on communicating something. There's something exciting and essential! about this, how these people are dealing directly with the world: e.g. reality check on you people who are obsessed with immateriality because it's abstract and these things are very real and vast and powerful and (in my opinion) totally fucking terrifying! (sublime?! lol).
+
+*commercial break*, this again:
+
+![](http://media.tumblr.com/tumblr_lyrf3o6yDS1qzrmn8.png)
+
+:(
+
+BUT there's something that is deeply unsatisfying about this kind of work. It's too clever. It's a good illustration for some essay but doesn't open up. Leaves me cold. I feel like I have almost no relationship with making the noodly material work but can't articulate why I hate the clever stuff so much. (Talk to Me left me DEPRESSED.) You could talk about the A3D alien the way we talk about sculptures built in the shop, but it almost seems to be asking to backburner that discussion. After all, there is a coal burning slave factory churning out iPads somewhere. A world to attend to! This is product design not sculpture.
+
+Started to collect drafts, thoughts, and ideas to flesh out: forgetting.info, a Field Guide to Skeueomorphism (if only for myself, to collate my obsessive collection), post-internet antagonism (why won't people be <strike>mean to</strike> "CRITICAL of" eachother online (hai claire bishop), something about robot teachers, something about that crazy discussion I can't even fully recollect about capitalism and computing old art and new art. Github, [most important startup of 2011](https://twitter.com/#!/cdixon/statuses/157627012859695104), examples of it used for things besides coding.
+
+A few weeks ago Kaila sent around a ridiculously open yet specific call for ~collaborations~ that quickly morphed into an "experimental" social practicey event thing with a student run coffee bar, radio station, newspaper published form within, chalkboards, someone planning to camp out, etc and so on ad infinitum.
+
+I'm a jerk so I replied-all:
+
+![](http://media.tumblr.com/tumblr_lyr9v8IY691qzrmn8.jpg)
+
+But a week later stayed up all night / woke up in a fever about the show. Those things all seem to parody themselves. I started to sketch out an identical exhibition (in form) that is somehow a joke, even borrowing the same coffee stand (if possible!). Sketchup is fun, it's kind of like shopping.
+
+![](http://media.tumblr.com/tumblr_lyr9y8Xje51qzrmn8.png)
+![](http://media.tumblr.com/tumblr_lyr9yoeEZ31qzrmn8.png)
+![](http://media.tumblr.com/tumblr_lyr9yzm5HD1qzrmn8.png)
+![](http://media.tumblr.com/tumblr_lyr9z7ixAf1qzrmn8.png)
+
+It's not done but you can [download the show](http://dl.dropbox.com/u/6443454/artshow.skp) here. Their proposed title is WORK MAKES WORK, a sort of collaborative studio space, but the word on the tip of my tongue is IDEA ECONOMY. A sort of retro (peaked in 1995?) term calling into play both this bullshit: "The primary product of the Idea Economy is ideas. You and I can and must produce ideas just as those who prospered in previous economies had to produce crops, manufactured goods, and most recently, services." but also the tone of economy, as in economical (cut-rate), efficient (factory!) is kind of a sad undertone. A collaborative workspace/group under the pretense of an exhibition is encumbered! Precious! 
+
+Photo, on Tuesday, was great. We talked about a reading on ruins that reminded me of these [[1](http://rhizome.org/editorial/2011/aug/17/its-only-humanist/), [2](http://greeknewmediashit.tumblr.com/), [3](http://www.demarconia.com/grindingonthegreeks.html)]. Everybody showed old things and talked about where they're coming from / at / going. Starting with my psychotic breakdown last time I took a photo class:
+
+![](http://media.tumblr.com/tumblr_lyrbwpNXRy1qzrmn8.png)
+
+Dawit wasn't interested in ideas. Only pretty projects. And I was thinking big and scary.
+
+![](http://media.tumblr.com/tumblr_lyrbn6JyqE1qzrmn8.jpg)
+
+Then decided to go after sensitive photographers, many of whom are friends. It wasn't the things in books that angered me, it was the people around me.
+
+[![](http://media.tumblr.com/tumblr_lyrbodxF2C1qzrmn8.png)](http://sensitivephotogeneration.com)
+
+Took the [sexy studio](http://caseyagollan.com/2010/sexy-studio-self-portraits/) art portraits, resulting in a D and an admonishment to be compassionate, constructive, and ethical:
+
+![](http://media.tumblr.com/tumblr_lyrbyjN1qU1qzrmn8.jpg)
+
+Decent advice but that group needed to be shaken up much more than I was able to.
+
+Told a story about the two sides of my family. On my dad's side and back a few generations they were prolific recreational photographers. I found a box of beautiful glass negatives at granny &amp; grandpas. 
+
+Family (dad's side) with guns:
+
+![](http://media.tumblr.com/tumblr_lyr9gxqS1H1qzrmn8.jpg)
+
+One night at dinner my mom was telling me about her grandmother with long silver hair and bright blue eyes. I said I had never seen a picture of her. That's because, I learned, she considered photography to be a SIN. A SIN! So she was never photographed. I was overjoyed when I heard that. It made sense in some weird hereditary-we-take-issue-with-this way. ME. TOO. GRANNY.
+
+Photograph of my great grandma (mom's side):
+![](http://media.tumblr.com/tumblr_lyrc25ob851qzrmn8.png)
+
+Anyway, the stories are fun, but most people are more interesting than their work, said Christine. The goal, I think, this time around — going forward — is to do something with all these problems that isn't so much of a direct reaction or disparaging to a certain group. Even if I'm saying the same thing essentially, Dawit's little trio of advice still makes me wrinkle my nose because it's about being nice in all the wrong (fake!) ways.
+
+Wednesday I had a conversation with Troy pegging the current internet-y aesthetic to [dutch typography](http://www.werkplaatstypografie.org).
+
+I sat through half of my Contemporary Art Issues class, grumbling and glaring at people for all the bullshit that was being spouted. It seems like not even the teacher (a nice guy!) wants to talk about art in these shitty, shitty LOVELESS words.
+
+![](http://media.tumblr.com/tumblr_lyr9r09Muq1qzrmn8.png)
+
+When I was a freshman I had another run-in with Rosalind Krauss. When I told Martha I was no longer going to make things, she made me look at the expanded field diagram and attend a lecture-y symposium thing at The New School with her on UN-UN-sculpture vs. NOT-NOT-sculpture. Both of us were skin-crawling-ly ready to get the hell out of that room after about 10 minutes, after which I promised her I would never think again.
+
+![](http://media.tumblr.com/tumblr_lyr9l6k05R1qzrmn8.png)
+
+There's something interesting but MEH about it all, theory. During break from Art Issues, in a Rosalind-Krauss-induced stabby panic I sprinted across the street to the office and dropped the class. It even cost $25 to drop (since the ARBITRARY free period ended on Monday) but it is well worth it to not sit through that. I ran back in, grabbed my bag, and walked straight out of the room. I was all like:
+
+![](http://media.tumblr.com/tumblr_lyr8ygtUCM1qzrmn8.gif)
+
+Except totally silent. I sat in the sunshine(!) had a conversation with Kaila about the show and why I hate it, and finished my design homework. Pub design was excellent.
+
+I am grateful for a schedule that allows for me to totally mess up my sleeping patterns (or lack thereof) for a few late night and early nights. This week: still thinking about those systems projects (keep not doing that) but made headway on explaining what I don't like, publication design homework (I have a lot to learn), freelance design work dealings, thinking about a cover letter for the Berkman internship (though I might have to stay in New York and do summer classes as a consequence for dropping art issues, ha), reading hegel by 10am, thinking about kailas show and my own (sculpture?), lots of reading, and fleshing out some of those draft ideas mentioned above to keep myself writing.
+
+In conclusion, this weird song by Laurie Anderson that I want to hate but looove where she raps about bailouts and Oprah.
+
+<iframe width="500" height="369" src="http://www.youtube.com/embed/D7lBJPMun2A?rel=0" frameborder="0"></iframe>

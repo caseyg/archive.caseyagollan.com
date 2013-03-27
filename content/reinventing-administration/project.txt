@@ -1,7 +1,0 @@
-title: &ldquo;Reinventing&rdquo; Administration...before it suffocates The Cooper Union
--
-date: 2012 October
--
-tags: Cooper Union, Writing, Politics, Design Thinking
--
-external_link: @urlread

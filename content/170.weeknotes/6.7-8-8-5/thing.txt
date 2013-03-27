@@ -1,0 +1,116 @@
+title: Weeks 7, 8, 8.5
+-
+date: 2012 Mar 21
+-
+content:
+### Good morning. 
+
+Yesterday morning I got up a few hours before usual, before most of New York even, to do work. But it turned out that Avery, who I hadn't seen since middle school, was passing through town. So we had coffee for a few hours and caught up because she doesn't have a Facebook, so I didn't even have vague notions about what her life is like. That was cool to hear about. It's insane to talk to people who knew you well when you were a lot younger. Really checks any current attitudes and how things have changed.
+
+Two people recently told me something to the effect of "it's cool how you do what you want." A nice complement. BUT it's funny because my version of "doing what I want" is more like "_not_ doing what I _don't_ want." (A fancy term for procrastination.) Which I'm usually actively _anxious_ about! So: looks like an attitude, feels like a disability, Jonah Lehrer could probably write an article about why it's a superpower ugh.
+
+Showed SweatyTube in photo, which was pretty much a cop out on my part. Though a meme generator is closer to my interest in photo than straight photography. The conversations were all pretty short but it might've started to get heated if I talked less and it went on longer. I had some misunderstandings corrected and noted that it's hard, or just weird, to show a website to people who don't necessarily know how to make one. They don't know what kind of work goes into it, they don't know what part you made. It just looks like a thing. I should be happy about this! Like really happy. Since I'm always bitching about sculptors getting away with crappy ideas and nice craftsmanship. Computer things that people don't fully understand are the perfectly fabricated objects I've always been envious of.
+
+Still haven't turned in a proposal for censorship even though I was/am brimming with ideas. Just laziness. I think about procrastination as reverse-magnetism all the time.
+
+In other news, I am fucking tired of looking at and working on a draft of this 2.5 weeknote. I have shit to do. A hole to dig myself out of in the next six hours. Two older, unfinished attempts at weeknoting follow. Beware of splintered sentences and malformed opinions. Good riddance.
+
+### Here's what I wrote in the car on the way back to Brooklyn from Rye:
+
+### Spring Break
+
+Have been on SpRiNg BrEaK this week, so at home in the suburbs. Arrived home with my parade of devices, a bag of laundry, and a big to-do list. And didn't really accomplish any of it. Which is okay. Since it was a break. But this week will be difficult — and the catchup may be impossible — because many of those things were overdue tasks from last week.
+
+I don't have a problem starting new projects, from adding something to my to-do list to getting a good portion of it done. The problem is that if I don't send something off into the world after a few sittings it tends to get stuck in a loop of unfinishability, where I either don't want to look at it until it slips out the back of my mind OR it sucks up unwarranted amounts of time and energy until it makes it out of the gauntlet of perfectionism. For example, I've been writing and rewriting a bunch of essay proposals for multiple weeks when it probably should've taken a day at most. Or maybe an hour a day across a week. They're just proposals! Need to get better at pushing things to good _enough_ and then letting them go. Could use the extra brainspace. Doesn't matter if things are in pieces. Weeknotes are sort of part of that, but most of this weeknote has sat in my drafts for a week. Grr.
+
+That said, did work on non-work during the break. (Which is maybe how it should be.) Pulled together updated projects for my website, which is pretty out of date at the moment, and started building a new interface: a filterable grid of tagged projects that maps connections between things when you hover. The whole thing is a series of toggles, so you can toggle between a list and a grid, toggle tags on and off, toggle projects open and closed, and toggle images regular to zoomed. Maybe too much clicking, but the whole thing was mostly an excuse to teach myself more about Javascript/jQuery and canvas. Finally felt Javascript click for the first time. Still a lot of bugs to squash and details to figure out. How can I save this the unfinishable loop?? Gah.
+
+![](http://media.tumblr.com/tumblr_m18soaAoZC1qzrmn8.png)
+
+Between making little improvements to SweatyTube and my new site, I basically became nocturnal and almost died of prolonged-staring-at-screen-sickness, like Marie Curie handling too much radioactive stuff. It reminded me, though, that I haven't had uninterrupted work periods like when I am at my computer in the middle of the night, for way too long. Maybe I need more of that, minus the insanity and grumpiness.
+
+![](http://media.tumblr.com/tumblr_m18sr24Pru1qzrmn8.jpg)
+
+There was _one_ day where friends came from the city and we took Sneezeburg to the beach, played a boring game of monopoly, and ate dinner outside. That was really fun. And I went on a few nice walks with Niki and Sneeze.
+
+### Here's what I wrote a week ago:
+
+Trying something a little different this week. Instead of the laborious day-by-day-log, I am pulling out things-that-happened.
+
+### Met the internet at Max's
+
+Sunday walked up to Max's in Greenpoint. Don't usually walk that far north, so enjoyed looking around the neighborhood. Met a lot of people who I have known only on Twitter: @tcarmody, @kissane, @meetar, @stuntbox, @tealtan. Now just Tim, Erin, Peter, David, Allen. Also Marcy and Other Max. Old friends showed up too: David and Sara. Somehow we ended up talking for a little while about how awkward it is to meet people you admire, which was funny for me because Twitter people and other random internet folks _are_ my celebrities. If only because I have chosen to have my head filled with tabloid-level mundane details of these smart people's lives. Thanks, Twitter. Did I mention being in a room with people whose blogs I read? Okay. So, I hovered on the edge of blacking out of overwhelmedness for a few hours while we all hung out and ate lobster rolls(!) and then walked home. It was fun. I have such a small, insular circle of people whom I'm ridiculously comfortable around at school and home, so every meet-the-internet-IRL situation I've ever been in has felt nerve-wracking. A couple of months ago I started to think about all the people I know online who live in New York and how silly it is that we never meet. Started imagining structures for meeting them, along the lines of "conversations I want to have". But Max is just a gracious host and that's all there is to it. Doh. 
+
+It's a very different pace hanging out with older people. That doesn't sound like a compliment to them! But it is. I am glad I have gotten to see my older friends recently and make new ones. A reality-check and college brain bubble bursting and hope for the near future type of deal.
+
+### Systems / Angry Reverie On Software
+
+I joked with David that I was sitting by my inbox all week hitting refresh, waiting to hear from Kevin about the Systems essays. I didn't really want to share the page before hearing from him but figured there was no sense in keeping secrets from my weeknotes about what I had been working on. So I basically just buried the lede, passing over it like any other thing that had happened that week. But The Internet picked it right out and started talking(!), which was totally unexpected and exciting. 
+
+<script src="http://storify.com/caseyg/twitter-responds-to-systems.js?header=false&amp;sharing=false&amp;border=false" type="text/javascript"></script><noscript><div>[<a href="http://storify.com/caseyg/twitter-responds-to-systems" target="_blank">View the story "Twitter Responds to Systems" on Storify</a>]</div></noscript>
+
+Peter linked me to [Charlie Loyd's beautiful rant](http://basecase.org/env/Facebook) on software and other related topics, which rocked my world. I mean, just read this, it's so GOOD:
+
+&gt;‎"If you see computers with an idea of what they could be, most of what they are is confusing. Here is this gorgeous medium, this trail into the sunny uplands, this multitool for brains, this sampo for science and empowerment, liberation, and we end up with hundreds of millions of people spending their days at keyboards, mice, windows, and Windows®, doing drudge work, clicking rude and semiliterate dialog boxes – and billions of people carrying amazing computers that charade as a slight step up from rotary telephones. 
+
+&gt;Triple ugh.
+
+&gt;I would like more people to see how much of a disaster this is. I think some competent software people are alert, although obviously not enough to make usable bookmark managers or ATMs that don’t put a twitch in my eyelid. What worries me most today is that users (a word for victims of things like heroin and tobacco but here meaning people who consume but do not produce software) are just going to get more alienated from it. “Computers” will become inexplicable things, Other things, inhuman things, irresistible and noncontingent and unreasonable, absurd, meaningless, ahistoric interlopers in culture, boring at best.
+
+I found it funny to learn, after messaging him, that he has a hard time reading back over it, because I do with mine too. Yet we apparently like eachother's things. A reminder that everyone should probably just get over their stupid embarrassment about things they make. 
+
+Kevin's response finally arrived and it was tough love, as expected. He wants me to get out of my head which, I was going to write is something scary for me to think about, but actually is something I should just not think about at all because that is some circular ass bullshit. Lukas told me last week that Sarah was describing people as having either their head, their eyes, or their feet in their mouths — an interesting metaphor — and I was her example of head in mouth. It's tricky to be at Cooper, which as a visual arts program is very eye-in-mouth-y and be head-in-mouth-y.
+
+We'll make plans to meet soon and talk about going beyond just synthesis and reflection. That's really exciting.
+
+### Social Practice Douchebaggery / A Talk With Kaila
+
+On Monday evening we all met again to decide what should become of Work Makes Work. Everyone still seemed burned out. It basically came down to leaving the space as is or clearing out the space, and then maybe playing a game of soccer in either of those configurations. We talked in circles and made jokes. As a strange twist, Porter, Kaila's boyfriend and a member of Group 2, came to kind of observe and participate in the meeting because he had caught wind of our plan to "do nothing" and was concerned by it. It changed the passionless dynamic because he showed up with hurt feelings about the whole thing. That happened to remind me why I was angry. The group was sort of split on whether or not somebody's feelings should be a deciding factor in making decisions about what we do. I don't want to hurt people's feelings, but I made it clear that I don't believe they should be a consideration. Shit's complicated and people hopefully get attached to things and it's okay to feel feelings but when it comes to talking about and critiquing art, fear of hurting the artist's feelings should not get in the way, in my opinion. Especially if you are part of an ostensibly open and participatory (and problematic!) structure they set up for you to "collaborate" within. Porter and I eventually just respectfully agreed that we don't see eye to eye on things. It felt horribly and weirdly like a breakup.
+
+The next day nobody from the group did anything. But to my surprise Kaila and Porter did. They erased the chalkboards, laid them on the floor, and scattered the red flags that had been attached to the previous iteration's artworks. On the wall there was a note: "Thanks —WMW". I felt disappointed at having a sweet and tidy ending thrust upon us.
+
+Kaila and I rode and elevator together more silently than usual and then the next time we bumped she asked to talk about the whole thing, to which I agreed. We sat outside in the sun, this was on Wednesday, and talked about the whole thing for a long time. Her biggest issue was that she had worked hard to put this together and she felt I was being mean in the way I was talking, writing, and participating in the show, without being smart of critical. I admitted that I had posted some bitchy things here and in email threads, but that I didn't do it to hurt the feelings of a friend, and I hope that fear of causing negative feelings can be kept out of making and talking about work.
+
+[Just re-read this two weeks later and I hate how standoffish the tone is. Ew, me. Sorry Kaila. Didn't finish what I wanted to say at the time, either.]
+
+<iframe width="500" height="254" src="http://www.youtube.com/embed/IG8KvKHYQSc?rel=0" frameborder="0"></iframe>
+
+Comparing social practice to douchebags. I think this video is a metaphor. I still don't know if it's worth making fun of. I think I just have to. But ultimately that's not where kaila was coming from at all and I feel sorry for having aggressively redirected her well-intentioned project.
+
+### Sweatytube
+
+We must've been sitting around the apartment dicking around on the internet as usual when Aaron said something about how cool it would be if you could watch videos on sweaters. Like, I need a new sweater, let me go watch some videos on YouTube. And then you could print any moment of any video onto a sweater. There's your hipster startup idea. 
+
+Alex became kind of a big deal for photoshopping things onto sweaters on his Tumblr [Bad Smelling Boy](http://badsmellingboy.com). He is sort-of-unbelievably credited as the inventor of this trend on [Know Your Meme](http://knowyourmeme.com/memes/sexy-sweaters).
+
+But later that night I had a prototype of a translucent sweater PNG overlaying a YouTube player up and running. Aaron tweaked Alex's sweater graphic for maximum see-through effect while I ironed out bugs and added features. Wednesday I was so entranced by sweater videos that I couldn't focus on my homework. EVERYTHING LOOKS SO GOOD ON A SWEATER. It adds a weird layer of meaning/meaninglessness that makes me laugh and induces self-loathing.
+
+I showed up to design 15 minutes late and literally empty handed. But Bad Smelling Tube (as we were calling it) was cross-browser compatible and had grown a fancy slide-in (all CSS animated) form that accepts any variation of YouTube URL as an input (PHP regex) and displays leaderboards of recent and popular videos on the site (with no backed or database, thanks to the Clicky stats API). Within the next day or two I grabbed the domains SweatyTube.com, fixed bugs with liking and tweeting, and integrated the bit.ly API to auto generate sweatytu.be short URLs for sharing. It was fun to hack a stupid idea into a real thing in almost no time.
+
+![](http://media.tumblr.com/tumblr_m0uqnmeU1y1qzrmn8.png)
+![](http://media.tumblr.com/tumblr_m0uqnuoizF1qzrmn8.png)
+
+A few good and weird Sweaty Tubes:
+<a href="http://sweatytu.be/y7Nebm">100 Most Viewed Videos in 200 Seconds</a>
+<a href="http://sweatytu.be/wo2f2U">Koyaanisqatsi</a>
+<a href="http://sweatytu.be/xXgX4t">Fast Car by Tracy Chapman</a>
+<a href="http://sweatytu.be/wbJb8Z">The Sweater Song</a>
+<a href="http://sweatytu.be/zutSXa">Marina Abramovic</a>
+<a href="http://sweatytu.be/AEP2Hc">JFK Assassination</a>
+<a href="http://sweatytu.be/yC0yRl">Me at the Zoo (The First YouTube Video Ever)</a>
+
+While it wasn't viral like we had built ourselves up to think it would be as we were putting it together, it satisfyingly puts a bad joke to rest by opening it up. Anyone can put anything on a sweater, it no longer even request opening photoshop. A meme masquerading as something more was cut back down to its rightful place by an automatic generator.
+
+### ___ Days Since Accident
+
+Speaking of my design class to which I showed up empty handed. Uh oh. I am in a dangerous place, I was told by Warren. In my head I have a mental counter, like the ones at construction sites that say “___ days since accident”, except mine has to do with professors being like "what the fuck are you DOING?!" So, as Warren and I talked briefly after class I was flipping that number back to 0 in my head. Oops.
+
+However, I am glad I went to class because it is helpful to hear about what other people are working on.
+
+I have some overly-heady/abstract ideas about what I want to work on. Maybe an evolution of Process, and the way that dealt with raw, transcribed conversations and printed whispers of hypertext. I've also been thinking about my own cynicism and perfectionism. Claire Bishop's rejection of affirmative criticism. A place where people write about what bothers them until they get to the core of it. Maybe structures for understanding too, like 5 Whys, or back and forth.
+
+### Combinatorial Creativity / Curator's Code / Xanadu / Workflow
+
+Everyone already wrote about this but still want to.
+
+### Onward

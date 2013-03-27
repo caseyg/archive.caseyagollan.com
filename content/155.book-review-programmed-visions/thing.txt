@@ -4,12 +4,16 @@ date: 2012 January
 -
 external_link: http://rhizome.org/editorial/2012/jan/23/book-review-programmed-visions-software-and-memory
 -
+media_above_content: yes
+-
+link_label: Read at Rhizome.org
+-
 excerpt: &ldquo;As more and more people find themselves able to create things out of code, it feels critical to understand software on both a practical and fundamental level.&rdquo;
 -
 tags: Reading, Writing, Rhizome, Technology, New York
 -
 content: 
-<p>Written for and originally published at <a href="http://rhizome.org/editorial/2012/jan/23/book-review-programmed-visions-software-and-memory">Rhizome</a>.</p>
+<p><em>Written for and originally published at <a href="http://rhizome.org/editorial/2012/jan/23/book-review-programmed-visions-software-and-memory">Rhizome</a>.</em></p>
 <p>After “getting fit” and whatever else people typically declare to be their new year’s resolutions, this year’s most popular goal is surprisingly nerdy: learning to code. Within the first week of 2012, over 250,000 people, <a href="http://www.bbc.co.uk/news/technology-16440126"><span class="s1">including New York’s mayor Michael Bloomberg</span></a>, had signed up for weekly interactive programming lessons on a site called <a href="http://codeyear.com/"><span class="s1">Code Year</span></a>. The website promises to put its users “on the path to building great websites, games, and apps.” But as <a href="http://www.newyorker.com/online/blogs/culture/2012/01/code-year.html"><span class="s1">New Yorker web editor Blake Eskin</span></a> writes, “The Code Year campaign also taps into deeper feelings of inadequacy... If you can code, the implicit promise is that you will not be wiped out by the enormous waves of digital change sweeping through our economy and society.” </p>
 <p class="p1">If the entrepreneurs behind Code Year (and the masses of users they’ve signed up for lessons) are all hoping to ride the wave of digital change, Wendy Hui Kyong Chun, a professor of Modern Culture and Media at Brown University, is the academic trying to pause for a moment to take stock of the present situation and see where software is actually headed. All the frenzy about apps and “the cloud,” Chun argues, is just another turn in the “cycles of obsolescence and renewal” that define new media. The real change, which Chun lays out in her book <a href="http://mitpress.mit.edu/9780262015424"><span class="s1"><em>Programmed Visions: Software and Memory</em></span></a>, is that “programmability,” the logic of computers, has come to reach beyond screens into both the systems of government and economics and the metaphors we use to make sense of the world.</p>
 <p class="p1">“Without [computers, human and mechanical],” writes Chun, “there would be no government, no corporations, no schools, no global marketplace, or, at the very least, they would be difficult to operate...Computers, understood as networked software and hardware machines, are—or perhaps more precisely set the grounds for—neoliberal governmental technologies...not simply through the problems (population genetics, bioinformatics, nuclear weapons, state welfare, and climate) they make it possible to both pose and solve, but also through their very logos, their embodiment of logic.” </p>

@@ -1,0 +1,298 @@
+title: Week 4
+-
+date: 2012 Feb 17
+-
+content:
+Last week I totally forgot to write about an amazing part of Wednesday: the wreath laying ceremony to celebrate Peter Cooper's birthday. In protest of how much Jamshed sucks Kylie and Rachel were going to put a plexiglass box around the Peter statue, blocking him from the stupid ceremonial wreath laying. But that didn't work out because the scepter sticks out diagonally.
+
+I passive-agressively put post-it letters on the event sign:
+
+![](http://media.tumblr.com/tumblr_lzi4tlMgMz1qzrmn8.jpg)
+
+(they were taken down so fast)
+
+Lena and Jasmine took off their shirts!
+
+![](http://media.tumblr.com/tumblr_lzi5y9ebDc1qzrmn8.jpg)
+
+(via [Friends of Cooper Union](http://www.flickr.com/photos/friendsofcooperunion/))
+
+The administration was pretty effectively made uncomfortable. Apparently they cut the alma mater song (that this guy was singing) short a few verses to get it over with and say goodbye to everyone.
+
+Maybe _Jambashed_ will be the solution to Cooper's financial problems?
+
+![](http://media.tumblr.com/tumblr_lzi6bj5OX41qzrmn8.png)
+
+On Friday morning I sent off a paper proposal for censorship about how money has essentially been dematerialized into form of centrally held information that can be censored. Not exactly censorship...but excited to try connecting  _The Handmaid's Tale_ with ubiquitous computing forewarnings from Adam Greenfield's _Everyware_.
+
+Walked up to Madison Square Park for lunch at Shake Shack with David, which was delicious. We shouted in catch-up-y excitement about monomania and [all or something projects](37signals.com/svn/posts/3106-all-or-something) and New York Startups&trade;. He told me about how things work infrastructurally in India vs. the US (rearchitecting vs. bandaids) which sounds like insanity.
+
+Afterwards walked up to MoMA. Normally don't sit through videos (especially on loops) but watched a good amount of Godard's _Historie(s) du cinéma_.
+
+![](http://media.tumblr.com/tumblr_lziymrnbpT1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_lziymwZGCQ1qzrmn8.jpg)
+
+Ate a Félix González-Torres candy, while is always a strange relief when museum-fatigued. There is a DRONE in the rotating contemporary art section. Noticed they are installing Rikrit's annoying curry thing in a big way. Loved these video pedestals from [_9 Scripts from a Nation at War_]() (Sharon Hayes and co.) because they feel almost exactly like sitting at a computer alone at night.
+
+![](http://media.tumblr.com/tumblr_lzi4v4XdTm1qzrmn8.jpg)
+
+Walked(!) back to school. (That's like 8 miles in one day! But who's counting? Fitness is kind of my new thing.) A flyer-person in the gold-buying-district(?) practically shouted me down about how his gold buying establishment will fill my pockets with so much money I won't even know what to do with myself. Goofy. Had a great call about a freelance web project I'm excited to be starting. Headed back into the city and played video games with friends into the night. Not as good as I remember myself to be from growing up. In fact, I am terrible. But the city is a bigger pond.
+
+Saturday headed home for a doctor's appointment. Finished a final round of tweaks on the Girl Walk site. Watched South Park with Niki. Woke up just as I was falling asleep and scribbled things down, a little bit about photography and a lot about systems (for which my grade re-evaluation presentation is fast approaching).
+
+![](http://media.tumblr.com/tumblr_lzia36EuOd1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_lzia3c9nKu1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_lzia3kx9qT1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_lzia3rurTY1qzrmn8.jpg)
+
+Sunday, pulled together a cover letter, updated résumé, and references for a summer internship at the [Berkman Center for Internet &amp; Society at Harvard](http://cyber.law.harvard.edu/)!! Already wishing I could rewrite the cover letter because I could so do a better job and I REALLY hope I get this. Would be incredible to spend a summer at [metaLab](metalab.harvard.edu) (their research areas map uncannily to my obsessions) or the [Youth and Media lab](http://youthandmedia.org/).
+
+![](http://media.tumblr.com/tumblr_lzj1pbvxJz1qzrmn8.png)
+
+Then went out to a too-expensive dinner at Porsena with Alex and he talked to me about painting. Which must've been like trying to explain to an alien how to open a door knob.
+
+Monday morning I got coffee and perused the internet for a long time: 
+
+Kelli's [TEDx Talk](http://kellianderson.com/blog/2012/02/my-tedx-talk/):
+
+<iframe width="500" height="254" src="http://www.youtube.com/embed/dvI5JuB6ThE" frameborder="0"></iframe>
+
+[Timehop makes you want to use social media more](http://attentionindustry.com/post/17554538945/timehop-and-unintended-consequences). 
+
+[Surrealist politics](http://sexpigeon.org/post/17557073915/two-billion-dollars-do-you-know-what-you-could) by Sexpigeon (which is maybe the best website): "It is predicted that total spending on television advertising in the Presidential race will reach two billion dollars. Two billion dollars! Do you know what you could do with that kind of money? Abort every fetus, embryo, and zygote in the nation AND marry every gay person in the United States AND still have $4 million left over."
+
+[Tumblr's architecture](http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html), which I only understand a little bit, makes my head spin. In other NYC Startup Hubris news, DY is the winner of [captioning this photo](http://mlkshk.com/p/CK58) of David Karp: "I'm King of Midtown!"
+
+![](http://media.tumblr.com/tumblr_lzi4tbufZy1qzrmn8.jpg)
+
+Also via DY, [the seed of a really important convo](http://lliiaa.com/2012/02/13/early_adopter_nerds_on_flickrs_past_and_future.php) on Flickr.
+
+I must've subscribed to Cornell's robotics lab on YouTube a while ago, because I received this [incredible video](http://www.youtube.com/watch?feature=player_embedded&amp;v=v46QP55NLrw) in my inbox.
+
+The internet, interface design, and social networks were on my mind. Left a long comment on Brad's post and kind of felt like my work for the day was done.
+
+![](http://s3.amazonaws.com/data.tumblr.com/tumblr_lzi3puYMaH1qzrd3yo1_1280.png?AWSAccessKeyId=AKIAJ6IHWSU3BX3X7X3Q&amp;Expires=1329507302&amp;Signature=nGHLqCcaWReADgNqwQfTql%2FzC64%3D)
+
+Walked to school over the bridge and asked lots of questions at an informal [Work Makes Work](http://www.workmakeswork.org/) meeting. Tried to finish a proposal for Triple Canopy based on long-unresolved [Notes on Forgetting, Archiving, Existing on the Internet](http://caseyagollan.com/2011/notes-on-forgetting-archiving-and-existing-on-the-internet/), but ADD'd out, deciding instead to walk over the bridge (again!), home, with Alex, which was worth it. Anyway, I wasn't totally sure if the notes made sense or how to pitch it as an essay proposal (with a budget, etc?!) at the last minute (obviously). But loooord knows an editor (ideally following me around all day) would help. Regardless, the deadline proved to be a helpful reminder to work on this. 
+
+Tuesday, Shakira got attacked by [a sea lion](http://onionlike.tumblr.com/post/17610732746/shakira-attacked-by-sea-lion). I, on the other hand, sort of merged the Forgetting notes in my head with thinking for Systems about the social network as a future city, and the speculative fictional plot to assassinate Zuckerberg upon his appointment as president of the US. (Maybe a stretch? Though I think if I were Zuckerberg, I would be driven to kill myself from the pressure of being that rich and powerful.) Jaron Lanier writes: "[Technologists] tinker with your philosophy by direct manipulation of your cognitive experience, not indirectly, through argument. It takes only a tiny group of engineers to create technology that can shape the entire future of human experience with incredible speed. Therefore, crucial arguments about the human relationship with technology should take place between developers and users before such direct manipulations are designed."
+
+I re-read [Zuckerberg's post-IPO Letter](http://techcrunch.com/2012/02/01/facebook-ipo-letter/) and found a lot of the bits about "a social mission — to make the world more open and connected" to be pretty specious, considering it was originally a version of Hot-or-Not. And still, essentially, is.
+
+Downloaded b-roll and saved news clippings. Learned that Facebook flies the flags of state, country, and social network. Can't help but imagining them merge... (via [wired](http://www.wired.com/wiredenterprise/2011/12/facebook-data-center/all/1))
+![](http://media.tumblr.com/tumblr_lzi4x1C6jB1qzrmn8.jpg)
+
+Facebook's internal tools are interesting. Engineers have "push karma" which starts at 4 stars on their first day of work and can only go down if their code breaks things. If an engineer has low push karma their work is scrutinized much more carefully before being allowed to go into the daily pushes (Monday, Wednesday, Friday) and especially the big weekly push (Tuesday), which includes thousands of changes. Check out that dislike button!
+
+![](http://media.tumblr.com/tumblr_lzj2azSz4A1qzrmn8.jpg)
+
+Stumbled on some ADHD self-help from an old notebook (lol):
+
+![](http://media.tumblr.com/tumblr_lzi450kwo71qzrmn8.jpg)
+
+And experimented with [Pomodoro](http://pomodoro.ugolandini.com/), an app that mandates 25 minute timed and named sprints of focused work with 5 minutes breaks. It plays a ticking clock sound too. While it's kind of helpful to do a Pomodoro if I'm sitting on my ass, I kept putting off starting the next one because it's kind of a displeasurable way of working for me, so didn't even manage to do two sprints in a row.
+
+![](http://media.tumblr.com/tumblr_lzj6thB52L1qzrmn8.jpg)
+
+Grabbed spicy noodles at Szechuan Gourmet, then wandered around the NYPL's  gorgeous Schwarzman Building before meeting Christine's class there to look at a history of photo prints. The library collects a ton and is happy to show them to the public if you ask nicely and arrange ahead of time. Definitely going back.
+
+Walked back to school! And surfed the internet for a while.
+
+[Cowbird](http://blog.cowbird.com/post/17611542231/cowbird-inc-a-love-story), which just became an official company instead of just a side-project, is so well designed. The interface feels really springy and just fun to interact with. The site also manages to make the complications of linked data seem ridiculously friendly and intuitive. Jonathan Harris is talented. While the tools are incredible and they're doing a good job cultivating a specific kind of community, I'm not terribly interested in most of the content that's there so far.
+
+The site is also full of great little moments, like this from their FAQ:
+![](http://media.tumblr.com/tumblr_lzi53icSrY1qzrmn8.png)
+
+Finally got around to finishing the readings Christine gave me, though I have to take a closer look at them. This is Gustave Flaubert in 1881:
+
+&gt;"ART
+&gt;It makes you ill.
+&gt;What use is it? since it can be replaced by machines that do it better and faster.
+&gt;
+&gt;ARTISTS
+&gt;You have to laugh at everything they say.
+&gt;All jokers. Boast about their disinterestedness.
+&gt;Are astonished that they are dressed like everyone else.
+&gt;Earn ridiculous amounts of money, but throw it all away.
+&gt;What they do can't be called 'working'.
+&gt;Often invited out to dinner."
+
+Maybe a predecessor to this. (via [Sofia Leiby](https://www.facebook.com/photo.php?fbid=1747585449262&amp;set=a.1246378919412.2031092.1227570132&amp;type=1&amp;theater))
+![](http://media.tumblr.com/tumblr_lzi4z2YMDn1qzrmn8.jpg)
+
+Later had Censorship, which was good. We read Howl by Ginsburg and excerpts of the trial, all of which I loved. We were then subjected to Franco's embarrasing film adaptation. It wasn't _so_ bad, but the animation sequences were a little barf-inducing. All in all it does a disservice to the writing, I'd say.
+
+<iframe width="500" height="284" src="http://www.youtube.com/embed/C4h4ZY8whbg" frameborder="0"></iframe>
+
+Next week we are moving on to Mapplethorpe and visual art, which is exciting:
+
+![](http://media.tumblr.com/tumblr_lzi57empMv1qzrmn8.jpg)
+
+It was Valentines day:
+![](http://media.tumblr.com/tumblr_lzi6orYdnr1qzrmn8.png)
+
+But, far from playing some suave move, I basically declared Words bankruptcy:
+![](http://media.tumblr.com/tumblr_lzi6h7BOge1qzrmn8.jpg)
+
+Hung out at home and went to bed early but woke up and scribbled, photoshopped, and wrote from 2am to sunrise.
+
+![](http://media.tumblr.com/tumblr_lzia3x9JpH1qzrmn8.jpg)
+
+- - -
+
+The rant below, based on this strange graphic I threw together during Systems last semester is meant to be recited in a screaming voice, in protest:
+
+![](http://media.tumblr.com/tumblr_lzj4p5p5Ge1qzrmn8.png)
+
+I am not a vessel for genetic information.
+
+Saying that you don't believe in genetics is like saying that you don't believe in dinosaurs. But maybe I don't. 
+
+Which came first: the chicken or the egg? It doesn't matter, writes Richard Dawkins, eggs are raw genetic information, genetic information simply wants to multiply, and chickens are a means to make more eggs. Humans, he writes, are also just vessels for genetic information. Maybe he doesn't say “just” but you're being a softie if you don't reduce his arguments to this purpose, the multiplication of genetic information. At some point we became sentient blah blah and here we are.
+
+I'm sick and tired of things so vast I can't understand them. Genetics. Capitalism. International relations.
+
+Fucking is comedic on a grand level because it starts to look like a multiplication sign. 
+
+Where did this growth curve come from?
+
+We are going to wipe ourselves out and there was never any reason we had to be sentient to worry about it anyway.
+
+What we've uncovered is a problem of language. We have no words to describe intention without mind.
+
+Genius, in an earlier time, was thought to be external. It descended from the heavens and passed through our bodies. We could inhale it and hold it inside of us momentarily at most.
+
+Today genius is internalized, inseparable from persons.
+
+Everything in my experience confirms that I am here. I stretch almost compulsively, feeling out my body's physicality. 
+
+Pass the torch to the next generation. None of this matters so I'm going to light up a candy cigarette.
+
+In between the people who don't believe in dinosaurs and Richard Dawkins there are interventionists. Those who know that the world probably isn't in God's hands, but it also probably isn't a meaningless void. 
+
+I can fuck with this abstraction. 
+
+I'm against thinking that these abstractions are real. I want to drop out of the race for power. Blow up the exponential curve. Because its just an idea we invented. Studying ourselves. Is the stupidest thing. I don't want to settle into some benign role on the spectrum, and I don't want to rule the world. A healthy but not megalomaniacal appetite. It's functionally incompatible.  Our realities. (I don't believe in God or god.) 
+
+It's existential!
+
+Something sweet and funny about wanting to validate ones existence. Why am I doing this? I want to connect with people. I want to advance ideas. 
+
+If there is a primal instinct I'm a poor genetic specimen. So far I have not managed to reproduce. I would apologize but to whom?
+
+Somehow I have landed in a nunnery. Dedicated the the advancement of science and art. There should just be a fucking school, where people go to learn multiplication in the reproductive sense.
+
+We are the scum of the earth. The thought leaders. There is some debauchery, but in comparison this is a place of rigor. Home of chaste workers.
+
+What's disturbing is that the educated go out and control the world. I met a consultant who has broken trust down to a science, which she sells to corporations. Trust, she says, is good for business. And what about business? What's that good for? I asked her. She smiled smart-but-dead-like and said, you have to believe that growing the economy is good for the world. Consulting is a desired job — maybe the quintessential job — of the educated class.
+
+The world, as seen by consultants, is represented by metaphors or graphs. Broken down into her science or spun into his story. And then we ask, how can we make tomorrow better for _our children_! I'm inclined to say that genetic information doesn't give a fuck about the human race. It has no fucks to give. But if we allocate our resources: food, violence, sex, ideas, ego, entertainment, correctly we may be able to stall the implosion of the human species.
+
+I have to ask if smarter DNA is better DNA. Perhaps the meta cognizant come more tightly coiled. If I am wrong, then I surrender. I want to know the most efficient expression. I want to know the end but I don't think this has one because it's not a story with a plot, it's a system. A line with an arrow indicating up up up up up up up...
+
+Thes a sick quantification in all of this. I want to question the quality of the information on which systemic decisions are based. In _Points at Which to Intervene in a System_ Donella Meadows describes a spectrum. From adjusting the levers of a faucet to showing the pipe
+
+The first time Kevin diagrammed a system on the board: inputs, outputs, I was blown away. But what started to sicken me is that this isn't some game. This is how people in charge make choices?!
+
+After I took a class on color theory I could never do my laundry the same way again. Stacking shirts became an exercise of hue and value relationships. 
+
+In my systems class I received a D for not turning in work (this protest is part of making amends before the grade adjustment period is over) but I couldn't bring myself to make a move all semester. I was struck by paralysis, which I’m just now coming to terms with. A heightened experience of color is cool but a heightened experience of systems is TERRIFYING.
+
+There are different ways to depict a system, for example, Pirates in Somalia. One is long-form journalism that runs through the economic reasoning tied in with narrative. Another emerging form is something called a newsgame. It doesn't tell the story or even necessarily explain itself, but leaves the player with a simulated first-hand understanding of the dynamics of Somali piracy: input, output, risk, strategy, conditions of chance, loops. A kind of understanding that transcends content. 
+
+- - -
+
+What follows is my TOTALLY FICTIONAL (was scared to put this on dropbox for a minute while I was writing in case they are scanning for crazies) future Zuckerberg assassination. It's embarrasing stuff, at this point.
+
+1.
+
+Mark Zuckerberg, founder and CEO of Facebook, was assasinated on Tuesday near his home in Palo Alto. He was out walking his dog, [Beast](https://www.facebook.com/beast.the.dog), when he was hit with a single bullet. Neighbors, who heard the shot, alerted the police. He will be succeeded at the company by Chief Operating Officer Sheryl Sandberg.
+
+2.
+
+**Anchor 1:**
+
+Mark Zuckerberg, founder and CEO of the ubiquitous social networking website Facebook, was found dead last Tuesday at his home in Palo Alto. While the exact nature of the death has yet to be disclosed, the county coroner has ruled it a suicide. This news comes shortly on the eve of Facebook's multi-billion dollar IPO, entering the company into public trading, and making Zuckerburg one of the world's richest _and_ most powerful political figures. Political Figure isn't the job title you expect to hear for a college dropout who founded a social network, but Facebook's political presence became undeniable.
+
+The capital was relocated to Palo Alto, with additional political offices at the company's data center in Prineville, Oregon.
+
+Shortly after their Initial Public Offering in 2012, Facebook updated _politics_. In early forms of theocratic government, belief in God's word was used by political leaders for undisputed control. Secular-ish democracy enforced order with trust in the government and punishment by the justice system. Government 3.0 is more insidious because it exists inside your head. 
+
+In his 2012 State of the Union address, President Obama spoke of “cyber threats.” He was likely referring to hacking from China or terrorism in the form of disabling network infrastructure so critical to the functioning of today's world, but little did he know that the hearts and minds of American citizens (and others around the globe — though less so) were already enlisted in a nation called Facebook.
+
+Activism was replaced by Liketivism. Or as some old-timers in the transition period disparagingly referred to it, “Slacktivism.” (These comments were hidden from Top News via an upgrade to the Edge-Rank algorithm in late 2012.) 
+
+Cities were replaced by information-space, which in the latest Facebook release, argued Zuckerberg, finally enabled communication which surpassed physical f2f (face-to-face) interaction. Those who were born “before” seemed to remember something else, though it was a vague feeling and no tagged photos, posts, or pages for this idea could be located. Historians looking at the state's formation criticized Zuckerberg's valiant statements about improving communication, waving disintegrating paper documents — olde inkjet printouts of a conversation scraped off of the Internet (as they used to call it) where Zuckerberg calls the site's first users quote “suckers” end quote. A testimony from someone who was ostensibly in the dorm room at Old Harvard in the early days (who can know if it's true) claimed that Facebook was first invented to compare women. Yet technological innovation has consistently trickled from the porn industry or the military — and by extension technological means for sex or violence. What was only beginning to be predicted was technology's close pairing with control. Zuckerberg's role at the center of all this was, perhaps, foreshadowed by investor Warren Buffet, who came closest to Facebook's present scope of info-power in the naughts (00-09) when he was widely known to have better, more realtime information than the government itself, thanks to stakes at leading corporations in nearly every industry. His genius, it was seen, was connecting otherwise privileged data from trains, planes, and ships with otherwise privileged data from energy companies, with otherwise privileged data from the financial sector into some throbbing graph of unprecedented accuracy, timeliness, and fidelity. The map of the world that came closest (in its time) to approaching the size of the world itself, yet fit in the palm of a hand. It was Zuckerberg who applied this same panoptic form of infopower to everyday life, and therefore citizenry. Users became subjects. A social network became the first social government.
+
+- - -
+
+And then there's this, sort of riffing on the sketch of alternative interfaces and channeling the heavy-handed internet-y aesthetic:
+
+![](http://media.tumblr.com/tumblr_lzi9jm9Y5R1qzrmn8.png)
+
+- - -
+
+Like I said, EMBARRASING STUFF. Like, seriously just bad. But at least fast moving, at this point.
+
+Wednesday all my classes were cancelled and I had stayed up late, so I did a little bit of work on the freelance project in the morning and then basically read the internet for the rest of the day.
+
+[LOTS OF ROBOTS](http://gizmodo.com/5884684/why-ill-never-trust-a-human-with-my-data-again): 
+
+&gt;Look, I love small businesses. And I prefer to do business with them. But the sad fact is that when it comes to data, your information is likely more secure in the hands of a giant MegaCorp than with an individual. Because, after all, what happens if that individual goes away? Who will protect your data? The internet is simply a way to connect people. But what happens when a person, who forms a vital link in that chain, disconnects? Im about to find out. Im hoping my host will pop back up. That hes simply going to pay to renew his registration, and that all of this will go away. But in the meantime, Im backing up all my data and shopping for a new host. One with a staff. And robots. Lots of robots. Because human beings tend to fail.
+
+[Fuck content](http://rasmusbroennum.wordpress.com/2009/03/01/fuck-content-michael-rock/). Another surprisingly awesome tangentially required reading for Publication Design. I'm still not working hard enough for that class.
+
+An e-cigarette [explodes](http://www.thefix.com/content/cigarette-explodes-electronic-mouth9669) in somebody's mouth! ([via david carr](https://twitter.com/#!/carr2n/status/170009708185399297))
+
+Cartographies of time (now in [paperback](http://www.papress.com/html/book.details.page.tpl?isbn=9781568987637), on my list to-buy):
+![](http://media.tumblr.com/tumblr_lzi51i8Thu1qzrmn8.jpg)
+
+Twinkie Circuitry, apropos all these speculative futures:
+![](http://media.tumblr.com/tumblr_lzi526M3p31qzrmn8.png)
+
+A picture of swimsuit models ringing a bell so that a bunch of computers can start trading autonomously in empty rooms. (via [Kevin](http://slavin.tumblr.com/post/17655908040/a-picture-of-swimsuit-models-ringing-a-bell-so)):
+![](http://media.tumblr.com/tumblr_lzi52hP4KO1qzrmn8.jpg)
+
+I've always had a sneaking feeling that I hate the PDF file format, but never had a good reason. THIS. This means war:
+[![](http://media.tumblr.com/tumblr_lzi547sDSH1qzrmn8.png)](http://www.law.northwestern.edu/faculty/fulltime/nadler/Thompson_Nadler_InfoTechnology.pdf)
+![](http://media.tumblr.com/tumblr_lzi54vLTEn1qzrmn8.png)
+
+An alternative way to punish companies sucking up all your iOS contacts:
+([via](https://twitter.com/#!/daviglenn/status/169854824916066305/photo/1))
+![](http://media.tumblr.com/tumblr_lzi59mjMmY1qzrmn8.jpg)
+
+Be angry now (via [austin kleon](http://tumblr.austinkleon.com/post/17675626619)):
+![](http://media.tumblr.com/tumblr_lzi5ahTt5s1qzrmn8.png)
+
+Awesome early Mac OS graphics (via [David Cole](https://twitter.com/irondavy/status/169872228471681025)):
+
+![](http://media.tumblr.com/tumblr_lzi5c0Rsz91qzrmn8.png)
+
+and [Raul](http://www.mexicanpictures.com/headingeast/2010/03/mac-icons-circa-1985.html)
+
+![](http://media.tumblr.com/tumblr_lzi5d7xXKz1qzrmn8.gif)
+
+And, well, this is TERRIFYING. A day after I wrote my terrible screed about Facebook as a future government, Facebook is launching verified accounts, for which they are collecting scans of government-issed photo IDs. ([via](http://techcrunch.com/2012/02/15/facebook-verified-accounts-alternate-names/))
+
+![](http://media.tumblr.com/tumblr_lzi5e9W5A41qzrmn8.png)
+
+Walked to school and home again over the bridge. Is it possible to be addicted to a bridge?? Also, there is a Momofuku Milk Bar between home and school, at which I get cookies. That might be part of it. But the bridge is even better than nature, I think. Reminds me of why living in a city is so badass. Some days I listen to Philip Glass and other days I listen to Britney Spears, both excellent choices of bridge music.
+
+![](http://media.tumblr.com/tumblr_lzj6dnj3Sx1qzrmn8.jpg)
+
+Thursday, today. Western Theories was good, although I sort of zoned out after a little while. Short attention span really takes a toll on me in theoretical situations. 
+
+![](http://media.tumblr.com/tumblr_lzj6d1ic7S1qzrmn8.jpg)
+
+Milled around, scanned notes, and strung links together for this weeknote for a few hours. Got drinks with Aaron and Alex and _then_ went to sculpture. Testing [this theory](http://www.wired.com/wiredscience/2012/02/why-being-sleepy-and-drunk-are-great-for-creativity/) although I consider Jonah Lehrer a hack. Sculpture class has been consistently bad this semester with a lack of work — especially work that requires or demands conversation, but Niki is hilarious so it's just disappointing not painful. Had a great studio visit with her after where we talked about almost everything I'm working on and mad about and scared about and she joked that the workmakeswork show is "like santa's factory" (which kind of says it all), and I went home confused and excited about making things. Tempted to walk the bridge but took the subway.
+
+On deck (yes I am one of the a-holes using [that amazing new to-do list app](http://www.realmacsoftware.com/clear/)):
+
+![](http://media.tumblr.com/tumblr_lzj7b2BF6c1qzrmn8.png)
+
+<blockquote class="twitter-tweet"><p>I weep for us all. "an amazing new app for list-keeping that is unbelievably simple, quick and satisfying to use"</p>    <div><a href="https://twitter.com/ibogost/status/169997739701186560">February 16, 2012</a></div></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8" type="text/javascript"></script>
+
+Bonus pic from the future:
+
+![](http://media.tumblr.com/tumblr_lzj6cn7NpH1qzrmn8.jpg)

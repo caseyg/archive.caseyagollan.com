@@ -1,0 +1,12 @@
+title: If We Are Digital
+-
+description: 
+With just a week's notice, built a website to house a series of Skype conversations between people working to engage online art audiences.
+-
+date: 2012 May
+-
+tags: Website, Coding, Design
+-
+content:
+## Technical Notes
+The site was built on Wordpress and extended in key ways to support the project. Custom fields were added to accomodate structured metadata about interviewees, locations, discussion topics, and extra reading materials. While all of this information could be (and usually is) just typed into a big textbox, stratifying it out affords better organization. The combination of custom fields and custom taxonomies allows visitors to filter conversations by Location and Tag, ways of browsing that will become increasingly important as the amount of content on the site grows. Structured data also allows for fun touches like rendering each person's location as a little map, automagically.
