@@ -66,11 +66,11 @@
 <body id="graph">
 	:top-nav
 	<ul id="graphcontrols">
-		<li><label for="charge">Gravity </label><input id="charge" type="range" min="0" max="1" step=".01" value=".25" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="gravity">Gravity </label><input id="gravity" type="range" min="0" max="1" step=".01" value=".25" onchange="force.charge(this.value).start()" /></li>
 		<li><label for="charge">Charge </label><input id="charge" type="range" min="-4000" max="0" step="1" value="-1000" onchange="force.charge(this.value).start()" /></li>
-		<li><label for="charge">Friction </label><input id="charge" type="range" min="-4000" max="0" step="1" value=".75" onchange="force.charge(this.value).start()" /></li>
-		<li><label for="charge">Link Strength </label><input id="charge" type="range" min="-4000" max="0" step="1" value="1" onchange="force.charge(this.value).start()" /></li>
-		<li><label for="linkdistance">Link Distance</label><input id="charge" type="range" min="0" max="200" step="1" value="20" onchange="force.linkDistance(this.value).start()" /></li>
+		<li><label for="friction">Friction </label><input id="friction" type="range" min="-4000" max="0" step="1" value=".75" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="linkstrength">Link Strength </label><input id="linkstrength" type="range" min="-4000" max="0" step="1" value="1" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="linkdistance">Link Distance</label><input id="linkdistance" type="range" min="0" max="200" step="1" value="20" onchange="force.linkDistance(this.value).start()" /></li>
 	</ul>
 <script>
 var svg = d3.select("body").append("svg"),
@@ -80,14 +80,14 @@ var force = d3.layout.force();
 d3.json("/content/index/projects.json", function(graph) {
 
 	force
-			.nodes(graph.nodes)
-			.links(graph.links)
-			.gravity(0.25)
-			.charge(-1000)
-			.friction(.75)
-			.linkStrength(1)
-			.on("tick", tick)
-			.start();
+		.nodes(graph.nodes)
+		.links(graph.links)
+		.gravity(0.25)
+		.charge(-1000)
+		.friction(.75)
+		.linkStrength(1)
+		.on("tick", tick)
+		.start();
 
 	var link = svg.selectAll(".link")
 			.data(graph.links)
@@ -99,6 +99,8 @@ d3.json("/content/index/projects.json", function(graph) {
 		.enter().append("g")
 			.attr("class", function(d) { return d.type; })
 			.attr("r", r)
+			.on("mouseover", fade(.15))
+			.on("mouseout", fade(1))
 			.call(force.drag);
 
 	var project = svg.selectAll(".project")
@@ -152,6 +154,39 @@ d3.json("/content/index/projects.json", function(graph) {
 		width = window.innerWidth, height = window.innerHeight-102;
 		svg.attr("width", width).attr("height", height);
 		force.size([width, height]).resume();
+	}
+
+	var linkedByIndex = {};
+
+	graph.links.forEach(function(d) {
+		linkedByIndex[d.source.index + "," + d.target.index] = 1;
+	});
+
+	function isConnected(a, b) {
+		return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
+	}
+
+	function fade(opacity) {
+		return function(d) {
+			node.transition().duration(150).select("circle").style("stroke-opacity", function(o) {
+				thisOpacity = isConnected(d, o) ? 1 : opacity;
+				this.setAttribute('fill-opacity', thisOpacity);
+				return thisOpacity;
+			});
+			node.transition().duration(250).select("image").style("opacity", function(o) {
+				thisOpacity = isConnected(d, o) ? 1 : opacity;
+				this.setAttribute('opacity', thisOpacity);
+				return thisOpacity;
+			})       
+			node.transition().duration(250).select("text").style("opacity", function(o) {
+				thisOpacity = isConnected(d, o) ? 1 : opacity;
+				this.setAttribute('fill-opacity', thisOpacity);
+				return thisOpacity;
+			})     
+			link.transition().duration(250).style("stroke-opacity", function(o) {
+				return o.source === d || o.target === d ? 1 : opacity;
+			});
+		};
 	}
 });
 
