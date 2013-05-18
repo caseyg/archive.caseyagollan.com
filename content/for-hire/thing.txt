@@ -1,7 +1,42 @@
-title: Hire Casey Gollan
+title: For Hire
 -
-excerpt: 
--
-date: 2013 May
+excerpt:
+
+Hi friends,
+
+This May I'm graduating from Cooper Union and entering the <del>void</del> world...which means I'm looking for work as soon as possible.
+
+I'm busy applying for jobs in the fields of design, open government, and regular-'ol-day-jobs, _but_ I have a weird hunch (and hope) that my next move could be doing something with somebody who I already know and admire. If you're reading this, maybe that's you?
+
 -
 content:
+
+## What I'm good at
+
+### Making Websites
+
+#### CooperUnion.biz
+
+(Fast Company's Co.Exist blog)[http://fastcoexist.com/1682073/tricky-activists-protest-the-corporatization-of-education-with-a-brilliant-fake-site]
+
+### Writing and Editing
+
+### Social Media
+
+### Photography and Video
+
+The _New York Times_ basically called me a (terrible but amusing rapper)[http://www.nytimes.com/2013/02/16/nyregion/cooper-unions-tradition-of-free-tuition-may-be-near-end.html?pagewanted=all#p[DltAwt]].
+
+### Organizing and Strategizing
+
+I wrote a screed on systems.
+
+### Moving Boxes or Whatever
+
+## What I want to get better at
+
+- Backend web development
+
+## How you can reach me
+
+Email: (hello@caseyagollan.com)[hello@caseyagollan.com]
