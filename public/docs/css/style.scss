@@ -715,7 +715,7 @@ article {
 	display:block;
 	margin:0 auto 20px auto;
 	color:#eee;
-	h1, h2, h3, blockquote, p, iframe, .date, ul, ol, figcaption, hr {
+	h1, h2, h3, blockquote, p, iframe, .date, ul, ol, figcaption, hr, table {
 		display:block;
 		max-width:600px;
 		margin:auto;
@@ -889,6 +889,16 @@ article {
 			font-size:10px;
 			margin-right:5px;
 		}
+	}
+	table {
+		th, td {
+			padding: 10px;
+			border:1px solid darkgray;
+		}
+	}
+	.twitter-tweet {
+		margin:auto!important;
+		max-width:600px!important;
 	}
 }
 

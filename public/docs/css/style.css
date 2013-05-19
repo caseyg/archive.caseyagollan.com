@@ -652,19 +652,19 @@ article {
   display: block;
   margin: 0 auto 20px auto;
   color: #eee; }
-  article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr {
+  article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr, article table {
     display: block;
     max-width: 600px;
     margin: auto; }
     @media only screen and (min-width: 336px) {
-      article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr {
+      article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr, article table {
         margin: 20px auto;
         width: 90%; } }
     @media (min-width: 600px) {
-      article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr {
+      article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr, article table {
         width: 80%; } }
     @media (min-width: 768px) {
-      article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr {
+      article h1, article h2, article h3, article blockquote, article p, article iframe, article .date, article ul, article ol, article figcaption, article hr, article table {
         width: 75%; } }
   article header {
     text-align: center; }
@@ -799,6 +799,12 @@ article {
       -webkit-text-stroke: 1px #eeeeee;
       font-size: 10px;
       margin-right: 5px; }
+  article table th, article table td {
+    padding: 10px;
+    border: 1px solid darkgrey; }
+  article .twitter-tweet {
+    margin: auto!important;
+    max-width: 600px!important; }
 
 body#single {
   background: gray; }
