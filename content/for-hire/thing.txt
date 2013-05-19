@@ -21,7 +21,7 @@ _Or_ keep scrolling for a little bit more about things I can do, things I want t
 -
 content:
 
-## Making Websites
+## Making websites
 
 ![](http://caseyagollan.com/content/140.girl-walk-all-day-website/girlwalk-01.png)
 
@@ -37,7 +37,7 @@ One December evening my roommates [Aaron](http://aaron-graham.com), [Alex](http:
 
 I started interning for [Jen Bekman](http://twitter.com/jenbee) right out of high school, and within a couple of months was hired (to my disbelief) as a half-time in-house designer. I worked there for two years, designing and shipping production quality HTML/CSS for large portions of the site, as well as making countless experiments and prototypes. I learned about the ins-and-outs of startup e-commerce like test-driven design, iterative development, and collecting a ton of metrics to optimize everything. The dream team that Jen put together, many of whom I consider to be mentors, have gone on to create things like Girl Walk, <a href="http://editorially.com">Editorially</a>, and <a href="http://tinybop.com">Tinybop</a>.
 
-## Writing and Editing
+## Writing and editing
 
 ![](http://caseyagollan.com/content/155.book-review-programmed-visions/book-review-programmed-visions.png)
 
@@ -53,7 +53,7 @@ I wrote [User-Generated Content](http://pooool.info/user-generated-content), a l
 
 When I worked at Jen Bekman I wrote over [250 blog posts](http://notes.caseyagollan.com/post/966905918/writing-on-hey-hot-shot) on the artists we worked with.
 
-## Social Media
+## Social media
 
 <blockquote class="twitter-tweet"><p>Student activists take note. @<a href="https://twitter.com/freecooperunion">freecooperunion</a> is giving a master class in how to use Twitter as an activist tool.</p>&mdash; Angus Johnston (@studentactivism) <a href="https://twitter.com/studentactivism/status/326789400849707008">April 23, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -62,7 +62,7 @@ There's a lot of crazytalk out there about juicing up one's social media presenc
 
 Now, alongside [Joe](http://pleasedontfront.tumblr.com), I'm at the helm of Free Cooper Union on <a href="http://facebook.com/">Facebook</a> and <a href="http://twitter.com/">Twitter</a>. Angus Johnston, a [historian of student activism](http://studentactivism.net) at CUNY, recently [called us](https://twitter.com/studentactivism/status/326789400849707008) a "master class in how to use Twitter as an activist tool." Only, soon we might not be the underdog anymore, seeing as how we've [surpassed the official Cooper Union page](http://www.facebook.com/photo.php?fbid=469887223092101&set=a.392421814171976.58168719.391957684218389&type=1) in popularity. Oops.
 
-## Making Videos or Photographing
+## Making videos and photographing
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/qhowml0sBBI?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -78,7 +78,7 @@ Last March I published a kind of [screed on _systems_](http://caseyagollan.com/s
 
 Similarly, my favorite part of the design work I've done has always been the more abstract organizational side rather than the "graphics".
 
-## Moving Your Boxes Or Whatever
+## Moving your boxes or whatever
 
 Liz Danzico's tweet about [mentornship](https://twitter.com/bobulate/status/1280455190) from so long ago has really stuck with me. An irrational fear I have is getting too deep into work that pretends to be meaningful but is actually just stealing three-quarters of my brainspace while ultimately being about serving a revenue target. A lot of startup culture seems this way to me, and it's the kind of thing that makes me want to go off the grid and never use a computer again. That's why, rather than having some comfortable bourgeois job, I'd be happy handling some brilliant person's bullshit if it means getting to learn from and with them.
 
