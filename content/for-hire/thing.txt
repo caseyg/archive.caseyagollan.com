@@ -1,23 +1,30 @@
 title: For Hire
 -
-excerpt:
+description:
 
 Hi friends,
 
 This May I'm graduating from Cooper Union and entering the <del>void</del> world...which means I'm looking for work as soon as possible.
 
-I'm busy applying for jobs in the fields of design, open government, and regular-'ol-day-jobs, _but_ I have a weird hunch (and hope) that my next move could be doing something with somebody who I already know and admire. If you're reading this, maybe that's you?
+I have a weird hunch (or maybe just a _hope_) that — because the internet is a weird place — my next move could be getting paid to do _something_ with somebody who I **already** know and admire.
+
+If you're reading this, maybe that's you?
+
+You can reach me by email at [hello@caseyagollan.com](mailto:hello@caseyagollan.com) or by phone at 914.471.0959. 
+
+_Or_ keep scrolling for a little bit more about things I'm good at, things I want to get better at through working, and how much money I'll need to make to keep living in New York.
 
 -
 content:
-
-## What I'm good at
+## Here's what I'm good at
 
 ### Making Websites
 
-#### CooperUnion.biz
+**[Girl Walk // All Day](http://girlwalkallday.com)** — When my friends Jacob and Youngna blew through the funding target for their [Kickstarter-funded](http://www.kickstarter.com/projects/720656387/girl-walk-all-day)-music-video-epic [Girl Walk // All Day](girlwalkallday.com) they decided to take their movie on a worldwide tour. Working off some existing design work by [Kelli Anderson](http://kellianderson.com), and with the backend programming help of [David Yee](http://tangentialism.com), we launched a fairly complex website in a matter of weeks. Youngna wrote about some of her favorite parts of the site [on her blog](http://blog.youngnapark.com/2011/10/girl-walk-all-day-redesign-trailer.html). Because the movie is all about running around New York City _and_ was slated to premiere at [Brooklyn Beta](https://brooklynbeta.org/), I pushed for making the site completely responsive. I was happy to see that the [audience approved](https://twitter.com/RWD/status/125587985449234433).
 
-(Fast Company's Co.Exist blog)[http://fastcoexist.com/1682073/tricky-activists-protest-the-corporatization-of-education-with-a-brilliant-fake-site]
+**[CooperUnion.biz](http://cooperunion.biz)** — One December evening my roommates [Aaron](http://aaron-graham.com), [Alex](http://g-i-b-s-o-n.com), and I threw together this parody site skewering the corporatization of our alma-mater Cooper Union. (Part of my ongoing work with [Free Cooper Union](http://facebook.com/FreeCooperUnion).) It has since been shared by the likes of [The Yes Men](https://www.facebook.com/permalink.php?story_fbid=10151421401446616&id=96761506615), [Huffington Post](https://twitter.com/HuffPostArts/status/334376608188203008), and [Art in America](https://twitter.com/AiANews/status/334415141179363329); written up on [Fast Company's Co.Exist blog](http://fastcoexist.com/1682073/tricky-activists-protest-the-corporatization-of-education-with-a-brilliant-fake-site); and made the rounds in classrooms at NYU and the New School.
+
+**20x200** —
 
 ### Writing and Editing
 
@@ -25,7 +32,7 @@ content:
 
 ### Photography and Video
 
-The _New York Times_ basically called me a (terrible but amusing rapper)[http://www.nytimes.com/2013/02/16/nyregion/cooper-unions-tradition-of-free-tuition-may-be-near-end.html?pagewanted=all#p[DltAwt]].
+The _New York Times_ basically called me a [terrible but amusing rapper](http://www.nytimes.com/2013/02/16/nyregion/cooper-unions-tradition-of-free-tuition-may-be-near-end.html?pagewanted=all#p[DltAwt]).
 
 ### Organizing and Strategizing
 
@@ -35,8 +42,9 @@ I wrote a screed on systems.
 
 ## What I want to get better at
 
+- Everything listed above
 - Backend web development
 
 ## How you can reach me
 
-Email: (hello@caseyagollan.com)[hello@caseyagollan.com]
+You can reach me by email at [hello@caseyagollan.com](mailto:hello@caseyagollan.com) or phone at 914.471.0959. Hope to hear from you soon!
