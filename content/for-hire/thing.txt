@@ -27,7 +27,7 @@ content:
 
 ### [Girl Walk // All Day](http://girlwalkallday.com)
 
-When my friends <a href="http://wildcombination.com">Jacob and Youngna</a> blew through the funding target for their [Kickstarter-funded](http://www.kickstarter.com/projects/720656387/girl-walk-all-day)-music-video-epic _Girl Walk // All Day_ they decided to take their movie on a worldwide tour. Working off of the graphic design stylings of [Kelli Anderson](http://kellianderson.com), and with the backend programming help of [David Yee](http://tangentialism.com), we launched a fairly complex website in a matter of weeks. Youngna wrote about some of her favorite parts of the site [on her blog](http://blog.youngnapark.com/2011/10/girl-walk-all-day-redesign-trailer.html). Because the movie is all about dancing across New York City _and_ was slated to premiere at [Brooklyn Beta](https://brooklynbeta.org/), I pushed for making the site completely responsive. I was happy to see that the [audience approved](https://twitter.com/RWD/status/125587985449234433).
+When my friends <a href="http://wildcombination.com">Jacob and Youngna</a> blew through the funding target for their [Kickstarter-funded](http://www.kickstarter.com/projects/720656387/girl-walk-all-day)-music-video-epic _Girl Walk // All Day_ they decided to take their movie on a worldwide tour. Working off of the graphic design stylings of [Kelli Anderson](http://kellianderson.com), and with the back end programming help of [David Yee](http://tangentialism.com), we launched a fairly complex website in a matter of weeks. Youngna wrote about some of her favorite parts of the site [on her blog](http://blog.youngnapark.com/2011/10/girl-walk-all-day-redesign-trailer.html). Because the movie is all about dancing across New York City _and_ was slated to premiere at [Brooklyn Beta](https://brooklynbeta.org/), I pushed for making the site completely responsive. I was happy to see that the [audience approved](https://twitter.com/RWD/status/125587985449234433).
 
 ### [CooperUnion.biz](http://cooperunion.biz)
 
@@ -86,7 +86,7 @@ Liz Danzico's tweet about [mentornship](https://twitter.com/bobulate/status/1280
 
 I want to get better at all the things listed above and I hope that I can do so by working. I'm far from great at any of these things, but competent enough at this point to bounce across disciplines and job titles to get shit done.
 
-Also, I'd really like to get fluent enough at backend coding so that I can whip up a web app every time an idea pops into my head instead of mucking around until I go crazy. If working with you could mean you teaching me more about that, I'm so down.
+Also, I'd really like to get fluent enough at back end coding so that I can whip up a web app every time an idea pops into my head instead of mucking around until I go crazy. If working with you could mean you teaching me more about that, I'm so down.
 
 ## Cost of living
 
