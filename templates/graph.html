@@ -61,6 +61,10 @@
 			pointer-events: none;
 			font-weight: bold;
 		}
+		.tag text.shadow {
+			stroke: gray;
+			stroke-width: 5px;
+		}
 	</style>
 </head>
 <body id="graph">
@@ -98,7 +102,6 @@ d3.json("/content/index/projects.json", function(graph) {
 			.data(graph.nodes)
 		.enter().append("g")
 			.attr("class", function(d) { return d.type; })
-			.attr("r", r)
 			.on("mouseover", fade(.15))
 			.on("mouseout", fade(1))
 			.call(force.drag);
@@ -108,9 +111,6 @@ d3.json("/content/index/projects.json", function(graph) {
 
 	var tag = svg.selectAll(".tag");
 
-	tag.append("circle")
-			.attr("r", r);
-
 	project.append("image")
 				.attr("xlink:href", function(d) { return d.thumb; })
 				.attr("x", -(r*2)/2)
@@ -119,10 +119,17 @@ d3.json("/content/index/projects.json", function(graph) {
 				.attr("height", r*2);
 
 	tag.append("text")
-				.attr("x", 0)
-				.attr("text-anchor", "middle")
-				.attr("dy", ".35em")
-				.text(function(d) { return d.name; });
+			.attr("x", 0)
+			.attr("y", 0)
+			.attr("text-anchor", "middle")
+			.attr("class", "shadow")
+			.text(function(d) { return d.name; });
+
+	tag.append("text")
+			.attr("x", 0)
+			.attr("y", 0)
+			.attr("text-anchor", "middle")
+			.text(function(d) { return d.name; });
 
 	project.append("text")
 			.attr("x", 0)
@@ -136,7 +143,6 @@ d3.json("/content/index/projects.json", function(graph) {
 			.attr("y", 0)
 			.attr("text-anchor", "middle")
 			.text(function(d) { return d.name; });
-
 
 	resize();
 	d3.select(window).on("resize", resize);
@@ -168,11 +174,6 @@ d3.json("/content/index/projects.json", function(graph) {
 
 	function fade(opacity) {
 		return function(d) {
-			node.transition().duration(150).select("circle").style("stroke-opacity", function(o) {
-				thisOpacity = isConnected(d, o) ? 1 : opacity;
-				this.setAttribute('fill-opacity', thisOpacity);
-				return thisOpacity;
-			});
 			node.transition().duration(250).select("image").style("opacity", function(o) {
 				thisOpacity = isConnected(d, o) ? 1 : opacity;
 				this.setAttribute('opacity', thisOpacity);
@@ -180,9 +181,8 @@ d3.json("/content/index/projects.json", function(graph) {
 			})       
 			node.transition().duration(250).select("text").style("opacity", function(o) {
 				thisOpacity = isConnected(d, o) ? 1 : opacity;
-				this.setAttribute('fill-opacity', thisOpacity);
 				return thisOpacity;
-			})     
+			})
 			link.transition().duration(250).style("stroke-opacity", function(o) {
 				return o.source === d || o.target === d ? 1 : opacity;
 			});
