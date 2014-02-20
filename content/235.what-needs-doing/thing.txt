@@ -1,0 +1,162 @@
+title: What Needs Doing?
+-
+custom_stylesheet: @path/custom.css
+-
+date: 2014 April
+-
+tags: Work
+-
+hide_media: yes
+-
+content: 
+
+Hi again, friends and friends-of-friends—
+
+It's been eight months since I wrote [an open cover letter](/for-hire) asking you for work, so I wanted to let you know how it's been going, what I've learned, and — if you're interested in working together — that I'm available for hire again, starting&hellip;now!
+
+---
+
+<marquee markdown="1"> 👉&nbsp;&nbsp;[hello@caseyagollan.com](mailto:hello@caseyagollan.com)&nbsp;&nbsp;👻&nbsp;&nbsp;914.471.0959&nbsp;&nbsp;🐬&nbsp;&nbsp;[@CaseyG](http://twitter.com/caseyg)&nbsp;&nbsp;👈</marquee>
+
+---
+
+### Work, by the numbers
+
+If you're feeling tl;dr about this, here's a sort-of numerical overview (although numbers don't mean much to me):
+
+After putting out the letter I received 14 leads.
+
+6 of these never went beyond an initial email or three. Or we planned to get coffee and never did.
+
+9 went on to real life interviews or proposals. I talked to: an artist, the producers of a social media awards ceremony, a hedge fund startup, a poet, two schools, an editor, a gallerist, and a web design shop.
+
+Since May I worked 6 jobs, tracked 366.05 hours in Harvest, and netted $19,541.66.
+
+## Been Up To
+
+### Hadda show
+
+On May 8th my senior show opened in the Foundation Building's Collonade, a glass-walled hallway facing 4th Avenue.
+
+ I published the open cover letter. On May 20th I went out to dinner with my mom and little sister.
+
+On
+
+<figure><img src="@path/show.jpg"></figure>
+
+### Didn't graduate
+
+
+
+<figure><img src="@path/empty.png"></figure>
+
+### Helped [Zach Lieberman](http://yesyesno.com) put together a talk and workshop
+
+<iframe src="//player.vimeo.com/video/69437363?color=ea0b8c" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+### Cooper occupation ends
+
+<figure><img src="@path/occupation-ends.jpeg"></figure>
+
+### Building websites for a poet and a gallerist
+
+<figure><img src="@path/websites.png"></figure>
+
+
+### In Finland
+
+### Helping launch and administrate an artist-run school
+
+[School for Poetic Computation](http://sfpc.io)
+
+### Awarded a Fall fellowship on free education at BHQFU
+
+### Copy-editing at Source
+
+[Rodi Gallery](http://rodigallery.com)
+
+## Have learned
+
+### I'm a terrible business person
+
+I charge too little and take too long. I'm not happy until things are perfect, but I can never get things right on the first try. I'm slow and I consistently underestimate how long things will take. 
+
+## On Work
+
+### O' mice' an' men
+
+These are the last two stanzas of a poem that my [Scottish](http://en.wikipedia.org/wiki/Scots_language) Grandpa is wont [to recite](http://poetry.rapgenius.com/Robert-burns-to-a-mouse-annotated):
+
+> The best laid schemes o' Mice an' Men  
+> Gang aft agley  
+> An' lea'e us nought but grief an' pain  
+> For promis'd joy!  
+>   
+> Still, thou art blest, compar'd wi' me!  
+> The present only toucheth thee  
+> But Och! I backward cast my e'e  
+> On prospects drear!  
+> An' forward, tho' I canna see  
+> I guess an' fear!  
+
+(He really did recite this to me in a thick Scottish accent once.)
+
+In Burns' poem, a farmer reflects on having destroyed a mouse's nest while plowing his field. The farmer feels adorably sorry for the mouse.
+
+
+### O' farmers and ninjas
+
+Startup jobs make me depressed.
+
+## Dream scenario
+
+### Distribute employment
+
+Isn't work a scary concept? People sit in offices or stores all day trying to help companies achieve business objectives. 
+
+What does that even mean?
+
+Some people &ldquo;Do What They Love&rdquo;. This makes me cringe. What you love is only a byproduct of business.
+
+ so they have to spend their early mornings or evenings at the gym like rats on a treadmill.
+
+My rent is too high, but every day I walk past a hundred empty apartments.
+
+Supermarkets throw out enough food for a ton of people every night.
+
+
+
+I don't want an employer to do my laundry, give me.
+
+One of my bigger fears in life is being trapped.
+
+I'm wary of institutions which lose their soul.
+
+People work all the time and at the end of the day have produced nothing.
+
+I want to stay flexible.
+
+In an elected government, representatives are granted their power by voters. And if these representatives stop being&hellip;_representative_&hellip;the people can — in theory — overthrow them.
+
+There's something similar that happens with employment.
+
+
+<figure><img src="@path/employer.png"></figure>
+
+### Work with good people
+
+### Do as little as possible for money
+
+David Graeber in fragments of an anarchist anthropology:
+
+> "it has been repeatedly demonstrated that a considerable chunk of the hours worked in America are only actually necessary to compensate for problems created by the fact that Americans work too much...So what jobs are really necessary?  
+>   
+> Well, for starters, there are lots of jobs whose disappearance, almost everyone would agree, would be a net gain for humanity. Consider here telemarketers, stretch-SUV manufacturers, or for that matter, corporate lawyers. We could also eliminate the entire advertising and PR industries, fire all politicians and their staffs, eliminate anyone remotely connected with an HMO, without even beginning to get near essen- tial social functions. The elimination of advertising would also reduce the production, shipping, and selling of unnecessary products, since those items people actually do want or need, they will still figure out a way to find out about. The elimination of radical inequalities would mean we would no longer require the services of most of the millions currently employed as doormen, private security forces, prison guards, or SWAT teams—not to mention the military. Beyond that, we’d have to do research. Financiers, insurers, and investment bankers are all essentially parasitic beings, but there might be some useful func- tions in these sectors that could not simply be replaced with software. All in all we might discover that if we identified the work that really did need to be done to maintain a comfortable and ecologically sustainable standard of living, and redistribute the hours, it may turn out that the Wobbly platform is perfectly realistic. Especially if we bear in mind that it’s not like anyone would be forced to stop working after four hours if they didn’t feel like it. A lot of people do enjoy their jobs, certainly more than they would lounging around doing nothing all day (that’s why in prisons, when they want to punish inmates, they take away their right to work), and if one has eliminated the endless indignities and sadomasochistic games that inevitably follow from top-down organiza- tion, one would expect a lot more would. It might even turn out that no one will have to work more than they particularly want to."
+
+### Don't accrue
+
+### Stay off-script
+
+## Can Do
+
+
