@@ -1,0 +1,19 @@
+title: 
+-
+description:
+-
+excerpt: 
+-
+date: YYYYY Month
+-
+tags: Tag, Tag
+-
+external_link:
+-
+link_label:
+-
+hide_media:
+-
+media_above_content:
+-
+content: 
