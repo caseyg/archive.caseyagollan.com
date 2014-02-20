@@ -1,5 +1,6 @@
+@charset "UTF-8";
 /* @override http://dev.caseyagollan.com/docs/css/style.css */
-/* normalize.css 2011-11-04T15:38 UTC - http://github.com/necolas/normalize.css */
+/*! normalize.css 2011-11-04T15:38 UTC - http://github.com/necolas/normalize.css */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block; }
 
@@ -43,7 +44,7 @@ mark {
 
 pre, code, kbd, samp {
   font-family: monospace, serif;
-  _font-family: "courier new", monospace;
+  _font-family: 'courier new', monospace;
   font-size: 1em; }
 
 pre {
@@ -264,7 +265,7 @@ header {
         display: block;
         width: 90%;
         padding: 15px;
-        -webkit-transition: all 0.25s;
+        -webkit-transition: all .25s;
         border: 5px solid gray; }
       header ol li a:hover {
         background: white;
@@ -325,9 +326,9 @@ body#archive section#projects nav#filters {
     display: inline;
     margin-right: 15px; }
     body#archive section#projects nav#filters div#options ul {
-      display: inline-block!important;
+      display: inline-block !important;
       margin-right: 5px;
-      border: 1px solid darkgrey; }
+      border: 1px solid darkgray; }
       body#archive section#projects nav#filters div#options ul li {
         display: inline-block;
         margin: 0;
@@ -339,7 +340,7 @@ body#archive section#projects nav#filters {
       color: #555;
       padding: 5px 10px;
       margin: 0;
-      -webkit-transition: background 0.15s; }
+      -webkit-transition: background .15s; }
     body#archive section#projects nav#filters div#options a.selected:link, body#archive section#projects nav#filters div#options a.selected:visited {
       background: darkgray; }
     body#archive section#projects nav#filters div#options a:hover, body#archive section#projects nav#filters div#options a:hover:after {
@@ -422,7 +423,7 @@ ul li.project:hover ul {
 
 .project h2 .permalink {
   opacity: 0;
-  -webkit-transition: opacity 0.25s; }
+  -webkit-transition: opacity .25s; }
 
 .project:hover h2 .permalink {
   opacity: 1; }
@@ -433,7 +434,7 @@ ul li.project:hover ul {
   color: #aaa;
   margin: 0 0 10px 0 !important;
   letter-spacing: 1px;
-  border-bottom: 1px solid #aaaaaa; }
+  border-bottom: 1px solid #aaa; }
 
 .project img.thumb {
   display: block;
@@ -441,7 +442,7 @@ ul li.project:hover ul {
 
 ul.tags {
   margin: 10px 0 0 0;
-  padding: 0!important; }
+  padding: 0 !important; }
 
 ul.tags li {
   display: inline-block;
@@ -452,7 +453,7 @@ ul.tags li {
   padding: 3px 7px;
   margin: 2px;
   border-radius: 2px;
-  border: 1px solid #cccccc; }
+  border: 1px solid #ccc; }
 
 .project .thumb {
   width: 250px; }
@@ -503,8 +504,8 @@ ul.tags li {
   display: inline-block;
   font-size: 24px;
   line-height: 45px;
-  max-width: 50%!important;
-  width: auto!important; }
+  max-width: 50% !important;
+  width: auto !important; }
 
 #projects.list h2 a:link, #projects.list h2 a:visited {
   display: inline-block;
@@ -566,15 +567,15 @@ ul.tags li {
   background-position: 0 225px; }
 .banner.teal {
   background-position: 0 300px;
-  color: blue!important; }
+  color: blue !important; }
 .banner.red {
   background-position: 0 375px; }
 .banner.yellow {
   background-position: 0 450px;
-  color: orange!important; }
+  color: orange !important; }
 .banner.green {
   background-position: 0 530px;
-  color: green!important; }
+  color: green !important; }
 
 .number {
   position: absolute;
@@ -584,7 +585,7 @@ ul.tags li {
   color: white;
   width: 25px;
   height: 23px;
-  padding-top: 3px!important;
+  padding-top: 3px !important;
   border-radius: 50%;
   text-align: center;
   font-weight: 900; }
@@ -593,7 +594,7 @@ ul.tags li {
   cursor: pointer; }
 
 .highlight {
-  background: gray!important;
+  background: gray !important;
   border-color: rgba(0, 0, 255, 0.5) !important; }
 
 ul li.project.double-highlight {
@@ -607,7 +608,7 @@ ul li.project .highlight {
   border-color: blue; }
 
 ul li.project.double-highlight .double-highlight {
-  background: blue!important;
+  background: blue !important;
   color: white;
   border-color: blue; }
 
@@ -670,7 +671,7 @@ article {
     text-align: center; }
   article a:link, article a:visited {
     text-decoration: none;
-    -webkit-transition: background-color 0.25s;
+    -webkit-transition: background-color .25s;
     color: #eee; }
   article a:link {
     border-bottom: 2px solid blue; }
@@ -685,7 +686,7 @@ article {
     display: inline-block;
     color: #aaa;
     letter-spacing: 1px;
-    font-weight: 100!important;
+    font-weight: 100 !important;
     width: auto;
     text-align: center;
     margin: 20px auto; }
@@ -705,7 +706,7 @@ article {
     line-height: 1.15;
     padding-bottom: 5px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #aaaaaa;
+    border-bottom: 3px solid #aaa;
     display: block;
     color: #aaa; }
     @media (min-width: 600px) {
@@ -726,9 +727,9 @@ article {
     text-decoration: none;
     margin: 0 0 25px 0;
     border: 0;
-    box-shadow: 1px 1px 0 #eeeeee, 2px 2px 0 #eeeeee, 3px 3px 0 #eeeeee, 4px 4px 0 #eeeeee, 5px 5px 0 #eeeeee;
+    box-shadow: 1px 1px 0 #eee,2px 2px 0 #eee,3px 3px 0 #eee,4px 4px 0 #eee,5px 5px 0 #eee;
     color: #eee;
-    -webkit-transition: background 0.15s;
+    -webkit-transition: background .15s;
     text-transform: uppercase;
     letter-spacing: 2px; }
     @media (min-width: 600px) {
@@ -738,7 +739,7 @@ article {
   article .external-link:hover {
     background: blue;
     color: white;
-    box-shadow: 1px 1px 0 white, 2px 2px 0 white, 3px 3px 0 white, 4px 4px 0 white, 5px 5px 0 white; }
+    box-shadow: 1px 1px 0 #fff,2px 2px 0 #fff,3px 3px 0 #fff,4px 4px 0 #fff,5px 5px 0 #fff; }
   article .external-link:active {
     box-shadow: none;
     margin: 5px 0 20px 5px; }
@@ -748,7 +749,7 @@ article {
     padding: 0;
     color: #eee;
     font-style: italic;
-    border-left: 3px solid #aaaaaa; }
+    border-left: 3px solid #aaa; }
     article blockquote p {
       margin: 0;
       padding: 0 0 0 15px;
@@ -756,7 +757,7 @@ article {
   article hr {
     border: 0;
     margin: 30px auto;
-    border-top: 1px solid #aaaaaa; }
+    border-top: 1px solid #aaa; }
   article p {
     font-size: 16px;
     line-height: 22px;
@@ -796,15 +797,15 @@ article {
     article figure figcaption:before {
       content: "▲ ";
       color: transparent;
-      -webkit-text-stroke: 1px #eeeeee;
+      -webkit-text-stroke: 1px #eee;
       font-size: 10px;
       margin-right: 5px; }
   article table th, article table td {
     padding: 10px;
-    border: 1px solid darkgrey; }
+    border: 1px solid darkgray; }
   article .twitter-tweet {
-    margin: auto!important;
-    max-width: 600px!important; }
+    margin: auto !important;
+    max-width: 600px !important; }
 
 body#single {
   background: gray; }
@@ -816,7 +817,7 @@ body#single {
     color: #aaa;
     text-decoration: none;
     display: inline-block;
-    margin: 0!important;
+    margin: 0 !important;
     border: 0;
     padding: 10px 20px;
     white-space: nowrap;
