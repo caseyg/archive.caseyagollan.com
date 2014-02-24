@@ -1,0 +1,14 @@
+article a:hover {
+	border-bottom:2px solid blue;
+}
+article li {
+	cursor:pointer;
+}
+article li:hover span {
+	background:gray;
+	display:inline;
+}
+article li span {
+	padding:2px;
+	line-height:1.5em;
+}
