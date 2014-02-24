@@ -1,7 +1,5 @@
 title: For Hire
 -
-hide_siblings: true
--
 description:
 
 Hello friends and friends of friends,
