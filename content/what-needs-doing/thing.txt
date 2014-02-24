@@ -50,7 +50,7 @@ I tracked 366.05 work hours (though I underreported since I was mostly tracking 
 There were also lots of non-work-related things that happened in the past nine months:
 
 <ul>
-<li data-okimage="@path/collonade.jpg"><span>Had my senior show at Cooper Union. Mostly a big diff, analyzing how the Board's governance has changed since 1859. (Going to get that documentation online…someday.)</span></li>
+<li data-okimage="@path/collonade.JPG"><span>Had my senior show at Cooper Union. Mostly a big diff, analyzing how the Board's governance has changed since 1859. (Going to get that documentation online…someday.)</span></li>
 <li data-okimage="@path/empty.jpg"><span>Didn't graduate. Not on purpose but not by accident. Ask me about my degree only if you want to get sucked into an hour-long rant on the changing nature of credentials and higher education.</span></li>
 <li data-okimage="@path/dna.png"><span>Put <a href="http://github.com/caseyg/dna">my genome on Github</a>. Fork me!</span></li>
 <li data-okimage="@path/occupation.jpg"><span>Occupied the President's Office at Cooper for 65 days.</span></li>
