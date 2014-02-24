@@ -20,7 +20,7 @@ If you think I could help you OR you know somebody that I should talk to OR you 
 <center>👉&nbsp;&nbsp;<a class="rainbow" href="mailto:hello@caseyagollan.com?subject=____%20Needs%20Doing">hello@caseyagollan.com</a>&nbsp;&nbsp;👻&nbsp;&nbsp;<a class="rainbow" href="http://twitter.com/caseyg">@CaseyG</a>&nbsp;&nbsp;👈</center>
 
 
-I also wrote a little bit below about the kinds of work I've been doing in the past nine months. Mouseover each line for photos.
+I also wrote a little bit below about the kinds of work I've been doing in the past nine months.
 
 Thanks for reading, and please feel free to pass this along.
 
@@ -34,7 +34,7 @@ Six of these never went beyond an initial email or three. Or we planned to get c
 
 Nine went on to real life interviews or proposals. I talked to: an artist, the producers of a social media awards ceremony, a hedge fund startup, a poet, two schools, an editor, a gallerist, and a web design shop.
 
-I ended up taking on six projects (don't forget to mouseover!):
+I ended up taking on six projects:
 
 <ol>
 <li data-okimage="@path/zach.jpg"><span>Doing research with <a href="http://twitter.com/zachlieberman">Zach Lieberman</a> for <a href="http://vimeo.com/69437363">his talk at Eyeo</a> on education, and organizing some materials for a workshop he did in Japan</span></li>
