@@ -1,0 +1,20 @@
+title: Pool
+
+description: 
+Eight months after contributing [a piece of writing](/user-generated-content) to [Pool](http://poooool.info), a publication about internet art, and one [passive-agressive message](@path/crappy.png) later I ended up working with Founder and Lead Editor [Louis Doulas](http://www.louisdoulas.info/) to develop the site's second iteration. While staying true to Louis's intensely stark mockups, we arrived at a better reading experience and managed to make a ton of subtle, under-the-hood improvements to the site's functionality. The site's homepage bares a list of everything ever published by Pool, with visited links shown in gray. This allows readers to leave and return to the site and remember what is left to be explored.
+
+external_link: http://poooool.info
+
+date: 2012 May
+
+tags: Website, Coding, Publications
+
+content: 
+## Some of the improvements we made behinds the scenes:
+
+* Designed the site [responsively](http://en.wikipedia.org/wiki/Responsive_Web_Design) so that it scales gracefully and reads great on everything from iPhones to iPads to gigantic desktops.
+* [Cleaned out thousands of spam comments](http://wordpress.org/extend/plugins/delete-pending-comments/) and took measures to make sure they [don't come back](http://akismet.com/).
+* [Turned on caching](http://wordpress.org/extend/plugins/w3-total-cache/) to speed up site performance.
+* Humanized the site's permalinks so they're shorter and easier to read.
+* Created a [more visual PDF page](http://pooool.info/pdf/) that puts [Rasmus Svensson](http://www.rasmusemanuelsvensson.com/)'s smart designs on display.
+* Reformatted lots of old content to display captions and author information in more semantic and structured ways.

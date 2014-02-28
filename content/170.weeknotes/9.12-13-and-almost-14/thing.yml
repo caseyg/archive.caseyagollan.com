@@ -1,0 +1,340 @@
+title: Weeks 12, 13, and almost 14
+
+date: 2012 May 3
+
+content:
+I've been reading _Literary Machines_ slowly, whenever I find a blank spot of time. On Saturday I sat outside with coffee and Sneezeburg and re-read Vannevar Bush's _As We May Think_, which Nelson transcludes in a lo-fi way into his own book. I took an Instagram of a passage about progress in photography to give everyone who ever wrote about progress in photography a spin in their grave.
+
+![](http://media.tumblr.com/tumblr_m3cohuEBvj1qzrmn8.jpg)
+
+Nelson and Bush seem to get pretty hung up on technical (or even mechanical) hurdles rather than conceptual ones. There's a lot of fussing about, in Bush's case, how to shuffle microfilm around quickly, or in Nelson's case, complicated server configurations. It reminds me of how characters in sci-fi movies park their hovercars to go use a payphone. These inventors are willing to imagine radically different worlds but can't let go of the most banal limitations. And the things they lamented not having are no longer pipe dreams! Reading their texts in 2012, there appears to be no reason why a Memex or Xanadu can't exist, other than that they just don't. 
+
+It seems like Nelson specficially, who I guess is still working, is too smart for his own good. Too wrapped up in the details of his obsessions. "It seemed so simple and clear to me then. It still does," he writes, "But...I mistook a clear view for a short distance." If [perfectionism can be said to plague Nelson's projects](http://www.wired.com/wired/archive/3.06/xanadu_pr.html), it must also be acknowledged that it's his philosophy of choice. I was shocked to read his justification for why Xanadu must be built from scratch, completely and perfectly: "Existing systems do not combine well; hooking them together creates something like the New York subway system." 
+
+The New York Subway system?! 
+
+In my System Design class, we lauded this as one of the most functional examples of emergent design ever. New York could've suffered from some clunky, overdetermined, shortsighted, top-down transportation plan. Instead, a number of transportation companies competed to get the people where they needed to go. Competition between companies and the _lack_ of an overall design vision led to a shift in emphasis: not what makes sense, but what works well. Perhaps the problems that bogged Nelson down indefinitely only reveal themselves in time, but I wonder if somebody with more distance or a less stubborn idea of the right way to build things could actually _build the thing_ — even if it isn't perfect.
+
+I also never realized that Bush thought a lot more about interfaces than Nelson, who basically rejected them entirely (at least as far as I've read): 
+
+&gt; How you will look at this world when it is spreadeagled on your screen is your own business: you control it by your choice of screen hardware, by your choice of viewing program, by what you do as you watch, but the _structure_ of the world—the system of interconnections of its stored materials—is the same from screen to screen, no matter how a given screen may show it.
+
+I think a lot about the ability to have my choice of interfaces to the same materials, which is something users and readers are too often denied these days, as the interface and materials have become intertwined under the ownership of the publisher. 
+
+Things like RSS feeds, [news APIs](http://guardian.gyford.com/), and [open content sets](https://github.com/cooperhewitt/collection) give me hope. There's also the whole pop-up industry of Read Later tools, whose dirty work it is to boil down webpages to their content and repurpose it for easy reading. It has proven proven easier, in lieu of a perfect system, to ask for forgiveness rather than cooperation in separating content from presentation and bringing it into your own territory.
+
+iPad magazine apps reside at the other end of the spectrum. While they're an additional, native interface that is sometimes exciting, they present a sort of glum vision: impenetrable, redundant, expensive, flashy, proprietary.
+
+Nelson's decoupling of backend and frontend is pretty profound. It underscores the base-ness of his ideas: he's talking about _different structures_ for writing and thinking, not just presenting plain old content in a style that evokes structure. There is not necessarily a _visual_ difference between these two things but conceptually it is huge.
+
+Even if the real problems lie in data structures, I can't help but gravitate towards the descriptive aspects and imagine tools I'd want to use. I love Nelson's vision of computers as "a waterworks for the mind":
+
+&gt;Your computer screen will be the spigot—or shower nozzle—that dispenses what you need when you turn the handle. But that system must be based on the fluidity of thought—not just its crystallized and static form, which, like water's, is hard and cold and goes nowhere.
+
+Two days later, Max started a Google Doc amongst a bunch of people who are normally bantering on Twitter about reading, writing, and tools for thinking. His title is so good: "Let us not be an enemy to beginning." I don't know where to jump in yet, but found myself doing little interface experiments.
+
+These are little prototypes of picking things up and moving them around. When they're being dragged they lift up, or the perspective shifts a little. I wasn't even sure what it's for, only that I enjoy fiddling with how it should feel to pick up _information_ from one spot and plunk it down in another.
+
+![](http://media.tumblr.com/tumblr_m3cpd5EnzC1qzrmn8.png)
+![](http://media.tumblr.com/tumblr_m3cpd9NpTP1qzrmn8.png)
+
+I played a little with a force-directed graph but didn't get very far into understanding how it works.
+
+![](http://media.tumblr.com/tumblr_m3cpdgMmcD1qzrmn8.png)
+
+Two days later I was noodling again. I did some drawings in [Paper](http://itunes.apple.com/us/app/paper-by-fiftythree/id506003812?mt=8) (that slick new iPad sketch app that has everybody going bonkers over its super gestural interface).
+
+In the first frame two things start to bleed into eachother as they're brought close together.
+
+![](http://media.tumblr.com/tumblr_m3cpfajg091qzrmn8.jpg)
+
+When one thing is dropped onto another, the tool shows a dialogue with its best guess about how to combine the two things into one. You can edit it and then either merge or cancel.
+
+![](http://media.tumblr.com/tumblr_m3cpffzcfo1qzrmn8.jpg)
+
+If you want to seperate things out rather than merge them together, you can pull sentences apart at their punctuation. (Which would feel springy…imagine doing that with a pinch.)
+
+![](http://media.tumblr.com/tumblr_m3cpfj1A7K1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_m3cpfr08mS1qzrmn8.jpg)
+
+The previous things were all coded prototypes. I managed to implement dragging and dropping (which, these days, just means including "draggable" in the element tag) and collision detection (using a plugin that I realized was written by a professor at Cooper). When I started to think about how to program the blocks to be combinable and splittable I got overwhelmed and chickened out. I did arrive at a sort of working page that watches a textbox as you type and splits up sentences into draggable elements. Okay, well, it only kind of worked.
+
+![](http://media.tumblr.com/tumblr_m3cpfw5UY81qzrmn8.png)
+
+All of these experiments felt a little silly because the dragging and dropping and merging is perhaps slower and clunkier than just using a text editor to write. In the past few years I've gone back and forth manically on believing that better tools will make much of a difference. Can you get more powerful and open-ended that a blank sheet of paper or TextEdit window? 
+
+But I've recently come to see the "tools make work better or worse" as a false dichotomy: different tools just make working _different_, in a way that hopefully exists outside of quantification. Increasing power or efficiency is a lot less interesting to me than inventing a game you play with yourself to change the way you think. 
+
+You can do everything in the sketches above with a text-editor: collecting, typing, dragging and dropping to reorder, merging and splitting sentences. But a different interface would encourage a different mindset. Different relationships. Different ways of describing what you're doing, like maybe: growing a text instead of writing it. They key actions being: _arranging_ things on a 2D canvas for consideration, and _combining_ related things. 
+
+It's almost an architectural conceit: altering the way you can move through a certain space, and trusting that one's environment has a huge impact on everything you do. It's not a question of allowing you to do something magical that didn't exist before, so much as knocking down a few walls and building a swimming pool, to make one's environment feel more conducive to thinking.
+
+Who knows if it would be helpful or frustrating, or if I would ever actually use it, but it's a way of working that has sat in the back of my mind for a long time and has even surfaced in analog form. When I wrote [a long essay for Pool](http://pooool.info/user-generated-content/) last summer, I actually cut the whole thing up (with scissors!!) and pasted it back together at the last minute.
+
+![](http://media.tumblr.com/tumblr_m3eqf6fKhA1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_m3eqg6EK9W1qzrmn8.jpg)
+
+This would be a digital environment that allows for that type of scatterbrained writingediting.
+
+I came across these GIFs by [DVDP](http://dvdp.tumblr.com/) that capture a really exciting kind of physics. I'd be interested to see how I work in the atmosphere of a game, as opposed to something like Google Docs, reminiscent of a utilitarian cubicle farm with floppy disks and manilla folders.
+
+Collecting:
+
+![](http://24.media.tumblr.com/tumblr_m1lqjwXji31qzt4vjo1_500.gif)
+
+Connecting:
+
+![](http://27.media.tumblr.com/tumblr_m2qw2jzPkJ1qzt4vjo1_r1_500.gif)
+
+Lasso-ing:
+
+![](http://25.media.tumblr.com/tumblr_m1oeu5Cqvo1qzt4vjo1_500.gif)
+
+Turning pages:
+
+![](http://26.media.tumblr.com/tumblr_m20e611it81qzt4vjo1_500.gif)
+
+Apple gets this right a lot of the time, think: coverflow, [iPhone physics](http://watchingapple.com/2009/11/a-closer-look-at-iphone-transition-animations/). When I saw the sander on a sheet of paper, it reminded me of how the tools I use _should_ feel: badass! I don't care how, it just has to be.
+
+That's all I've got on that, for now. Now, back to our regularly scheduled chronology.
+
+Sunday I changed my avatar, which is silly but always feels like a big deal. I've stepped out of the shadows to reveal longer hair and different glasses. Less smiley, more [judgey](https://twitter.com/#!/jteuton/status/191560379485274113). Felt like I was living a lie.
+
+![](http://media.tumblr.com/tumblr_m3ey16wmm31qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_m3ey1dK5VH1qzrmn8.jpg)
+
+Walked Sneezeburg over the bridge.
+
+![](http://media.tumblr.com/tumblr_m3cqbjdXTv1qzrmn8.jpg)
+
+Hung out on the stoop at school and read.
+
+![](http://media.tumblr.com/tumblr_m3cqjzEbhq1qzrmn8.jpg)
+
+Got Pizza with Aaron and let Sneezeburg have his way with the box.
+
+![](http://media.tumblr.com/tumblr_m3cqlwgcVT1qzrmn8.jpg)
+
+Walked over the bridge again, home. It's electrifying.
+
+![](http://media.tumblr.com/tumblr_m3coivoSmv1qzrmn8.jpg)
+
+On Monday a [Muybridge popped up on 20x200](http://www.20x200.com/artworks/4116-eadweard-muybridge-animal-locomotion-plate-626-galloping), and I remembered that I had an old gift certificate lying around, so I used it up on that.
+
+![](http://media.tumblr.com/tumblr_m3eyj5Vxsd1qzrmn8.jpg)
+
+And pulled my Rebecca Solnit book off the shelf to look through again. God she's good:
+
+&gt;In the spring of 1872 a man photographed a horse. With the motion studies that resulted it was as though he were returning bodies themselves to those who craved them—not bodies as they might daily be experienced, bodies as senstations of gravity, fatigue, strength, pleasure, but bodies become weightless images, bodies dissected and reconstructed by light and machine and fantasy. 
+
+&gt;...
+
+&gt;Through the new technologies—the train to the landscape, the camera to the spectacle—the Victorians were trying to find their way back, but where they had lost the old and familiar things they recovered exotic new ones. What they had lost was solid; what they had gained was made out of air. That exotic new world of images speeding by would become the true home of those who spent their Saturdays watching images beamed across the darkness of the movie theater, then their evening watching images beamed through the atmosphere and brought home into a box like a camera obscura or a crystal ball, then their waking hours surfing the internet wired like the old telegraph system. Muybridge was a doorway, a pivot between that old world and ours, and to follow his is to follow the choices that got us here.
+
+Gratutious Sneezeburg pic (Sneezeburg x Metahaven!):
+
+![Sneezeburg](http://media.tumblr.com/tumblr_m3cojcGo6g1qzrmn8.jpg)
+
+Then I registered for classes, which will be superawesome: Performance, Projects (for which you just have to have some sort of long-term project going on—I listed mine as "Hypertext"…hmm.), Open Studio (that is sort of a sculpture class?), Visiting Designers, and History of Industrial Design. Open ended, lots of great professors.
+
+Alan's [Fake Cooper Website](http://cooperrelocation.info/php/letter.php) made in onto [Gothamist](http://gothamist.com/2012/04/16/shocker_cash-strapped_cooper_union.php). Really good.
+
+Tuesday morning I had coffee and breakfast with Mom in Brooklyn, and said goodbye to Sneezeburg :'-(
+
+![](http://media.tumblr.com/tumblr_m3cqy9fhdV1qzrmn8.jpg)
+
+Went to school and people were picketing!
+
+![](http://media.tumblr.com/tumblr_m3cok6fNDK1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_m3cq9uvm3Y1qzrmn8.jpg)
+
+Don't remember what happened in photo, but we didn't stay long. Don't know what I want to do. There is a scientific photography class in the School of Engineering that I should probably have been in instead. They are making holographs. HOLOGRAPHS!
+
+![](http://media.tumblr.com/tumblr_m3coldjKLs1qzrmn8.jpg)
+
+Remembered that I was supposed to give a presentation to my Censorship class about my paper, which was overdue two-weeks and I hadn't even started. Had a fun time putting it together: videos of Bjork, burning cars, nerdy quotes:
+
+![](http://media.tumblr.com/tumblr_m3cpe8ke281qzrmn8.png)
+
+Wednesday, met up with Jen's friend Sally, who is visiting from Sweden, for coffee. She studied art history and is going into the curating program that Jen is about to graduate from, so it was interesting to talk with her. We talked for a long time and then I showed her around school.
+
+Futzed with ideas for my final book for Publication Design. Brought in hardly any design, but printouts of Temple Grandin and Ted Nelson and other things vaguely along the lines of "people who make systems or tools for themselves." Or structures of problem solving? Business strategies? I was calling it Workflow. None of the pieces fit together right, though it was potentially interesting. The challenge is to do the content and design in a matter of a few weeks with a ton of other shit swirling around too. Not easy. Need to be less open ended. Perhaps picking a stupid idea and running with it. Ugh.
+
+Stayed up really late tinkering with the code for my new website, which has come a long way since I started it over spring break. 
+
+![](http://media.tumblr.com/tumblr_m3ct4fgJ7T1qzrmn8.png)
+
+It's now running on Stacey and has a ton of sloppy, kooky javascript that draws connections between projects when you hover over tags and click on them. It's not the most functional way to accomplish sorting, which might not even be an important use case for a portfolio site, but it's another weird way to channel my mania for lines and nodes. Between this and the interface experiments, I've been thinking a lot about the aesthetics of this kind of mapping. Something to think more about. Excited to launch this soon.
+
+Thursday, skipped art history. Felt weirdly blue. Maybe it was because I missed Sneezeburg. Apparently he was missing me too:
+
+![](http://media.tumblr.com/tumblr_m3frkspzP81qzrmn8.jpg)
+
+Walked over the bridge, and stumbled into the Storefront for Art &amp; Architecture, where they had a forest of [zine trees](http://www.storefrontnews.org/programming/exhibitions?c=&amp;p=&amp;e=475). The director, who is in that picture, was there gviing a tour, which was neat. Kind of useful to browse a bunch of avant garde publications. There is no shortage of people with things to say and ways to say them:
+
+![](http://media.tumblr.com/tumblr_m3cpiraFhR1qzrmn8.jpg)
+
+When I got to school there was a fire drill. I went outside and randomly bumped into Cari, who I haven't seen since high school, on the street! And she is moving to Ohio in a week! Then, a few minutes later, Max walked into my classroom. The smallest world.
+
+Don't remember sculpture. Had a weird dinner at Grand Sichuan composed of 80% spicy peppers. Tasted like acid and had the consistency of cardboard. Watched the first two parts of [All Watched Over By Machines Of Loving Grace](http://archive.org/details/AdamCurtis-AllWatchedOverByMachinesOfLovingGrace). Pretty crazy. Really excited to finish it and learn more about his work. Made me think about people with grand unified theories. Specious!
+
+Friday, met Santi in the East Village and headed up to our Megabus to Baltimore. The bus left an hour late. On the last bus ride I had gotten a lot of work done, but this time it was dark and cold, and a strange hour, conducive neither to neither work nor sleep. When we arrived it was past midnight. And we were in a parking lot 30 minutes outside the city. In choosing Megabus over Bolt due to timing, we hadn't bothered to check where the drop off was. Luckily there were two of us to split the $50 cab ride (grrrr). Always great to see Natalie and Zoe. Hung out for a bit while Santi made endless quesadillas and then went to bed.
+
+Saturday we had breakfast with Natalie's mom and sis, and then tagged along while she got ready to put on her show. Santi did makeup and I sat around pretending to work on my essay.
+
+![](http://media.tumblr.com/tumblr_m3comrxSzT1qzrmn8.jpg)
+
+[Natalie's collection](http://cargocollective.com/natalieebaugh/T-U-D-E-K-R-E-W) is reallly good. So happy to have made it to the show. 
+
+Santi made desperate attempts at cancelling Megabus by phone to no avail, then I tweeted at them and they called back with a refund in minutes. The internet is magic.
+
+Got Afghani food with Santi, Lauren, and Frankie, and went back to Natalie's where we watched Illuminati videos.
+
+<iframe width="500" height="254" src="http://www.youtube.com/embed/T7USl88_bQc?rel=0" frameborder="0"></iframe>
+
+Sunday morning we got standby tickets on a random Bolt Bus, which took us back to NY, except by way of NJ. But I had nowhere to be anyway, and there was this short news segment about cats who make art on iPads playing on the PATH TV screens, so it was okay.
+
+![Cat iPad art](http://media.tumblr.com/tumblr_m3conbDLkQ1qzrmn8.jpg)
+
+I tried to buy toilet paper and ice cream (ha) on the way home and my card wasn't working. Tried it again at an ATM and still didn't work. Tried again later and when it still didn't work I called Chase, who informed me that there was a fruad alert on my account. Had I spent $100 at the Apple Store? Yes. (Lost my charger.) Had I spent another $100 at a Kmart in Virginia? Nooooooo. The card was still in my posession so it was just the number that migrated, I tried to think but couldn't imagine when/where/how. Anyway, keep it classy, fraudsters!
+
+On Monday I walked to the bank to get a replacement card. "You'll be amazed at the places your card will go." she told me.
+
+Don't remember what else happened that day.
+
+At the grocery store the pettiest thief in the world attempted to steal gum.
+
+![](http://media.tumblr.com/tumblr_m3cooxdcYf1qzrmn8.jpg)
+
+I made a little user stylesheet to show images from [brown cardigan](http://browncardigan.com) to show a full screen random funny thing every 6 seconds on our wall!!! That was rewarding.
+
+![](http://media.tumblr.com/tumblr_m3coptjZhX1qzrmn8.jpg)
+
+I started making a presentation for photography. Well, only one slide of some sad ass sensitive photos:
+
+![](http://media.tumblr.com/tumblr_m3ft6cLuHx1qzrmn8.png)
+
+I've been thinking about how I've done so much nothing — or a lot of thinking and railing against things that people make (sort of shitty of me in a school context) — but the attitude of the nothingness has changed over time. Maybe I should stop calling it nothing. Anyway, I used to be a lot more mad at photography and now I am weirdly more empathetic and apathetic at the same time. I find a lot of it boring but no longer wish to destroy it, like I actually did a year ago. I want to compile all the things I've seen that excite me, but I don't even have them in organized groupings of bookmarks. Photo as a technology is a much stronger draw for me than roadtrip photography.
+
+On Tuesday, the _New York Times_ [broke the news](http://www.nytimes.com/2012/04/25/nyregion/cooper-union-will-charge-tuition-for-graduate-students.html?_r=1&amp;smid=tw-nytimes&amp;seid=auto) that Cooper will charge tuition to undergrads. WHAT? I was furious.
+
+It was Alex's birthday and I wanted to be happy but I couldn't even laugh at jokes.
+
+I received a school-wide email from President Bharucha at 12:14pm. The New York Times ran their story at 12:22pm. It clearly wasn't written in that 8 minute gap. Which means the administration once again talked to the papers about their plan before even telling the students. Fuckers.
+
+There was already a walkout scheduled for Wednesday, so I made a sign in light of the day's news:
+
+![](http://media.tumblr.com/tumblr_m3ftjwtT0C1qzrmn8.jpg)
+
+Put up maybe 40 around the school, then gave a bunch to some friends and then I went to my Censorship class. When I got out there were signs plastering every surface of the path towards the auditorium where a TEDx event was being hosted (Ran into Emily there!). Ha.
+
+Aaron took this photo of me:
+
+![](http://media.tumblr.com/tumblr_m3cq4tefe31qzrmn8.jpg)
+
+Went to The Scratcher for Alex's birthday.
+
+On Wednesday morning I was offered my iced coffee in a mason jar instead of a plastic cup. In case you were unsure as to whether or not I live in Brooklyn.
+
+![](http://media.tumblr.com/tumblr_m3corfQW0W1qzrmn8.jpg)
+
+By the time I got to school the Cooper Walkout was in full swing!!!!
+
+In the morning tried skyping with Jen but wifi was flaky:
+![](http://media.tumblr.com/tumblr_m3cpuhL9G71qzrmn8.jpg)
+
+People marched in circles with great big signs. Jesse Kreuzer got up on the Peter Cooper statue and danced.
+
+![](http://media.tumblr.com/tumblr_m3corwRpVN1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_m3cosaziFm1qzrmn8.jpg)
+![](http://media.tumblr.com/tumblr_m3cospomfq1qzrmn8.jpg)
+
+Read a few lines in a play that some people put together about how stupid the trustees are, and then we circled the school, chased by a giant head of the Chairman of the Board.
+
+Went up to Union Square where we watched this choir perform. That was funny. And saw some speeches.
+
+<iframe width="500" height="339" src="http://www.youtube.com/embed/-_3gb8A6Dis?rel=0" frameborder="0"></iframe>
+
+This lady's sign was my favorite. It has shredded student loans as confetti.
+
+![](http://media.tumblr.com/tumblr_m3cotlXrB91qzrmn8.jpg)
+
+David Graeber spoke. I want to read his book to understand more about the whole situation, because it's kind of wild watching people burn their debts. Everything is fucked up.
+
+Followed the march back to school, where everyone stopped for a minute to hear about Cooper. And left the cops swarming our block as they tried to get Jesse down.
+
+![](http://media.tumblr.com/tumblr_m3cot4ocOG1qzrmn8.jpg)
+
+Sarah Abruña was arrested for what appears to be basically no reason.
+
+![](http://media.tumblr.com/tumblr_m3cotzGRsi1qzrmn8.jpg)
+
+Here I am hanging off the building in somebody's photo.
+
+![Me hanging off a building in somebody's tagged photo](http://media.tumblr.com/tumblr_m3cowy5l0M1qzrmn8.jpg)
+
+I was quoted in [Gallerist NY](http://www.galleristny.com/2012/04/students-pr0425201/) and [New School Free Press](http://www.newschoolfreepress.com/2012/04/26/cooper-union-students-protest-tuition-announcement/). But [WYNC got the story best](http://www.wnyc.org/blogs/wnyc-news-blog/2012/apr/25/grad-students-will-soon-foot-bill-cooper-union/), I think.
+
+Didn't work on design. And then met with Warren for a scheduled one-on-one, after I had been screaming my head off for ten hours. Decided to do weeknotes book. Partially because I am running out of time, but also seeing how many bad artist statements I came across recently reference an interest in cabinets of curisoity I want to take more time to connect or tease out all those weird things instead of just throwing them into a book stew. It's not actually about that. Warren is smart. His class has been, totally unexpectedly, the best one of my semester.
+
+Thursday our Art History class met at the American Museum of Natural History for a field trip. We talked about the racist statue out front, and how the horse has gigantic balls. Then we explicated the gender/cultural norms in a bunch of dioramas. A really creative, fun fieldtrip. Though it made me think there's potential to kickstart a Post-Gender Museum of Natural History. Lolol.
+
+![](http://media.tumblr.com/tumblr_m3coujVfBN1qzrmn8.jpg)
+
+The museum becomes a diorama of museums too. Certain galleries that were last refurbished in the 70's would need nothing more than a sheet of glass placed over their entrances to become compelling meta-exhibits.
+
+Read an article by Felix Salmon: "[Why Cooper Union can't be trusted](http://blogs.reuters.com/felix-salmon/2012/04/25/why-cooper-union-cant-be-trusted/)." From the title it seems disheartening but is actually in support of the community, and our efforts to clean up the school's act.
+
+Skipped sculpture to go to the Cooper Community Summit, which was really good.
+
+Friday, it was decided that the plan is to walk out every day. So I brought my laptop outside and spent all day writing.
+
+Lunch was served and people discussed a proposal to give away all the works in the end of the year show with Saskia.
+
+Kept writing all day and into the night. Finally published this in desperation, an hour before the place we were going for dinner was closing: [Two Apologies President Bharucha Must Make](http://caseyagollan.com/public/two-apologies-president-bharucha-must-make/).
+
+Ate Thai food! Then watched every movie trailer from A - Z. The kind of fun that feels like being tortured. I made it to L before falling asleep, but Aaron and Alex made it through.
+
+![](http://media.tumblr.com/tumblr_m3covwbGRG1qzrmn8.jpg)
+
+Saturday, Bruce High Quality put on a play called Animal Farm in the Great Hall. I don't remember anything else.
+
+Sunday, met Niki at Grand Central. Had lunch at Ippudo with Dad and Niki. Made a silly gift for Granny and Grandpa's 50th(!) anniversary and sent it to them.
+
+[Max started blogging again](http://5880.me)!
+
+Stalked Pentametron for a while. [This Gawker article is good](http://gawker.com/5905550/weird-internets-the-amazing-found+on+twitter-sonnets-of-pentametron).
+
+![](http://media.tumblr.com/tumblr_m3cpjq4zfb1qzrmn8.png)
+
+Worked on the freelance project for a while and got a lot done. 
+
+After sending that off sat down (er, kept on sitting) to put the finishing touches on the new [Pool](http://pooool.info).
+
+I had sent Louis a kind-of rude message in December saying: "The collection of writing/readings/people is good and Rasmus's pdfs are clever but I'm always confused by how crappy/default the actual site design is." So it's exciting to have finally channeled my random frustration into a new site: even more austere, more readable, simplest permalinks ever, potential for bigger images, got rid of the previously confusing concept of issues/archives while highlighting Rasmus's awesome PDFs, 
+
+![](http://media.tumblr.com/tumblr_m3ct4sXrox1qzrmn8.png)
+![](http://media.tumblr.com/tumblr_m3ct5c7gsT1qzrmn8.png)
+![](http://media.tumblr.com/tumblr_m3ct5mNRf21qzrmn8.png)
+
+Monday, walked to Greenpoint with Alex. Got sandwiches. Worked at Grumpy but didn't get very much done at all.
+
+Finally moved my domain off GoDaddy.
+
+Skipped what sounded like a good lecture by James Gleick, whose book _Chaos_ I've read and _The Information_ I've been meaning to read forever. Heard there were good meetings about the state of the school, which is increasingly dire.
+
+Turned in 5 pages by midnight, then took a 5-Hour energy for no real reason. Managed to take naps and eventually fall asleep after staying up too late and not getting work done.
+
+Tuesday was Mayday. Critted a bunch of peoples' work in photo, which was good, conversationally, but not great. As good as it will get. Walked up to Union Square after with Tyler but we couldn't even get into the center. It was slow and loud and there seemed to be one cop for every two protestors. Walked back towards school with the march and peeled off to go to the openings. Blacked out in the hammock in Aaron's studio and woke up at midnight. The train took an hour to get from Manhattan to Brooklyn, so I read almost all of [The Way Forward](http://friendsofcooperunion.org/wp/wp-content/uploads/2012/03/CooperUnion_TheWayForward.pdf). It's really good.
+
+Today I worked on this weeknote at home and then school, amid distractions like this [Vice article](www.vice.com/en_uk/read/im-sick-of-pretending-i-dont-get-art) that reminded me I don't actually hate art. At least not as much as I hate Vice.
+
+I am constantly wanting to refer to that meme: Pop Music: forcing you to defend something terrible because it's being criticized so poorly. I should just make it myself, since I can never find it.
+
+When I wait too long to put this together it ends up taking up a whole day, or even days. Jesus christ. This one started out so strong and has really petered out by this ending.
+
+Asked the library for sheet music for the Alma Mater song so I can make a dubstep remix, but they claimed not to have it. Will have to bug the office people in external affairs.
+
+Louis bought me dinner as a thanks for Pool and we hung out, which was nice.
+
+I won't have a sculpture by my final class tonight. So what's left to do at a minimum is: censorship essay, publication weeknotes book, publication diaries, photo presentation, freelance project, Jen's thesis website, art history midterm (heh), final, and horrible theory annotations. There are six days remaining. It will be necessary to go a little crazy.

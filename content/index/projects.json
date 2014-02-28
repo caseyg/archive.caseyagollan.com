@@ -1,0 +1,1764 @@
+{
+  "links": [
+    {
+      "source": 125,
+      "target": 0
+    },
+    {
+      "source": 116,
+      "target": 0
+    },
+    {
+      "source": 125,
+      "target": 1
+    },
+    {
+      "source": 86,
+      "target": 1
+    },
+    {
+      "source": 124,
+      "target": 1
+    },
+    {
+      "source": 123,
+      "target": 2
+    },
+    {
+      "source": 62,
+      "target": 2
+    },
+    {
+      "source": 66,
+      "target": 2
+    },
+    {
+      "source": 123,
+      "target": 3
+    },
+    {
+      "source": 62,
+      "target": 3
+    },
+    {
+      "source": 99,
+      "target": 3
+    },
+    {
+      "source": 65,
+      "target": 4
+    },
+    {
+      "source": 125,
+      "target": 4
+    },
+    {
+      "source": 94,
+      "target": 4
+    },
+    {
+      "source": 81,
+      "target": 5
+    },
+    {
+      "source": 123,
+      "target": 5
+    },
+    {
+      "source": 62,
+      "target": 5
+    },
+    {
+      "source": 85,
+      "target": 5
+    },
+    {
+      "source": 125,
+      "target": 6
+    },
+    {
+      "source": 65,
+      "target": 6
+    },
+    {
+      "source": 115,
+      "target": 6
+    },
+    {
+      "source": 67,
+      "target": 6
+    },
+    {
+      "source": 85,
+      "target": 6
+    },
+    {
+      "source": 101,
+      "target": 7
+    },
+    {
+      "source": 125,
+      "target": 7
+    },
+    {
+      "source": 103,
+      "target": 7
+    },
+    {
+      "source": 116,
+      "target": 7
+    },
+    {
+      "source": 85,
+      "target": 7
+    },
+    {
+      "source": 65,
+      "target": 8
+    },
+    {
+      "source": 120,
+      "target": 8
+    },
+    {
+      "source": 75,
+      "target": 8
+    },
+    {
+      "source": 123,
+      "target": 8
+    },
+    {
+      "source": 85,
+      "target": 8
+    },
+    {
+      "source": 65,
+      "target": 9
+    },
+    {
+      "source": 75,
+      "target": 9
+    },
+    {
+      "source": 91,
+      "target": 9
+    },
+    {
+      "source": 110,
+      "target": 9
+    },
+    {
+      "source": 120,
+      "target": 9
+    },
+    {
+      "source": 85,
+      "target": 9
+    },
+    {
+      "source": 121,
+      "target": 9
+    },
+    {
+      "source": 61,
+      "target": 10
+    },
+    {
+      "source": 123,
+      "target": 10
+    },
+    {
+      "source": 62,
+      "target": 10
+    },
+    {
+      "source": 75,
+      "target": 10
+    },
+    {
+      "source": 66,
+      "target": 10
+    },
+    {
+      "source": 85,
+      "target": 10
+    },
+    {
+      "source": 65,
+      "target": 11
+    },
+    {
+      "source": 91,
+      "target": 11
+    },
+    {
+      "source": 90,
+      "target": 11
+    },
+    {
+      "source": 64,
+      "target": 11
+    },
+    {
+      "source": 75,
+      "target": 11
+    },
+    {
+      "source": 85,
+      "target": 11
+    },
+    {
+      "source": 124,
+      "target": 12
+    },
+    {
+      "source": 65,
+      "target": 12
+    },
+    {
+      "source": 82,
+      "target": 12
+    },
+    {
+      "source": 85,
+      "target": 12
+    },
+    {
+      "source": 125,
+      "target": 13
+    },
+    {
+      "source": 71,
+      "target": 13
+    },
+    {
+      "source": 67,
+      "target": 13
+    },
+    {
+      "source": 3,
+      "target": 13
+    },
+    {
+      "source": 85,
+      "target": 13
+    },
+    {
+      "source": 78,
+      "target": 13
+    },
+    {
+      "source": 102,
+      "target": 13
+    },
+    {
+      "source": 125,
+      "target": 14
+    },
+    {
+      "source": 56,
+      "target": 14
+    },
+    {
+      "source": 116,
+      "target": 14
+    },
+    {
+      "source": 67,
+      "target": 14
+    },
+    {
+      "source": 109,
+      "target": 15
+    },
+    {
+      "source": 117,
+      "target": 15
+    },
+    {
+      "source": 65,
+      "target": 15
+    },
+    {
+      "source": 85,
+      "target": 15
+    },
+    {
+      "source": 125,
+      "target": 16
+    },
+    {
+      "source": 56,
+      "target": 16
+    },
+    {
+      "source": 111,
+      "target": 16
+    },
+    {
+      "source": 67,
+      "target": 16
+    },
+    {
+      "source": 85,
+      "target": 16
+    },
+    {
+      "source": 86,
+      "target": 17
+    },
+    {
+      "source": 125,
+      "target": 17
+    },
+    {
+      "source": 116,
+      "target": 17
+    },
+    {
+      "source": 55,
+      "target": 17
+    },
+    {
+      "source": 66,
+      "target": 17
+    },
+    {
+      "source": 118,
+      "target": 17
+    },
+    {
+      "source": 85,
+      "target": 17
+    },
+    {
+      "source": 123,
+      "target": 18
+    },
+    {
+      "source": 125,
+      "target": 18
+    },
+    {
+      "source": 65,
+      "target": 18
+    },
+    {
+      "source": 55,
+      "target": 18
+    },
+    {
+      "source": 85,
+      "target": 18
+    },
+    {
+      "source": 70,
+      "target": 18
+    },
+    {
+      "source": 93,
+      "target": 19
+    },
+    {
+      "source": 123,
+      "target": 19
+    },
+    {
+      "source": 81,
+      "target": 19
+    },
+    {
+      "source": 120,
+      "target": 19
+    },
+    {
+      "source": 85,
+      "target": 19
+    },
+    {
+      "source": 124,
+      "target": 20
+    },
+    {
+      "source": 65,
+      "target": 20
+    },
+    {
+      "source": 85,
+      "target": 20
+    },
+    {
+      "source": 67,
+      "target": 21
+    },
+    {
+      "source": 55,
+      "target": 21
+    },
+    {
+      "source": 119,
+      "target": 21
+    },
+    {
+      "source": 65,
+      "target": 21
+    },
+    {
+      "source": 85,
+      "target": 21
+    },
+    {
+      "source": 125,
+      "target": 22
+    },
+    {
+      "source": 64,
+      "target": 22
+    },
+    {
+      "source": 109,
+      "target": 22
+    },
+    {
+      "source": 65,
+      "target": 22
+    },
+    {
+      "source": 85,
+      "target": 22
+    },
+    {
+      "source": 91,
+      "target": 23
+    },
+    {
+      "source": 113,
+      "target": 23
+    },
+    {
+      "source": 90,
+      "target": 23
+    },
+    {
+      "source": 65,
+      "target": 23
+    },
+    {
+      "source": 85,
+      "target": 23
+    },
+    {
+      "source": 110,
+      "target": 24
+    },
+    {
+      "source": 91,
+      "target": 24
+    },
+    {
+      "source": 93,
+      "target": 24
+    },
+    {
+      "source": 65,
+      "target": 24
+    },
+    {
+      "source": 85,
+      "target": 24
+    },
+    {
+      "source": 120,
+      "target": 24
+    },
+    {
+      "source": 86,
+      "target": 25
+    },
+    {
+      "source": 93,
+      "target": 25
+    },
+    {
+      "source": 85,
+      "target": 25
+    },
+    {
+      "source": 125,
+      "target": 26
+    },
+    {
+      "source": 56,
+      "target": 26
+    },
+    {
+      "source": 67,
+      "target": 26
+    },
+    {
+      "source": 99,
+      "target": 26
+    },
+    {
+      "source": 116,
+      "target": 26
+    },
+    {
+      "source": 85,
+      "target": 26
+    },
+    {
+      "source": 65,
+      "target": 27
+    },
+    {
+      "source": 74,
+      "target": 27
+    },
+    {
+      "source": 97,
+      "target": 27
+    },
+    {
+      "source": 62,
+      "target": 27
+    },
+    {
+      "source": 68,
+      "target": 27
+    },
+    {
+      "source": 86,
+      "target": 27
+    },
+    {
+      "source": 67,
+      "target": 27
+    },
+    {
+      "source": 63,
+      "target": 27
+    },
+    {
+      "source": 114,
+      "target": 27
+    },
+    {
+      "source": 85,
+      "target": 27
+    },
+    {
+      "source": 65,
+      "target": 28
+    },
+    {
+      "source": 74,
+      "target": 28
+    },
+    {
+      "source": 63,
+      "target": 28
+    },
+    {
+      "source": 97,
+      "target": 28
+    },
+    {
+      "source": 62,
+      "target": 28
+    },
+    {
+      "source": 81,
+      "target": 28
+    },
+    {
+      "source": 85,
+      "target": 28
+    },
+    {
+      "source": 65,
+      "target": 29
+    },
+    {
+      "source": 74,
+      "target": 29
+    },
+    {
+      "source": 63,
+      "target": 29
+    },
+    {
+      "source": 57,
+      "target": 29
+    },
+    {
+      "source": 85,
+      "target": 29
+    },
+    {
+      "source": 87,
+      "target": 29
+    },
+    {
+      "source": 65,
+      "target": 30
+    },
+    {
+      "source": 74,
+      "target": 30
+    },
+    {
+      "source": 109,
+      "target": 30
+    },
+    {
+      "source": 91,
+      "target": 30
+    },
+    {
+      "source": 86,
+      "target": 30
+    },
+    {
+      "source": 125,
+      "target": 30
+    },
+    {
+      "source": 82,
+      "target": 30
+    },
+    {
+      "source": 75,
+      "target": 30
+    },
+    {
+      "source": 85,
+      "target": 30
+    },
+    {
+      "source": 125,
+      "target": 31
+    },
+    {
+      "source": 86,
+      "target": 31
+    },
+    {
+      "source": 55,
+      "target": 31
+    },
+    {
+      "source": 56,
+      "target": 31
+    },
+    {
+      "source": 67,
+      "target": 31
+    },
+    {
+      "source": 85,
+      "target": 31
+    },
+    {
+      "source": 77,
+      "target": 32
+    },
+    {
+      "source": 66,
+      "target": 32
+    },
+    {
+      "source": 86,
+      "target": 32
+    },
+    {
+      "source": 68,
+      "target": 32
+    },
+    {
+      "source": 100,
+      "target": 32
+    },
+    {
+      "source": 85,
+      "target": 32
+    },
+    {
+      "source": 106,
+      "target": 32
+    },
+    {
+      "source": 77,
+      "target": 33
+    },
+    {
+      "source": 90,
+      "target": 33
+    },
+    {
+      "source": 91,
+      "target": 33
+    },
+    {
+      "source": 126,
+      "target": 33
+    },
+    {
+      "source": 67,
+      "target": 33
+    },
+    {
+      "source": 85,
+      "target": 33
+    },
+    {
+      "source": 106,
+      "target": 33
+    },
+    {
+      "source": 77,
+      "target": 34
+    },
+    {
+      "source": 125,
+      "target": 34
+    },
+    {
+      "source": 126,
+      "target": 34
+    },
+    {
+      "source": 106,
+      "target": 34
+    },
+    {
+      "source": 85,
+      "target": 34
+    },
+    {
+      "source": 64,
+      "target": 35
+    },
+    {
+      "source": 100,
+      "target": 35
+    },
+    {
+      "source": 55,
+      "target": 35
+    },
+    {
+      "source": 85,
+      "target": 35
+    },
+    {
+      "source": 106,
+      "target": 35
+    },
+    {
+      "source": 107,
+      "target": 36
+    },
+    {
+      "source": 109,
+      "target": 36
+    },
+    {
+      "source": 93,
+      "target": 36
+    },
+    {
+      "source": 85,
+      "target": 36
+    },
+    {
+      "source": 106,
+      "target": 36
+    },
+    {
+      "source": 93,
+      "target": 37
+    },
+    {
+      "source": 108,
+      "target": 37
+    },
+    {
+      "source": 59,
+      "target": 37
+    },
+    {
+      "source": 72,
+      "target": 37
+    },
+    {
+      "source": 112,
+      "target": 38
+    },
+    {
+      "source": 93,
+      "target": 38
+    },
+    {
+      "source": 58,
+      "target": 38
+    },
+    {
+      "source": 80,
+      "target": 38
+    },
+    {
+      "source": 89,
+      "target": 39
+    },
+    {
+      "source": 112,
+      "target": 39
+    },
+    {
+      "source": 58,
+      "target": 39
+    },
+    {
+      "source": 80,
+      "target": 39
+    },
+    {
+      "source": 68,
+      "target": 40
+    },
+    {
+      "source": 86,
+      "target": 40
+    },
+    {
+      "source": 67,
+      "target": 40
+    },
+    {
+      "source": 115,
+      "target": 40
+    },
+    {
+      "source": 112,
+      "target": 40
+    },
+    {
+      "source": 58,
+      "target": 40
+    },
+    {
+      "source": 80,
+      "target": 40
+    },
+    {
+      "source": 107,
+      "target": 41
+    },
+    {
+      "source": 109,
+      "target": 41
+    },
+    {
+      "source": 106,
+      "target": 41
+    },
+    {
+      "source": 85,
+      "target": 41
+    },
+    {
+      "source": 109,
+      "target": 42
+    },
+    {
+      "source": 107,
+      "target": 42
+    },
+    {
+      "source": 106,
+      "target": 42
+    },
+    {
+      "source": 85,
+      "target": 42
+    },
+    {
+      "source": 100,
+      "target": 43
+    },
+    {
+      "source": 66,
+      "target": 43
+    },
+    {
+      "source": 69,
+      "target": 43
+    },
+    {
+      "source": 107,
+      "target": 43
+    },
+    {
+      "source": 106,
+      "target": 43
+    },
+    {
+      "source": 85,
+      "target": 43
+    },
+    {
+      "source": 109,
+      "target": 44
+    },
+    {
+      "source": 79,
+      "target": 44
+    },
+    {
+      "source": 88,
+      "target": 44
+    },
+    {
+      "source": 92,
+      "target": 44
+    },
+    {
+      "source": 124,
+      "target": 44
+    },
+    {
+      "source": 84,
+      "target": 44
+    },
+    {
+      "source": 59,
+      "target": 44
+    },
+    {
+      "source": 121,
+      "target": 45
+    },
+    {
+      "source": 91,
+      "target": 45
+    },
+    {
+      "source": 88,
+      "target": 45
+    },
+    {
+      "source": 84,
+      "target": 45
+    },
+    {
+      "source": 59,
+      "target": 45
+    },
+    {
+      "source": 88,
+      "target": 46
+    },
+    {
+      "source": 89,
+      "target": 46
+    },
+    {
+      "source": 84,
+      "target": 46
+    },
+    {
+      "source": 59,
+      "target": 46
+    },
+    {
+      "source": 96,
+      "target": 47
+    },
+    {
+      "source": 88,
+      "target": 47
+    },
+    {
+      "source": 84,
+      "target": 47
+    },
+    {
+      "source": 59,
+      "target": 47
+    },
+    {
+      "source": 109,
+      "target": 48
+    },
+    {
+      "source": 88,
+      "target": 48
+    },
+    {
+      "source": 79,
+      "target": 48
+    },
+    {
+      "source": 124,
+      "target": 48
+    },
+    {
+      "source": 84,
+      "target": 48
+    },
+    {
+      "source": 59,
+      "target": 48
+    },
+    {
+      "source": 88,
+      "target": 49
+    },
+    {
+      "source": 79,
+      "target": 49
+    },
+    {
+      "source": 84,
+      "target": 49
+    },
+    {
+      "source": 59,
+      "target": 49
+    },
+    {
+      "source": 88,
+      "target": 50
+    },
+    {
+      "source": 109,
+      "target": 50
+    },
+    {
+      "source": 84,
+      "target": 50
+    },
+    {
+      "source": 59,
+      "target": 50
+    },
+    {
+      "source": 105,
+      "target": 51
+    },
+    {
+      "source": 66,
+      "target": 51
+    },
+    {
+      "source": 98,
+      "target": 51
+    },
+    {
+      "source": 104,
+      "target": 51
+    },
+    {
+      "source": 76,
+      "target": 51
+    },
+    {
+      "source": 68,
+      "target": 52
+    },
+    {
+      "source": 105,
+      "target": 52
+    },
+    {
+      "source": 98,
+      "target": 52
+    },
+    {
+      "source": 104,
+      "target": 52
+    },
+    {
+      "source": 76,
+      "target": 52
+    },
+    {
+      "source": 93,
+      "target": 53
+    },
+    {
+      "source": 106,
+      "target": 53
+    },
+    {
+      "source": 85,
+      "target": 53
+    },
+    {
+      "source": 60,
+      "target": 53
+    },
+    {
+      "source": 122,
+      "target": 53
+    },
+    {
+      "source": 73,
+      "target": 53
+    },
+    {
+      "source": 76,
+      "target": 53
+    },
+    {
+      "source": 83,
+      "target": 53
+    },
+    {
+      "source": 93,
+      "target": 54
+    },
+    {
+      "source": 106,
+      "target": 54
+    },
+    {
+      "source": 85,
+      "target": 54
+    },
+    {
+      "source": 58,
+      "target": 54
+    },
+    {
+      "source": 80,
+      "target": 54
+    },
+    {
+      "source": 76,
+      "target": 54
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Unhinged Writing on Screens",
+      "link": "../../unhinged-writing-on-screens/",
+      "type": "project",
+      "thumb": "/images/writing.png"
+    },
+    {
+      "name": "Weeknotes",
+      "link": "../../weeknotes/",
+      "type": "project",
+      "thumb": "/images/writing.png"
+    },
+    {
+      "name": "If We Are Digital",
+      "link": "../../if-we-are-digital/",
+      "type": "project",
+      "thumb": "../../content/167.if-we-are-digital/thumb.jpeg"
+    },
+    {
+      "name": "Pool",
+      "link": "../../pool/",
+      "type": "project",
+      "thumb": "../../content/166.pool/thumb.jpg"
+    },
+    {
+      "name": "Two Apologies President Bharucha Must Make",
+      "link": "../../two-apologies-president-bharucha-must-make/",
+      "type": "project",
+      "thumb": "../../content/165.two-apologies-president-bharucha-must-make/thumb.jpg"
+    },
+    {
+      "name": "Sweaty Tube",
+      "link": "../../sweatytube/",
+      "type": "project",
+      "thumb": "../../content/164.sweatytube/thumb.png"
+    },
+    {
+      "name": "You Can't Fuck the System If You've Never Met One",
+      "link": "../../systems/",
+      "type": "project",
+      "thumb": "../../content/160.systems/thumb.png"
+    },
+    {
+      "name": "Programmed Visions Book Review",
+      "link": "../../book-review-programmed-visions/",
+      "type": "project",
+      "thumb": "/images/writing.png"
+    },
+    {
+      "name": "CooperUnion.biz",
+      "link": "../../cooper-union-dot-biz/",
+      "type": "project",
+      "thumb": "../../content/150.cooper-union-dot-biz/thumb.png"
+    },
+    {
+      "name": "Between the Spreadsheets",
+      "link": "../../between-the-spreadsheets/",
+      "type": "project",
+      "thumb": "../../content/145.between-the-spreadsheets/thumb.jpeg"
+    },
+    {
+      "name": "Girl Walk // All Day Website",
+      "link": "../../girl-walk-all-day-website/",
+      "type": "project",
+      "thumb": "../../content/140.girl-walk-all-day-website/thumb.png"
+    },
+    {
+      "name": "Hula",
+      "link": "../../hula/",
+      "type": "project",
+      "thumb": "../../content/135.hula/thumb.jpeg"
+    },
+    {
+      "name": "Studio",
+      "link": "../../studio/",
+      "type": "project",
+      "thumb": "../../content/130.studio/thumb.JPG"
+    },
+    {
+      "name": "User-Generated Content",
+      "link": "../../user-generated-content/",
+      "type": "project",
+      "thumb": "../../content/124.user-generated-content/thumb.png"
+    },
+    {
+      "name": "Until I get better at coding, there will be no...",
+      "link": "../../until-i-get-better-at-coding/",
+      "type": "project",
+      "thumb": "/images/writing.png"
+    },
+    {
+      "name": "New Works",
+      "link": "../../new-works/",
+      "type": "project",
+      "thumb": "../../content/105.new-works/thumb.jpg"
+    },
+    {
+      "name": "Mixing Metaphors: Skeuomorphic, Hyper, and...",
+      "link": "../../mixing-metaphors/",
+      "type": "project",
+      "thumb": "/images/writing.png"
+    },
+    {
+      "name": "Notes on Forgetting, Archiving, and Existing on...",
+      "link": "../../notes-on-forgetting-archiving-and-existing-on-the-internet/",
+      "type": "project",
+      "thumb": "../../content/095.notes-on-forgetting-archiving-and-existing-on-the-internet/thumb.jpg"
+    },
+    {
+      "name": "CooperUnion.net",
+      "link": "../../cooper-union-dot-net/",
+      "type": "project",
+      "thumb": "../../content/090.cooper-union-dot-net/thumb.png"
+    },
+    {
+      "name": "SensitivePhotoGeneration.com",
+      "link": "../../sensitive-photo-generation/",
+      "type": "project",
+      "thumb": "../../content/085.sensitive-photo-generation/thumb.png"
+    },
+    {
+      "name": "Studio Bed",
+      "link": "../../studio-bed/",
+      "type": "project",
+      "thumb": "../../content/080.studio-bed/thumb.jpeg"
+    },
+    {
+      "name": "Timeline of Timelines",
+      "link": "../../timeline-timeline/",
+      "type": "project",
+      "thumb": "../../content/075.timeline-timeline/thumb.png"
+    },
+    {
+      "name": "Attempted Conversation",
+      "link": "../../attempted-conversation/",
+      "type": "project",
+      "thumb": "../../content/070.attempted-conversation/thumb.png"
+    },
+    {
+      "name": "Casey, Runner",
+      "link": "../../casey-runner/",
+      "type": "project",
+      "thumb": "../../content/065.casey-runner/thumb.jpeg"
+    },
+    {
+      "name": "Sexy Studio Self-Portraits",
+      "link": "../../sexy-studio-self-portraits/",
+      "type": "project",
+      "thumb": "../../content/060.sexy-studio-self-portraits/thumb.jpeg"
+    },
+    {
+      "name": "Photography Thought Web",
+      "link": "../../photography-thought-web/",
+      "type": "project",
+      "thumb": "../../content/055.photography-thought-web/thumb.jpeg"
+    },
+    {
+      "name": "Built to Last, Built to Decay: Authentic,...",
+      "link": "../../built-to-last-built-to-decay/",
+      "type": "project",
+      "thumb": "/images/writing.png"
+    },
+    {
+      "name": "Soundline",
+      "link": "../../soundline/",
+      "type": "project",
+      "thumb": "../../content/045.soundline/thumb.jpeg"
+    },
+    {
+      "name": "Albers-o-Matic",
+      "link": "../../albers-o-matic/",
+      "type": "project",
+      "thumb": "../../content/040.albers-o-matic/thumb.jpeg"
+    },
+    {
+      "name": "Gradient Bookshelf",
+      "link": "../../bookshelf/",
+      "type": "project",
+      "thumb": "../../content/035.bookshelf/thumb.jpg"
+    },
+    {
+      "name": "Cake",
+      "link": "../../cake/",
+      "type": "project",
+      "thumb": "../../content/030.cake/thumb.jpeg"
+    },
+    {
+      "name": "Scattered Notes on the Blog as a Curated...",
+      "link": "../../scattered-notes-on-the-blog-as-a-curated-experience/",
+      "type": "project",
+      "thumb": "/images/writing.png"
+    },
+    {
+      "name": "I Don't Sketch Book",
+      "link": "../../sketch-book/",
+      "type": "project",
+      "thumb": "../../content/024.sketch-book/thumb.jpg"
+    },
+    {
+      "name": "Public Apology Project",
+      "link": "../../public-apology/",
+      "type": "project",
+      "thumb": "../../content/023.public-apology/thumb.jpg"
+    },
+    {
+      "name": "Activate: Context",
+      "link": "../../activate-context/",
+      "type": "project",
+      "thumb": "../../content/022.activate-context/thumb.jpg"
+    },
+    {
+      "name": "Process Magazine",
+      "link": "../../process-magazine/",
+      "type": "project",
+      "thumb": "../../content/021.process-magazine/thumb.jpeg"
+    },
+    {
+      "name": "Wearable Sculptures",
+      "link": "../../wearable-sculptures/",
+      "type": "project",
+      "thumb": "../../content/020.wearable-sculptures/thumb.jpg"
+    },
+    {
+      "name": "Polaroids",
+      "link": "../../polaroids/",
+      "type": "project",
+      "thumb": "../../content/019.polaroids/thumb.jpg"
+    },
+    {
+      "name": "Summer 2008",
+      "link": "../../summer-photography/",
+      "type": "project",
+      "thumb": "../../content/018.summer-photography/thumb.jpg"
+    },
+    {
+      "name": "Finger Paintings",
+      "link": "../../finger-paintings/",
+      "type": "project",
+      "thumb": "../../content/016.finger-paintings/thumb.jpg"
+    },
+    {
+      "name": "Thought Webs",
+      "link": "../../thought-webs/",
+      "type": "project",
+      "thumb": "../../content/015.thought-webs/thumb.jpeg"
+    },
+    {
+      "name": "Small Sculptures",
+      "link": "../../small-sculptures/",
+      "type": "project",
+      "thumb": "../../content/014.small-sculptures/thumb.jpg"
+    },
+    {
+      "name": "Ceramic Experiments",
+      "link": "../../ceramics/",
+      "type": "project",
+      "thumb": "../../content/013.ceramics/thumb.jpg"
+    },
+    {
+      "name": "Zephyr Art + Lit Magazine",
+      "link": "../../zephyr-magazine/",
+      "type": "project",
+      "thumb": "../../content/012.zephyr-magazine/thumb.jpg"
+    },
+    {
+      "name": "Oxbow Final Project",
+      "link": "../../oxbow-project/",
+      "type": "project",
+      "thumb": "../../content/011.oxbow-project/thumb.jpg"
+    },
+    {
+      "name": "Self-Portrait (Spinning)",
+      "link": "../../self-portrait-spinning/",
+      "type": "project",
+      "thumb": "../../content/010.self-portrait-spinning/thumb.jpeg"
+    },
+    {
+      "name": "Awkward Laughter Paintings",
+      "link": "../../awkward-laughter-paintings/",
+      "type": "project",
+      "thumb": "../../content/009.awkward-laughter-paintings/thumb.jpg"
+    },
+    {
+      "name": "Intaglio Printmaking",
+      "link": "../../printmaking/",
+      "type": "project",
+      "thumb": "../../content/008.printmaking/thumb.jpg"
+    },
+    {
+      "name": "Teepee",
+      "link": "../../teepee/",
+      "type": "project",
+      "thumb": "../../content/007.teepee/thumb.jpg"
+    },
+    {
+      "name": "Reciprocal",
+      "link": "../../reciprocal/",
+      "type": "project",
+      "thumb": "../../content/006.reciprocal/thumb.jpg"
+    },
+    {
+      "name": "Cones",
+      "link": "../../cones/",
+      "type": "project",
+      "thumb": "../../content/005.cones/thumb.jpg"
+    },
+    {
+      "name": "Graphic Design",
+      "link": "../../graphic-design-risd/",
+      "type": "project",
+      "thumb": "../../content/004.graphic-design-risd/thumb.jpg"
+    },
+    {
+      "name": "Drawings",
+      "link": "../../figure-drawings/",
+      "type": "project",
+      "thumb": "../../content/003.figure-drawings/thumb.jpg"
+    },
+    {
+      "name": "Family Photos",
+      "link": "../../family-photos/",
+      "type": "project",
+      "thumb": "../../content/002.family-photos/thumb.jpg"
+    },
+    {
+      "name": "Digital Photography",
+      "link": "../../digital-photography/",
+      "type": "project",
+      "thumb": "../../content/001.digital-photography/thumb.jpg"
+    },
+    {
+      "name": "Archives",
+      "type": "tag"
+    },
+    {
+      "name": "Blog Highlights",
+      "type": "tag"
+    },
+    {
+      "name": "Books",
+      "type": "tag"
+    },
+    {
+      "name": "Boston",
+      "type": "tag"
+    },
+    {
+      "name": "California",
+      "type": "tag"
+    },
+    {
+      "name": "Charlottesville",
+      "type": "tag"
+    },
+    {
+      "name": "Client Work",
+      "type": "tag"
+    },
+    {
+      "name": "Coding",
+      "type": "tag"
+    },
+    {
+      "name": "Color",
+      "type": "tag"
+    },
+    {
+      "name": "Conversational",
+      "type": "tag"
+    },
+    {
+      "name": "Cooper Union",
+      "type": "tag"
+    },
+    {
+      "name": "Design",
+      "type": "tag"
+    },
+    {
+      "name": "Design Thinking",
+      "type": "tag"
+    },
+    {
+      "name": "Drawing",
+      "type": "tag"
+    },
+    {
+      "name": "Editing",
+      "type": "tag"
+    },
+    {
+      "name": "Education",
+      "type": "tag"
+    },
+    {
+      "name": "Essay",
+      "type": "tag"
+    },
+    {
+      "name": "Family",
+      "type": "tag"
+    },
+    {
+      "name": "Finland",
+      "type": "tag"
+    },
+    {
+      "name": "Foundation Year Prompts",
+      "type": "tag"
+    },
+    {
+      "name": "Fun",
+      "type": "tag"
+    },
+    {
+      "name": "High School",
+      "type": "tag"
+    },
+    {
+      "name": "Hometest",
+      "type": "tag"
+    },
+    {
+      "name": "Iceland",
+      "type": "tag"
+    },
+    {
+      "name": "Installation",
+      "type": "tag"
+    },
+    {
+      "name": "Massachusetts",
+      "type": "tag"
+    },
+    {
+      "name": "Meme Generator",
+      "type": "tag"
+    },
+    {
+      "name": "Messy",
+      "type": "tag"
+    },
+    {
+      "name": "Middle School",
+      "type": "tag"
+    },
+    {
+      "name": "Napa",
+      "type": "tag"
+    },
+    {
+      "name": "New York",
+      "type": "tag"
+    },
+    {
+      "name": "Notes",
+      "type": "tag"
+    },
+    {
+      "name": "Organizing",
+      "type": "tag"
+    },
+    {
+      "name": "Oxbow School",
+      "type": "tag"
+    },
+    {
+      "name": "Painting",
+      "type": "tag"
+    },
+    {
+      "name": "Participatory",
+      "type": "tag"
+    },
+    {
+      "name": "Performative",
+      "type": "tag"
+    },
+    {
+      "name": "Philosophising",
+      "type": "tag"
+    },
+    {
+      "name": "Photography",
+      "type": "tag"
+    },
+    {
+      "name": "Politics",
+      "type": "tag"
+    },
+    {
+      "name": "Pool",
+      "type": "tag"
+    },
+    {
+      "name": "Printmaking",
+      "type": "tag"
+    },
+    {
+      "name": "Processing",
+      "type": "tag"
+    },
+    {
+      "name": "Providence",
+      "type": "tag"
+    },
+    {
+      "name": "Publications",
+      "type": "tag"
+    },
+    {
+      "name": "Publishing",
+      "type": "tag"
+    },
+    {
+      "name": "Reading",
+      "type": "tag"
+    },
+    {
+      "name": "Reykjavik",
+      "type": "tag"
+    },
+    {
+      "name": "Rhizome",
+      "type": "tag"
+    },
+    {
+      "name": "Rhode Island",
+      "type": "tag"
+    },
+    {
+      "name": "RISD Pre-College",
+      "type": "tag"
+    },
+    {
+      "name": "Rye",
+      "type": "tag"
+    },
+    {
+      "name": "Rye High School",
+      "type": "tag"
+    },
+    {
+      "name": "San Francisco",
+      "type": "tag"
+    },
+    {
+      "name": "Sculpture",
+      "type": "tag"
+    },
+    {
+      "name": "Sexy",
+      "type": "tag"
+    },
+    {
+      "name": "Skeuomorphism",
+      "type": "tag"
+    },
+    {
+      "name": "SMFA Pre-College",
+      "type": "tag"
+    },
+    {
+      "name": "Social Practice",
+      "type": "tag"
+    },
+    {
+      "name": "Sound",
+      "type": "tag"
+    },
+    {
+      "name": "Systems",
+      "type": "tag"
+    },
+    {
+      "name": "Technology",
+      "type": "tag"
+    },
+    {
+      "name": "The Problem Is The Content",
+      "type": "tag"
+    },
+    {
+      "name": "Thinking",
+      "type": "tag"
+    },
+    {
+      "name": "Time",
+      "type": "tag"
+    },
+    {
+      "name": "Trolling",
+      "type": "tag"
+    },
+    {
+      "name": "Video",
+      "type": "tag"
+    },
+    {
+      "name": "Virginia",
+      "type": "tag"
+    },
+    {
+      "name": "Website",
+      "type": "tag"
+    },
+    {
+      "name": "Workspace",
+      "type": "tag"
+    },
+    {
+      "name": "Writing",
+      "type": "tag"
+    },
+    {
+      "name": "Über Conceptual",
+      "type": "tag"
+    }
+  ]
+}
