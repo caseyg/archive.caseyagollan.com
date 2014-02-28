@@ -1,0 +1,19 @@
+title: Rodi Gallery Website
+-
+description: Building a website for an art gallery in a truck.
+-
+excerpt:
+-
+date: 2014 Spring
+-
+tags: Work, Website, Design, New York
+-
+external_link:
+-
+link_label:
+-
+hide_media:
+-
+media_above_content:
+-
+content:

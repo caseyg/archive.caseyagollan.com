@@ -1,0 +1,19 @@
+title: They Can't Kill Us All
+-
+description: Fall fellowship at BHQFU.
+-
+excerpt:
+-
+date: 2013 Fall
+-
+tags: Education, Cooper Union, Fellowship, New York
+-
+external_link: http://education.hackpad.com
+-
+link_label: Visit Project Hackpad
+-
+hide_media:
+-
+media_above_content:
+-
+content:
