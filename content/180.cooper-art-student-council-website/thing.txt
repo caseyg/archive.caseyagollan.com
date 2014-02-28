@@ -1,0 +1,19 @@
+title: Cooper Art Student Council Website
+-
+description:
+-
+excerpt:
+-
+date: 2012 October
+-
+tags: Website, Cooper Union, Transparency, Governance, New York
+-
+external_link: http://cooperasc.github.io
+-
+link_label:
+-
+hide_media:
+-
+media_above_content:
+-
+content:

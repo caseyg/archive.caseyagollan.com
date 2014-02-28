@@ -1,0 +1,13 @@
+title: DNA
+-
+description: Open sourced my genome. Fork me.
+-
+date: 2013 July
+-
+tags: Technology, Transparency, Selfie
+-
+external_link: http://github.com/caseyg/dna
+-
+link_label: View on GitHub
+-
+content:

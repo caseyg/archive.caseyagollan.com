@@ -1,16 +1,20 @@
 title: What Needs Doing?
 -
+excerpt: What needs doing? I'm available to take on new work.
+-
+tags: Work, New York
+-
 custom_stylesheet: @path/custom.css
 -
 date: 2014 April
 -
 hide_media: yes
 -
-content: 
+content:
 
 Hi again, friends and friends-of-friends—
 
-What needs doing? I'm available to take on new work, now that two of my jobs are finished, two are being polished off, and two have turned into ongoing commitments that are small and sporadic. 
+What needs doing? I'm available to take on new work, now that two of my jobs are finished, two are being polished off, and two have turned into ongoing commitments that are small and sporadic.
 
 I like weird jobs and good people. I'm down with remote work. Nothing is too small to propose. Some things I [can do](/for-hire) are: write and edit; organize, administrate, and strategize; design and build websites; make videos and photographs; and move your boxes.
 
@@ -63,9 +67,9 @@ I attempted to write about this ALL before realizing that I could spend more tim
 
 Hope to work together,
 
-Casey  
+Casey
 
-[hello@caseyagollan.com](mailto:hello@caseyagollan.com?subject=____%20Needs%20Doing) &bull; [@CaseyG](http://twitter.com/caseyg)  
+[hello@caseyagollan.com](mailto:hello@caseyagollan.com?subject=____%20Needs%20Doing) &bull; [@CaseyG](http://twitter.com/caseyg)
 
 - - -
 
@@ -81,8 +85,8 @@ $(function() {
     });
 });
   $(document).ready(function(){
-      $('li').okhover();  
-      $('.hover').okhover();  
+      $('li').okhover();
+      $('.hover').okhover();
   });
 </script>
 <style type="text/css">

@@ -1,6 +1,12 @@
 title: For Hire
 -
-description:
+excerpt: I have a weird hunch (or maybe just a hope) that — because the internet is a weird place — my next move could be getting paid to do something with somebody who I already know and admire.
+-
+tags: Work
+-
+date: 2013 May
+-
+content:
 
 Hello friends and friends of friends,
 
@@ -10,14 +16,11 @@ I have a weird hunch (or maybe just a _hope_) that — because the internet is a
 
 If you're reading this, maybe that's you?
 
-You can reach me by email at [hello@caseyagollan.com](mailto:hello@caseyagollan.com) or by phone at 914.471.0959. 
+You can reach me by email at [hello@caseyagollan.com](mailto:hello@caseyagollan.com) or by phone at 914.471.0959.
 
 _Or_ keep scrolling for a little bit more about things I can do (making websites, writing and editing, social media, video and photography, organizing and strategizing, and moving your boxes), things I want to learn, and how much money I need to make to keep living in New York.
 
 <p style="text-align:right">—Casey</p>
-
--
-content:
 
 ## Making websites
 
@@ -39,7 +42,7 @@ I started interning for [Jen Bekman](http://twitter.com/jenbee) right out of hig
 
 ![](http://caseyagollan.com/content/155.book-review-programmed-visions/book-review-programmed-visions.png)
 
-### Book review 
+### Book review
 
 [Joanne McNeil](http://joannemcneil.com), former editor of [_Rhizome_](http://rhizome.org) (and one of my all-time [favorite bloggers](http://internet-of-dreams.com)), handed me a copy of Wendy Hui Kyong Chun's [_Programmed Visions_](http://rhizome.org/editorial/2012/jan/23/book-review-programmed-visions-software-and-memory) which I reviewed for the site.
 
@@ -64,7 +67,7 @@ Now, alongside [Joe](http://pleasedontfront.tumblr.com), I'm at the helm of Free
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/qhowml0sBBI?rel=0" frameborder="0" allowfullscreen></iframe>
 
-This is a little embarrassing _but_ I wrote, recorded, shot, starred in, and edited this music video intending to seduce financial transparency out of Cooper Union's administrators. A kind of oblique open government initiative. The _New York Times_, covering student protests, acknowledged me as a "[terrible but amusing rapper](http://www.nytimes.com/2013/02/16/nyregion/cooper-unions-tradition-of-free-tuition-may-be-near-end.html?pagewanted=all#p[DltAwt])." 
+This is a little embarrassing _but_ I wrote, recorded, shot, starred in, and edited this music video intending to seduce financial transparency out of Cooper Union's administrators. A kind of oblique open government initiative. The _New York Times_, covering student protests, acknowledged me as a "[terrible but amusing rapper](http://www.nytimes.com/2013/02/16/nyregion/cooper-unions-tradition-of-free-tuition-may-be-near-end.html?pagewanted=all#p[DltAwt])."
 
 But that's besides the point, which is that I can help _you_ make videos.
 
@@ -117,7 +120,7 @@ For the immediate future, I'd like to continue living in the same shitty Brookly
 
 Thanks for reading, and please feel free to pass this open cover letter on to anyone you think sounds like a good fit.
 
-I hope we can work together! 
+I hope we can work together!
 
 You can reach me by email at [hello@caseyagollan.com](mailto:hello@caseyagollan.com) or phone at 914.471.0959.
 
