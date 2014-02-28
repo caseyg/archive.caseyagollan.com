@@ -1,15 +1,18 @@
-  if $images do
-    :images
-  endif
-  
-  if $video do
-    :video
-  endif
-  
-  if $swf do
-    :swf
-  endif
-  
-  if $html do
-    :html
-  endif
+<div id="media">
+  {% if page.images %}
+    {% include 'partials/assets/images.html' %}
+  {% endif %}
+
+  {% if page.video %}
+    {% include 'partials/assets/video.html' %}
+  {% endif %}
+
+  {% if page.swf %}
+    {% include 'partials/assets/swf.html' %}
+  {% endif %}
+
+  {% if page.html %}
+    {% include 'partials/assets/html.html' %}
+  {% endif %}
+
+</div>

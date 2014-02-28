@@ -1,13 +1,8 @@
-foreach $images do
-  <figure>
-    if @title do
-      <h3>@title</h3>
-    endif
-    <img src="@url" alt="@title" />
-    if @description do
-    <figcaption>
-    	@description
-    </figcaption>
-    endif
-  </figure>
-endforeach
+{% for image in page.images %}
+  <div class="image">
+    <img src="{{ image.url }}" alt="{{ image.title }}" width="{{ image.width }}" height="{{ image.height }}">
+    {% if image.description %}
+      <em>{{ image.description }}</em>
+    {% endif %}
+  </div>
+{% endfor %}

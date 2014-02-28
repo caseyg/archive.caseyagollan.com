@@ -2,7 +2,7 @@
 
 Class Stacey {
 
-  static $version = '2.3.0';
+  static $version = '3.0.0';
 
   var $route;
 
@@ -14,7 +14,7 @@ Class Stacey {
       return true;
     }
     # add trailing slash if required
-    if(!preg_match('/\/$/', $_SERVER['REQUEST_URI']) && !preg_match('/\./', $_SERVER['REQUEST_URI'])) {
+    if(!preg_match('/\/$/', $_SERVER['REQUEST_URI']) && !preg_match('/[\.\?\&][^\/]+$/', $_SERVER['REQUEST_URI'])) {
       header('HTTP/1.1 301 Moved Permanently');
       header('Location:'.$_SERVER['REQUEST_URI'].'/');
       return true;
@@ -68,6 +68,9 @@ Class Stacey {
 
   function etag_expired($cache) {
     header('Etag: "'.$cache->hash.'"');
+    # Safari incorrectly caches 304s as empty pages, so don't serve it 304s
+    if (strpos($_SERVER['HTTP_USER_AGENT'], 'Safari') !== false) return true;
+    # Check for a local cache
     if(isset($_SERVER['HTTP_IF_NONE_MATCH']) && stripslashes($_SERVER['HTTP_IF_NONE_MATCH']) == '"'.$cache->hash.'"') {
       # local cache is still fresh, so return 304
       header("HTTP/1.0 304 Not Modified");
@@ -82,6 +85,7 @@ Class Stacey {
     $cache = new Cache($file_path, $template_file);
     # set any custom headers
     $this->set_content_type($template_file);
+    header('Generator: stacey-v'.Stacey::$version);
     # if etag is still fresh, return 304 and don't render anything
     if(!$this->etag_expired($cache)) return;
     # if cache has expired
@@ -109,10 +113,6 @@ Class Stacey {
 
     # error out if template file doesn't exist (or glob returns an error)
     if(empty($template_name)) throw new Exception('404');
-
-    if(!$current_page_template_file) {
-      throw new Exception('A template named \''.$template_name.'\' could not be found in the \'/templates\' folder');
-    }
     # render page
     $this->render($file_path, $current_page_template_file);
   }
@@ -124,9 +124,15 @@ Class Stacey {
     if($this->handle_redirects()) return;
 
     # strip any leading or trailing slashes from the passed url
-    $key = preg_replace(array('/\/$/', '/^\//'), '', key($get));
+    $key = key($get);
+    # if the key isn't a URL path, then ignore it
+    if (!preg_match('/\//', $key)) $key = false;
+    $key = preg_replace(array('/\/$/', '/^\//'), '', $key);
     # store file path for this current page
     $this->route = isset($key) ? $key : 'index';
+    # TODO: Relative root path is set incorrectly (missing an extra ../)
+    # strip any trailing extensions from the url
+    $this->route = preg_replace('/[\.][\w\d]+?$/', '', $this->route);
     $file_path = Helpers::url_to_file_path($this->route);
 
     try {
@@ -136,11 +142,12 @@ Class Stacey {
       if($e->getMessage() == "404") {
         # return 404 headers
         header('HTTP/1.0 404 Not Found');
-        if(file_exists('./content/404')) {
-          $this->create_page('./content/404', '404');
+        if(file_exists(Config::$content_folder.'/404')) {
+          $this->route = '404';
+          $this->create_page(Config::$content_folder.'/404');
         }
-        else if(file_exists('./public/404.html')) {
-          echo file_get_contents('./public/404.html');
+        else if(file_exists(Config::$root_folder.'public/404.html')) {
+          echo file_get_contents(Config::$root_folder.'public/404.html');
         }
         else {
           echo '<h1>404</h1><h2>Page could not be found.</h2><p>Unfortunately, the page you were looking for does not exist here.</p>';

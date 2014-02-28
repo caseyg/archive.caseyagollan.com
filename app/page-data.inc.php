@@ -2,6 +2,8 @@
 
 Class PageData {
 
+  static $shared = false;
+
   static function extract_closest_siblings($siblings, $file_path) {
     $neighbors = array();
     # flip keys/values
@@ -13,10 +15,10 @@ Class PageData {
     if(!empty($siblings) && isset($siblings[$file_path])) {
       # previous sibling
       if(isset($keys[$keyIndexes[$file_path] - 1])) $neighbors[] = $keys[$keyIndexes[$file_path] - 1];
-      else $neighbors[] = $keys[count($keys) - 1];
+      else $neighbors[] = false;
       # next sibling
       if(isset($keys[$keyIndexes[$file_path] + 1])) $neighbors[] = $keys[$keyIndexes[$file_path] + 1];
-      else $neighbors[] = $keys[0];
+      else $neighbors[] = false;
     }
     return !empty($neighbors) ? $neighbors : array(false, false);
   }
@@ -27,8 +29,7 @@ Class PageData {
     # drop the last folder from the file path
     array_pop($split_path);
     $parent_path = array(implode('/', $split_path));
-
-    return $parent_path[0] == './content' ? array() : $parent_path;
+    return $parent_path[0] == Config::$content_folder ? array() : $parent_path;
   }
 
   static function get_parents($file_path, $url) {
@@ -40,17 +41,18 @@ Class PageData {
       array_pop($split_path);
       $parents[] = implode('/', $split_path);
     }
-    # reverse array to emulate anchestor structure
-    $parents = array_reverse($parents);
 
     return (count($parents) < 1) ? array() : $parents;
   }
 
   static function get_thumbnail($file_path) {
     $thumbnails = array_keys(Helpers::list_files($file_path, '/thumb\.(gif|jpg|png|jpeg)$/i', false));
-    # replace './content' with relative path back to the root of the app
-    $relative_path = preg_replace('/^\.\//', Helpers::relative_root_path(), $file_path);
-    return (!empty($thumbnails)) ? $relative_path.'/'.$thumbnails[0] : false;
+    if (!empty($thumbnails)) {
+      $thumb = new Image($file_path.'/'.$thumbnails[0]);
+      return $thumb->data;
+    } else {
+      return false;
+    }
   }
 
   static function get_index($siblings, $file_path) {
@@ -73,169 +75,192 @@ Class PageData {
     } else {
       return ($base_path.'/'.$permalink == $_SERVER['REQUEST_URI']);
     }
+    return false;
   }
 
   static function get_file_types($file_path) {
     $file_types = array();
     # create an array for each file extension
     foreach(Helpers::list_files($file_path, '/\.[\w\d]+?$/', false) as $filename => $file_path) {
-      preg_match('/(?<!thumb|_lge|_sml)\.(?!txt)([\w\d]+?)$/', $filename, $ext);
+      preg_match('/(?<!thumb|_lge|_sml)\.(?!yml)([\w\d]+?)$/', $filename, $ext);
       # return an hash containing arrays grouped by file extension
       if(isset($ext[1]) && !is_dir($file_path)) $file_types[$ext[1]][$filename] = $file_path;
     }
     return $file_types;
   }
 
-  static function get_asset_collections($file_path) {
-    $asset_collections = array();
-    # create an array of files for each folder named _*
-    foreach(Helpers::list_files($file_path, '/_.+$/', true) as $filename => $file_path) {
-      # select all files from within the folder
-      foreach(Helpers::list_files($file_path, '/\.[\w\d]+?$/', false) as $asset_name => $asset_path) {
-        # if the returned file is not a folder, push it into the appropriate asset key
-        if(!is_dir($asset_path)) $asset_collections[$filename][$asset_name] = $asset_path;
-      }
-    }
-    return $asset_collections;
-  }
-
   static function create_vars($page) {
-    # @file_path
-    $page->data['@file_path'] = $page->file_path;
-    # @url
+    # page.file_path
+    $page->data['file_path'] = $page->file_path;
+    # page.url
     $page->url = Helpers::relative_root_path($page->url_path.'/');
-    # @permalink
+    # page.permalink
     $page->permalink = Helpers::modrewrite_parse($page->url_path.'/');
-    # @slug
+    # page.slug
     $split_url = explode("/", $page->url_path);
     $page->slug = $split_url[count($split_url) - 1];
-    # @page_name
-    $page->page_name = ucfirst(preg_replace('/[-_](.)/e', "' '.strtoupper('\\1')", $page->data['@slug']));
-    # @root_path
+    # page.page_name
+    $page->page_name = ucfirst(preg_replace_callback('/[-_](.)/', function ($matches) {
+      return ' '.strtoupper($matches[1]);
+    }, $page->data['slug']));
+    # page.root_path
     $page->root_path = Helpers::relative_root_path();
-    # @thumb
+    # page.thumb
     $page->thumb = self::get_thumbnail($page->file_path);
-    # @current_year
+    # page.current_year
     $page->current_year = date('Y');
 
-    # @stacey_version
+    # page.stacey_version
     $page->stacey_version = Stacey::$version;
-    # @domain_name
+    # page.domain_name
     $page->domain_name = $_SERVER['HTTP_HOST'];
-    # @base_url
+    # page.base_url
     $page->base_url = $_SERVER['HTTP_HOST'].str_replace('/index.php', '', $_SERVER['PHP_SELF']);
-    # @site_updated
+    # page.site_updated
     $page->site_updated = strval(date('c', Helpers::site_last_modified()));
-    # @updated
+    # page.updated
     $page->updated = strval(date('c', Helpers::last_modified($page->file_path)));
+    # page.id
+    $page->id = "p" . substr(md5($_SERVER['HTTP_HOST'] . $page->data['permalink']), 0, 6);
 
-    # @siblings_count
-    $page->siblings_count = strval(count($page->data['$siblings_and_self']));
-    # @children_count
-    $page->children_count = strval(count($page->data['$children']));
-    # @index
-    $page->index = self::get_index($page->data['$siblings_and_self'], $page->file_path);
+    # page.siblings_count
+    $page->siblings_count = strval(count($page->data['siblings_and_self']));
+    # page.children_count
+    $page->children_count = strval(count($page->data['children']));
+    # page.index
+    $page->index = self::get_index($page->data['siblings_and_self'], $page->file_path);
 
-    # @is_current
-    $page->is_current = self::is_current($page->data['@base_url'], $page->data['@permalink']);
-    # @is_last
-    $page->is_last = $page->data['@index'] == $page->data['@siblings_count'];
-    # @is_first
-    $page->is_first = $page->data['@index'] == 1;
+    # page.is_current
+    $page->is_current = self::is_current($page->data['base_url'], $page->data['permalink']);
+    # page.is_last
+    $page->is_last = $page->data['index'] == $page->data['siblings_count'];
+    # page.is_first
+    $page->is_first = $page->data['index'] == 1;
 
-	# @cache_page
-	$page->bypass_cache = isset($page->data['@bypass_cache']) ? $page->data['@bypass_cache'] : false;
+    # page.template_name
+    $page->data['template_name'] = $page->template_name;
+
+    # page.cache_page
+    $page->bypass_cache = isset($page->data['bypass_cache']) && $page->data['bypass_cache'] !== 'false' ? $page->data['bypass_cache'] : false;
 
   }
 
   static function create_collections($page) {
-    # $root
-    $page->root = Helpers::list_files('./content', '/^\d+?\./', true);
-    # $parent
-      $parent_path = self::get_parent($page->file_path, $page->url_path);
+    # page.root
+    $page->root = Helpers::list_files(Config::$content_folder, '/^\d+?\./', true);
+    # page.query
+    $page->query = $_GET;
+    # page.parent
+    $parent_path = self::get_parent($page->file_path, $page->url_path);
     $page->parent = $parent_path;
-    # $parents
+    # page.parents
     $page->parents = self::get_parents($page->file_path, $page->url_path);
-    # $siblings
-    $parent_path = !empty($parent_path[0]) ? $parent_path[0] : './content';
+    # page.siblings
+    $parent_path = !empty($parent_path[0]) ? $parent_path[0] : Config::$content_folder;
     $split_url = explode("/", $page->url_path);
     $page->siblings = Helpers::list_files($parent_path, '/^\d+?\.(?!'.$split_url[(count($split_url) - 1)].')/', true);
-    # $siblings_and_self
+    # page.siblings_and_self
     $page->siblings_and_self = Helpers::list_files($parent_path, '/^\d+?\./', true);
-    # $next_sibling / $previous_sibling
-      $neighboring_siblings = self::extract_closest_siblings($page->data['$siblings_and_self'], $page->file_path);
+    # page.next_siblings / page.previous_siblings
+    $index = self::get_index($page->data['siblings_and_self'], $page->file_path);
+    $page->previous_siblings = array_slice($page->data['siblings_and_self'], 0, $index - 1, true);
+    $page->next_siblings = array_slice($page->data['siblings_and_self'], $index, count($page->data['siblings_and_self']), true);
+    # page.next_sibling / page.previous_sibling
+    $neighboring_siblings = self::extract_closest_siblings($page->data['siblings_and_self'], $page->file_path);
     $page->previous_sibling = array($neighboring_siblings[0]);
     $page->next_sibling = array($neighboring_siblings[1]);
 
-    # $children
+    # page.children
     $page->children = Helpers::list_files($page->file_path, '/^\d+?\./', true);
   }
 
   static function create_asset_collections($page) {
-    # $images
+    # page.files
+    $page->files = Helpers::list_files($page->file_path, '/(?<!thumb|_lge|_sml)\.(?!yml)([\w\d]+?)$/i', false);
+    # page.images
     $page->images = Helpers::list_files($page->file_path, '/(?<!thumb|_lge|_sml)\.(gif|jpg|png|jpeg)$/i', false);
-    # $video
+    # page.numbered_images
+    $page->numbered_images = Helpers::list_files($page->file_path, '/^\d+[^\/]*(?<!thumb|_lge|_sml)\.(gif|jpg|png|jpeg)$/i', false);
+    # page.video
     $page->video = Helpers::list_files($page->file_path, '/\.(mov|mp4|m4v)$/i', false);
 
-    # $swf, $html, $doc, $pdf, $mp3, etc.
-    # create a variable for each file type included within the page's folder (excluding .txt files)
+    # page.swf, page.html, page.doc, page.pdf, page.mp3, etc.
+    # create a variable for each file type included within the page's folder (excluding .yml files)
     $assets = self::get_file_types($page->file_path);
-    foreach($assets as $asset_type => $asset_files) eval('$page->'.$asset_type.'=$asset_files;');
-
-    # create asset collections (any assets within a folder beginning with an underscore)
-    $asset_collections = self::get_asset_collections($page->file_path);
-    foreach($asset_collections as $collection_name => $collection_files) eval('$page->'.$collection_name.'=$collection_files;');
-  }
-
-  static function create_textfile_vars($page) {
-    # store contents of content file (if it exists, otherwise, pass back an empty string)
-    $content_file_path = $page->file_path.'/'.$page->template_name.'.txt';
-    $text = (file_exists($content_file_path)) ? file_get_contents($content_file_path) : '';
-
-    # include shared variables for each page
-    $shared = (file_exists('./content/_shared.txt')) ? file_get_contents('./content/_shared.txt') : '';
-    # strip any $n matches from the text, as this will mess with any preg_replaces
-    # they get put back in after the template has finished being parsed
-    $text = preg_replace('/\$(\d+)/', "\x02$1", $text);
-
-    # remove UTF-8 BOM and marker character in input, if present
-    $merged_text = preg_replace('/^\xEF\xBB\xBF|\x1A/', '', array($shared, $text));
-
-    # merge shared content into text
-    $shared = preg_replace('/\n\s*?-\s*?\n?$/', '', $merged_text[0]);
-    $content = preg_replace('/\n\s*?-\s*?\n?$/', '', $merged_text[1]);
-    $text = $shared."\n-\n".$content;
-
-    # standardize line endings
-    $text = preg_replace('/\r\n?/', "\n", $text);
-
-    # pull out each key/value pair from the content file
-    $matches = preg_split("/\n\s*?-\s*?\n/", $text);
-
-    foreach($matches as $match) {
-      # split the string by the first colon
-      $colon_split = explode(':', $match, 2);
-
-      # replace the only var in your content - @path for your inline html with images and stuff
-      $relative_path = preg_replace('/^\.\//', Helpers::relative_root_path(), $page->file_path);
-      $colon_split[1] = preg_replace('/\@path/', $relative_path.'/', $colon_split[1]);
-
-      # get template file type as $split_path[1]
-      global $current_page_template_file;
-      if(!$current_page_template_file) $current_page_template_file = $page->template_file;
-
-      preg_match('/\.([\w\d]+?)$/', $current_page_template_file, $split_path);
-      # set a variable with a name of 'key' on the page with a value of 'value'
-      # if the template type is xml or html & the 'value' contains a newline character, parse it as markdown
-      if(strpos($colon_split[1], "\n") !== false && preg_match('/xml|htm|html|rss|rdf|atom/', $split_path[1])) {
-        $page->$colon_split[0] = Markdown(trim($colon_split[1]));
-      } else {
-        $page->$colon_split[0] = trim($colon_split[1]);
-      }
+    foreach($assets as $asset_type => $asset_files) {
+      $page->$asset_type = $asset_files;
     }
   }
 
-  static function html_to_xhtml($value) {
+  static function get_shared_data() {
+    if (self::$shared) return self::$shared;
+    $shared_file_path = file_exists(Config::$content_folder.'/_shared.yml') ? Config::$content_folder.'/_shared.yml' : Config::$content_folder.'/_shared.txt';
+    if (file_exists($shared_file_path)) {
+      return self::$shared = sfYaml::load($shared_file_path);
+    } else {
+      return array();
+    }
+  }
+
+  static function preparse_text($text) {
+    $content = preg_replace_callback('/:\s*(\n)?\+{3,}([\S\s]*?)\+{3,}/', create_function('$match',
+      'return ": |\n  ".preg_replace("/\n/", "\n  ", $match[2]);'
+    ), $text);
+    return $content;
+  }
+
+  static function create_textfile_vars($page, $content = false) {
+    # store contents of content file (if it exists, otherwise, pass back an empty string)
+    if ($content) {
+      $vars = sfYaml::load($content);
+    } else {
+      $content_file = sprintf('%s/%s', $page->file_path, $page->template_name);
+      $content_file_path = file_exists($content_file.'.yml') ? $content_file.'.yml' : $content_file.'.txt' ;
+      if (!file_exists($content_file_path)) return;
+      # Correct formatting of fenced content
+      $content = file_get_contents($content_file_path);
+      $content = self::preparse_text($content);
+      $vars = sfYaml::load($content);
+    }
+
+    # include shared variables for each page
+    $vars = array_merge(self::get_shared_data(), $vars ? $vars : array());
+    if (empty($vars)) return;
+
+    global $current_page_template_file;
+    if (!$current_page_template_file) {
+      $current_page_template_file = $page->template_file;
+    }
+    $markdown_compatible = preg_match('/\.(xml|html?|rss|rdf|atom|js|json)$/', $current_page_template_file);
+    $relative_path = preg_replace('/^\.\//', Helpers::relative_root_path(), $page->file_path);
+
+    $vars = self::parse_vars($vars, $markdown_compatible, $relative_path);
+    foreach ($vars as $key => $value) {
+      # set a variable with a name of 'key' on the page with a value of 'value'
+      $page->$key = $value;
+    }
+  }
+
+  static function parse_vars($vars, $markdown_compatible, $relative_path) {
+    foreach ($vars as $key => $value) {
+      # replace the only var in your content - page.path for your inline html with images and stuff
+      if (is_string($value)) $value = preg_replace('/{{\s*path\s*}}/', $relative_path . '/', $value);
+
+      # if the template type is markdown-compatible & the 'value' contains a newline character, parse it as markdown
+      if (!is_string($value)) {
+        $vars[$key] = $value;
+      } else if ($markdown_compatible && strpos($value, "\n") !== false) {
+        $vars[$key] = Markdown(trim($value));
+      } else {
+        $vars[$key] = trim($value);
+      }
+    }
+    return $vars;
+  }
+
+  static function html_to_xhtml(&$value) {
+    if (!is_string($value)) return;
+
     # convert named entities to numbered entities
     $value = Helpers::translate_named_entities($value);
     # convert appropriate markdown-created tags to xhtml syntax
@@ -244,9 +269,14 @@ Class PageData {
     return $value;
   }
 
-  static function create($page) {
+  static function clean_json($value) {
+    # escape inner double quotes
+    return preg_replace('/\"/', '\"', $value);
+  }
+
+  static function create($page, $content = false) {
     # set vars created within the text file
-    self::create_textfile_vars($page);
+    self::create_textfile_vars($page, $content);
     # create each of the page-specfic helper variables
     self::create_collections($page);
     self::create_vars($page);
@@ -254,11 +284,18 @@ Class PageData {
 
     # if file extension matches an xml type, convert to any html to xhtml to pass validation
     global $current_page_template_file;
-    if(preg_match('/\.(xml|rss|rdf|atom)$/', $current_page_template_file)) {
+    if (preg_match('/\.(xml|rss|rdf|atom)$/', $current_page_template_file)) {
       # clean each value for xhtml rendering
       foreach($page->data as $key => $value) {
-        if(is_string($value)) {
+        if (is_string($value)) {
           $page->data[$key] = self::html_to_xhtml($value);
+        }
+      }
+    } else if (preg_match('/\.(js|json)$/', $current_page_template_file)) {
+      # clean strings for json output
+      foreach($page->data as $key => $value) {
+        if(is_string($value)) {
+          $page->data[$key] = self::clean_json($value);
         }
       }
     }

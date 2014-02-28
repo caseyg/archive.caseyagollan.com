@@ -1,8 +1,0 @@
-title: Weeknotes
--
-date: 2012 Spring & 2013 Spring
--
-description: 
-Every week for the second semester of my junior and senior year at Cooper Union I wrote a long-winded report on what I was doing, thinking about, and working on.
--
-tags: Writing, Notes, Workspace

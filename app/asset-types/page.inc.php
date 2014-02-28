@@ -10,7 +10,7 @@ Class Page {
   var $data;
   var $all_pages;
 
-  function __construct($url) {
+  function __construct($url, $content = false) {
     # store url and converted file path
     $this->file_path = Helpers::url_to_file_path($url);
     $this->url_path = $url;
@@ -18,38 +18,34 @@ Class Page {
     $this->template_name = self::template_name($this->file_path);
     $this->template_file = self::template_file($this->template_name);
     $this->template_type = self::template_type($this->template_file);
-
     # create/set all content variables
-    PageData::create($this);
-    # sort data array by key length
-    #
-    # this ensures that something like '@title' doesn't turn '@page_title'
-    # into '@page_Contents of @title variable' in the final rendered template
-    #
-    uksort($this->data, array('Helpers', 'sort_by_length'));
+    PageData::create($this, $content);
+  }
 
+  function clean_json($data) {
+    # strip any trailing commas
+    # (run it twice to get partial matches)
+    $data = preg_replace('/([}\]"][\s\n]*),([\s\n]*[}\]])/', '$1$2', $data);
+    $data = preg_replace('/([}\]"][\s\n]*),([\s\n]*[}\]])/', '$1$2', $data);
+    # strip newline characters
+    $data = preg_replace('/\n/', '', $data);
+    # minfy it
+    $data = JSMin::minify($data);
+    return $data;
   }
 
   function parse_template() {
-    $data = TemplateParser::parse($this->data, file_get_contents($this->template_file));
-
+    $data = TemplateParser::parse($this->data, $this->template_file);
     # post-parse JSON
     if (strtolower($this->template_type) == 'json') {
-      # minfy it
-      $data = json_minify($data);
-      # strip any trailing commas
-      # (run it twice to get partial matches)
-      $data = preg_replace('/([}\]"]),([}\]])/', '$1$2', $data);
-      $data = preg_replace('/([}\]"]),([}\]])/', '$1$2', $data);
+      $data = $this->clean_json($data);
     }
-
     return $data;
   }
 
   # magic variable assignment
   function __set($name, $value) {
-    $prefix = is_array($value) ? '$' : '@';
-    $this->data[$prefix.strtolower($name)] = $value;
+    $this->data[strtolower($name)] = $value;
   }
 
   static function template_type($template_file) {
@@ -58,15 +54,19 @@ Class Page {
   }
 
   static function template_name($file_path) {
-    $txts = array_keys(Helpers::list_files($file_path, '/\.txt$/'));
-    # return first matched .txt file
-    return (!empty($txts)) ? preg_replace('/([^.]*\.)?([^.]*)\.txt$/', '\\2', $txts[0]) : false;
+    $txts = array_keys(Helpers::list_files($file_path, '/\.(yml|txt)/'));
+    # return first matched .yml file
+    return (!empty($txts)) ? preg_replace('/\.(yml|txt)/', '', $txts[0]) : false;
   }
 
   static function template_file($template_name) {
-    $template_file = glob('./templates/'.$template_name.'.*');
+    preg_match('/(\.[\w\d]+?)$/', $_SERVER["REQUEST_URI"], $ext);
+    $extension = isset($ext[1]) ? $ext[1] : '.*';
+    $template_name = preg_replace('/([^.]*\.)?([^.]*)$/', '\\2', $template_name);
+    $template_file = glob(Config::$templates_folder.'/'.$template_name.$extension);
+    if (!isset($template_file[0])) $template_file = glob(Config::$templates_folder.'/'.$template_name.'.*');
     # return template if one exists
-    return isset($template_file[0]) ? $template_file[0] : false;
+    return isset($template_file[0]) ? $template_file[0] : Config::$templates_folder.'/default.html';
   }
 
 }
