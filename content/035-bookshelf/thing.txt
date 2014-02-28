@@ -1,0 +1,9 @@
+slug: bookshelf
+----
+date: 2009 Fall
+----
+title: Gradient Bookshelf
+----
+excerpt: I rearranged a few of my favorite books to form a gradient based on the color of the paper, then bent a metal shelf to perfectly contain them.
+----
+tags: Cooper Union, Foundation Year Prompts, Color, Books, New York, Organizing

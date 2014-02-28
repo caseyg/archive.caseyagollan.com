@@ -1,5 +1,5 @@
 title: WTF is a "Version Control System"
--
+----
 content:
 If you've ever saved multiple versions of a file that you're working on (essay.doc, essay-draft.doc, essay-new.doc, essay-new-new.doc) you've basically operated your own manual version control system. Git is like a computerized secretary that keeps track of the history and versions of your files for you in a way that is easier, tidier, and more comprehensive. Once you've turned Git on within a folder you don't need to keep saving differently named versions. Instead, every time you've made a substantive change you "commit" it, telling Git in a sentence what kind of changes you've made. Git stores the original document, your note about what you've changed, and the actual bits that were changed. In a normal workflow you'd end up with a bunch of confusingly named variations of a file (or worse, no versions at all!), but Git allows you to cleanly access a file's history and jump back and forth through changes.
 

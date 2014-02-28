@@ -1,0 +1,76 @@
+title: Built to Last, Built to Decay: Authentic, Self-Reflective, Relationship Building Books in the Age of the iPad
+----
+date: 2010 March
+----
+excerpt: Craig Mod, who clearly _gets it_, has written (and _designed_) [an excellent piece](http://craigmod.com/journal/ipad_and_books/) on the future of publishing:
+----
+tags: Writing, Blog Highlights, Design Thinking, Publications, Technology, New York
+----
+content: 
+        <p><a href="http://craigmod.com/">Craig Mod</a>, who clearly <em>gets it</em>, has written (and <em>designed</em>) <a href="http://craigmod.com/journal/ipad_and_books/">an excellent piece</a> on the future of publishing:</p>
+
+<blockquote><p>I propose the following to be considered whenever we think of printing a book:</p>
+
+              <ul><li>The Books We Make <strong>embrace their physicality</strong> — working in concert with the content to illuminate the narrative. </li>
+                <li>The Books We Make are <strong>confident in form and usage of material</strong>. </li>
+                <li>The Books We Make <strong>exploit the advantages of print</strong>. </li>
+                <li>The Books We Make are <strong>built to last</strong></li>
+              </ul><p>The result of this is:</p>
+
+              <ul><li>The Books We Make will feel whole and solid in the hands.</li>
+                <li>The Books We Make will smell like now forgotten, far away libraries.</li>
+                <li>The Books We Make will be something of which even our children — who have fully embraced all things digital — will understand the worth.</li>
+                <li>The Books We Make will always remind people that the printed book can be a sculpture for thoughts and ideas.</li>
+              </ul><p>Anything less than this will be stepped over and promptly forgotten in the digital march forward. </p>
+            <p>Goodbye disposable books.</p> 
+            <p>Hello new canvases.</p></blockquote>
+
+<p>I like the distinction between <a href="http://craigmod.com/journal/ipad_and_books/#starts_content">formless and definite content</a> in relation to <a href="http://notes.caseyagollan.com/post/353396147/i-passed-right-over-this-beautiful-interactive">a container</a>. I highly reccomend reading <a href="http://craigmod.com/journal/ipad_and_books/">the entire piece</a>, which also talks about opportunities for <a href="http://notes.caseyagollan.com/post/371551348/a-new-class-of-content-for-a-new-class-of-device">&#8220;definite&#8221; digital content</a> that are presented by the iPad. The only point I might debate and expand on (not because Craig is wrong, but because he is not taking into account certain possibilities*) is that printed books should be &#8220;built to last.&#8221;</p>
+
+<p>While digital distribution makes sense for high-volume, formless, ephemeral publishing like news and tweets, the fact of the matter is that digital content can exist indefinitely, distributed across millions of hard drives, but a printed object exists in one place at a time and eventually disintegrates.</p>
+
+<p>I&#8217;ve saved a lot of links on the perpetuity of digital information but never created a standardized tag (perhaps I should use: <em>forgetting</em>?) so it&#8217;s hard for me to dig up references or even make sense of it. However, I recently read an article from a couple months ago called <a href="http://chronicle.com/article/Our-Digitally-Undying-Memories/63747/?sid=cr&amp;utm_source=cr&amp;utm_medium=en">Our Digitally Undying Memories</a> by Siva Vaidhyanathan, reviewing Viktor Mayer-Schönberger&#8217;s book <em>Delete: The Virtue of Forgetting in the Digital Age</em> that impacted me a lot:</p>
+
+<blockquote>
+  <p>The technological proliferation of the last 40 years has given us remarkably cheap information-storage techniques. Our powers to remember have shifted the default (for digitized information and culture anyway) so that forgetting is the accident or exception, Mayer-Schönberger asserts. We have moved so quickly from forgetting most of our stuff (or at least rendering it hard to access) to remembering most of it (and making it easy to search) that we have neglected to measure the effects of the change. Just because we have the vessels, we fill them. Then we engage with networks of data communication that offer so many disparate elements of our lives to strangers and—more important—people we would like to know better.</p>
+</blockquote>
+
+<p>The thought of print as something that goes away reminds me of a hilariously conspiracy-theory-esque Gawker post analyzing <a href="http://gawker.com/239404/why-your-new-york-times-mag-always-falls-apart">the strength of staples</a> used to bind <em>The New Yorker</em> versus <em>The New York Times Magazine</em>:</p>
+
+<blockquote>
+  <p>Could it be? Is the New York Times magazine perfectly calibrated to totally self-destruct before the next week&#8217;s issue (and ads) arrives?</p>
+  
+  <p>Reached on Friday, a Times spokeswoman asked about reader staple angst denied everything. &#8220;I&#8217;ve never heard it,&#8221; Diane McNulty said. &#8220;In all the years I&#8217;ve been here, I&#8217;ve never heard that.&#8221;</p>
+</blockquote>
+
+<p>If we expand our idea of what a book is, a novel can be printed on newsprint and bound with staples, so can a blog. The new distinction is about formless vs. definite content and object vs. screen. All of these design and production options can—and should—apply to the future of books.</p>
+
+<p>The fact that books can get ripped, left out in the rain, smudged with food, given to a friend, bought from a used bookstore with a stranger&#8217;s marginalia, thrown away during a move, or left to rot in someone&#8217;s dank basement is a design advantage—or, at the very least, something for the creator to take into account.</p>
+
+<p>I love finely produced books**, where the designer has shaped the experience I will have with buying the book and reading it. But designers who consider books-of-the-future as important for being physical objects need to also think about redefining what a book is and how we interact with it. What paths might a reader take that deviate from the standard: author &#8212;&gt; printer &#8212;&gt; bookstore &#8212;&gt; reader?</p>
+
+<p>There is magic in the kind of second-hand interactions (decaying, annotating, sharing) listed above that doesn&#8217;t exist in the same way on a digital level. When the Microsoft Zune announced a feature called—wait for it—<em>squirting</em>, allowing you to wirelessly share songs from your device with others nearby, Steve Jobs had something brilliant to say about the artifice of digital relationships and interactions:</p>
+
+<blockquote>
+  <p><strong>Newsweek</strong>: Microsoft has announced its new iPod competitor, Zune. It says that this device is all about building communities. Are you worried?</p>
+  
+  <p><strong>Steve Jobs</strong>: In a word, no. I’ve seen the demonstrations on the Internet about how you can find another person using a Zune and give them a song they can play three times. It takes forever. By the time you’ve gone through all that, the girl’s got up and left! You’re much better off to take one of your earbuds out and put it in her ear. Then you’re connected with about two feet of headphone cable.</p>
+</blockquote>
+
+<p>In <a href="http://number27.org/wb-builders.html"><em>World Building in a Crazy World</em></a>, Jonathan Harris writes:</p>
+
+<blockquote>
+  <p>Human needs that have to do with authenticity, self-reflection, depth of communication, and real relationship-building are especially poorly answered online (at least currently). Maybe these needs cannot be answered online and require physical contact in all cases, but my sense is that they can, if only we design the right worlds to encourage and support them.</p>
+</blockquote>
+
+<p>The content of books is one of the most authentic ways that we get to explore these things—as <a href="http://notes.caseyagollan.com/post/102097321/fictions-about-what-it-is-to-be-a-fucking-human">DFW said</a>, &#8220;Fiction&#8217;s about what it is to be a fucking human being&#8221;—but what about exploring meaning through the design of books? What about designing books to be kept or shared, protected or beat-up, resold and then shared and resold again? In Objectified, a designer from IDEO (can&#8217;t remember exactly who it was) talked about sustainability as such:</p>
+
+<blockquote>
+  <p>“Most things I’ve designed are now in landfills.&#8221; I have to ask myself, &#8220;Would you be comfortable having designed this product if it washed up on a beach?&#8221;</p>
+</blockquote>
+
+<p>Jumping again, but there is a parable that a Buddhist looks at a pile of trash and sees the trees and minerals that the garbage objects were originally made from and also the flower that will grow out of their decomposition. Maybe I&#8217;m getting too specifically into this crazy idea of growing, decomposing, circulated books as interactive art objects, but these design considerations can be subtle too. How can we harness accidental design? How can we create objects that take on a second life beyond their content? What happens next? What I&#8217;m really talking about is designing objects, and how we&#8217;re only moving into increasingly exciting territory. And, yeah, I&#8217;m <em>really freaking optimistic</em> about <strike>the future of print</strike> everything.</p>
+
+<p><small>, I admire that the article is very focused, because there are <em>infinite</em> possibilities. My method of thinking and writing tends to be expansive, sprawling and often (because of this) indigestible.</small></p>
+
+<p><small>*, I have three of the seven books that Craig highlights as excellent examples of print and can vouch that they are, in fact, excellent.</small></p>

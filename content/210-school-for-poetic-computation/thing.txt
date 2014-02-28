@@ -1,0 +1,19 @@
+title: School for Poetic Computation
+----
+description: Helping run a new school founded by Zach Lieberman, Taeyoon Choi, Jen Lowe, and Amit Pitaru. Attempting to model a radically open and generous organization by publishing our finances on Github and returning money we didn't spend to students.
+----
+excerpt:
+----
+date: 2013 Fall - Present
+----
+tags: Work, Education, Technology, New York
+----
+external_link: http://sfpc.io
+----
+link_label:
+----
+hide_media:
+----
+media_above_content:
+----
+content:

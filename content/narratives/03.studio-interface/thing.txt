@@ -1,7 +1,7 @@
 title: Is My Studio an Interface?
--
+----
 author: Casey Gollan
--
+----
 content: 
 Last year a Freshman approached me and told me that they decided to hand in “nothing” in response to a prompt that one of their foundation professors gave them. Somebody in their class told them: you should go talk to Casey Gollan, he does nothing too.
 

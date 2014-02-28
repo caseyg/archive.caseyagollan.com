@@ -1,5 +1,5 @@
 title: Transcending Paradigms
--
+----
 content:
 You don’t need anybody’s approval to start using Git for yourself, but the more important change will happen when we can re-evaluate the principles and structures of administrations in relation to Git-like mentalities. This is because Git is equal parts tools — commits, diffs, clones, forks, branches, pull requests — and attitudes. You know a crash course in Git has been successful when you hear the loud shattering of a person’s depressing assumptions about how work has to be. 
 

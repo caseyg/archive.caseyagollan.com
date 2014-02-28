@@ -1,0 +1,16 @@
+title: CooperUnion.biz
+----
+date: 2011 December
+----
+description: A satirical clone of the Cooper Union website from an alternate universe where the  administration gets their way.
+----
+content:
+Made with [Alex](http://badsmellingboy.com) and [Aaron](http://aaron-graham.com).
+----
+tags: Cooper Union, Trolling, Fun, Website, New York
+----
+external_link: http://cooperunion.biz
+----
+badge: New
+----
+badge_color: red

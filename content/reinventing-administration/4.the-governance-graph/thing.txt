@@ -1,5 +1,5 @@
 title: The Governance Graph
--
+----
 content:
 Just because Git provides a way for everyone to contribute directly doesn’t mean that conversations are unimportant. Git was created in 2005, but has exploded in popularity over the last several years thanks to a “social coding” network called Github. Unlike other networks such as Facebook and Twitter which have more to do with open-ended communication, Github encourages people to move projects forward. This is accomplished in part by building tools for conversation and project management on top of Git’s mechanisms for distributed revision control. These tools run the gamut from starting discussions in a forum, to annotating files line by line, to literally making a change and submitting a pull request. These features shouldn’t be misunderstood to be about obviating face-to-face discussions or working together in real life. By encouraging concrete work over proposals and allowing for more precise feedback, these tools improve meetings and help waste less of everyone’s time.
 

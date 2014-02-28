@@ -1,5 +1,5 @@
 title: Rotational Mania
--
+----
 content:
 In a series of videos I was working on last year, I had begun to collect thoughts on direct human-computer interfaces and linked data / the semantic web.
 

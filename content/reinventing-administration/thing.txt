@@ -1,9 +1,9 @@
 title: Reinventing Administration
--
+----
 date: 2013 March
--
+----
 tags: Cooper Union, Writing, Politics, Design Thinking
--
+----
 content:
 Outline:
 

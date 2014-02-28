@@ -1,7 +1,7 @@
 title: About
--
+----
 path: @path
--
+----
 about_me:
 
 # Casey Gollan
@@ -22,7 +22,7 @@ about_me:
 ## Fan art
 
 <a href="http://www.youtube.com/watch?v=fgJ65MnD30Q">The Casey Gollan Experience</a>, <a href="https://www.facebook.com/pages/Casey-Gollans-SnaggleTooth/150515317523">Casey Gollan's Snaggle Tooth</a>, <a href="http://fuckyeahcaseygollan.tumblr.com">Fuck Yeah Casey Gollan</a>
--
+----
 about_site:
 
 about_me:
@@ -45,7 +45,7 @@ about_me:
 ## Fan art
 
 <a href="http://www.youtube.com/watch?v=fgJ65MnD30Q">The Casey Gollan Experience</a>, <a href="https://www.facebook.com/pages/Casey-Gollans-SnaggleTooth/150515317523">Casey Gollan's Snaggle Tooth</a>, <a href="http://fuckyeahcaseygollan.tumblr.com">Fuck Yeah Casey Gollan</a>
--
+----
 about_site:
 
 # About This Site

@@ -1,0 +1,21 @@
+title: Poems Not Demos
+----
+description: Helped Zach Lieberman research and prepare for his talk on Education at Eyeo 2013.
+----
+date: 2013 June
+----
+tags: Work, Research, Education
+----
+external_link: http://vimeo.com/69437363
+----
+link_label: View on Vimeo
+----
+hide_media:
+----
+media_above_content:
+----
+content:
+
+<iframe src="//player.vimeo.com/video/69437363?color=ea0b8c" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+> Poems Not Demos – How are a new breed of artist-developer hybrids exploring the creative and expressive nature of computational approaches to art and design? What sort strange, impractical and magical work are they making? What is this new landscape, what are its contours and how do we navigate it? Join Zach as he explores and argues for the field of poetic computation.

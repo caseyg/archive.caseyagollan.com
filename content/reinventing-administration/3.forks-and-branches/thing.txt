@@ -1,5 +1,5 @@
 title: Forks and Branches
--
+----
 content:
 If you remember the acronym for Git-like software: Distributed Version Control Systems, a feature called "forking" represents the D.  In Git-speak, the folder that you put your work in is called your "repository". What makes Git distributed is that anybody can make a copy of your repository onto their own computer to edit as they please. With or without Git anybody can copy anything they want off of the internet onto their computer and change it around, but forking in Git is distinct because Git "clones" the repository in its entirety and keeps those files linked to where they came from. Forking is somewhat self-explanatory in that you are basically creating a fork in the road of that particular repository. One path will continue to be forged by whoever you are copying from (Cooper Union's Administrative Documents), the other by you with your own newly cloned repository (Casey's Administrative Documents). In a similar way to how Git's version control collates the history of changes to a file, Git's forks link different people's versions of a file, allowing you to traverse possibilities. As you can see in the level of abstraction and the shift towards less familiar terminology — repository, fork, clone — this is where Git departs from existing paradigms about how we work. 
 

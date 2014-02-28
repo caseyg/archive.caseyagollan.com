@@ -1,7 +1,0 @@
-title: CooperUnion.net
--
-date: 2011 March
--
-tags: Website, Writing, Cooper Union, Archives, New York, Education
--
-description: CooperUnion.net was a short-lived independent website using the internet to turn a free, private, and exclusive school into a public resource.

@@ -1,9 +1,0 @@
-title: Studio
--
-date: 2011 Fall/Winter
--
-tags: Workspace, Cooper Union, Messy, New York
--
-badge: new
--
-badge_color: blue

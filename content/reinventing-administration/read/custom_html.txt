@@ -1,5 +1,5 @@
 title: Reinventing Administration<br><small>…before it suffocates Cooper Union to death</small>
--
+----
 content:
 
 ## WTF Happened at Cooper Union
