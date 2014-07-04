@@ -6,7 +6,7 @@
 	<style>
 		.link {
 			stroke: darkgray;
-			stroke-width: 2;
+			stroke-width: 1;
 		}
 
 		.project, line {
@@ -37,44 +37,35 @@
 		}
 
 		.project image:hover {
-			-webkit-transform:scale(2);
+			-webkit-transform:scale(4);
 		}
 
-		.tag circle {
-			fill: gray;
-			stroke:darkgray;
-			stroke-width:2px;
-			-webkit-transition:all .25s;
-			cursor:hand;
-		}
-
-		.tag circle:hover {
-			-webkit-transform:scale(1.25);
-			fill:darkgray;
-		}
-		.tag:hover text {
-			fill: white;
-		}
 		.tag text {
-			fill: darkgray;
+			fill: white;
 			font: 12px sans-serif;
-			pointer-events: none;
 			font-weight: bold;
+			cursor:grabbing;
 		}
+		h1 {
+			display:none;
+			}
 	</style>
+<script src="/content/235.what-needs-doing//okhover.min.js" type="text/javascript"></script>
+<script>
+  $(document).ready(function(){
+      $('image').okhover({
+				fadeIn: true,
+        fadeInDuration: 500
+			});
+  });
+</script>
+
 </head>
 <body id="graph">
-	:top-nav
-	<ul id="graphcontrols">
-		<li><label for="charge">Charge </label><input id="charge" type="range" min="-4000" max="0" step="1" value="-1000" onchange="force.charge(this.value).start()" /></li>
-		<li><label for="friction">Friction </label><input id="friction" type="range" min="-4000" max="0" step="1" value=".75" onchange="force.charge(this.value).start()" /></li>
-		<li><label for="linkstrength">Link Strength </label><input id="linkstrength" type="range" min="-4000" max="0" step="1" value="1" onchange="force.charge(this.value).start()" /></li>
-<li><label for="linkdistance">Link Distance</label><input id="linkdistance" type="range" min="0" max="200" step="1" value="20" onchange="force.linkDistance(this.value).start()" /></li>
-		<li><label for="nodesize">Node Size</label><input id="nodesize" type="range" min="10" max="100" step="1" value="40" onchange="r = this.value;force.start();" /></li>
-	</ul>
+	<h1>Casey Gollan</h1>
 <script>
 var svg = d3.select("body").append("svg"),
-		r = 40;
+		r = 15;
 var force = d3.layout.force();
 
 d3.json("/content/index/projects.json", function(graph) {
@@ -98,7 +89,6 @@ d3.json("/content/index/projects.json", function(graph) {
 			.data(graph.nodes)
 		.enter().append("g")
 			.attr("class", function(d) { return d.type; })
-			.attr("r", r)
 			.on("mouseover", fade(.15))
 			.on("mouseout", fade(1))
 			.call(force.drag);
@@ -106,12 +96,13 @@ d3.json("/content/index/projects.json", function(graph) {
 	var project = svg.selectAll(".project")
 					.on("click", function(d) { return window.location.href = d.link; });
 
-	var tag = svg.selectAll(".tag");
+	var tag = svg.selectAll(".tag")
+					.on("click", function(d){
 
-	tag.append("circle")
-			.attr("r", r);
+					});
 
 	project.append("image")
+				.attr("data-okimage", function(d) { return d.thumb; })
 				.attr("xlink:href", function(d) { return d.thumb; })
 				.attr("x", -(r*2)/2)
 				.attr("y", -(r*2)/2)
@@ -155,11 +146,10 @@ d3.json("/content/index/projects.json", function(graph) {
 			.attr("width", r*2)
 			.attr("height", r*2);
 		node.attr("transform", function(d) { return  "translate(" + Math.max(r, Math.min(width - r, d.x)) + "," + Math.max(r, Math.min(height - r, d.y)) + ")"});
-		console.log(r);
 	}
 
 	function resize() {
-		width = window.innerWidth, height = window.innerHeight-102;
+		width = window.innerWidth, height = window.innerHeight;
 		svg.attr("width", width).attr("height", height);
 		force.size([width, height]).resume();
 	}
@@ -176,22 +166,20 @@ d3.json("/content/index/projects.json", function(graph) {
 
 	function fade(opacity) {
 		return function(d) {
-			node.transition().duration(150).select("circle").style("stroke-opacity", function(o) {
+			node.transition().duration(500).select("image").style("opacity", function(o) {
 				thisOpacity = isConnected(d, o) ? 1 : opacity;
-				this.setAttribute('fill-opacity', thisOpacity);
-				return thisOpacity;
-			});
-			node.transition().duration(250).select("image").style("opacity", function(o) {
-				thisOpacity = isConnected(d, o) ? 1 : opacity;
+				if (isConnected(d,o) == 1) { // iterate through every node (o) and if current node (d) is connected
+					console.log(o.index); // log the name of each connected node
+				};
 				this.setAttribute('opacity', thisOpacity);
 				return thisOpacity;
 			})
-			node.transition().duration(250).select("text").style("opacity", function(o) {
+			node.transition().duration(500).select("text").style("opacity", function(o) {
 				thisOpacity = isConnected(d, o) ? 1 : opacity;
 				this.setAttribute('fill-opacity', thisOpacity);
 				return thisOpacity;
 			})
-			link.transition().duration(250).style("stroke-opacity", function(o) {
+			link.transition().duration(500).style("stroke-opacity", function(o) {
 				return o.source === d || o.target === d ? 1 : opacity;
 			});
 		};
