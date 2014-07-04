@@ -1,0 +1,19 @@
+title: Triple Canopy Summer Intensive
+-
+description:
+-
+excerpt:
+-
+date: 2014 Summer
+-
+tags: Publishing, Networks
+-
+external_link:
+-
+link_label:
+-
+hide_media:
+-
+media_above_content:
+-
+content: 
