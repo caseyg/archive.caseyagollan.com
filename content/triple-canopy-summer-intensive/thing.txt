@@ -8,12 +8,12 @@ date: 2014 Summer
 -
 tags: Publishing, Networks
 -
-external_link:
+external_link: @path/casey-tcsummerintensive-notes.pdf
 -
-link_label:
+link_label: Download Notes (PDF, 22mb)
 -
 hide_media:
 -
 media_above_content:
 -
-content: 
+content:
