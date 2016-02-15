@@ -37,7 +37,7 @@ read-2015:
 - title: Teaching to Transgress
   author: Bell Hooks
   status: finished
-  via: Catherine & - title: Jakob
+  via: Catherine & Jakob
 - title: Work
   author: Crimethinc.
   status: not finished
