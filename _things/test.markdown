@@ -4,7 +4,7 @@ date: 2016-02-15 17:54:00 Z
 gallery:
 - file: "/uploads/Screen Shot 2016-02-15 at 10.56.24 AM.png"
   caption: 
-- file: 
+- file: "/uploads/Screen Shot 2016-02-14 at 5.40.59 PM.png"
   caption: 
 ---
 
