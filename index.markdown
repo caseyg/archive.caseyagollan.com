@@ -7,7 +7,7 @@ not-me:
 - name: "Lost Rocker"
   url: http://www.myspace.com/lost.rocker
 like-me:
-- name: @casey_gbooks
+- name: "@casey_gbooks"
   url: http://twitter.com/casey_gbooks
 are-me:
 - name: Vera List Center
