@@ -4,7 +4,7 @@ date: 2016-02-15 02:02:00 Z
 not-me:
 - name: Australian Business Coach
   url: http://www.caseygollan.com.au
-- name: "Lost Rocker"
+- name: Lost Rocker
   url: http://www.myspace.com/lost.rocker
 like-me:
 - name: "@casey_gbooks"
