@@ -1,6 +1,0 @@
-auto: true
-server: true
-permalink: none
-exclude:
-- .gitignore
-- README.md

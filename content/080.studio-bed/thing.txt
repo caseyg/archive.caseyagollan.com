@@ -1,8 +1,0 @@
-title: Studio Bed
--
-date: 2011 March
--
-tags: Workspace, Cooper Union, New York
--
-content:
-This is where the magic happens.

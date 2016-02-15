@@ -1,7 +1,0 @@
-title: Albers-o-Matic
--
-date: 2009 December
--
-tags: Cooper Union, Foundation Year Prompts, Color, Processing, Coding, Meme Generator, New York
--
-content: A simple program, written in Processing, that generates compositions in the same geometric style as Joseph Albers, the famous color theorist. Whereas Albers&#8217; compositions are carefully considered color studies, these color palettes are completely randomly generated. Can you tell the difference between Albers and Albers-O-Matic?
