@@ -1,15 +1,16 @@
 ---
 title: Casey Gollan
 date: 2016-02-15 02:02:00 Z
-Not Me:
+layout: home
+not-me:
 - name: Australian Business Coach
   url: http://www.caseygollan.com.au
 - name: Lost Rocker
   url: http://www.myspace.com/lost.rocker
-Like Me:
+like-me:
 - name: "@casey_gbooks"
   url: http://twitter.com/casey_gbooks
-Are Me:
+are-me:
 - name: Vera List Center
   url: http://www.veralistcenter.org/engage/people/1991/victoria-sobel-and-casey-gollan/
   start: 2015
@@ -62,7 +63,7 @@ Are Me:
   url: http://notes.caseyagollan.com
   start: 2004
   end: 
-Also Me:
+also-me:
 - name: Mixcloud
   url: https://www.mixcloud.com/casey-a-von-gollan/
   start: 2015
@@ -107,11 +108,11 @@ Also Me:
   url: http://hypem.com/caseyg91
   start: 2010
   end: 
-Been Me:
+been-me:
 - name: Triple Canopy
   url: https://canopycanopycanopy.com/contents/a-note-on-triple-canopys-summer-intensive
   start: Summer 2014
-  end: 
+  end: Summer 2014
 - name: School for Poetic Computation
   url: http://sfpc.io/people/casey-gollan/
   start: 2013
@@ -119,12 +120,12 @@ Been Me:
 - name: BHQFU
   url: http://bhqfu.org/class/they-cant-kill-us-all-conversations-on-education-2
   start: Fall 2013
-  end: 
+  end: Fall 2013
 - name: Free Cooper Union
   url: http://freecooperunion.org/
   start: 2012
   end: 2015
-Dormant:
+outlive-me:
 - name: Quora
   url: http://www.quora.com/Casey-Gollan
   start: 2010
@@ -337,7 +338,7 @@ Dormant:
   url: 
   start: 
   end: 
-I Deleted:
+i-deleted-me:
 - name: OkCupid
   start: 2013
   end: 2015
@@ -362,7 +363,7 @@ I Deleted:
 - name: DeviantArt
   start: 2003
   end: 2004
-They Deleted:
+they-deleted-me:
 - name: Readmill
   start: 2011
   end: 2014
@@ -423,7 +424,7 @@ They Deleted:
 - name: Glitch
   start: 
   end: 
-Fan Art:
+fan-art:
 - name: The Casey Gollan Experience
   url: http://www.youtube.com/watch?v=fgJ65MnD30Q
 - name: Casey Gollan's Snaggle Tooth
