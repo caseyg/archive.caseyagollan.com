@@ -3,7 +3,7 @@ title: Casey Gollan
 url: http://caseyagollan.com
 timezone: UTC
 collections:
-  bilbio:
+  biblio:
     title: Bilbio
     output: true
   posts:
