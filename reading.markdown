@@ -73,7 +73,7 @@ read-2015:
   status: not finished
   via: Robert
 - title: The 7 Habits of Highly Effective People
-  author: Stephen R. - title: Covey
+  author: Stephen R. Covey
   status: not finished
   via: Anne
 - title: Holacracy
@@ -139,7 +139,7 @@ read-2012:
 - title: The Twenty-four Hour Mind
   author: Rosalind Cartwright
 - title: The Blind Giant: Being Human in a Digital World
-  author: - title: Nick Harkaway
+  title: Nick Harkaway
 - title: Alone Together: Why We Expect More from Technology - title: and Less from Each Other
   author: Sherry Turkle
 - title: Amusing Ourselves to Death
