@@ -258,7 +258,11 @@ read-2008:
 - title: The Stranger
   author: Alfred Camus
 read-2007:
+- title: 
+  author: 
 read-2006:
+- title: 
+  author: 
 read-2005:
 - title: Harry Potter and the Half-Blood Prince
   author: J.K. Rowling
@@ -267,6 +271,8 @@ read-2005:
 - title: The House on Mango Street
   author: ??
 read-2004:
+- title: 
+  author: 
 read-unknown:
 - title: When You Are Engulfed in Flames
   author: David Sedaris
