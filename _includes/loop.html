@@ -1,0 +1,5 @@
+<p>
+	{% for item in include.page %}
+		{% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}{% if item.start or item.end %} <small>{{ item.start }}{% if item.start != item.end %}-{% if item.end %}{{ item.end | slice: -2, 2 | prepend: "'" }}{% endif %}{% endif %}</small>{% endif %}{% unless forloop.last %}, {% endunless %}
+	{% endfor %}
+</p>
