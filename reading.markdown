@@ -201,7 +201,7 @@ books:
     author: Metahaven
   - title: Internet Art
     author: Rachel Greene
-  Speaking Into The Air: A History of the Idea of Communication
+  - title: Speaking Into The Air: A History of the Idea of Communication
     author: John Durham Peters
   - title: The Gift: Creativity and The Artist in the Modern World
     author: Lewis Hyde
