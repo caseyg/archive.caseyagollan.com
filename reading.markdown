@@ -1,8 +1,10 @@
 ---
 title: Reading
 date: 2016-02-15 06:01:00 Z
+layout: reading
 read:
-- read-2015:
+- year: 2015
+  read:
   - title: The Creative Habit
     author: Twyla Tharp
     status: incomplete
@@ -102,13 +104,15 @@ read:
   - title: The Coming Insurrection
     author: The Invisible Committee
     status: Looking For
-- read-2014:
+- year: 2014
+  read:
   - title: Nicely Said
     author: Nicole Fenton
   - title: Be Slightly Evil
     author: Venkatesh Rao
   - title: The Art of Not Being Governed
-- read-2013:
+- year: 2013
+  read:
   - title: Binding Chaos
     author: Heather Marsh
   - title: Systemantics
@@ -127,7 +131,8 @@ read:
     author: David Foster Wallace
   - title: Uncreative Writing
     author: Kenneth Goldsmith
-- read-2012:
+- year: 2012
+  read:
   - title: Leverage Points
     author: Donella Meadows
   - title: The Psychopath Test
@@ -139,14 +144,13 @@ read:
   - title: The Twenty-four Hour Mind
     author: Rosalind Cartwright
   - title: Nick Harkaway
-  - title: 'Alone Together: Why We Expect More from Technology and Less from Each
-      Other'
+  - title: 'Alone Together: Why We Expect More from Technology and Less from Each Other'
     author: Sherry Turkle
   - title: Amusing Ourselves to Death
     author: Neil Postman
   - title: 'Close to the Machine: Technophilia and Its Discontents'
     author: Ellen Ullman
-  - title: If on a winter's night a traveller
+  - title: "If on a winter's night a traveller"
     author: Italo Calvino
   - title: The Pleasures and Sorrows of Work
     author: Alain De Botton
@@ -167,7 +171,8 @@ read:
     author: Brad Troemel
   - title: Arcades Project
     author: Walter Benjamin
-- read-2011:
+- year: 2011
+  read:
   - title: All Tomorrow’s Parties
     author: William Gibson
   - title: How to Count
@@ -215,7 +220,8 @@ read:
     author: Alan Kaprow
   - title: The Society of Mind
     author: Marvin Minsky
-- read-2010:
+- year: 2010
+  read:
   - title: Confessions of Griseledes Royal
   - title: I Wonder
     author: Marian Bantjes
@@ -223,22 +229,24 @@ read:
     author: Bruce Davidson
   - title: They Called Her Styrene, Etc.
     author: Ed Ruscha
-  - Maps of the Imagination: The Writer as Cartographer"
+  - title: 'Maps of the Imagination: The Writer as Cartographer'
     author: Peter Turchi
   - title: Oroonoko
-    author: "??"
+    author: '??'
   - title: Of Walking on Ice
     author: Werner Herzog
   - title: Illuminations
     author: Walter Benjamin
-  - title Understanding Comics: The Invisible Art"
+  - title: Understanding Comics
     author: Scott McCloud
   - title: Gabriel Ororzco
     author: Ann Temkin et al
-- read-2009:
+- year: 2009
+  read:
   - title: 'Processing: A Programming Handbook for Visual Designers and Artists'
     author: Casey Reas and Ben Fry
-- read-2008:
+- year: 2008
+  read:
   - title: Cat’s Cradle
     author: Kurt Vonnegut
   - title: The Metamorphosis
@@ -248,30 +256,35 @@ read:
   - title: Peace is Every Step
     author: Thich Nhat Hahn
   - title: The Fountainhead
-    author: Ayn Rand (looool
+    author: Ayn Rand (looool)
   - title: The Road
     author: Cormac McCarthy
   - title: Waiting for Godot
     author: Samuel Beckett
   - title: The Stranger
     author: Alfred Camus
-- read-2007:
+- year: 2007
+  read:
   - title: ''
     author: 
-- read-2006:
+- year: 2006
+  read:
   - title: ''
     author: 
-- read-2005:
+- year: 2005
+  read:
   - title: Harry Potter and the Half-Blood Prince
     author: J.K. Rowling
   - title: Me Talk Pretty One Day
     author: David Sedaris
   - title: The House on Mango Street
     author: "??"
-- read-2004:
+- year: 2004
+  read:
   - title: ''
     author: 
-- read-unknown:
+- year: unknown
+  read:
   - title: When You Are Engulfed in Flames
     author: David Sedaris
   - title: A Long Way Down
@@ -283,3 +296,5 @@ read:
   - title: Tellmewhy
     author: Karlssonwilker
 ---
+
+Test

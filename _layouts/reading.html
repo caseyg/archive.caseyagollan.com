@@ -1,0 +1,17 @@
+---
+layout: default
+footer_scripts: "<script type='text/javascript' src='/assets/js/home.js'></script>"
+---
+
+{% for year in page.read %}
+{{ year.year }}
+<ul>
+	{% for item in year.read %}
+		<li>{{ item.title }}{% if item.author %} — {{ item.author }}{% endif %} <small>{{ item.status }}</small></li>
+	{% endfor %}
+</ul>
+{% endfor %}
+
+<br>
+
+{{ content }}
