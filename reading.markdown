@@ -144,13 +144,14 @@ read:
   - title: The Twenty-four Hour Mind
     author: Rosalind Cartwright
   - title: Nick Harkaway
-  - title: 'Alone Together: Why We Expect More from Technology and Less from Each Other'
+  - title: 'Alone Together: Why We Expect More from Technology and Less from Each
+      Other'
     author: Sherry Turkle
   - title: Amusing Ourselves to Death
     author: Neil Postman
   - title: 'Close to the Machine: Technophilia and Its Discontents'
     author: Ellen Ullman
-  - title: "If on a winter's night a traveller"
+  - title: If on a winter's night a traveller
     author: Italo Calvino
   - title: The Pleasures and Sorrows of Work
     author: Alain De Botton
@@ -232,7 +233,7 @@ read:
   - title: 'Maps of the Imagination: The Writer as Cartographer'
     author: Peter Turchi
   - title: Oroonoko
-    author: '??'
+    author: "??"
   - title: Of Walking on Ice
     author: Werner Herzog
   - title: Illuminations
@@ -296,3 +297,4 @@ read:
   - title: Tellmewhy
     author: Karlssonwilker
 ---
+
