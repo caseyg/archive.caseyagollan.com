@@ -3,9 +3,6 @@ title: Casey A. Gollan
 url: http://caseyagollan.siteleaf.net
 timezone: UTC
 collections:
-  casey-gollans:
-    title: Casey Gollans
-    output: true
   posts:
     title: Posts
     output: true
