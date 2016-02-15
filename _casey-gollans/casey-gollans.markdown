@@ -6,7 +6,5 @@ caseygollan:
     Name: Vera List Center
     URL: http://www.veralistcenter.org/engage/people/1991/victoria-sobel-and-casey-gollan/
     Dates: 2015-'17
-Not Me:
-  Not Me: 
 ---
 
