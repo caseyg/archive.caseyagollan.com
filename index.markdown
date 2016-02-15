@@ -40,7 +40,7 @@ Are Me:
   end: 
 - name: Github
   url: https://github.com/caseyg
-  start: 2010 
+  start: 2010
   end: 
 - name: Foursquare
   url: https://foursquare.com/caseyg
@@ -72,7 +72,7 @@ Also Me:
   start: 2015
   end: 
 - name: Cash
-  url: "https://cash.me/$caseyg"
+  url: https://cash.me/$caseyg
   start: 2014
   end: 
 - name: Venmo
@@ -92,11 +92,11 @@ Also Me:
   start: 2013
   end: 
 - name: Tinder
-  url: "http://tinder.com/@okcupid"
+  url: http://tinder.com/@okcupid
   start: 2013
   end: 
 - name: 23andme
-  url: "https://www.23andme.com/user/?profile=1a8c4b63b79c5459&view_public"
+  url: https://www.23andme.com/user/?profile=1a8c4b63b79c5459&view_public
   start: 2013
   end: 
 - name: Kindle
@@ -129,7 +129,7 @@ Dormant:
   url: http://www.quora.com/Casey-Gollan
   start: 2010
   end: 
-- name: "Google+"
+- name: Google+
   url: https://plus.google.com/100255343223702366343
   start: 2011
   end: 
@@ -241,7 +241,7 @@ Dormant:
   url: 
   start: 2008
   end: 
-- name: "Hi.co"
+- name: Hi.co
   url: 
   start: 2014
   end: 
@@ -257,7 +257,7 @@ Dormant:
   url: 
   start: 2005
   end: 
-- name: "Battle.net"
+- name: Battle.net
   url: 
   start: 2015
   end: 
@@ -297,7 +297,7 @@ Dormant:
   url: 
   start: 2008
   end: 
-- name: "App.net"
+- name: App.net
   url: 
   start: 
   end: 
@@ -341,13 +341,13 @@ I Deleted:
 - name: OkCupid
   start: 2013
   end: 2015
-- name: "About.me"
+- name: About.me
   start: 
   end: 
 - name: Cargocollective
   start: 
   end: 
-- name: "Weblogs.us"
+- name: Weblogs.us
   start: 
   end: 2007
 - name: Xanga
@@ -402,7 +402,7 @@ They Deleted:
 - name: Squidoo
   start: 2006
   end: 
-- name: "Wordie.org"
+- name: Wordie.org
   start: 2009
   end: 2010
 - name: Google Reader
@@ -411,7 +411,7 @@ They Deleted:
 - name: Vox
   start: 
   end: 
-- name: "Ma.gnolia"
+- name: Ma.gnolia
   start: 
   end: 
 - name: Orkut
