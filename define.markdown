@@ -8,6 +8,9 @@ layout: default
 
 February
 
+* Life
+* Hack
+* Lifehack
 * Prescribed
 * Zen
 
