@@ -11,8 +11,9 @@ read:
     author: Keller Easterling
   - title: Akira
     author: Katsuhiro Otomo
-  - title: "Speculation, Now"
-    author: Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin Kuoni
+  - title: Speculation, Now
+    author: Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin
+      Kuoni
   - title: Speculations
     author: Edited by Triple Canopy
   - title: The Action is the Form
