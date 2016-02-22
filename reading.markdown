@@ -44,6 +44,10 @@ read:
     author: Alexandra Lange
 - year: 2015
   read:
+  - title: Networks of New York
+    author: Ingrid Burrington
+  - title: The New Jim Crow
+    author: Michelle Alexander
   - title: The Creative Habit
     author: Twyla Tharp
     status: incomplete
