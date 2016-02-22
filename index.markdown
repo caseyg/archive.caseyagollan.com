@@ -1,6 +1,7 @@
 ---
 title: Casey Gollan
 date: 2016-02-15 02:02:00 Z
+layout: home
 not-me:
 - name: Australian Business Coach
   url: http://www.caseygollan.com.au
@@ -430,7 +431,6 @@ fan-art:
   url: https://www.facebook.com/pages/Casey-Gollans-SnaggleTooth/150515317523
 - name: Fuck Yeah Casey Gollan
   url: http://fuckyeahcaseygollan.tumblr.com
-layout: home
 ---
 
 **For any further Casey Gollan inquiries**

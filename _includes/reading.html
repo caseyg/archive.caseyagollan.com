@@ -1,0 +1,14 @@
+{% for page in site.pages %}
+	{% if page.title == 'Reading' %}
+		{% for year in page.read %}
+			<strong>{{ year.year }}</strong>
+			<ul>
+				{% for item in year.read %}
+					<li>{{ item.title }}{% if item.author %} — {{ item.author }}{% endif %} <small>{{ item.status }}</small></li>
+				{% endfor %}
+			</ul>
+		{% endfor %}
+		<br>
+		{{ page.content }}
+	{% endif %}
+{% endfor %}

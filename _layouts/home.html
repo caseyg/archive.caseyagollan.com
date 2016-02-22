@@ -2,48 +2,15 @@
 layout: default
 ---
 
-<strong>Casey Gollans that are <em>not</em> me</strong>
-
-{% include loop-casey.html page=page.not-me %}
-
-<br>
-<strong>Casey Gollans that are <em>like</em> me</strong>
-
-{% include loop-casey.html page=page.like-me %}
-
-<br>
-<strong>Casey Gollans that <em>are</em> me</strong>
-
-{% include loop-casey.html page=page.are-me %}
-
-<br>
-<strong>Casey Gollans that are <em>also</em> me</strong>
-
-{% include loop-casey.html page=page.also-me %}
-
-<br>
-<strong>Casey Gollans that <em>have been</em> me</strong>
-
-{% include loop-casey.html page=page.been-me %}
-
-<br>
-<strong><em>Dormant</em> Casey Gollans that <em>will probably outlive</em> me</strong>
-
-{% include loop-casey.html page=page.outlive-me %}
-
-<br>
-<strong>Casey Gollans that <em>I</em> deleted</strong>
-
-{% include loop-casey.html page=page.i-deleted-me %}
-
-<br>
-<strong>Casey Gollans that <em>they</em> deleted</strong>
-
-{% include loop-casey.html page=page.they-deleted-me %}
-
-<br>
-<strong>Casey Gollan fan art</strong>
-
-{% include loop-casey.html page=page.fan-art %}
-
-{{ content }}
+<section id="about">
+	<h2>Casey Gollan</h2>
+	{% include home.html %}
+</section>
+<section id="bibliography">
+	<h2>Bibliography</h2>
+	{% include reading.html %}
+</section>
+<section id="dictionary">
+	<h2>Dictionary</h2>
+	{% include define.html %}
+</section>

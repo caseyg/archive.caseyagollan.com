@@ -1,8 +1,46 @@
 ---
 title: Reading
 date: 2016-02-15 06:01:00 Z
-layout: reading
+layout: default
 read:
+- year: In Rotation / On Stack
+  read:
+  - title: Black Transparency
+    author: Metahaven
+  - title: Extrastatecraft
+    author: Keller Easterling
+  - title: Akira
+    author: Katsuhiro Otomo
+  - title: "Speculation, Now"
+    author: Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin Kuoni
+  - title: Speculations
+    author: Edited by Triple Canopy
+  - title: The Action is the Form
+    author: Keller Easterling
+  - title: Re-thinking History
+    author: Keith Jenkins
+  - title: In Praise of Opacity
+    author: Edited by Daniel Frota
+  - title: To Our Friends
+    author: The Invisible Committee
+  - title: Reinventing Comics
+    author: Scott McCloud
+  - title: A Circular
+    author: Edited by Pedro Cid Proença with Fatima Hellberg
+  - title: Summerhill School
+    author: A.S. Neill
+  - title: Branding Terror
+    author: Edited by Artur Beifuss and Francesco Trivini Bellini
+  - title: Entry Points
+    author: Edited by Carin Kuoni and Chelsea Haines
+  - title: The Gift
+    author: Marcel Mauss
+- year: 2016
+  read:
+  - title: The Epic Struggle for the Internet of Things
+    author: Bruce Sterling
+  - title: Silicon Valley Urbanism
+    author: Alexandra Lange
 - year: 2015
   read:
   - title: The Creative Habit
@@ -45,10 +83,6 @@ read:
     author: Crimethinc.
     status: not finished
     via: Vic
-  - title: To Our Friends
-    author: The Invisible Committee
-    status: not finished
-    via: Allison & Jen
   - title: The New Jim Crow
     author: Michelle Alexander
     status: not finished
@@ -111,6 +145,7 @@ read:
   - title: Be Slightly Evil
     author: Venkatesh Rao
   - title: The Art of Not Being Governed
+    author: James C. Scott
 - year: 2013
   read:
   - title: Binding Chaos
