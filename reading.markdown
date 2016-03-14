@@ -1,7 +1,6 @@
 ---
 title: Reading
 date: 2016-02-15 06:01:00 Z
-layout: default
 read:
 - year: In Rotation / On Stack
   read:
@@ -11,11 +10,11 @@ read:
     author: Keller Easterling
   - title: Akira
     author: Katsuhiro Otomo
+  - title: Speculations
+    author: Edited by Triple Canopy
   - title: Speculation, Now
     author: Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin
       Kuoni
-  - title: Speculations
-    author: Edited by Triple Canopy
   - title: The Action is the Form
     author: Keller Easterling
   - title: Re-thinking History
@@ -306,11 +305,11 @@ read:
     author: Alfred Camus
 - year: 2007
   read:
-  - title: ''
+  - title: 
     author: 
 - year: 2006
   read:
-  - title: ''
+  - title: 
     author: 
 - year: 2005
   read:
@@ -322,7 +321,7 @@ read:
     author: "??"
 - year: 2004
   read:
-  - title: ''
+  - title: 
     author: 
 - year: unknown
   read:
@@ -336,5 +335,6 @@ read:
     author: F. Scott Fitzgerald
   - title: Tellmewhy
     author: Karlssonwilker
+layout: default
 ---
 
