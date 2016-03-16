@@ -4,6 +4,9 @@ date: 2016-02-15 06:01:00 Z
 read:
 - year: In Rotation / On Stack
   read:
+  - title: Magister Ludi/The Glass Bead Game
+    author: Hermann Hesse
+    via: Gaia
   - title: Black Transparency
     author: Metahaven
   - title: Extrastatecraft
