@@ -4,6 +4,15 @@ date: 2016-02-15 06:01:00 Z
 read:
 - year: In Rotation / On Stack
   read:
+  - title: Manifestos for the internet age
+    author: greyscale press
+    via: 
+  - title: Post-Democracy
+    author: Colin Crouch
+    via: 
+  - title: Inventing the Future
+    author: Nick Srinicek and Alex Williams
+    via: 
   - title: Magister Ludi/The Glass Bead Game
     author: Hermann Hesse
     via: Gaia
