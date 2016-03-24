@@ -8,6 +8,7 @@ layout: default
 
 March
 
+* Kopimi
 * Knolling
 * Pluriform
 * Suzerainty
