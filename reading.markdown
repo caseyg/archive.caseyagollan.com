@@ -9,7 +9,7 @@ read:
     via: 
   - title: Brightsided
     author: Barbara Ehrenreich
-    via:
+    via: 
   - title: Manifestos for the internet age
     author: greyscale press
     via: 
