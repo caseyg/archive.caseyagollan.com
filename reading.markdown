@@ -4,6 +4,12 @@ date: 2016-02-15 06:01:00 Z
 read:
 - year: In Rotation / On Stack
   read:
+  - title: The Virtual Community
+    author: Howard Rheingold
+    via: 
+  - title: Brightsided
+    author: Barbara Ehrenreich
+    via:
   - title: Manifestos for the internet age
     author: greyscale press
     via: 
