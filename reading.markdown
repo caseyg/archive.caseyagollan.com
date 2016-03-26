@@ -1,20 +1,38 @@
 ---
 title: Reading
 date: 2016-02-15 06:01:00 Z
-layout: default
 read:
 - year: In Rotation / On Stack
   read:
+  - title: The Virtual Community
+    author: Howard Rheingold
+    via: 
+  - title: Brightsided
+    author: Barbara Ehrenreich
+    via: 
+  - title: Manifestos for the internet age
+    author: greyscale press
+    via: 
+  - title: Post-Democracy
+    author: Colin Crouch
+    via: 
+  - title: Inventing the Future
+    author: Nick Srinicek and Alex Williams
+    via: 
+  - title: Magister Ludi/The Glass Bead Game
+    author: Hermann Hesse
+    via: Gaia
   - title: Black Transparency
     author: Metahaven
   - title: Extrastatecraft
     author: Keller Easterling
   - title: Akira
     author: Katsuhiro Otomo
-  - title: "Speculation, Now"
-    author: Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin Kuoni
   - title: Speculations
     author: Edited by Triple Canopy
+  - title: Speculation, Now
+    author: Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin
+      Kuoni
   - title: The Action is the Form
     author: Keller Easterling
   - title: Re-thinking History
@@ -43,6 +61,10 @@ read:
     author: Alexandra Lange
 - year: 2015
   read:
+  - title: Networks of New York
+    author: Ingrid Burrington
+  - title: The New Jim Crow
+    author: Michelle Alexander
   - title: The Creative Habit
     author: Twyla Tharp
     status: incomplete
@@ -301,11 +323,11 @@ read:
     author: Alfred Camus
 - year: 2007
   read:
-  - title: ''
+  - title: 
     author: 
 - year: 2006
   read:
-  - title: ''
+  - title: 
     author: 
 - year: 2005
   read:
@@ -317,7 +339,7 @@ read:
     author: "??"
 - year: 2004
   read:
-  - title: ''
+  - title: 
     author: 
 - year: unknown
   read:
@@ -331,5 +353,6 @@ read:
     author: F. Scott Fitzgerald
   - title: Tellmewhy
     author: Karlssonwilker
+layout: default
 ---
 
