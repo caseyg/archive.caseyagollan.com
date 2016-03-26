@@ -8,10 +8,14 @@ Pages:
   People:
   - 
   Text:
+  - |-
+    In case of loss, please return to:\
+    Casey Gollan\
+    casey@bullshit.systems\
+    As a reward: $_____
+- Text:
   - 
-- People:
-  - 
-  Text:
+  People:
   - 
   Tags:
   - 
