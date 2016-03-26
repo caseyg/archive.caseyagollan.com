@@ -9,6 +9,9 @@ collections:
   things:
     title: Things
     output: true
+  work:
+    title: Work
+    output: true
   uploads:
     title: Uploads
     output: true
