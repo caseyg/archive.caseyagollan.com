@@ -5,7 +5,7 @@ timezone: UTC
 collections:
   data:
     title: Data
-    output: false
+    output: true
   notebooks:
     title: Notebooks
     output: true
