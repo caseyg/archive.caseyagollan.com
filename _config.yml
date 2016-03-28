@@ -8,7 +8,7 @@ collections:
     output: true
   people:
     title: People
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
