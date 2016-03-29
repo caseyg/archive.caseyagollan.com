@@ -112,6 +112,53 @@ Pages:
     Claire Danes
 
     stubble!
+- People:
+  - 
+  Tags:
+  - 
+  Text:
+  - "non smooth space\n\nblade runner\n\ncyberbully phd\n\nhardchat, tinychat\n\nhotman
+    420\n\ndarknet\n\ncauldron of personas\n\nsb95\n\nchin induction headphone\n\ninfosec
+    skymall\n\nwhy are we torturing outselves in the middle of berlin\n\nalexanderplatz
+    \ \ntempelhof  \ntv hub  \nbasenkammer  \ngerman historical tour  \nmuseum island
+    \ \nhammurabi"
+- People:
+  - 
+  Tags:
+  - 
+  Text:
+  - "cafe koti <3 mobel olfe\n\nvertically catacorner\n\ncafe einstein\n\nholocaust
+    memorial  \naplpzal  \nbasem\n\nholstammerplatz\n\ngerman worker pants  \nberlin\n\nberghaim
+    scatalog cal\n\nTKTKTK\n\nno money at burning man\n\ngray market  \ngray columns\n\nRevi\n\ncbcb2000\n\nr/politics"
+- People:
+  - 
+  Tags:
+  - 
+  Text:
+  - "san bernadino\n\nIRL AFK usenet ARG\n\nesc web 2.0 myspace\n\nfriendster geocities\n\nnimby
+    not in my sphere\n\nneuromancer scifi\n\nreal people TKTKTK\n\ndatification \n\nflash
+    --> intermediation\n\nAI\nmining\n\nsingularity  \nlanier  \nmidi music instructions
+    \ \n169  \nsupercollider > max msp  \nphysics\n\nmusic standards  \ntech agenda\n\nwhodunnit
+    \ \nserve it  \nexternalized\n\nholding head in hands"
+- People:
+  - 
+  Tags:
+  - 
+  Text:
+  - "speculative program lang  \nmacguffin  \neagles  \nsold out meinkampf  \nanne
+    frank\n\nrolling interface\n\nbible hyperlink\n\njosefine maple\n\nsystemantics
+    \ \nsystems apple\n\nTKTKTK\n\nuber txi tv  \nasymmetry greenfield\n\nbus stop
+    ads mies\n\nTKTKTK\n\nuhhhh\n\nhomeland\n\nbus stop platform  \nuber  \ngarbage
+    can\n\nwickedly entangled systems  \nmapped onto ????"
+- People:
+  - 
+  Tags:
+  - 
+  Text:
+  - "TKTKTK  \nreproducing what they resist  \nTKTKTK occupation  \npreppers  \ngreenpoint
+    \ \nduotone thesesia --> TKTKTK  \navocado meets spoon  \nafkocado\n\nhello lecture
+    \ \nbeer hello\n\nbaby die plant  \nbathrooom where  \nchocolate  \nwater\n\nstate
+    sponsored lottery\n\npopr forever right or forever   wrong vis a vis eggs"
 ---
 
 test
