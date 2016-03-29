@@ -58,10 +58,21 @@ pages:
     can\n\nwickedly entangled systems  \nmapped onto ????"
 - people: 
   tags: 
-  text: "TKTKTK  \nreproducing what they resist  \nTKTKTK occupation  \npreppers  \ngreenpoint
-    \ \nduotone thesesia --> TKTKTK  \navocado meets spoon  \nafkocado\n\nhello lecture
-    \ \nbeer hello\n\nbaby die plant  \nbathrooom where  \nchocolate  \nwater\n\nstate
-    sponsored lottery\n\npopr forever right or forever   wrong vis a vis eggs"
+  text: "negotiated antiquities  \nback to back gates\n\nstale protecting royal land
+    grants\n\nKuduru in Babylonian report royal land grants & contractual agreements
+    14-7th century BC to witness and protect transactions of land and estate where
+    intervention by a future king & higher authority was feared. The carefully worked
+    inscriptions were supplemented by divine symbols. To protect property against
+    future violation, anyone who intended to act hostile was threatened with consequences
+    of divine justice, as described in curses also part of the inscriptions. Clay
+    original in hands of family have not survived."
+- people: 
+  tags: 
+  text: "Moon cresence  \nSolar justice  \nLightning storm  \nHorned crown heaven
+    \ \nPleiades, tutelary dieties  \nLamp light  \nOmega ???  \nScorpion love & war
+    \ \nEagle staff war  \nDog healing and borders  \nBird of low perch war  \nDouble
+    lion scepter underworld  \nLion demo staff underworld  \nSpade ??? diety of babylon
+    \ \nRam staff wisdom  \nGoat fish wisdom"
 ---
 
 test
