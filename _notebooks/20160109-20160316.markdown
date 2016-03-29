@@ -2,29 +2,33 @@
 title: 20160109-20160316
 date: 2016-03-26 02:26:00 Z
 position: 0
-Pages:
-- Tags:
-  - 
-  People:
-  - 
-  Text:
-  - |-
-    In case of loss, please return to:\
-    Casey Gollan\
-    casey@bullshit.systems\
+count: 239
+pages:
+- text: | 
+    In case of loss, please return to:  
+    Casey Gollan  
+    casey@bullshit.systems  
     As a reward: $_____
-- Tags:
-  - 
-  People:
-  - 
-  Text:
-  - |-
-    testing\
-    rewriting the world around an ulterior motive\
-    the pizza effect\
-    coffee meets bagel\
-    isis bots, newsbots\
-    bot intermediation\
+  people:
+    - Casey G.
+- people:
+    - Calla H.
+    - Max P.
+    - Victoria S.
+    - Harry C.
+    - Owen L.
+  tags: 
+    - Pizza effect
+    - Ulterior motives
+    - Online dating
+    - Bots
+  text: | 
+    testing  
+    rewriting the world around an ulterior motive  
+    the pizza effect  
+    coffee meets bagel  
+    isis bots, newsbots  
+    bot intermediation  
     texts written for the enjoyment of computers
 
     jessica, ethics of infrastructure
@@ -35,20 +39,17 @@ Pages:
 
     an air mattress full of fars
 
-    information is defined as a change in entropy\
+    information is defined as a change in entropy  
     MIT info theory
 
     childrens supply chain rock opera
 
     do you ever feel like a plastic bag in germany?
-- People:
-  - 
-  Text:
-  - |-
-    livescribe\
+- text: | 
+    livescribe  
     testing
 
-    I R n\
+    I R n  
     I magic!
 
     social Snapchat filter
@@ -57,9 +58,9 @@ Pages:
 
     Max is in
 
-    hyperreality\
-    semiotic\
-    4chan\
+    hyperreality  
+    semiotic  
+    4chan  
     cyberbully PhD
 
     a rape in cyberspace
@@ -68,19 +69,14 @@ Pages:
 
     Advantageous
 
-    computer bias\
-    smooth space\
+    computer bias  
+    smooth space  
     degradation
 
     TPB movie
-  Tags:
-  - 
-- People:
-  - 
-  Tags:
-  - 
-  Text:
-  - |-
+  people:
+    - Casey Gollan
+- text: | 
     innovation degradation
 
     utopic dystopic
@@ -112,6 +108,8 @@ Pages:
     Claire Danes
 
     stubble!
+  people:
+    - Casey Gollan
 ---
 
 test
