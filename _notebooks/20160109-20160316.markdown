@@ -25,7 +25,11 @@ pages:
   tags: 
 - people: 
   tags: 
-  text: 
+  text: "innovation degradation\n\nutopic dystopic\n\ncomprehensibility\n\n31 chun
+    numu\n\nthe time of turing\n\ndemocracy technocracy\n\nundoing the demos\n\nsnifter
+    poprs\n\nsmiley gradient\n\nmichael moore snowden  \nbey  \nafk\n\noliver stone\n\nappelbaum\n\nclaire
+    danes\n\nstubble!"
+- 
 - people: 
   tags: 
   text: "non smooth space\n\nblade runner\n\ncyberbully phd\n\nhardchat, tinychat\n\nhotman
