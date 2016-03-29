@@ -6,6 +6,9 @@ collections:
   notebooks:
     title: Notebooks
     output: true
+  people:
+    title: People
+    output: false
   posts:
     title: Posts
     output: true
