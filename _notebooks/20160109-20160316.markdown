@@ -8,71 +8,26 @@ Pages:
   People:
   - Casey Gollan
   Text:
-  - |-
-    In case of loss, please return to:\
-    Casey Gollan\
-    casey@bullshit.systems\
-    As a reward: $_____
+  - "In case of loss, please return to:\nTKTKTK    \nCasey Gollan\n\ncasey@bullshit.systems\\\nAs
+    a reward: $_____"
 - Tags:
   - 
   People:
   - 
   Text:
-  - |-
-    testing\
-    rewriting the world around an ulterior motive\
-    the pizza effect\
-    coffee meets bagel\
-    isis bots, newsbots\
-    bot intermediation\
-    texts written for the enjoyment of computers
-
-    jessica, ethics of infrastructure
-
-    what she faves and what she doesn't
-
-    halloo chus
-
-    an air mattress full of fars
-
-    information is defined as a change in entropy\
-    MIT info theory
-
-    childrens supply chain rock opera
-
-    do you ever feel like a plastic bag in germany?
+  - "testing  \nrewriting the world around an ulterior motive  \nthe pizza effect
+    \ \ncoffee meets bagel  \nisis bots, newsbots  \nbot intermediation  \ntexts written
+    for the enjoyment of computers\n\njessica, ethics of infrastructure\n\nwhat she
+    faves and what she doesn't\n\nhalloo chus\n\nan air mattress full of fars\n\ninformation
+    is defined as a change in entropy  \nMIT info theory\n\nchildrens supply chain
+    rock opera\n\ndo you ever feel like a plastic bag in germany?"
 - People:
   - 
   Text:
-  - |-
-    livescribe\
-    testing
-
-    I R n\
-    I magic!
-
-    social Snapchat filter
-
-    scifi bookclub
-
-    Max is in
-
-    hyperreality\
-    semiotic\
-    4chan\
-    cyberbully PhD
-
-    a rape in cyberspace
-
-    BCI stubbly
-
-    Advantageous
-
-    computer bias\
-    smooth space\
-    degradation
-
-    TPB movie
+  - "livescribe  \ntesting\n\nI R n  \nI magic!\n\nsocial Snapchat filter\n\nscifi
+    bookclub\n\nMax is in\n\nhyperreality  \nsemiotic  \n4chan  \ncyberbully PhD\n\na
+    rape in cyberspace\n\nBCI stubbly\n\nAdvantageous\n\ncomputer bias  \nsmooth space
+    \ \ndegradation\n\nTPB movie"
   Tags:
   - 
 - People:
