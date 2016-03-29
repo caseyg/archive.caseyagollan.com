@@ -30,4 +30,10 @@ defaults:
     type: pages
   values:
     layout: page
+defaults:
+  - scope:
+      path: ""
+      type: notebooks
+    values:
+      layout: notebook
 permalink: pretty
