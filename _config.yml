@@ -15,28 +15,16 @@ collections:
   things:
     title: Things
     output: true
-  work:
-    title: Work
-    output: true
   uploads:
     title: Uploads
     output: true
+  work:
+    title: Work
+    output: true
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: notebooks
   values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-defaults:
-  - scope:
-      path: ""
-      type: notebooks
-    values:
-      layout: notebook
+    layout: notebook
 permalink: pretty
