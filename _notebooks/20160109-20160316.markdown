@@ -52,6 +52,16 @@ pages:
     \ \nEagle staff war  \nDog healing and borders  \nBird of low perch war  \nDouble
     lion scepter underworld  \nLion demo staff underworld  \nSpade ??? diety of babylon
     \ \nRam staff wisdom  \nGoat fish wisdom"
+- text: "omen feather  \nsaturnalia  \nchildrens tech museum  \ncommunication frankfurt"
+- text: "TKTKTK  \nTKTKTK  \nTacita dean  \nJulia heywood  \nWater john  \ntech agenda
+    98  \nHollis frampton  \nit's all on the wiki  \nBowie  \nconservation turn in
+    german  \ngay politics in the 90s  \nacquisitition politics in stedeldt  \nspectatorship
+    harocki  \nrevolution TV  \ninterdisciplinary collider?  \nmoney goes to that
+    credit  \nhomeland is watermelon  \nWSJ blog fact check  \ninserts affirmatively
+    but doesn't  \n?? ?? ??  \nufer music department  \npresident comes from there
+    \ \n?? salon ??  \nhistory books china korea  \nin asia  \nI'm british I'm supposed
+    to think we're fair  \nwinner's mentality  \ndisagreement ?? ??  \npeeping tom
+    ??"
 ranges:
   start: 2
   end: 7
