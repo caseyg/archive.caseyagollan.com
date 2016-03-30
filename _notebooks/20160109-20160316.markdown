@@ -62,6 +62,12 @@ pages:
     \ \n?? salon ??  \nhistory books china korea  \nin asia  \nI'm british I'm supposed
     to think we're fair  \nwinner's mentality  \ndisagreement ?? ??  \npeeping tom
     ??"
+- text: "?? ?? ??  `\nservice no service  \n?? ??  \nopen day for applicants  \nrecommended
+    ??  \nyou will be crazy not to take this person  \ncuratorial issues  \n22 E 11
+    hours  \nLeoprint  \nchuck out your chintz  \nmuseum of photography  \nstrange
+    stupid questions  \n?? exhibitions  \n??  \nscholarship vs debt  \ndebt buys  \nendowment
+    the money makes money  \n?? ??  \nfaculty strike public  \nbuild a bear cave servant
+    \ \nfee hike  \nyoung people  \nvested  \nyou don't understand  \nfinancial"
 ranges:
   start: 2
   end: 7
