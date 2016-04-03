@@ -2,6 +2,8 @@
 title: Casey Gollan
 url: http://caseyagollan.com
 timezone: UTC
+gems:
+  - jekyll-redirect-from
 collections:
   notebooks:
     title: Notebooks
