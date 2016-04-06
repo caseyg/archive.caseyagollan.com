@@ -8,6 +8,7 @@ layout: default
 
 April
 
+* Lucre
 * Nadir
 * Tautology
 
