@@ -8,6 +8,8 @@ layout: default
 
 April
 
+* Colicky
+* Carping
 * Lucre
 * Nadir
 * Tautology
