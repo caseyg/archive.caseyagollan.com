@@ -7,9 +7,6 @@ read:
   - title: The Virtual Community
     author: Howard Rheingold
     via: 
-  - title: Brightsided
-    author: Barbara Ehrenreich
-    via: 
   - title: Manifestos for the internet age
     author: greyscale press
     via: 
@@ -55,6 +52,8 @@ read:
     author: Marcel Mauss
 - year: 2016
   read:
+  - title: Brightsided
+    author: Barbara Ehrenreich
   - title: The Epic Struggle for the Internet of Things
     author: Bruce Sterling
   - title: Silicon Valley Urbanism
