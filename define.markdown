@@ -8,6 +8,8 @@ layout: default
 
 April
 
+* Socialista
+* Qualia
 * Ineluctably
 * Colicky
 * Carping
