@@ -1,0 +1,6 @@
+*.MOV
+.DS_Store
+.swp
+_cache
+_site
+.sass-cache

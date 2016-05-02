@@ -1,6 +1,0 @@
-video.mobile { transform: scale(0.5) skew(10deg) rotate(5deg); max-width: 370px; width: 20vw; padding: 5vw 0; border: 2px solid #222; border-radius: 25px; box-shadow: 0 0 50px cyan, 2px 2px 0 #000, 4px 4px 0 #000, 6px 6px 0 #000, 8px 8px 0 #000, 10px 10px 0 #000; background: #000; margin: auto; display: block; }
-
-section h2 { font-size: 1em; font-weight: bold; text-transform: uppercase; width: 100%; }
-
-@media (min-width: 48em) { body#casey-gollan { display: flex; flex-direction: row; }
-  body#casey-gollan section { padding: 15px; width: 25vw; flex: 1 1 auto; } }

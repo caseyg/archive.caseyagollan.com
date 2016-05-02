@@ -1,0 +1,5 @@
+{% for page in site.pages %}
+	{% if page.title == 'Define' %}
+		{{ page.content | markdownify }}
+	{% endif %}
+{% endfor %}
