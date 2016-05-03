@@ -8,6 +8,7 @@ layout: default
 
 March
 
+* Proprioceptive
 * Kopimi
 * Knolling
 * Pluriform
