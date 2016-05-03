@@ -27,4 +27,6 @@ defaults:
     type: notebooks
   values:
     layout: notebook
+gems:
+- jekyll-redirect-from
 permalink: pretty

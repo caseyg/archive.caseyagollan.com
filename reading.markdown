@@ -4,11 +4,17 @@ date: 2016-02-15 06:01:00 Z
 read:
 - year: In Rotation / On Stack
   read:
+  - title: 9.5 Theses on Art and Class
+    author: Ben Davis
+  - title: "‛Pataphysics: A Useless Guide"
+    author: Andrew Hugill
+  - title: 'Communities of Play: Emergent Cultures in Multiplayer Games and Virtual
+      Worlds'
+    author: Celia Pearce and Atermesia
+  - title: 'Writing About Architecture: Mastering the Language of Buildings and Cities'
+    author: Alexandra Lange
   - title: The Virtual Community
     author: Howard Rheingold
-    via: 
-  - title: Brightsided
-    author: Barbara Ehrenreich
     via: 
   - title: Manifestos for the internet age
     author: greyscale press
@@ -55,6 +61,8 @@ read:
     author: Marcel Mauss
 - year: 2016
   read:
+  - title: Brightsided
+    author: Barbara Ehrenreich
   - title: The Epic Struggle for the Internet of Things
     author: Bruce Sterling
   - title: Silicon Valley Urbanism

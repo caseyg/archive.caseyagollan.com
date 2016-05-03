@@ -6,6 +6,48 @@ layout: default
 
 **2016**
 
+April
+
+* Come and go
+* Persist
+* Oration
+* Gossip
+* Talk
+* Image
+* Languages
+* Linguistic
+* Linguist
+* Lingual
+* Imagined
+* Figmentary
+* Figment
+* Dynamic
+* Kaleidoscope
+* Kaleidoscopic
+* Abstract
+* Abstraction
+* Proposition
+* Assumption
+* Constitution
+* Set
+* Set the stage
+* Serve
+* Deserve
+* Attend
+* Tenet
+* Attention
+* Reflection
+* Choppy
+* Turbulent
+* Socialista
+* Qualia
+* Ineluctably
+* Colicky
+* Carping
+* Lucre
+* Nadir
+* Tautology
+
 March
 
 * Proprioceptive
