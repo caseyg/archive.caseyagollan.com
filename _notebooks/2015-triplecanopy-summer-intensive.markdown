@@ -4,6 +4,7 @@ date: 2015-06-01 02:26:00 Z
 position: 0
 count: 75
 format: jpg
+is_transcribed: true
 pages:
 - text: "working vocab project  \n\\\\\"501c3 that sells\\\\\" economics  \nventriloquiz
     + conceptualize  \norresy 155 freeman  \nmedium matter  \nhi-stack  \nistor flipboard
