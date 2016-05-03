@@ -50,6 +50,7 @@ April
 
 March
 
+* Proprioceptive
 * Kopimi
 * Knolling
 * Pluriform
