@@ -23,6 +23,44 @@ section h2 {
 	width: 100%;
 }
 
+.range {
+	display: block;
+	margin: 0;
+	padding: 0px;
+	border: 0;
+	float: left;
+	background: #fff;
+	a {
+		display: inline-block;
+		float:left;
+		opacity:.80;
+		width: 1vw;
+		overflow: hidden;
+	}
+	&:hover {
+		background: yellow;
+		a:hover {
+			opacity: .25;
+		}
+	}
+	a, img {
+		margin:0;
+		padding:0;
+		height:30px!important;
+		display:block;
+	}
+}
+
+.ui-tooltip {
+	padding: 10px 20px;
+	color: #000;
+	border-radius: 0;
+	font: 16px Times;
+	box-shadow: none;
+	background: #fff;
+}
+
+
 // Small devices (landscape phones, 34em and up)
 @media (min-width: 34em) {
 
