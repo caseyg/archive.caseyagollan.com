@@ -8,6 +8,8 @@ layout: default
 
 May
 
+* Multiverse
+* Disembraining 
 * Scatological
 * Superinduced
 * Epiphenomenon
