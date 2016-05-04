@@ -8,6 +8,7 @@ layout: default
 
 May
 
+* Spiriform
 * Diurnally
 * Inutilious
 * Occultation
