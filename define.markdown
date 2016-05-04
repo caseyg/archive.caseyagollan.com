@@ -10,6 +10,7 @@ May
 
 * Occultation
 * Erudition
+* Logician
 
 April
 
