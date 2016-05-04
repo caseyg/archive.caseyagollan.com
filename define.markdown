@@ -8,6 +8,14 @@ layout: default
 
 May
 
+* Détournement
+* Azimuth
+* Clinamen
+* Incongruity
+* Aeons
+* Gnosticism
+* Univocalic 
+* Syzygy
 * Cryptozoology
 * Ufology
 * Anomalistics
