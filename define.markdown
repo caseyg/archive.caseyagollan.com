@@ -6,6 +6,10 @@ layout: default
 
 **2016**
 
+May
+
+* Erudition
+
 April
 
 * Come and go
