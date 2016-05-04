@@ -8,6 +8,7 @@ layout: default
 
 May
 
+* Inutilious
 * Occultation
 * Erudition
 * Logician
