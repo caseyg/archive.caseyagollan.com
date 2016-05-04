@@ -8,6 +8,9 @@ layout: default
 
 May
 
+* Cryptozoology
+* Ufology
+* Anomalistics
 * Noumena
 * Antinomy
 * Orthography
