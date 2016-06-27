@@ -4,6 +4,10 @@ date: 2016-02-15 06:01:00 Z
 read:
 - year: In Rotation / On Stack
   read:
+  - title: 'Strike Art: Contemporary Art and the Post-Occupy Condition'
+    author: Yates McKee
+  - title: 'My Colombian War: A Journey Through the Country I Left Behind'
+    author: Silvana Paternostro
   - title: 9.5 Theses on Art and Class
     author: Ben Davis
   - title: "‛Pataphysics: A Useless Guide"
