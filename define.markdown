@@ -6,8 +6,28 @@ layout: default
 
 **2016**
 
+July
+
+* Zero-sum
+* Ineradicable
+* Streamlining
+* Focalized
+* Proletarianized
+* Banlieues
+* Milieus
+* Entrants
+* Apogee
+* Modernity
+* Geopolitics
+* Subterfuge
+* Doughty
+* Antediluvian
+* Chatelain
+* Et al.
+
 June
 
+* Ethics of care
 * Gestalt
 * Carry water
 * Tyranny
