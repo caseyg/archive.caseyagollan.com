@@ -8,6 +8,7 @@ layout: default
 
 July
 
+* Lampshading
 * Zero-sum
 * Ineradicable
 * Streamlining
