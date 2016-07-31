@@ -8,6 +8,9 @@ layout: default
 
 July
 
+* Telautograph
+* Thermionic
+* MacGuffin
 * Lampshading
 * Zero-sum
 * Ineradicable
