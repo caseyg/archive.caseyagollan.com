@@ -1,16 +1,45 @@
 ---
 layout: default
 ---
-
-<section id="about">
-	<h2>Casey Gollan</h2>
-	{% include home.html %}
-</section>
-<section id="bibliography">
-	<h2>Bibliography</h2>
-	{% include reading.html %}
-</section>
-<section id="dictionary">
-	<h2>Dictionary</h2>
-	{% include define.html %}
-</section>
+<div class="swiper-container swiper-container-h">
+		<div class="swiper-wrapper">
+			<section id="about" data-hash="about" class="swiper-slide">
+				<div class="swiper-container-v">
+						<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<h2>Casey Gollan</h2>
+									{% include home.html %}
+								</div>
+						</div>
+						<!-- Add Scroll Bar -->
+						<div class="swiper-scrollbar"></div>
+				</div>
+			</section>
+			<section id="bibliography" data-hash="bilbiography" class="swiper-slide">
+				<div class="swiper-container-v">
+						<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<h2>Bibliography</h2>
+									{% include reading.html %}
+								</div>
+						</div>
+						<!-- Add Scroll Bar -->
+						<div class="swiper-scrollbar"></div>
+				</div>
+			</section>
+			<section id="dictionary" data-hash="dictionary" class="swiper-slide">
+				<div class="swiper-container-v">
+						<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<h2>Dictionary</h2>
+									{% include define.html %}
+								</div>
+						</div>
+						<!-- Add Scroll Bar -->
+						<div class="swiper-scrollbar"></div>
+				</div>
+			</section>
+		</div>
+		<!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-h"></div>
+</div>

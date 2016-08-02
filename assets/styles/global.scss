@@ -3,15 +3,39 @@
 
 @import 'toolbox';
 
+body {
+//	background: #ccc;
+}
+
+html, body {
+		position: relative;
+		height: 100%;
+}
+
+body {
+		margin: 0;
+		padding: 0;
+}
+.swiper-container, .swiper-container-v {
+		width: 100%;
+		height: 100%;
+}
+.swiper-slide {
+		height: auto;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 10px;
+}
+.videos {
+	background: url('/uploads/phone.png') no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
 video.mobile {
-	transform: scale(.5) skew(10deg) rotate(5deg);
+	transform: scalex(0.35) scaley(.50) skew(12deg) rotate(18deg) translatex(246px) translatey(-325px);
 	max-width: 370px;
 	width: 20vw;
-	padding: 5vw 0;
-	border: 2px solid #222;
-	border-radius: 25px;
-	box-shadow: 0 0 50px rgba(0,255,255,1), 2px 2px 0 #000, 4px 4px 0 #000, 6px 6px 0 #000, 8px 8px 0 #000, 10px 10px 0 #000;
-	background: #000;
 	margin: auto;
 	display: block;
 }
@@ -69,13 +93,13 @@ section h2 {
 // Medium devices (tablets, 48em and up)
 @media (min-width: 48em) {
 	body#casey-gollan {
-		display: flex;
-		flex-direction: row;
+//		display: flex;
+//		flex-direction: row;
 
 		section {
-			padding: 15px;
-			width:25vw;
-			flex: 1 1 auto;
+//			padding: 15px;
+//			width:25vw;
+//			flex: 1 1 auto;
 		}
 	}
 }
