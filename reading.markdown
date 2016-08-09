@@ -4,6 +4,8 @@ date: 2016-02-15 06:01:00 Z
 read:
 - year: In Rotation / On Stack
   read:
+  - title: 'Utopia or Oblivion: The Prospects for Humanity'
+    author: R. Buckminster Fuller
   - title: 'Strike Art: Contemporary Art and the Post-Occupy Condition'
     author: Yates McKee
   - title: 'My Colombian War: A Journey Through the Country I Left Behind'
