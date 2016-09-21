@@ -4,6 +4,11 @@ date: 2016-02-15 06:01:00 Z
 read:
 - year: In Rotation / On Stack
   read:
+  - title: 'Disciplined Minds: A Critical Look at Salaried Professionals and the Soul-Battering
+      System that Shapes their Lives'
+    author: Jeff Schmidt
+  - title: 'Thanks for the Feedback: The Science and Art of Receiving Feedback Well'
+    author: Douglas Stone and Sheila Heen
   - title: 'Through the Vanishing Point: Space in Poetry and Painting'
     author: Marshall McLuhan and Harley Parker
   - title: 'Utopia or Oblivion: The Prospects for Humanity'
