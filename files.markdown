@@ -57,7 +57,7 @@ R:
 S:  
 T: Time Warner  
 U:  
-V: Verizon 
+V: Verizon  
 W:  
 X:  
 Y:  
