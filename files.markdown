@@ -3,7 +3,7 @@ title: Files
 date: 2016-10-02 16:12:00 Z
 ---
 
-/#: 20x200  
+#: 20x200  
 A: Aaron; Anna; Artwork; Atavist  
 B: BHQFU  
 C: Cooper; Contacts; Chase; Checks; Civ; Claritin  
@@ -23,7 +23,7 @@ P: Passports; Prescription; Photos
 Q: Quotes  
 R: Readings; Reflections/IDS; Rhizome  
 S: SFPC; Skyframe; Source; Stephen's Dad; Systems  
-T: Taxes 2015; Todo Archive; Tom H.; Triple Canopy; Tyler  
+T: Taxes 2015; Todo Archive; Tom; Triple Canopy; Tyler  
 U: Unsent; Unfiled; Utilities Checks  
 V: Vera List Center; Vitamix; Vruba  
 W: Wireframe Paper  
