@@ -3,7 +3,7 @@ title: Files
 date: 2016-10-02 16:12:00 Z
 ---
 
-#: 20x200  
+/#: 20x200  
 A: Aaron; Anna; Artwork; Atavist  
 B: BHQFU  
 C: Cooper; Contacts; Chase; Checks; Civ; Claritin  
@@ -15,7 +15,7 @@ H: Healthcare
 I: Imperatore; IRS  
 J: Jury Duty  
 K:  
-L: La Casita Verde; Letters; Livescribe Ink  
+L: LCV; Letters; Livescribe Ink  
 M: Mikey's Hook-Up  
 N: Nonstop; Nudies  
 O: Occupy; Olin; Oxbow  
