@@ -3,6 +3,8 @@ title: Files
 date: 2016-10-02 16:12:00 Z
 ---
 
+## Lower File
+
 #: 20x200  
 A: Aaron; Anna; Artwork; Atavist  
 B: BHQFU  
@@ -30,3 +32,33 @@ W: Wireframe Paper
 X:  
 Y:  
 Z: Zuzu  
+
+## Upper File
+
+#:  
+A:  
+B:  
+C: Con-Ed  
+D:  
+E:  
+F:  
+G:  
+H:  
+I:  
+J:  
+K:  
+L:  
+M:  
+N: National Grid; Notebooks 
+O:  
+P:  
+Q:  
+R:  
+S:  
+T: Time Warner 
+U:  
+V: Verizon 
+W:  
+X:  
+Y:  
+Z:  
