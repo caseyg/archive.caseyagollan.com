@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="swiper-container swiper-container-h">
 		<div class="swiper-wrapper">
 			<section id="about" data-hash="about" class="swiper-slide">
@@ -53,6 +52,12 @@ layout: default
 				</div>
 			</section>
 		</div>
-		<!-- Add Pagination -->
-    <div class="swiper-pagination swiper-pagination-h"></div>
 </div>
+<nav>
+	<ul>
+		<li><a href="#about" onclick="swiperH.slideTo(0);return false;">about</a></li>
+		<li><a href="#bibliography" onclick="swiperH.slideTo(1);return false;">bibliography</a></li>
+		<li><a href="#dictionary" onclick="swiperH.slideTo(2);return false;">dictionary</a></li>
+		<li><a href="#files" onclick="swiperH.slideTo(3);return false;">files</a></li>
+	</ul>
+</nav>
