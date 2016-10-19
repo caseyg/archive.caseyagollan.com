@@ -28,6 +28,14 @@
       mousewheelControl: true,
       freeMode: true
   });
+  var swiperControl = new Swiper('.swiperControl', {
+      touchRatio: 0.2,
+      hashnav: true,
+      slidesPerView: 'auto',
+      slideToClickedSlide: true
+  });
+  swiperH.params.control = swiperControl;
+  swiperControl.params.control = swiperH;
   </script>
 </body>
 </html>
