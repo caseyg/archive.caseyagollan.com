@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="swiper-container swiper-container-h top-container-h">
-		<div class="swiper-wrapper top-wrapper-h">
+<div class="swiper-container swiper-container-h">
+		<div class="swiper-wrapper">
 			<section id="about" data-hash="about" class="swiper-slide">
 				<div class="swiper-container-v">
 						<div class="swiper-wrapper">
@@ -54,11 +54,11 @@ layout: default
 			</section>
 		</div>
 </div>
-<nav class="swiperControl swiper-container">
-	<ul class="swiper-wrapper">
-		<li class="swiper-slide">about</li>
-		<li class="swiper-slide">bibliography</li>
-		<li class="swiper-slide">dictionary</li>
-		<li class="swiper-slide">files</li>
+<nav>
+	<ul>
+		<li><a href="#about" onclick="swiperH.slideTo(0);return false;">about</a></li>
+		<li><a href="#bibliography" onclick="swiperH.slideTo(1);return false;">bibliography</a></li>
+		<li><a href="#dictionary" onclick="swiperH.slideTo(2);return false;">dictionary</a></li>
+		<li><a href="#files" onclick="swiperH.slideTo(3);return false;">files</a></li>
 	</ul>
 </nav>
