@@ -1,379 +1,248 @@
 ---
 title: Reading
 date: 2016-02-15 06:01:00 Z
-read:
-- year: In Rotation / On Stack
-  read:
-  - title: 'Disciplined Minds: A Critical Look at Salaried Professionals and the Soul-Battering
-      System that Shapes their Lives'
-    author: Jeff Schmidt
-  - title: 'Thanks for the Feedback: The Science and Art of Receiving Feedback Well'
-    author: Douglas Stone and Sheila Heen
-  - title: 'Through the Vanishing Point: Space in Poetry and Painting'
-    author: Marshall McLuhan and Harley Parker
-  - title: 'Utopia or Oblivion: The Prospects for Humanity'
-    author: R. Buckminster Fuller
-  - title: 'Strike Art: Contemporary Art and the Post-Occupy Condition'
-    author: Yates McKee
-  - title: 'My Colombian War: A Journey Through the Country I Left Behind'
-    author: Silvana Paternostro
-  - title: 9.5 Theses on Art and Class
-    author: Ben Davis
-  - title: "‛Pataphysics: A Useless Guide"
-    author: Andrew Hugill
-  - title: 'Communities of Play: Emergent Cultures in Multiplayer Games and Virtual
-      Worlds'
-    author: Celia Pearce and Atermesia
-  - title: 'Writing About Architecture: Mastering the Language of Buildings and Cities'
-    author: Alexandra Lange
-  - title: The Virtual Community
-    author: Howard Rheingold
-    via: 
-  - title: Manifestos for the internet age
-    author: greyscale press
-    via: 
-  - title: Post-Democracy
-    author: Colin Crouch
-    via: 
-  - title: Inventing the Future
-    author: Nick Srinicek and Alex Williams
-    via: 
-  - title: Magister Ludi/The Glass Bead Game
-    author: Hermann Hesse
-    via: Gaia
-  - title: Black Transparency
-    author: Metahaven
-  - title: Extrastatecraft
-    author: Keller Easterling
-  - title: Akira
-    author: Katsuhiro Otomo
-  - title: Speculations
-    author: Edited by Triple Canopy
-  - title: Speculation, Now
-    author: Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin
-      Kuoni
-  - title: The Action is the Form
-    author: Keller Easterling
-  - title: Re-thinking History
-    author: Keith Jenkins
-  - title: In Praise of Opacity
-    author: Edited by Daniel Frota
-  - title: To Our Friends
-    author: The Invisible Committee
-  - title: Reinventing Comics
-    author: Scott McCloud
-  - title: A Circular
-    author: Edited by Pedro Cid Proença with Fatima Hellberg
-  - title: Summerhill School
-    author: A.S. Neill
-  - title: Branding Terror
-    author: Edited by Artur Beifuss and Francesco Trivini Bellini
-  - title: Entry Points
-    author: Edited by Carin Kuoni and Chelsea Haines
-  - title: The Gift
-    author: Marcel Mauss
-- year: 2016
-  read:
-  - title: Brightsided
-    author: Barbara Ehrenreich
-  - title: The Epic Struggle for the Internet of Things
-    author: Bruce Sterling
-  - title: Silicon Valley Urbanism
-    author: Alexandra Lange
-- year: 2015
-  read:
-  - title: Networks of New York
-    author: Ingrid Burrington
-  - title: The New Jim Crow
-    author: Michelle Alexander
-  - title: The Creative Habit
-    author: Twyla Tharp
-    status: incomplete
-  - title: Zen in the Art of Archery
-    author: 
-    status: incomplete
-  - title: Process and Reality
-    author: Alfred North Whitehead
-    status: Currently Reading
-    via: Karen
-  - title: The Creative Habit
-    author: Twyla Tharp
-    status: Currently Reading
-    via: Anne
-  - title: Zen in the Art of Archery
-    author: 
-    status: finished
-    via: Catherine
-  - title: The Struggle for Black Education (from Education and Capitalism)
-    author: Brian Jones
-    status: finished
-    via: Catherine
-  - title: The E-Myth Revisited
-    author: Michael E. Gerber
-    status: finished
-    via: Anne
-  - title: Principles
-    author: Ray Dalio
-    status: finished
-    via: Anne
-  - title: I Will Drown My Words
-    status: finished
-  - title: Teaching to Transgress
-    author: Bell Hooks
-    status: finished
-    via: Catherine & Jakob
-  - title: Work
-    author: Crimethinc.
-    status: not finished
-    via: Vic
-  - title: The New Jim Crow
-    author: Michelle Alexander
-    status: not finished
-    via: Jakob
-  - title: The Undercommons
-    author: Stefano Harney and Fred Moton
-    status: not finished
-    via: Jakob
-  - title: Pedagogy of the Oppressed
-    author: Paulo Friere
-    status: not finished
-    via: Jakob
-  - title: The Queer Art of Failure
-    author: Judith Jack Halberstam
-    status: not finished
-    via: Jakob
-  - title: Difficult Conversations
-    author: Roger Fisher
-    status: not finished
-    via: Ida
-  - title: The Systems Thinking Playbook
-    author: Dennis Meadows and Linda Booth Sweeney
-    status: not finished
-  - title: Envisioning the Cooperative University
-    status: not finished
-    via: Robert
-  - title: The 7 Habits of Highly Effective People
-    author: Stephen R. Covey
-    status: not finished
-    via: Anne
-  - title: Holacracy
-    status: have but not started
-  - title: Debt
-    author: David Graeber
-    status: have but not started
-    via: Aaron
-  - title: How to Know Higher Worlds
-    author: Rudolph Steiner
-    status: Looking For
-    via: Catherine
-  - title: This is It
-    author: Alan Watts
-    status: Looking For
-    via: Troy
-  - title: This is Why We Can’t Have Nice Things
-    author: 
-    status: Looking For
-    via: Biella
-  - title: Heroes
-    author: Franco Berardi
-    status: Looking For
-    via: Biella
-  - title: The Coming Insurrection
-    author: The Invisible Committee
-    status: Looking For
-- year: 2014
-  read:
-  - title: Nicely Said
-    author: Nicole Fenton
-  - title: Be Slightly Evil
-    author: Venkatesh Rao
-  - title: The Art of Not Being Governed
-    author: James C. Scott
-- year: 2013
-  read:
-  - title: Binding Chaos
-    author: Heather Marsh
-  - title: Systemantics
-    author: John Gall
-  - title: The Art of Power
-    author: Thich Nhat Hanh
-  - title: Two Cheers for Anarchism
-    author: James C. Scott
-  - title: Getting to Yes
-    author: Roger Fisher
-  - title: Tenth of December
-    author: George Saunders
-  - title: Understanding Power
-    author: Noam Chomsky
-  - title: Both Flesh and Not Flesh
-    author: David Foster Wallace
-  - title: Uncreative Writing
-    author: Kenneth Goldsmith
-- year: 2012
-  read:
-  - title: Leverage Points
-    author: Donella Meadows
-  - title: The Psychopath Test
-    author: Jon Ronson
-  - title: Dumbing Us Down
-    author: John Taylor Gatto
-  - title: Infinite Jest
-    author: David Foster Wallace
-  - title: The Twenty-four Hour Mind
-    author: Rosalind Cartwright
-  - title: Nick Harkaway
-  - title: 'Alone Together: Why We Expect More from Technology and Less from Each
-      Other'
-    author: Sherry Turkle
-  - title: Amusing Ourselves to Death
-    author: Neil Postman
-  - title: 'Close to the Machine: Technophilia and Its Discontents'
-    author: Ellen Ullman
-  - title: If on a winter's night a traveller
-    author: Italo Calvino
-  - title: The Pleasures and Sorrows of Work
-    author: Alain De Botton
-  - title: The Shape of Design
-    author: Frank Chimero
-  - title: 'Programmed Visions: Software and Memory'
-    author: Wendy Hui-Kyong Chun
-  - title: The Handmaid's Tale
-    author: Margaret Atwood
-  - title: Networks Without a Cause
-    author: Geert Lovink
-  - title: 'My Mother Was a Computer: Digital Subjects and Literary Texts'
-    author: N. Katherine Hayles
-  - title: 'Censoring Culture: Contemporary Threats to Free-Expression'
-  - title: Literary Machines
-    author: Ted Nelson
-  - title: Peer Pressure
-    author: Brad Troemel
-  - title: Arcades Project
-    author: Walter Benjamin
-- year: 2011
-  read:
-  - title: All Tomorrow’s Parties
-    author: William Gibson
-  - title: How to Count
-    author: Steven Frank
-  - title: 'Chaos: Making a New Science'
-    author: James Gleick
-  - title: 'Newsgames: Journalism at Play'
-    author: Ian Bogost, Simon Ferrari, Bobby Schweizer
-  - title: Living with Complexity
-    author: Donald Norman
-  - title: You Are Not A Gadget
-    author: Jaron Lanier
-  - title: 'Seeing Is Forgetting the Name of the Things One Sees: A Life of Contemporary
-      Artist Robert Irwin'
-    author: Lawrence Weschler
-  - title: 'Glut: Mastering Information Through the Ages'
-    author: Alex Wright
-  - title: World as Design
-    author: Otl Aicher
-  - title: Rethinking History
-    author: Keith Jenkins
-  - title: The Fall
-    author: Albert Camus
-  - title: Proust Was a Neuroscientist
-    author: Jonah Lehrer
-  - title: Grid Systems
-    author: Joseph Muller Brockman
-  - title: River of Shadows
-    author: Rebecca Solnit
-  - title: Uncorporate Identity
-    author: Metahaven
-  - title: Internet Art
-    author: Rachel Greene
-  - title: 'Speaking Into The Air: A History of the Idea of Communication'
-    author: John Durham Peters
-  - title: 'The Gift: Creativity and The Artist in the Modern World'
-    author: Lewis Hyde
-  - title: The Information
-    author: James Gleick
-  - title: 'Outliers: The Story of Success'
-    author: Malcom Gladwell
-  - title: Murphy
-    author: Samuel Beckett
-  - title: Essays on the Blurring of Art and Life
-    author: Alan Kaprow
-  - title: The Society of Mind
-    author: Marvin Minsky
-- year: 2010
-  read:
-  - title: Confessions of Griseledes Royal
-  - title: I Wonder
-    author: Marian Bantjes
-  - title: Outside Inside
-    author: Bruce Davidson
-  - title: They Called Her Styrene, Etc.
-    author: Ed Ruscha
-  - title: 'Maps of the Imagination: The Writer as Cartographer'
-    author: Peter Turchi
-  - title: Oroonoko
-    author: "??"
-  - title: Of Walking on Ice
-    author: Werner Herzog
-  - title: Illuminations
-    author: Walter Benjamin
-  - title: Understanding Comics
-    author: Scott McCloud
-  - title: Gabriel Ororzco
-    author: Ann Temkin et al
-- year: 2009
-  read:
-  - title: 'Processing: A Programming Handbook for Visual Designers and Artists'
-    author: Casey Reas and Ben Fry
-- year: 2008
-  read:
-  - title: Cat’s Cradle
-    author: Kurt Vonnegut
-  - title: The Metamorphosis
-    author: Franz Kafka
-  - title: 'Daniel Eatock Imprint: Works 1975-2007'
-    author: Daniel Eatock
-  - title: Peace is Every Step
-    author: Thich Nhat Hahn
-  - title: The Fountainhead
-    author: Ayn Rand (looool)
-  - title: The Road
-    author: Cormac McCarthy
-  - title: Waiting for Godot
-    author: Samuel Beckett
-  - title: The Stranger
-    author: Alfred Camus
-- year: 2007
-  read:
-  - title: 
-    author: 
-- year: 2006
-  read:
-  - title: 
-    author: 
-- year: 2005
-  read:
-  - title: Harry Potter and the Half-Blood Prince
-    author: J.K. Rowling
-  - title: Me Talk Pretty One Day
-    author: David Sedaris
-  - title: The House on Mango Street
-    author: "??"
-- year: 2004
-  read:
-  - title: 
-    author: 
-- year: unknown
-  read:
-  - title: When You Are Engulfed in Flames
-    author: David Sedaris
-  - title: A Long Way Down
-    author: Nick Hornby
-  - title: Sex, Drugs, and Cocoa Puffs
-    author: Chuck Klosterman
-  - title: The Great Gatsby
-    author: F. Scott Fitzgerald
-  - title: Tellmewhy
-    author: Karlssonwilker
 layout: default
 ---
+**In Rotation**
 
+* Art & Energy: How Culture Changes — Barry Lord
+* Trickster Makes This World: Mischief, Myth and Art — Lewis Hyde
+* State of Exception — Giorgio Agamben
+* The Systems View of the World: A Holistic Vision for Our Time — Ervin Laszlo
+* Tools for Conviviality — Ivan Illich
+* A Pattern Language: Towns, Buildings, Construction — Christopher Alexander
+* Delete: The Virtue of Forgetting in the Digital Age — Viktor Mayer-Schönberger
+* Impro: Improvisation and the Theatre — Keith Johnstone
+* Impro for Storytellers — Keith Johnstone
+* The Rise of the Meritocracy — Michael Young
+* I Read Where I Am: Exploring New Information Cultures — Andrew Blauvelt
+* Worlds of Exile and Illusion — Ursula K. Le Guin
+* Orality and Literacy — Walter J. Ong
+* Computers as Theatre — Brenda Laurel
+* The Real World of Technology — Ursula M. Franklin
+* Dark Matters: On the Surveillance of Blackness — Simone Browne
+* Time Travel: A History — James Gleick
+* Updating to Remain the Same: Habitual New Media — Wendy Hui Kyong Chun
+* Program or Be Programmed: Ten Commands for a Digital Age — Douglas Rushkoff
+* Life Inc.: How the World Became a Corporation and How to Take It Back — Douglas Rushkoff
+* Sorting Things Out: Classification and Its Consequences — Geoffrey C. Bowker
+* THOU — Aisha Sasha John
+* The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma — Bessel van der Kolk M.D.
+* The Craftsman — Richard Sennett
+* The Death and Life of Great American Cities — Jane Jacobs
+* The Audible Past: Cultural Origins of Sound Reproduction — Jonathan Sterne
+* Staying with the Trouble: Making Kin in the Chthulucene — Donna J. Haraway
+* Undoing the Demos: Neoliberalism's Stealth Revolution — Wendy Brown
+* A Thousand Years of Nonlinear History — Manuel De Landa
+* The Minor Gesture (Thought in the Act) — Erin Manning
+* The Undercommons — Stefano Harney and Fred Moton (started 2015)
+* Disciplined Minds: A Critical Look at Salaried Professionals and the Soul-Battering System that Shapes their Lives — Jeff Schmidt
+* Thanks for the Feedback: The Science and Art of Receiving Feedback Well — Douglas Stone and Sheila Heen
+* Through the Vanishing Point: Space in Poetry and Painting — Marshall McLuhan and Harley Parker
+* Utopia or Oblivion: The Prospects for Humanity — R. Buckminster Fuller
+* Strike Art: Contemporary Art and the Post-Occupy Condition — Yates McKee
+* My Colombian War: A Journey Through the Country I Left Behind — Silvana Paternostro
+* 9.5 Theses on Art and Class — Ben Davis
+* ‛Pataphysics: A Useless Guide — Andrew Hugill
+* Communities of Play: Emergent Cultures in Multiplayer Games and Virtual Worlds — Celia Pearce and Atermesia
+* Writing About Architecture: Mastering the Language of Buildings and Cities — Alexandra Lange
+* The Virtual Community — Howard Rheingold
+* Manifestos for the internet age — greyscale press
+* Post-Democracy — Colin Crouch
+* Inventing the Future — Nick Srinicek and Alex Williams
+* Magister Ludi/The Glass Bead Game — Hermann Hesse
+* Black Transparency — Metahaven
+* Extrastatecraft — Keller Easterling
+* Akira — Katsuhiro Otomo
+* Speculations — Edited by Triple Canopy
+* Speculation, Now — Edited by Vyjayanthi Venuturupalli Rao with Prem Krishnamurthy and Carin Kuoni
+* The Action is the Form — Keller Easterling
+* Re-thinking History — Keith Jenkins
+* In Praise of Opacity — Edited by Daniel Frota
+* To Our Friends — The Invisible Committee
+* Reinventing Comics — Scott McCloud
+* A Circular — Edited by Pedro Cid Proença with Fatima Hellberg
+* Summerhill School — A.S. Neill
+* Branding Terror — Edited by Artur Beifuss and Francesco Trivini Bellini
+* Entry Points — Edited by Carin Kuoni and Chelsea Haines
+* The Gift — Marcel Mauss
+
+**2016**
+
+* The Boy Kings: A Journey into the Heart of the Social Network — Katherine Losse
+* Brightsided — Barbara Ehrenreich
+* The Epic Struggle for the Internet of Things — Bruce Sterling
+* Silicon Valley Urbanism — Alexandra Lange
+
+**2015**
+
+* Networks of New York — Ingrid Burrington
+* The New Jim Crow — Michelle Alexander
+* The Creative Habit — Twyla Tharp incomplete
+* Zen in the Art of Archery incomplete
+* Process and Reality — Alfred North Whitehead Currently Reading
+* The Creative Habit — Twyla Tharp Currently Reading
+* Zen in the Art of Archery finished
+* The Struggle for Black Education (from Education and Capitalism) — Brian Jones finished
+* The E-Myth Revisited — Michael E. Gerber finished
+* Principles — Ray Dalio finished
+* I Will Drown My Words finished
+* Teaching to Transgress — Bell Hooks finished
+* Work — Crimethinc. not finished
+* The New Jim Crow — Michelle Alexander not finished
+* Pedagogy of the Oppressed — Paulo Friere not finished
+* The Queer Art of Failure — Judith Jack Halberstam not finished
+* Difficult Conversations — Roger Fisher not finished
+* The Systems Thinking Playbook — Dennis Meadows and Linda Booth Sweeney not finished
+* Envisioning the Cooperative University not finished
+* The 7 Habits of Highly Effective People — Stephen R. Covey not finished
+* Holacracy have but not started
+* Debt — David Graeber have but not started
+* How to Know Higher Worlds — Rudolph Steiner Looking For
+* This is It — Alan Watts Looking For
+* This is Why We Can’t Have Nice Things Looking For
+* Heroes — Franco Berardi Looking For
+* The Coming Insurrection — The Invisible Committee Looking For
+
+**2014**
+
+* Nicely Said — Nicole Fenton
+* Be Slightly Evil — Venkatesh Rao
+* The Art of Not Being Governed — James C. Scott
+
+**2013**
+
+* Binding Chaos — Heather Marsh
+* Systemantics — John Gall
+* The Art of Power — Thich Nhat Hanh
+* Two Cheers for Anarchism — James C. Scott
+* Getting to Yes — Roger Fisher
+* Tenth of December — George Saunders
+* Understanding Power — Noam Chomsky
+* Both Flesh and Not Flesh — David Foster Wallace
+* Uncreative Writing — Kenneth Goldsmith
+
+**2012**
+
+* Leverage Points — Donella Meadows
+* The Psychopath Test — Jon Ronson
+* Dumbing Us Down — John Taylor Gatto
+* Infinite Jest — David Foster Wallace
+* The Twenty-four Hour Mind — Rosalind Cartwright
+* Nick Harkaway
+* Alone Together: Why We Expect More from Technology and Less from Each Other — Sherry Turkle
+* Amusing Ourselves to Death — Neil Postman
+* Close to the Machine: Technophilia and Its Discontents — Ellen Ullman
+* If on a winter's night a traveller — Italo Calvino
+* The Pleasures and Sorrows of Work — Alain De Botton
+* The Shape of Design — Frank Chimero
+* Programmed Visions: Software and Memory — Wendy Hui-Kyong Chun
+* The Handmaid's Tale — Margaret Atwood
+* Networks Without a Cause — Geert Lovink
+* My Mother Was a Computer: Digital Subjects and Literary Texts — N. Katherine Hayles
+* Censoring Culture: Contemporary Threats to Free-Expression
+* Literary Machines — Ted Nelson
+* Peer Pressure — Brad Troemel
+* Arcades Project — Walter Benjamin
+
+**2011**
+
+* All Tomorrow’s Parties — William Gibson
+* How to Count — Steven Frank
+* Chaos: Making a New Science — James Gleick
+* Newsgames: Journalism at Play — Ian Bogost, Simon Ferrari, Bobby Schweizer
+* Living with Complexity — Donald Norman
+* You Are Not A Gadget — Jaron Lanier
+* Seeing Is Forgetting the Name of the Things One Sees: A Life of Contemporary Artist Robert Irwin — Lawrence Weschler
+* Glut: Mastering Information Through the Ages — Alex Wright
+* World as Design — Otl Aicher
+* Rethinking History — Keith Jenkins
+* The Fall — Albert Camus
+* Proust Was a Neuroscientist — Jonah Lehrer
+* Grid Systems — Joseph Muller Brockman
+* River of Shadows — Rebecca Solnit
+* Uncorporate Identity — Metahaven
+* Internet Art — Rachel Greene
+* Speaking Into The Air: A History of the Idea of Communication — John Durham Peters
+* The Gift: Creativity and The Artist in the Modern World — Lewis Hyde
+* The Information — James Gleick
+* Outliers: The Story of Success — Malcom Gladwell
+* Murphy — Samuel Beckett
+* Essays on the Blurring of Art and Life — Alan Kaprow
+* The Society of Mind — Marvin Minsky
+
+**2010**
+
+* Confessions of Griseledes Royal
+* I Wonder — Marian Bantjes
+* Outside Inside — Bruce Davidson
+* They Called Her Styrene, Etc. — Ed Ruscha
+* Maps of the Imagination: The Writer as Cartographer — Peter Turchi
+* Oroonoko — ??
+* Of Walking on Ice — Werner Herzog
+* Illuminations — Walter Benjamin
+* Understanding Comics — Scott McCloud
+* Gabriel Ororzco — Ann Temkin et al
+
+**2009**
+
+* Processing: A Programming Handbook for Visual Designers and Artists — Casey Reas and Ben Fry
+
+**2008**
+
+* Cat’s Cradle — Kurt Vonnegut
+* The Metamorphosis — Franz Kafka
+* Daniel Eatock Imprint: Works 1975-2007 — Daniel Eatock
+* Peace is Every Step — Thich Nhat Hahn
+* The Fountainhead — Ayn Rand (looool)
+* The Road — Cormac McCarthy
+* Waiting for Godot — Samuel Beckett
+* The Stranger — Alfred Camus
+
+**2007**
+
+**2006**
+
+**2005**
+
+* Harry Potter and the Half-Blood Prince — J.K. Rowling
+* Me Talk Pretty One Day — David Sedaris
+* The House on Mango Street — ??
+
+**2004**
+
+**2003**
+
+**2002**
+
+**2001**
+
+**2000**
+
+**1999**
+
+**1998**
+
+**1997**
+
+**1996**
+
+**1995**
+
+**1994**
+
+**1993**
+
+**1992**
+
+**1991**
+
+**unknown**
+
+* When You Are Engulfed in Flames — David Sedaris
+* A Long Way Down — Nick Hornby
+* Sex, Drugs, and Cocoa Puffs — Chuck Klosterman
+* The Great Gatsby — F. Scott Fitzgerald
+* Tellmewhy — Karlssonwilker
+
+**books to borrow or get**
