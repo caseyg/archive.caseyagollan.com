@@ -3,6 +3,7 @@ title: Reading
 date: 2016-02-15 06:01:00 Z
 layout: default
 ---
+
 **In Rotation**
 
 * Art & Energy: How Culture Changes — Barry Lord
