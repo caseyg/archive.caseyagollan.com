@@ -6,13 +6,31 @@ layout: default
 
 **2016**
 
+November
+
+* Quasicrystal
+* Sisu
+* Imprimatur
+* Sitcom
+* Death throes
+* Guarantor
+* Vamping
+
+October
+
+* Blue moon
+* Pataphor
+* Splay out
+* Social pariah
+* Meritocracy
+
 September
 
 * Backup withholding
 
 August
 
-* Reign
+* Reign in
 * Drehplattentür
 * Asynchronous
 * Entropy
