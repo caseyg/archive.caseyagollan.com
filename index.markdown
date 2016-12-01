@@ -1,7 +1,6 @@
 ---
 title: Casey Gollan
 date: 2016-02-15 02:02:00 Z
-layout: home
 not-me:
 - name: Australian Business Coach
   url: http://www.caseygollan.com.au
@@ -11,6 +10,10 @@ like-me:
 - name: "@casey_gbooks"
   url: http://twitter.com/casey_gbooks
 are-me:
+- name: CAG.wiki
+  url: http://cag.wiki
+  start: 2016
+  end: 
 - name: Vera List Center
   url: http://www.veralistcenter.org/engage/people/1991/victoria-sobel-and-casey-gollan/
   start: 2015
@@ -431,6 +434,7 @@ fan-art:
   url: https://www.facebook.com/pages/Casey-Gollans-SnaggleTooth/150515317523
 - name: Fuck Yeah Casey Gollan
   url: http://fuckyeahcaseygollan.tumblr.com
+layout: home
 ---
 
 **For any further Casey Gollan inquiries**
