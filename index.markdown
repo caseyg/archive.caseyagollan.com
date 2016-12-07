@@ -14,6 +14,10 @@ are-me:
   url: http://cag.wiki
   start: 2016
   end: 
+- name: Blot
+  url: http://cag.blot.im
+  start: 2016
+  end: 
 - name: Vera List Center
   url: http://www.veralistcenter.org/engage/people/1991/victoria-sobel-and-casey-gollan/
   start: 2015
