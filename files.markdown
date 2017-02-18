@@ -13,14 +13,14 @@ B: BHQFU; Block Party; Business Cards✴︎
 C: Cards✴︎; Coaching✴︎; Cooper✴︎; Contacts; Chase; Checks✴︎; Civ; Claritin  
 D: Deb✴︎; Diddy; DMV  
 E: Emil✴︎; Etsy; Existensia✴︎, Eyes✴︎
-F: Freena*; Free Cooper; Fuzi  
+F: Freena✴︎; Free Cooper; Fuzi  
 G: Gary✴︎, Google Drive✴︎; Grand Unified Theory; Granny & Grandpa✴︎  
 H: Healthcare; Hope  
 I: Imperatore; IRS  
 J: Jessica✴︎, Judy✴︎, Jury Duty  
-K: Knutepunkt*  
+K: Knutepunkt✴︎  
 L: LCV; Letters✴︎; Livescribe Ink  
-M: Meta*; Mikey's Hook-Up  
+M: Meta✴︎; Mikey's Hook-Up  
 N: Nonstop; Nudies  
 O: Occupy; Olin; Oxbow  
 P: Passports; Prescription; Projects✴︎; Photos✴︎  
