@@ -4,10 +4,30 @@ date: 2016-02-15 09:24:00 Z
 layout: default
 ---
 
+**2017**
+
+February
+
+* Commutativity
+* Différance
+
+January
+
+* Bless your heart
+* Obstinate
+* Organigram
+
 **2016**
+
+December
+
+* Sisu
 
 November
 
+* Adhere
+* Unadhere
+* Orrery
 * Quasicrystal
 * Sisu
 * Imprimatur
