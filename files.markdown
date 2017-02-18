@@ -12,7 +12,7 @@ A: Aaron✴︎; Alex✴︎; American Ethnological Society; Anna; Anime✴︎; Ar
 B: BHQFU; Block Party; Business Cards✴︎  
 C: Cards✴︎; Coaching✴︎; Cooper✴︎; Contacts; Chase; Checks✴︎; Civ; Claritin  
 D: Deb✴︎; Diddy; DMV  
-E: Emil✴︎; Etsy; Existensia✴︎, Eyes✴︎
+E: Emil✴︎; Etsy; Existensia✴︎, Eyes✴︎  
 F: Freena✴︎; Free Cooper; Fuzi  
 G: Gary✴︎, Google Drive✴︎; Grand Unified Theory; Granny & Grandpa✴︎  
 H: Healthcare; Hope  
