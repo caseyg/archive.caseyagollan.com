@@ -1,6 +1,7 @@
 ---
 title: Casey Gollan
 redirect_to:
-  - http://cag.wiki
+- http://cag.wiki
 ---
+
 Wiki time!
