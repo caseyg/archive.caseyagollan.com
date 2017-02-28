@@ -1,33 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <meta name="generator" content="Siteleaf, http://siteleaf.com" />
   <title>{{page.title}} | {{site.title}}</title>
-  <link rel="canonical" href="{{permalink}}" />
-  <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-  <link rel="stylesheet" type="text/css" href="/assets/styles/global.css" />
 </head>
 <body id="{{page.title | slugify}}">
-
   {{ content }}
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-  <script>
-  var swiperH = new Swiper('.swiper-container-h', {
-      hashnav: true
-  });
-  var swiper = new Swiper('.swiper-container-v', {
-      scrollbar: '.swiper-scrollbar',
-      direction: 'vertical',
-      slidesPerView: 'auto',
-      mousewheelControl: true,
-      freeMode: true
-  });
-  </script>
 </body>
 </html>
