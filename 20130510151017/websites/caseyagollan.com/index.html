@@ -1,0 +1,252 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title> Casey A. Gollan</title>
+<link rel="alternate" type="application/atom+xml" href="./feed/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="./docs/css/style.css">
+<script src="./docs/js/jquery.min.js" type="text/javascript"></script>
+<script src="./docs/js/fastclick.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://use.typekit.com/tun0rbf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">
+try {
+	Typekit.load({
+		loading: function() {
+			// Javascript to execute when fonts start loading
+		},
+		active: function() {
+			$('#projects ul').isotope('reLayout');
+		},
+		inactive: function() {
+			// Javascript to execute when fonts become inactive
+		}
+	})
+} catch(e) {}
+
+window.addEventListener('load', function () {
+	FastClick.attach(document.body);
+}, false);
+
+document.addEventListener("touchstart", function() {},false);
+</script>
+<meta property="twitter:account_id" content="2255981" />
+	<meta property="og:image" content="http://caseyagollan.com/public/images/casey.jpeg" />
+	<script src="./docs/js/d3.v2.js"></script>
+	<style>
+		.link {
+			stroke: darkgray;
+			stroke-width: 2;
+		}
+
+		.project, line {
+			cursor:pointer;
+		}
+
+		.project text {
+			fill: black;
+			font: 16px sans-serif;
+			pointer-events: none;
+			fill-opacity:0;
+		}
+		.project text.shadow {
+			fill: white;
+			fill-opacity:0;
+		}
+		.project:hover text.shadow {
+			stroke: #fff;
+			stroke-width: 5px;
+		}
+		.project:hover text {
+			fill-opacity:1;
+		}
+
+		.project image {
+			-webkit-transition:-webkit-transform .25s;
+			-webkit-transform:scale(1);
+		}
+
+		.project image:hover {
+			-webkit-transform:scale(2);
+		}
+
+		.tag circle {
+			fill: gray;
+			stroke:darkgray;
+			stroke-width:2px;
+			-webkit-transition:all .25s;
+			cursor:hand;
+		}
+
+		.tag circle:hover {
+			-webkit-transform:scale(1.25);
+			fill:darkgray;
+		}
+		.tag:hover text {
+			fill: white;
+		}
+		.tag text {
+			fill: darkgray;
+			font: 12px sans-serif;
+			pointer-events: none;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body id="graph">
+	<nav id="main">
+	<ul>
+		<li><a href="/graph" class="graph">Graph</a></li>
+		<li><a href="/archive" class="archive">Archive</a></li>
+		<li><a href="/about" class="about">About</a></li>
+		<li><a href="http://notes.caseyagollan.com">Blog</a></li>
+		<li><a href="mailto:hello@caseyagollan.com">hello@caseyagollan.com</a></li>
+	</ul>
+</nav>
+	<ul id="graphcontrols">
+		<li><label for="gravity">Gravity </label><input id="gravity" type="range" min="0" max="1" step=".01" value=".25" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="charge">Charge </label><input id="charge" type="range" min="-4000" max="0" step="1" value="-1000" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="friction">Friction </label><input id="friction" type="range" min="-4000" max="0" step="1" value=".75" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="linkstrength">Link Strength </label><input id="linkstrength" type="range" min="-4000" max="0" step="1" value="1" onchange="force.charge(this.value).start()" /></li>
+		<li><label for="linkdistance">Link Distance</label><input id="linkdistance" type="range" min="0" max="200" step="1" value="20" onchange="force.linkDistance(this.value).start()" /></li>
+	</ul>
+<script>
+var svg = d3.select("body").append("svg"),
+		r = 40;
+var force = d3.layout.force();
+
+d3.json("/content/index/projects.json", function(graph) {
+
+	force
+		.nodes(graph.nodes)
+		.links(graph.links)
+		.gravity(0.25)
+		.charge(-1000)
+		.friction(.75)
+		.linkStrength(1)
+		.on("tick", tick)
+		.start();
+
+	var link = svg.selectAll(".link")
+			.data(graph.links)
+		.enter().append("line")
+			.attr("class", "link");
+
+	var node = svg.selectAll(".node")
+			.data(graph.nodes)
+		.enter().append("g")
+			.attr("class", function(d) { return d.type; })
+			.attr("r", r)
+			.on("mouseover", fade(.15))
+			.on("mouseout", fade(1))
+			.call(force.drag);
+
+	var project = svg.selectAll(".project")
+					.on("click", function(d) { return window.location.href = d.link; });
+
+	var tag = svg.selectAll(".tag");
+
+	tag.append("circle")
+			.attr("r", r);
+
+	project.append("image")
+				.attr("xlink:href", function(d) { return d.thumb; })
+				.attr("x", -(r*2)/2)
+				.attr("y", -(r*2)/2)
+				.attr("width", r*2)
+				.attr("height", r*2);
+
+	tag.append("text")
+				.attr("x", 0)
+				.attr("text-anchor", "middle")
+				.attr("dy", ".35em")
+				.text(function(d) { return d.name; });
+
+	project.append("text")
+			.attr("x", 0)
+			.attr("y", 0)
+			.attr("text-anchor", "middle")
+			.attr("class", "shadow")
+			.text(function(d) { return d.name; });
+
+	project.append("text")
+			.attr("x", 0)
+			.attr("y", 0)
+			.attr("text-anchor", "middle")
+			.text(function(d) { return d.name; });
+
+
+	resize();
+	d3.select(window).on("resize", resize);
+
+	function tick() {
+		link.attr("x1", function(d) { return d.source.x; })
+				.attr("y1", function(d) { return d.source.y; })
+				.attr("x2", function(d) { return d.target.x; })
+				.attr("y2", function(d) { return d.target.y; });
+
+		node.attr("transform", function(d) { return  "translate(" + Math.max(r, Math.min(width - r, d.x)) + "," + Math.max(r, Math.min(height - r, d.y)) + ")"});
+	}
+
+	function resize() {
+		width = window.innerWidth, height = window.innerHeight-102;
+		svg.attr("width", width).attr("height", height);
+		force.size([width, height]).resume();
+	}
+
+	var linkedByIndex = {};
+
+	graph.links.forEach(function(d) {
+		linkedByIndex[d.source.index + "," + d.target.index] = 1;
+	});
+
+	function isConnected(a, b) {
+		return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
+	}
+
+	function fade(opacity) {
+		return function(d) {
+			node.transition().duration(150).select("circle").style("stroke-opacity", function(o) {
+				thisOpacity = isConnected(d, o) ? 1 : opacity;
+				this.setAttribute('fill-opacity', thisOpacity);
+				return thisOpacity;
+			});
+			node.transition().duration(250).select("image").style("opacity", function(o) {
+				thisOpacity = isConnected(d, o) ? 1 : opacity;
+				this.setAttribute('opacity', thisOpacity);
+				return thisOpacity;
+			})       
+			node.transition().duration(250).select("text").style("opacity", function(o) {
+				thisOpacity = isConnected(d, o) ? 1 : opacity;
+				this.setAttribute('fill-opacity', thisOpacity);
+				return thisOpacity;
+			})     
+			link.transition().duration(250).style("stroke-opacity", function(o) {
+				return o.source === d || o.target === d ? 1 : opacity;
+			});
+		};
+	}
+});
+
+</script>
+<script type="text/javascript" src="http://use.typekit.com/tun0rbf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">
+try {
+	Typekit.load({
+		loading: function() {
+			// Javascript to execute when fonts start loading
+		},
+		active: function() {
+			$('#projects ul').isotope('reLayout');
+		},
+		inactive: function() {
+			// Javascript to execute when fonts become inactive
+		}
+	})
+} catch(e) {}
+</script>
+</body>
+</html>
+<!-- Stacey(2.3.0): 14d4b0bd62c9ec233a578aeabeeaa9f0 -->
+<!-- Cached. -->

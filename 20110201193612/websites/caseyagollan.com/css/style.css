@@ -1,0 +1,395 @@
+/* @override http://caseyagollan.com/css/style.css */
+
+@font-face { font-family: Calluna; src: url('http://caseyagollan.com/Calluna-Regular.otf');}
+body {
+	background: #fff;
+	font: 16px/26px Calluna, Palatino, Times, serif;
+	color: #333;
+	margin: 0;
+	padding: 0;	
+	}
+#main-image {
+	display: none;
+	}
+#prev, #next {
+	position: fixed;
+		top: 40%;
+	background: #eee;
+	height: 80px;
+	}
+#prev:hover, #next:hover {
+	-webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, .3);
+	}
+.arrow {
+	font-size: 100px;
+	margin: 0;
+	padding: 0;
+	}
+#prev .arrow {float: right;}
+#next .arrow {float: left;}
+#prev .nav-title {float: left;}
+#next .nav-title {float: right;}
+.nav-title {
+	float: left;
+	height: 80px;
+	display: none;
+	margin: 0;
+	padding: 0 20px;
+	font-size: 50px;
+	color: #222;
+	line-height: 15px;
+	}
+#prev a:hover .nav-title, #prev a:visited .nav-title, #next a:hover .nav-title, #next a:visited .nav-title {
+	display: block;
+	}
+#prev a:hover .arrow, #prev a:visited .arrow, #next a:hover .arrow, #next a:visited .arrow {
+	color:#222;
+	}
+#prev a:link, #prev a:visited, #next a:link, #next a:visited {
+	color: #fff;
+	display: block;
+	padding: 20px 0 20px 0;
+	}
+#prev {
+	right: 0;
+	text-align: right;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	}
+#next {
+	left: 0;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	}
+#container {
+	width: 800px;
+	background: #fff;
+	padding:0 50px 30px 50px;
+	margin:0 auto;
+	}
+h1 {
+	font-size: 50px;
+	color: #222;
+	width: 600px;
+	line-height: 60px;
+	margin: 30px 0 0 0;
+	font-weight: lighter;
+	}
+#project h1 {
+	width: 800px;
+	}
+#contact h2 {
+	background-repeat: no-repeat;
+	}
+#contact p {
+	display: block;
+	}
+#contact {
+	width: 350px;
+	margin-right: 50px;
+	float: left;
+	margin-left: -1px;
+	margin-top: 30px;
+	}
+#description {
+	font-size: 18px;
+	margin-bottom: 20px;
+	}
+div#noteslinks {
+	width: 400px;
+	float: left;
+	position: relative;
+	margin-top: 29px;
+	display: block;
+	}
+.superlink {
+	width: 400px;
+	height: 150px;
+	display: block;
+	position: absolute;
+		top: 0px;
+		left: 0;
+	text-decoration: none;
+	outline: 0;
+	opacity: 0;
+	}
+#noteslinks:hover h2 a:link {
+	text-decoration: underline;
+	}
+#contact h2, #noteslinks h2, #projects h2 {
+	font-family: "Helvetica Neue";
+	font-weight: 400!important;
+	color: #000;
+	font-size: 13px;
+	overflow: hidden;
+	line-height: 30px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+	background-image: none;
+	}
+.wide-band {
+	width: 100%;
+	background: #eee;
+	}
+div#projects  {
+	clear: both;
+	margin-top: 0;
+	width: 800px;
+	margin: auto;
+	}
+#content ul {
+	margin-top: 10px;
+	list-style-type: circle;
+	padding-left: 15px;
+	}
+div#projects ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+
+#noteslinks, #artwork, #contact {
+	padding: 0 0 15px 0;	
+	}
+/*#noteslinks:hover h2, #artwork:hover h2, #contact:hover h2 {
+	display: block!important;
+	background: #fff;
+	text-decoration: none;
+	overflow: visible;
+	border-color: #fff;
+	color: #888;
+	text-shadow: none;
+	}*/
+.make-this-ampersand-beautiful-please {
+	font-family: 'Goudy Old Style';
+	font-style: italic;
+	}
+a:link, a:visited {
+	color: #333;
+	}
+#projects a:link, #projects a:visited, #noteslinks a:link, #noteslinks a:visited, #prev a:link, #prev a:visited, #next a:link, #next a:visited {
+	text-decoration: none;
+	}
+a:hover, a:active {
+	color: #000;
+	text-decoration: underline;
+	}
+#projects a:hover, #projects a:active {
+	color: #000;
+	text-decoration: underline;
+	}
+.project-list {
+	font-size: 13px!important;
+	float: right;
+	width: 200px;
+	margin-top:0;
+	}
+.view-thumbs .project-list {
+	float: none;
+	width: auto;
+}
+h3 {
+	font-family: Helvetica;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 0px;
+	}
+.view-thumbs h3:after {
+	content: '\00A0\2192';
+	}
+.view-thumbs h3:before {
+	content: '\00A0\00A0\00A0';
+	}	
+h2 {
+	margin-bottom: 20px!important;
+	}
+.view-thumbs #projects {
+	width: 820px;
+	}
+.view-thumbs h3 {
+	width: 185px;
+	color: #ccc;
+	padding: 0;
+	margin: 0;
+	height: 125px;
+	border: 1px solid #ccc;
+	text-align: center;	
+	letter-spacing: 2px;
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 120px;
+	margin-bottom: 35px;
+	}
+#content img {
+	margin-bottom: 20px;
+	}
+ul a:link, ul a:visited {
+	line-height: 1em;
+	padding: 5px 0;
+	display: block;
+	}
+.view-thumbs li, .view-thumbs h3 {
+	float: left;
+	margin-right: 18px;
+	}
+.view-thumbs ul {
+	margin: 0;
+	padding: 0;
+	}
+.view-thumbs .title {
+	display: block;
+	padding: 5px 0 15px 0;
+	text-align: center;
+	color: #ccc;
+	}
+.view-thumbs ul a:link, .view-thumbs ul a:visited {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	}
+.view-thumbs ul a:hover .title, .view-thumbs ul a:active .title {
+	text-decoration: underline!important;
+	color: #000;
+	}
+.view-thumbs ul a:link img, .view-thumbs ul a:visited img {
+	border: 1px solid #fff;
+	}
+.view-thumbs ul a:hover img, .view-thumbs ul a:active img {
+	border: 1px solid #000;
+	}
+#byline {
+	display: inline;
+	font-size: 18px;
+	}
+.current {
+	margin-left: -10px;
+	}
+.current a:link, .current a:visited {
+	font-weight: bold!important;
+	display: table;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: #ddd;
+	padding: 5px 10px;
+	color: #000!important;
+	cursor: default;
+	}
+div#title-nav h3 {
+	padding: 15px 0 10px 15px;
+	margin: 0;
+	line-height: 1em;
+	}
+#title-nav .current {
+	margin-left: 0;
+	}
+#title-nav .current a:link, #title-nav .current a:visited {
+	font-weight: bold!important;
+	display: table;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background: #ddd;
+	color: #000!important;
+	}
+a#project-title-link:link, a#project-title-link:visited {
+	cursor: default;
+	text-decoration: none;
+	}
+#title-nav {
+	position: relative;
+	}
+#project-title:hover {
+	cursor: default;
+	}
+#project-title:hover, #project-title:hover #title-nav-card {
+	margin-left: -13px;
+	}
+#title-nav-card {
+	display: none;
+	padding: 10px 0 20px 0;
+	background: #eee;
+	margin: 0;
+	position: absolute;
+		top: 5;
+		left: 0;
+	width: 800px;
+	-webkit-border-radius: 10px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 10px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	-webkit-box-shadow:0 10px 10px rgba(0,0,0,.25);
+	z-index: 100;
+	}
+#project-title:hover #title-nav-card {
+	display: block;
+	}
+#project-title:hover {
+	background: #eee;
+	padding: 13px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-webkit-box-shadow:0 10px 10px rgba(0,0,0,.25);
+	}
+#title-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}	
+#title-nav ul a:link, #title-nav ul a:visited {
+	text-decoration: none;
+	padding: 5px 15px;
+	}
+#title-nav ul a:hover, #title-nav ul a:active {
+	text-decoration: underline;
+	}
+a.thumbs-toggle {
+	padding-left: 22px;
+	color: #a6a6a6;
+	margin-left: 10px;
+	}
+#index .thumbs-toggle {
+	background: url(http://caseyagollan.com/images/thumbnails.gif) no-repeat 3px 2px;
+	}
+#index .thumbs-toggle:hover, .view-thumbs .thumbs-toggle:hover {
+	background-position:3px -31px;
+	}
+.view-thumbs .thumbs-toggle {
+	background: url(http://caseyagollan.com/images/list.gif) no-repeat 3px 2px;
+	}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}

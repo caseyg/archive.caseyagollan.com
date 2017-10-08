@@ -1,0 +1,16 @@
+/* @override 
+	http://caseyagollan.com/css/iphone.css
+*/
+
+#container, #content {
+	width: 600px!important;
+	margin: 0;
+	}
+#projects {
+	width: 615px!important;
+	margin: 0;
+	}
+h1, #touts, #contact, #noteslinks, .superlink {
+	width: 600px!important;
+	clear: both;
+	}
