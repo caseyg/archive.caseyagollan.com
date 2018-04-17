@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/caseyg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://caseyagollan.com
+  * I am caseyg (https://keybase.io/caseyg) on keybase.
+  * I have a public key ASCk4RA8OvEm6dxbP0OlnND1b1wjV0vnuiaoJPgh1F2TCwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a4e1103c3af126e9dc5b3f43a59cd0f56f5c23574be7ba26a824f821d45d930b0a",
+      "host": "keybase.io",
+      "kid": "0120a4e1103c3af126e9dc5b3f43a59cd0f56f5c23574be7ba26a824f821d45d930b0a",
+      "uid": "fa1d2990ff3958e02894c77bc96c3d00",
+      "username": "caseyg"
+    },
+    "merkle_root": {
+      "ctime": 1518378497,
+      "hash": "edb653f4e85f2c9821a3b6a92d2621b84e73d79ea82aec0d5decaafffd03b8c9708272db2f9008e98182c11a18dfa83e02ce6f255260f72e71163bc2d46fb2ab",
+      "hash_meta": "118bc6b71457e475ce3a468ea2fc9f01edbd30461fc3dad6477950b1765dd46f",
+      "seqno": 2066849
+    },
+    "service": {
+      "hostname": "caseyagollan.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1518378510,
+  "expire_in": 504576000,
+  "prev": "2c2d65a7d1a53ced1d864643470df6463f212b3249cb671594ae248c077bc179",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpOEQPDrxJuncWz9DpZzQ9W9cI1dL57omqCT4IdRdkwsKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTRlMTEwM2MzYWYxMjZlOWRjNWIzZjQzYTU5Y2QwZjU2ZjVjMjM1NzRiZTdiYTI2YTgyNGY4MjFkNDVkOTMwYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTRlMTEwM2MzYWYxMjZlOWRjNWIzZjQzYTU5Y2QwZjU2ZjVjMjM1NzRiZTdiYTI2YTgyNGY4MjFkNDVkOTMwYjBhIiwidWlkIjoiZmExZDI5OTBmZjM5NThlMDI4OTRjNzdiYzk2YzNkMDAiLCJ1c2VybmFtZSI6ImNhc2V5ZyJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxODM3ODQ5NywiaGFzaCI6ImVkYjY1M2Y0ZTg1ZjJjOTgyMWEzYjZhOTJkMjYyMWI4NGU3M2Q3OWVhODJhZWMwZDVkZWNhYWZmZmQwM2I4Yzk3MDgyNzJkYjJmOTAwOGU5ODE4MmMxMWExOGRmYTgzZTAyY2U2ZjI1NTI2MGY3MmU3MTE2M2JjMmQ0NmZiMmFiIiwiaGFzaF9tZXRhIjoiMTE4YmM2YjcxNDU3ZTQ3NWNlM2E0NjhlYTJmYzlmMDFlZGJkMzA0NjFmYzNkYWQ2NDc3OTUwYjE3NjVkZDQ2ZiIsInNlcW5vIjoyMDY2ODQ5fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNhc2V5YWdvbGxhbi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjQwIn0sImN0aW1lIjoxNTE4Mzc4NTEwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjJjMmQ2NWE3ZDFhNTNjZWQxZDg2NDY0MzQ3MGRmNjQ2M2YyMTJiMzI0OWNiNjcxNTk0YWUyNDhjMDc3YmMxNzkiLCJzZXFubyI6MTksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAongb+K9pEIOA2mdV+rWlj4PaaFxJXaFsXgvVZEqN9jOFtg1Y2Ii4w+tIKt5DkozlzXZVhMlPrZ3f10WFiLuNB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF/IooRXsQYktX4EiXxT80BqhMFcT302Drss51vGEhDZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/caseyg
+
+==================================================================
